@@ -1,8 +1,8 @@
 {
     "format":  1,
     "pack":  "Shonen Eveil",
-    "version":  "1.7.0",
-    "date":  "2026-11-13T10:27:37Z",
+    "version":  "1.8.0",
+    "date":  "2026-11-13T12:07:19Z",
     "files":  [
                   {
                       "path":  "config/ambience_mini-client.toml",
@@ -671,8 +671,8 @@
                   },
                   {
                       "path":  "kubejs/assets/shonen/models/block/casier_ecole.json",
-                      "size":  974,
-                      "sha256":  "6c2fbe4ee0e7a9458760e14af675e1e81ac0fa963aec66a6c7054781fbd07490",
+                      "size":  3864,
+                      "sha256":  "5f6251698d367fc48736f4e9a5236cd77d07499bdfd5dc0538c26c1d28726c6c",
                       "source":  "repo",
                       "mode":  "strict"
                   },
@@ -1511,8 +1511,8 @@
                   },
                   {
                       "path":  "kubejs/assets/shonen/models/block/paravent_ecole.json",
-                      "size":  2822,
-                      "sha256":  "c5d85b514451de0ff42fc31760a28ccd23c24a6a1c54da3f5058822b5fa1419f",
+                      "size":  15198,
+                      "sha256":  "29eddd2764a9aba5e2ea23748698d659f2cea32b0adbdf5fa607314722c28149",
                       "source":  "repo",
                       "mode":  "strict"
                   },
@@ -2868,6 +2868,27 @@
                       "mode":  "strict"
                   },
                   {
+                      "path":  "kubejs/assets/shonen/models/item/verre_cuivre.json",
+                      "size":  111,
+                      "sha256":  "c80bd1b64daf8d183eeb39f5bc4532f738a2410e238c4e5208cf33f83237c472",
+                      "source":  "repo",
+                      "mode":  "strict"
+                  },
+                  {
+                      "path":  "kubejs/assets/shonen/models/item/verre_ombre.json",
+                      "size":  110,
+                      "sha256":  "3e594d06435da413316858b29f89200587494c72703cc7d45ecb2cb8d3a747a8",
+                      "source":  "repo",
+                      "mode":  "strict"
+                  },
+                  {
+                      "path":  "kubejs/assets/shonen/models/item/verre_rappel.json",
+                      "size":  111,
+                      "sha256":  "9b9868f07ade3f7644afc86a419e48a859f2ee7b90707f03a3650ebae1acbf6d",
+                      "source":  "repo",
+                      "mode":  "strict"
+                  },
+                  {
                       "path":  "kubejs/assets/shonen/models/item/wattage_baies.json",
                       "size":  112,
                       "sha256":  "1fb233f78201002dbb3e40cf5e7dc761fe38afd4b705ccdca3da50c3e2bfbc6a",
@@ -2931,16 +2952,30 @@
                       "mode":  "strict"
                   },
                   {
-                      "path":  "kubejs/assets/shonen/textures/block/casier_ecole_cote.png",
-                      "size":  398,
-                      "sha256":  "6711379535b3e45ae03c50b9e709df6432fb9998bfa45eb830cba6720ae0d90d",
+                      "path":  "kubejs/assets/shonen/textures/block/casier_ecole_bas.png",
+                      "size":  2952,
+                      "sha256":  "f9b0a676ffc02c3e4c30d32f21030544121b503020339e3cc0650bae37c7daf4",
                       "source":  "repo",
                       "mode":  "strict"
                   },
                   {
-                      "path":  "kubejs/assets/shonen/textures/block/casier_ecole_face.png",
-                      "size":  495,
-                      "sha256":  "ef97f928a16577b537010d204351a9b911cfaea38db5ba40ff7cc2d64b8d6123",
+                      "path":  "kubejs/assets/shonen/textures/block/casier_ecole_cote.png",
+                      "size":  1080,
+                      "sha256":  "9113184bdd8a00dc8953037bf7f34f48014247d6595ad18cac3eb615ea6fa279",
+                      "source":  "repo",
+                      "mode":  "strict"
+                  },
+                  {
+                      "path":  "kubejs/assets/shonen/textures/block/casier_ecole_haut.png",
+                      "size":  3194,
+                      "sha256":  "4d3cc81d07fc7422881d06a40dba3265c1bdf1a5a76ad1ebcb966de95f738d98",
+                      "source":  "repo",
+                      "mode":  "strict"
+                  },
+                  {
+                      "path":  "kubejs/assets/shonen/textures/block/casier_ecole_poignee.png",
+                      "size":  453,
+                      "sha256":  "d22774c09d061843d5d6f080a9f635da724f798401a41ce173498d09a67d233a",
                       "source":  "repo",
                       "mode":  "strict"
                   },
@@ -2974,8 +3009,15 @@
                   },
                   {
                       "path":  "kubejs/assets/shonen/textures/block/paravent_ecole.png",
-                      "size":  483,
-                      "sha256":  "b9e085c486880a3d189464b2e1dcd1a40399a509d5ca790634da851e63e54163",
+                      "size":  17456,
+                      "sha256":  "e2979115ac19ea230752462c422b734698fba2f7fe7f6f302e4ca68656e1fc4d",
+                      "source":  "repo",
+                      "mode":  "strict"
+                  },
+                  {
+                      "path":  "kubejs/assets/shonen/textures/block/paravent_ecole_bois.png",
+                      "size":  1173,
+                      "sha256":  "8bbc910df028cd1c0dfed0a7f2aa1baddf98655b4e7ea0e81648f6c52288446c",
                       "source":  "repo",
                       "mode":  "strict"
                   },
@@ -6004,6 +6046,27 @@
                       "mode":  "strict"
                   },
                   {
+                      "path":  "kubejs/assets/shonen/textures/item/verre_cuivre.png",
+                      "size":  139,
+                      "sha256":  "1786189641438a96dc2f31a88b964221b933140d325c7596a3510213976f1c2f",
+                      "source":  "repo",
+                      "mode":  "strict"
+                  },
+                  {
+                      "path":  "kubejs/assets/shonen/textures/item/verre_ombre.png",
+                      "size":  180,
+                      "sha256":  "b64384acabacd65054426efbda389276e1fa39c613db45674224741c8a4da0b5",
+                      "source":  "repo",
+                      "mode":  "strict"
+                  },
+                  {
+                      "path":  "kubejs/assets/shonen/textures/item/verre_rappel.png",
+                      "size":  138,
+                      "sha256":  "1b8f250d5d3b882688999da634b55e6e13dbf358c4d97f31c73406a35e238325",
+                      "source":  "repo",
+                      "mode":  "strict"
+                  },
+                  {
                       "path":  "kubejs/assets/shonen/textures/item/wattage_baies.png",
                       "size":  192,
                       "sha256":  "6d462f1b38bd005a921e27892c2fecfea9349536164d6756ef8cb1108da821cd",
@@ -7762,29 +7825,29 @@
                   },
                   {
                       "path":  "kubejs/data/shonen/structures/ecole2/t_0_0.nbt",
-                      "size":  29769,
-                      "sha256":  "68008bca6db4e273b2e3973411585d154e1391e28f340e0c6fa684a5c3a1193b",
+                      "size":  29785,
+                      "sha256":  "cd087cd0bd2ce8ee588c7459076b312d7d2d2ef6970f99b3b90b0acdb0e4051f",
                       "source":  "repo",
                       "mode":  "strict"
                   },
                   {
                       "path":  "kubejs/data/shonen/structures/ecole2/t_0_1.nbt",
-                      "size":  33207,
-                      "sha256":  "58507523616d725cbea93aa992f2989d6c3931bddca3e4ff6ccc1d8c5e3c0e3c",
+                      "size":  33320,
+                      "sha256":  "30999c5b279dc42d1c3a63610fb5a0eb50887b61e6dc89b84cc66f4aad143101",
                       "source":  "repo",
                       "mode":  "strict"
                   },
                   {
                       "path":  "kubejs/data/shonen/structures/ecole2/t_0_2.nbt",
-                      "size":  39053,
-                      "sha256":  "70fb29cc1a7a2c636f598240585d96006c69767a61e9fde8b75af87ff572983e",
+                      "size":  39233,
+                      "sha256":  "a671877f5bea5d060d03e536214ce82a7029d7731c73ac23b89d37905e8d1339",
                       "source":  "repo",
                       "mode":  "strict"
                   },
                   {
                       "path":  "kubejs/data/shonen/structures/ecole2/t_0_3.nbt",
-                      "size":  39319,
-                      "sha256":  "0c7e478eb387bef1fc4003fa4b81536301fa36dc5f6a602b3fe827877928bb46",
+                      "size":  39380,
+                      "sha256":  "76e582d83b2eaa1d0bf85f6724ba85e58a71d23b7a0970d34c83963780170c9c",
                       "source":  "repo",
                       "mode":  "strict"
                   },
@@ -7804,29 +7867,29 @@
                   },
                   {
                       "path":  "kubejs/data/shonen/structures/ecole2/t_1_0.nbt",
-                      "size":  38343,
-                      "sha256":  "e810b31067adef847fc31c6b993e3837a3ab94dfc6b282138c2a028a46841685",
+                      "size":  38460,
+                      "sha256":  "f81a6228dca3819bf1b457b03674fedf023e43af22d2765457a287e5d39127e6",
                       "source":  "repo",
                       "mode":  "strict"
                   },
                   {
                       "path":  "kubejs/data/shonen/structures/ecole2/t_1_1.nbt",
-                      "size":  63225,
-                      "sha256":  "a296b89960bdc324aafe0cafb86799d2eeef835a1d2a92a92e4c8b986a3125a1",
+                      "size":  63595,
+                      "sha256":  "3a048fd4fcee4dfcbe523803fadb33376b0abcd15ccef8f8b8422e5d0d5c992c",
                       "source":  "repo",
                       "mode":  "strict"
                   },
                   {
                       "path":  "kubejs/data/shonen/structures/ecole2/t_1_2.nbt",
-                      "size":  55783,
-                      "sha256":  "746fce9b73f7195b2ddadee549cba216fc1de22a5fde44bfe93a543e809be592",
+                      "size":  56020,
+                      "sha256":  "159ec80374f6e1a8c9dd9e68c7c7fe2365f195012a374f3bb7c26756347d57bb",
                       "source":  "repo",
                       "mode":  "strict"
                   },
                   {
                       "path":  "kubejs/data/shonen/structures/ecole2/t_1_3.nbt",
-                      "size":  60639,
-                      "sha256":  "c73e267807b31d6a2776eacc8412f34350ef65c4ff0b2a629f78493e381dcdb9",
+                      "size":  61022,
+                      "sha256":  "e560d411e716ad4befa1d2ab48c2ebb86ceff25b0ce1b03f1918af733ce3a845",
                       "source":  "repo",
                       "mode":  "strict"
                   },
@@ -7846,22 +7909,22 @@
                   },
                   {
                       "path":  "kubejs/data/shonen/structures/ecole2/t_2_0.nbt",
-                      "size":  37278,
-                      "sha256":  "c197a712038b098cd57a9545e2120c089aa9f36ec915de0bfe4843c43e867fd3",
+                      "size":  37517,
+                      "sha256":  "159dc29184fbafa3288b8e3206dd6f6a6c48d1fdb9e5b160f16427982eb1c2e6",
                       "source":  "repo",
                       "mode":  "strict"
                   },
                   {
                       "path":  "kubejs/data/shonen/structures/ecole2/t_2_1.nbt",
-                      "size":  62473,
-                      "sha256":  "92132640d09e4d62339b9ba6ac68f1efb9d29a7634a7c63ed8e7645b8612e01f",
+                      "size":  63006,
+                      "sha256":  "9b8540ed078ef26b8a115054e40b7eb36ee10f954e6fbfc3b90bd7e544d87e42",
                       "source":  "repo",
                       "mode":  "strict"
                   },
                   {
                       "path":  "kubejs/data/shonen/structures/ecole2/t_2_2.nbt",
-                      "size":  62347,
-                      "sha256":  "63772c89294658236dcd19fdf6ee727f6656d14f352587ed032adb41e7d7bc51",
+                      "size":  63112,
+                      "sha256":  "af0d9bb11b4b17565c307a7166ea5350d60b0277a3c60614ee1e79bddeaae1a7",
                       "source":  "repo",
                       "mode":  "strict"
                   },
@@ -7888,22 +7951,22 @@
                   },
                   {
                       "path":  "kubejs/data/shonen/structures/ecole2/t_3_0.nbt",
-                      "size":  40208,
-                      "sha256":  "832efe28a2223607e8fefc94ceff62de2d5816381498a93c226c39b170aa6726",
+                      "size":  40504,
+                      "sha256":  "ffc1d52da62e4a478d34a5d0d4348d22808800888a5c456efe9cc6c958178928",
                       "source":  "repo",
                       "mode":  "strict"
                   },
                   {
                       "path":  "kubejs/data/shonen/structures/ecole2/t_3_1.nbt",
-                      "size":  60823,
-                      "sha256":  "ec4859dfcd624614fcc1264f81f6e03e9af00bbd0d5daead357aef6b26c515bf",
+                      "size":  61411,
+                      "sha256":  "83881d752b54b37fe9943af9eaeab92bb04db40603d017437dfbfa88d325c94b",
                       "source":  "repo",
                       "mode":  "strict"
                   },
                   {
                       "path":  "kubejs/data/shonen/structures/ecole2/t_3_2.nbt",
-                      "size":  60451,
-                      "sha256":  "80d52d208e79d3594eb3425bb551642e24379de9a0abe185dc4546255cbc4c1c",
+                      "size":  61746,
+                      "sha256":  "509f7790a29be1b1c67a0ac610416dca673f23b7622edf88a6a9691cbb9e0485",
                       "source":  "repo",
                       "mode":  "strict"
                   },
@@ -7930,29 +7993,29 @@
                   },
                   {
                       "path":  "kubejs/data/shonen/structures/ecole2/t_4_0.nbt",
-                      "size":  38439,
-                      "sha256":  "1bd7a797eb3576b22dcb7bbcd881300a37909366840a96cef14504ea99daa3a7",
+                      "size":  38594,
+                      "sha256":  "69be963e31c171dc928a35d7f3f29a82ff35e94f7a6e4cc457ef0ed23dd95b2f",
                       "source":  "repo",
                       "mode":  "strict"
                   },
                   {
                       "path":  "kubejs/data/shonen/structures/ecole2/t_4_1.nbt",
-                      "size":  58936,
-                      "sha256":  "358f3339ec7a40605be10213e168324c9472500cb497d7184b3ae360ca120b5c",
+                      "size":  59449,
+                      "sha256":  "6b9475287f6ac27f827b3cbb4cad41f3f4fb45b68ddb59a82113a22bf9332d49",
                       "source":  "repo",
                       "mode":  "strict"
                   },
                   {
                       "path":  "kubejs/data/shonen/structures/ecole2/t_4_2.nbt",
-                      "size":  57040,
-                      "sha256":  "6ee2ae30c03875410765548f48874a19c49508230bbb0863af1574eaa55e381c",
+                      "size":  57183,
+                      "sha256":  "dc40dd0291d3911cee9fcebd32e96f009dd9c43ad5c7eebbdd88314f2f5b7ceb",
                       "source":  "repo",
                       "mode":  "strict"
                   },
                   {
                       "path":  "kubejs/data/shonen/structures/ecole2/t_4_3.nbt",
-                      "size":  59741,
-                      "sha256":  "292fc67dd85c13fb403964a0681cde0e8c7c8b3c8f30fd268ac95e35b7cfb826",
+                      "size":  60044,
+                      "sha256":  "e724fad785068493c9f6c0ec3c8bc92e742c3839cbfd8b08f67939a02ac377f1",
                       "source":  "repo",
                       "mode":  "strict"
                   },
@@ -7979,22 +8042,22 @@
                   },
                   {
                       "path":  "kubejs/data/shonen/structures/ecole2/t_5_1.nbt",
-                      "size":  34416,
-                      "sha256":  "8b4f028558618c7426b8841cf09e80b8ae2126246e6883814337312e136005bd",
+                      "size":  34482,
+                      "sha256":  "f1b9e962b809b4866c82ce06a5fe2e8d87c8ee647a5eb9c5291563d2db222bf2",
                       "source":  "repo",
                       "mode":  "strict"
                   },
                   {
                       "path":  "kubejs/data/shonen/structures/ecole2/t_5_2.nbt",
-                      "size":  38792,
-                      "sha256":  "81155e8f3a8d732ae5239bf56c7b9ec33feb28f3a1764181059ae17b5dff2427",
+                      "size":  38908,
+                      "sha256":  "980ecdb1de77b3e447e68d454b60e4fe6acf11e39c98009bca89e46c1eb3e597",
                       "source":  "repo",
                       "mode":  "strict"
                   },
                   {
                       "path":  "kubejs/data/shonen/structures/ecole2/t_5_3.nbt",
-                      "size":  37888,
-                      "sha256":  "5177f46949143d32e4d3e198cd4c0a6b04ca692cf550e888c3b3fd71dd5a2737",
+                      "size":  38039,
+                      "sha256":  "7a3f581dff5c37040cbe42869643bfb521163e2c33625304e5a45cc24dfa7c95",
                       "source":  "repo",
                       "mode":  "strict"
                   },
@@ -8469,8 +8532,8 @@
                   },
                   {
                       "path":  "kubejs/startup_scripts/casiers.js",
-                      "size":  1449,
-                      "sha256":  "4154830304cf8790e6232e49c3efa567adbdef82fde035c4175df55ec3b7282a",
+                      "size":  1640,
+                      "sha256":  "eeb79c90724d1232a05c1c4a44d7054ab835e3b64e2e6e949d2049359ffd2863",
                       "source":  "repo",
                       "mode":  "strict"
                   },
@@ -8506,6 +8569,13 @@
                       "path":  "kubejs/startup_scripts/insignes.js",
                       "size":  828,
                       "sha256":  "bed31bffb741b6ddcb811844a80c686345ed2b07fb270841413d0fadd5fad98b",
+                      "source":  "repo",
+                      "mode":  "strict"
+                  },
+                  {
+                      "path":  "kubejs/startup_scripts/lounge_verres.js",
+                      "size":  1473,
+                      "sha256":  "cbbde160f6b89a9f9aedc99c67029ac88e2cfef0ed0d59627527db89f9623e54",
                       "source":  "repo",
                       "mode":  "strict"
                   },
@@ -9469,9 +9539,9 @@
                                ]
                   },
                   {
-                      "path":  "mods/shonencore-1.49.0.jar",
-                      "size":  37572210,
-                      "sha256":  "1347c4652c7160c09b0a6f4c36ebe0a48bd5225ea176b8ea47e6f91e2a7aef49",
+                      "path":  "mods/shonencore-1.50.0.jar",
+                      "size":  39045530,
+                      "sha256":  "9c589525ea6ead8f1718b77103e360203edf4af70b29afa4ecddaca719d240e7",
                       "source":  "repo",
                       "mode":  "strict"
                   },
@@ -10507,6 +10577,20 @@
                       "mode":  "strict"
                   },
                   {
+                      "path":  "resourcepacks/Shonen Eveil FR/assets/minecraft/lang/fr_fr.json",
+                      "size":  50,
+                      "sha256":  "4ae12af9e3610cb9846294d310d5ea9d5bfd4b53d682a3c35838fdb2056ebbfa",
+                      "source":  "repo",
+                      "mode":  "strict"
+                  },
+                  {
+                      "path":  "resourcepacks/Shonen Eveil FR/assets/minecraft/textures/item/structure_void.png",
+                      "size":  116,
+                      "sha256":  "51a3e96e2a669b8643533b80f0f22b3665991d1da8777b89c95143d271219207",
+                      "source":  "repo",
+                      "mode":  "strict"
+                  },
+                  {
                       "path":  "resourcepacks/Shonen Eveil FR/assets/minepiece/lang/fr_fr.json",
                       "size":  115471,
                       "sha256":  "54817f14957070be72df5b3e9f7fec3f7edddc07cdfd80a05c024fdb7f590b5a",
@@ -10794,12 +10878,19 @@
                   {
                       "path":  "shonen-outils/version.txt",
                       "size":  6,
-                      "sha256":  "bb7320d831e7a151aa901c35e7326c752fa2ef5024f30768c42319b8bed171ed",
+                      "sha256":  "3eb1ef94b5890ca727158b106142685c8733b0ace5bcb4cf3f0ac14f9f0643f4",
                       "source":  "repo",
                       "mode":  "strict"
                   }
               ],
     "remove":  [
-
+                   {
+                       "path":  "kubejs/assets/shonen/textures/block/casier_ecole_face.png",
+                       "sha256":  "ef97f928a16577b537010d204351a9b911cfaea38db5ba40ff7cc2d64b8d6123"
+                   },
+                   {
+                       "path":  "mods/shonencore-1.49.0.jar",
+                       "sha256":  "1347c4652c7160c09b0a6f4c36ebe0a48bd5225ea176b8ea47e6f91e2a7aef49"
+                   }
                ]
 }

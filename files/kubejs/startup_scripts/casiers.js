@@ -1,8 +1,8 @@
 // casiers.js (startup) - les deux blocs de l'école pour les tenues à venir (lot R3 point E, docs/ecole.md « Casiers et paravents ») :
-//   - shonen:casier_ecole  : un casier d'acier, orienté (facing), où un élève range ses affaires ;
-//   - shonen:paravent_ecole : un paravent de trois panneaux, derrière lequel un élève se change.
+//   - shonen:casier_ecole  : un casier de lycée (acier, 2 portes, 2 blocs de haut : le modèle monte dans la case du dessus, qui doit rester libre), orienté (facing) ;
+//   - shonen:paravent_ecole : un paravent de six panneaux en zigzag (2 de haut, 3 de large plié : le modèle déborde d'une case de chaque côté, qui doivent rester libres), derrière lequel un élève se change.
 // Posés par le générateur de l'école (tools/ecole/build_ecole_v2.py : tour-dortoir, onsen, terrain, salle de sport), jamais par un joueur : pas d'objet.
-// Modèles statiques de 1 et 3 boîtes, textures faites maison : tools/casiers/make_casiers.py (client/overrides/kubejs/assets/shonen).
+// Modèles statiques (13/11 : refaits en grand), textures faites maison : tools/casiers/make_casiers.py (client/overrides/kubejs/assets/shonen).
 // Côté serveur ET client (le registre doit être le même). Rhino : var seulement ; préfixe csr.
 
 var CSR_PROPS = Java.loadClass('net.minecraft.world.level.block.state.properties.BlockStateProperties')

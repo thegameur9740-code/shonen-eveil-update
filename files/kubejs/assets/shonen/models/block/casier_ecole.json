@@ -1,19 +1,21 @@
 {
  "textures": {
-  "face": "shonen:block/casier_ecole_face",
   "cote": "shonen:block/casier_ecole_cote",
+  "bas": "shonen:block/casier_ecole_bas",
+  "haut": "shonen:block/casier_ecole_haut",
+  "poignee": "shonen:block/casier_ecole_poignee",
   "particle": "shonen:block/casier_ecole_cote"
  },
  "elements": [
   {
    "from": [
-    1,
     0,
-    4
+    0,
+    6
    ],
    "to": [
-    15,
     16,
+    32,
     16
    ],
    "faces": {
@@ -24,7 +26,7 @@
       16,
       16
      ],
-     "texture": "#face"
+     "texture": "#cote"
     },
     "south": {
      "uv": [
@@ -39,16 +41,16 @@
      "uv": [
       0,
       0,
-      12,
+      10,
       16
      ],
      "texture": "#cote"
     },
     "west": {
      "uv": [
-      4,
       0,
-      16,
+      0,
+      10,
       16
      ],
      "texture": "#cote"
@@ -57,19 +59,255 @@
      "uv": [
       0,
       0,
-      14,
-      12
+      16,
+      10
      ],
      "texture": "#cote"
     },
     "down": {
      "uv": [
       0,
-      4,
-      14,
+      0,
+      16,
+      10
+     ],
+     "texture": "#cote"
+    }
+   }
+  },
+  {
+   "from": [
+    0,
+    0,
+    5.5
+   ],
+   "to": [
+    16,
+    16,
+    6
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ],
+     "texture": "#bas"
+    },
+    "up": {
+     "uv": [
+      0,
+      0,
+      16,
+      0.5
+     ],
+     "texture": "#cote"
+    },
+    "east": {
+     "uv": [
+      0,
+      0,
+      0.5,
       16
      ],
      "texture": "#cote"
+    },
+    "west": {
+     "uv": [
+      0,
+      0,
+      0.5,
+      16
+     ],
+     "texture": "#cote"
+    }
+   }
+  },
+  {
+   "from": [
+    0,
+    16,
+    5.5
+   ],
+   "to": [
+    16,
+    32,
+    6
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ],
+     "texture": "#haut"
+    },
+    "up": {
+     "uv": [
+      0,
+      0,
+      16,
+      0.5
+     ],
+     "texture": "#cote"
+    },
+    "east": {
+     "uv": [
+      0,
+      0,
+      0.5,
+      16
+     ],
+     "texture": "#cote"
+    },
+    "west": {
+     "uv": [
+      0,
+      0,
+      0.5,
+      16
+     ],
+     "texture": "#cote"
+    }
+   }
+  },
+  {
+   "from": [
+    5.4,
+    12,
+    4.6
+   ],
+   "to": [
+    6.800000000000001,
+    18.6,
+    5.5
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ],
+     "texture": "#poignee"
+    },
+    "south": {
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ],
+     "texture": "#poignee"
+    },
+    "east": {
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ],
+     "texture": "#poignee"
+    },
+    "west": {
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ],
+     "texture": "#poignee"
+    },
+    "up": {
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ],
+     "texture": "#poignee"
+    },
+    "down": {
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ],
+     "texture": "#poignee"
+    }
+   }
+  },
+  {
+   "from": [
+    13.4,
+    12,
+    4.6
+   ],
+   "to": [
+    14.8,
+    18.6,
+    5.5
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ],
+     "texture": "#poignee"
+    },
+    "south": {
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ],
+     "texture": "#poignee"
+    },
+    "east": {
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ],
+     "texture": "#poignee"
+    },
+    "west": {
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ],
+     "texture": "#poignee"
+    },
+    "up": {
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ],
+     "texture": "#poignee"
+    },
+    "down": {
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ],
+     "texture": "#poignee"
     }
    }
   }
