@@ -1,0 +1,33 @@
+{
+ "name": "La maison et le lit double",
+ "category": "patchouli:ecole",
+ "icon": "shonen:pierre_de_foyer",
+ "read_by_default": true,
+ "sortnum": 8,
+ "pages": [
+  {
+   "type": "patchouli:spotlight",
+   "item": "shonen:pierre_de_foyer",
+   "link_recipe": false,
+   "title": "Ton foyer",
+   "text": "Fabrique une $(l)pierre de foyer$() : 8 pierres taillées autour d'un feu de camp.$(br)Pose-la dans le monde normal : $(l)4 chunks$() deviennent ta maison, protégés et visibles sur la carte.$(br2)Un seul foyer par joueur. Clic droit sur la pierre ou $(l)/foyer$() pour le voir."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Où on peut",
+   "text": "Pas dans l'$(l)école$(), ni près d'un $(l)lieu de lignée$() ou d'une limite de zone.$(br)Pas à moins de $(l)3 chunks$() du foyer d'un autre joueur.$(br2)Si la place manque, un message te dit pourquoi et rien n'est pris."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "L'agrandir",
+   "text": "$(l)/foyer agrandir$() : +4 chunks.$(br)1re fois : 1 000 Éclats.$(br)2e fois : 2 000.$(br)3e fois : 3 000.$(br2)16 chunks au plus.$(br2)Pour déplacer le foyer, reprends la pierre (ou $(l)/foyer retirer$()) : les chunks sont rendus, tes agrandissements restent payés."
+  },
+  {
+   "type": "patchouli:spotlight",
+   "item": "shonen:lit_double",
+   "link_recipe": false,
+   "title": "Le lit double",
+   "text": "2 lits + 4 laines + 1 bloc d'or, ou $(l)300 Éclats$() chez Orin, au Grand Hall.$(br2)Clic droit sur le sol, $(l)dans ton foyer$() : deux lits côte à côte. On y dort comme dans un lit normal.$(br2)Marié : voir $(l)Les enfants$()."
+  }
+ ]
+}

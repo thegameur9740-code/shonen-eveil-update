@@ -1,0 +1,18 @@
+{
+ "name": "Les Ancres et les Sceaux",
+ "category": "patchouli:convergence",
+ "icon": "minecraft:nether_star",
+ "read_by_default": true,
+ "sortnum": 1,
+ "pages": [
+  {
+   "type": "patchouli:text",
+   "title": "L'école t'aide",
+   "text": "Au combat final contre le Cœur, des $(l)élèves adultes$() de l'école arrivent par vagues et se battent à tes côtés : 12 au plus à la fois.$(br2)Ils font de la $(l)figuration$() : jamais le coup fatal, jamais plus de 5 % de la vie du Cœur.$(br)Un élève qui tombe va se reposer à l'infirmerie."
+  },
+  {
+   "type": "patchouli:text",
+   "text": "Dans chaque univers, une $(l)Ancre$() tient sa fissure ouverte.$(br)La vaincre referme la fissure et donne un $(l)Sceau$().$(br2)Avec les sept Sceaux, ton équipe saura ce qui a fendu le ciel.$(br2)Bonne route, Éveillé."
+  }
+ ]
+}

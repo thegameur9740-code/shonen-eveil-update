@@ -1,0 +1,4 @@
+// Shonen Eveil (tools/design/quetes/make_quest_visuals.py): adds our "star" quest shape
+// (textures/shapes/star). FTB Quests merges this file with its own theme file.
+[*]
+extra_quest_shapes: diamond, pentagon, hexagon, octagon, heart, gear, star

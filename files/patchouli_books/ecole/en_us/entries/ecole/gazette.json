@@ -1,0 +1,29 @@
+{
+ "name": "La Gazette et le calendrier",
+ "category": "patchouli:ecole",
+ "icon": "minecraft:writable_book",
+ "read_by_default": true,
+ "sortnum": 4,
+ "pages": [
+  {
+   "type": "patchouli:text",
+   "title": "La Gazette",
+   "text": "Chaque matin du monde, un nouveau numéro, écrit avec de vrais faits du serveur.$(br2)À lire au $(l)kiosque de la rédaction$() (clic droit sur son comptoir) ou avec $(l)/gazette$()."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Dans le journal",
+   "text": "Grands Ennemis vaincus, records, examens réussis, niveaux marquants, mariages, météo, fête du jour.$(br2)Les 7 derniers numéros se relisent.$(br)Une ligne dans le chat annonce le nouveau numéro."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Le calendrier",
+   "text": "$(l)/calendrier$() : le calendrier du monde.$(br2)Une année = $(l)48 jours$() du monde : 4 saisons de 12 jours, 2 mois par saison."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Les saisons",
+   "text": "Elles changent l'ambiance : pétales au printemps, lucioles en été, feuilles en automne, flocons en hiver.$(br2)$(l)Halloween$() et $(l)Noël$() posent un décor dans l'école.$(br)Le $(l)Matsuri$(), le festival de nuit, suit sa propre règle.$(br)Rien d'hostile."
+  }
+ ]
+}

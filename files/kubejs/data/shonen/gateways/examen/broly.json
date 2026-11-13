@@ -1,0 +1,57 @@
+{
+  "size": "large",
+  "color": "#9C36B5",
+  "waves": [
+    {
+      "entities": [
+        {
+          "entity": "dragonminez:saga_bioman",
+          "count": 5
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 2400,
+      "setup_time": 100
+    },
+    {
+      "entities": [
+        {
+          "entity": "dragonminez:saga_paragus",
+          "count": 1
+        },
+        {
+          "entity": "dragonminez:saga_bioman",
+          "count": 4
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 3000,
+      "setup_time": 160
+    },
+    {
+      "entities": [
+        {
+          "entity": "dragonminez:saga_broly_base",
+          "desc": "shonen.examen.boss.broly",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 14400,
+      "setup_time": 200
+    }
+  ],
+  "rewards": [
+    {
+      "type": "gateways:command",
+      "command": "grands_ennemis examen <summoner> broly",
+      "desc": "shonen.examen.points.S"
+    }
+  ],
+  "failures": [],
+  "rules": {
+    "spawn_range": 10,
+    "leash_range": 48,
+    "allow_discarding": true
+  }
+}

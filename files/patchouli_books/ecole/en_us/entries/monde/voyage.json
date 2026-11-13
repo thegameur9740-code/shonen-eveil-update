@@ -1,0 +1,13 @@
+{
+ "name": "Les pierres de voyage",
+ "category": "patchouli:monde",
+ "icon": "minecraft:ender_pearl",
+ "read_by_default": true,
+ "sortnum": 4,
+ "pages": [
+  {
+   "type": "patchouli:text",
+   "text": "Une dans la cour, une devant chaque lieu de lignée.$(br)Découvre-les $(l)à pied$() : pour toute l'équipe.$(br)$(l)Voyager$() : clic droit, choisis, reste immobile 5 s.$(br)Prix : 10 Éclats par 500 blocs.$(br)$(l)Pierres d'équipe$() (3) : dans vos chunks seulement.$(br)$(l)/voyage$() : les règles."
+  }
+ ]
+}

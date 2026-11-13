@@ -1,0 +1,65 @@
+{
+  "size": "large",
+  "color": "#C92A2A",
+  "waves": [
+    {
+      "entities": [
+        {
+          "entity": "jujutsucraft:cursed_spirit_grade_12",
+          "count": 2
+        },
+        {
+          "entity": "jujutsucraft:cursed_spirit_grade_14",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 2400,
+      "setup_time": 100
+    },
+    {
+      "entities": [
+        {
+          "entity": "jujutsucraft:cursed_spirit_grade_11",
+          "count": 1
+        },
+        {
+          "entity": "jujutsucraft:cursed_spirit_grade_16",
+          "count": 1
+        },
+        {
+          "entity": "jujutsucraft:cursed_spirit_grade_18",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 3000,
+      "setup_time": 160
+    },
+    {
+      "entities": [
+        {
+          "entity": "jujutsucraft:eight_handled_sword_divergent_sila_divine_general_mahoraga",
+          "desc": "shonen.examen.boss.mahoraga",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 14400,
+      "setup_time": 200
+    }
+  ],
+  "rewards": [
+    {
+      "type": "gateways:command",
+      "command": "grands_ennemis examen <summoner> mahoraga",
+      "desc": "shonen.examen.points.S"
+    }
+  ],
+  "failures": [],
+  "rules": {
+    "spawn_range": 10,
+    "leash_range": 48,
+    "allow_discarding": true
+  }
+}

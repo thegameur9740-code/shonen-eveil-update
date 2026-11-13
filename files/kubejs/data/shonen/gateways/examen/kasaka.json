@@ -1,0 +1,58 @@
+{
+  "size": "small",
+  "color": "#3B5BDB",
+  "waves": [
+    {
+      "entities": [
+        {
+          "entity": "sololeveling:skeleton_warrior",
+          "count": 4
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 2400,
+      "setup_time": 100
+    },
+    {
+      "entities": [
+        {
+          "entity": "sololeveling:d_knight_1",
+          "count": 2
+        },
+        {
+          "entity": "sololeveling:d_knight_2",
+          "count": 2
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 3000,
+      "setup_time": 160
+    },
+    {
+      "entities": [
+        {
+          "entity": "sololeveling:kasaka",
+          "desc": "shonen.examen.boss.kasaka",
+          "nbt": "{Tags:[\"shonen_ge_kasaka\"]}",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 9600,
+      "setup_time": 200
+    }
+  ],
+  "rewards": [
+    {
+      "type": "gateways:command",
+      "command": "grands_ennemis examen <summoner> kasaka",
+      "desc": "shonen.examen.points.C"
+    }
+  ],
+  "failures": [],
+  "rules": {
+    "spawn_range": 10,
+    "leash_range": 48,
+    "allow_discarding": true
+  }
+}

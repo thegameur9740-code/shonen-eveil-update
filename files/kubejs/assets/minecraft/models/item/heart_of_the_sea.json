@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/heart_of_the_sea"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 7011
+      },
+      "model": "shonen:item/souvenirs/kaido"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7015
+      },
+      "model": "shonen:item/souvenirs/crocodile"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7019
+      },
+      "model": "shonen:item/souvenirs/jack"
+    }
+  ]
+}

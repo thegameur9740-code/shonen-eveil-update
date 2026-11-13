@@ -1,0 +1,20 @@
+{
+ "name": "Ta salle et ta lignée",
+ "category": "patchouli:solo",
+ "icon": "minecraft:lodestone",
+ "read_by_default": true,
+ "sortnum": 3,
+ "pages": [
+  {
+   "type": "patchouli:text",
+   "text": "L'$(l)or$() du Système se change en Éclats chez le marchand de reprise.$(br)Boutique : épées, dagues E à S, potions, clé de donjon.$(br)Chaque $(l)Vessel$() (Ashborn…) : une fois par serveur.$(br2)$(l)Lignée$() : roi gobelin, Kasaka, Igris, Roi des Fourmis, château des démons, $(l)Kamish$()."
+  },
+  {
+   "type": "patchouli:spotlight",
+   "item": "shonen:tenue_eveille_sololeveling_casque,shonen:tenue_eveille_sololeveling_plastron,shonen:tenue_eveille_sololeveling_jambieres,shonen:tenue_eveille_sololeveling_bottes",
+   "link_recipe": false,
+   "title": "La tenue de l'Éveillé",
+   "text": "Dans ton kit, aux couleurs de ton univers."
+  }
+ ]
+}

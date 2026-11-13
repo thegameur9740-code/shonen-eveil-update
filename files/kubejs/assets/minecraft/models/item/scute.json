@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/scute"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 7043
+      },
+      "model": "shonen:item/souvenirs/son_goku"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7047
+      },
+      "model": "shonen:item/souvenirs/gyuki"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7051
+      },
+      "model": "shonen:item/souvenirs/zabuza"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7055
+      },
+      "model": "shonen:item/souvenirs/kaguya"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7059
+      },
+      "model": "shonen:item/souvenirs/kisame"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "quirksunchained"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "shonencore"
+    }
+  ],
+  "size": "large",
+  "color": "#2E8B57",
+  "waves": [
+    {
+      "entities": [
+        {
+          "entity": "quirksunchained:criminal",
+          "count": 6
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 2400,
+      "setup_time": 100
+    },
+    {
+      "entities": [
+        {
+          "entity": "quirksunchained:criminal",
+          "count": 4
+        },
+        {
+          "entity": "shonencore:corps_histoire_nomu",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 3000,
+      "setup_time": 160
+    },
+    {
+      "entities": [
+        {
+          "entity": "quirksunchained:overhaul",
+          "desc": "shonen.examen.boss.overhaul",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 14400,
+      "setup_time": 200
+    }
+  ],
+  "rewards": [
+    {
+      "type": "gateways:command",
+      "command": "grands_ennemis examen <summoner> overhaul",
+      "desc": "shonen.examen.points.S"
+    }
+  ],
+  "failures": [],
+  "rules": {
+    "spawn_range": 10,
+    "leash_range": 48,
+    "allow_discarding": true
+  }
+}

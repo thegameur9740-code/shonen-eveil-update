@@ -1,0 +1,12 @@
+{
+  "name": "Naruto",
+  "description": "Ninjas, clans et natures du chakra (Ninshu Origins).\nTon clan est tiré au hasard ; tu choisis ensuite tes spécialités.",
+  "icon": {
+    "item": "ninshuorigins:starter_item"
+  },
+  "impact": 2,
+  "order": 6,
+  "powers": [
+    "shonen:univers_naruto"
+  ]
+}

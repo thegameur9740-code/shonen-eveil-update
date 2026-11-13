@@ -1,0 +1,2375 @@
+{
+  "racine": {
+    "title": "Ki",
+    "description": "Une énergie qui part du ventre et peut raser une montagne. Effet : +2,5 PV max, +0,5 dégâts d'attaque.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blaze_powder"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 2.5,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_damage",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a1": {
+    "title": "Boule d'énergie I",
+    "description": "Ton premier tir de ki. Effet : +0,87 % dégâts magiques.",
+    "extra_description": "Branche « Ki ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:snowball"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0087,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "arbre_univers_dbz_ki"
+        }
+      }
+    ]
+  },
+  "a2": {
+    "title": "Boule d'énergie II",
+    "description": "Ton premier tir de ki. Effet : +0,87 % dégâts magiques.",
+    "extra_description": "Branche « Ki ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:snowball"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0087,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "a3": {
+    "title": "Boule d'énergie III",
+    "description": "Ton premier tir de ki. Effet : +0,87 % dégâts magiques.",
+    "extra_description": "Branche « Ki ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:snowball"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0087,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "a4": {
+    "title": "Boule d'énergie IV",
+    "description": "Ton premier tir de ki. Effet : +0,87 % dégâts magiques.",
+    "extra_description": "Branche « Ki ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:snowball"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0087,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "a5": {
+    "title": "Contrôle du ki I",
+    "description": "Tu dépenses moins pour frapper plus. Effet : +0,69 % dégâts magiques, +0,12 endurance (faim).",
+    "extra_description": "Branche « Ki ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glowstone_dust"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0069,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:stamina",
+          "value": 0.12,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a6": {
+    "title": "Contrôle du ki II",
+    "description": "Tu dépenses moins pour frapper plus. Effet : +0,69 % dégâts magiques, +0,12 endurance (faim).",
+    "extra_description": "Branche « Ki ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glowstone_dust"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0069,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:stamina",
+          "value": 0.12,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a7": {
+    "title": "Contrôle du ki III",
+    "description": "Tu dépenses moins pour frapper plus. Effet : +0,69 % dégâts magiques, +0,12 endurance (faim).",
+    "extra_description": "Branche « Ki ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glowstone_dust"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0069,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:stamina",
+          "value": 0.12,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a8": {
+    "title": "Contrôle du ki IV",
+    "description": "Tu dépenses moins pour frapper plus. Effet : +0,69 % dégâts magiques, +0,12 endurance (faim).",
+    "extra_description": "Branche « Ki ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glowstone_dust"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0069,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:stamina",
+          "value": 0.12,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a9": {
+    "title": "Rayon perçant I",
+    "description": "Ton tir traverse les gardes. Effet : +0,87 % dégâts magiques, +0,25 armure ennemie ignorée.",
+    "extra_description": "Branche « Ki ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:end_rod"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0087,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:armor_shred",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a10": {
+    "title": "Rayon perçant II",
+    "description": "Ton tir traverse les gardes. Effet : +0,87 % dégâts magiques, +0,25 armure ennemie ignorée.",
+    "extra_description": "Branche « Ki ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:end_rod"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0087,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:armor_shred",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a11": {
+    "title": "Rayon perçant III",
+    "description": "Ton tir traverse les gardes. Effet : +0,87 % dégâts magiques, +0,25 armure ennemie ignorée.",
+    "extra_description": "Branche « Ki ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:end_rod"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0087,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:armor_shred",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a12": {
+    "title": "Rayon perçant IV",
+    "description": "Ton tir traverse les gardes. Effet : +0,87 % dégâts magiques, +0,25 armure ennemie ignorée.",
+    "extra_description": "Branche « Ki ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:end_rod"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0087,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:armor_shred",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a13": {
+    "title": "Charge éclair I",
+    "description": "Ton ki monte en un instant. Effet : +1,04 % dégâts magiques, +1 % chance de coup critique.",
+    "extra_description": "Branche « Ki ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:lightning_rod"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0104,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a14": {
+    "title": "Charge éclair II",
+    "description": "Ton ki monte en un instant. Effet : +1,04 % dégâts magiques, +1 % chance de coup critique.",
+    "extra_description": "Branche « Ki ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:lightning_rod"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0104,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a15": {
+    "title": "Charge éclair III",
+    "description": "Ton ki monte en un instant. Effet : +1,04 % dégâts magiques, +1 % chance de coup critique.",
+    "extra_description": "Branche « Ki ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:lightning_rod"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0104,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a16": {
+    "title": "Charge éclair IV",
+    "description": "Ton ki monte en un instant. Effet : +1,04 % dégâts magiques, +1 % chance de coup critique.",
+    "extra_description": "Branche « Ki ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:lightning_rod"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0104,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a17": {
+    "title": "Vague déferlante I",
+    "description": "Un tir qui emporte tout. Effet : +1,04 % dégâts magiques, +4 % dégâts critiques.",
+    "extra_description": "Branche « Ki ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:fire_charge"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0104,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_damage",
+          "value": 0.04,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a18": {
+    "title": "Vague déferlante II",
+    "description": "Un tir qui emporte tout. Effet : +1,04 % dégâts magiques, +4 % dégâts critiques.",
+    "extra_description": "Branche « Ki ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:fire_charge"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0104,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_damage",
+          "value": 0.04,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a19": {
+    "title": "Vague déferlante III",
+    "description": "Un tir qui emporte tout. Effet : +1,04 % dégâts magiques, +4 % dégâts critiques.",
+    "extra_description": "Branche « Ki ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:fire_charge"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0104,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_damage",
+          "value": 0.04,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a20": {
+    "title": "Vague déferlante IV",
+    "description": "Un tir qui emporte tout. Effet : +1,04 % dégâts magiques, +4 % dégâts critiques.",
+    "extra_description": "Branche « Ki ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:fire_charge"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0104,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_damage",
+          "value": 0.04,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a21": {
+    "title": "Puissance divine I",
+    "description": "Ton ki dépasse ce que ton corps devrait supporter. Effet : +1,74 % dégâts magiques, +1,25 PV max.",
+    "extra_description": "Branche « Ki ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0174,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a22": {
+    "title": "Puissance divine II",
+    "description": "Ton ki dépasse ce que ton corps devrait supporter. Effet : +1,74 % dégâts magiques, +1,25 PV max.",
+    "extra_description": "Branche « Ki ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0174,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a23": {
+    "title": "Puissance divine III",
+    "description": "Ton ki dépasse ce que ton corps devrait supporter. Effet : +1,74 % dégâts magiques, +1,25 PV max.",
+    "extra_description": "Branche « Ki ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 5,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0174,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a24": {
+    "title": "Puissance divine IV",
+    "description": "Ton ki dépasse ce que ton corps devrait supporter. Effet : +1,74 % dégâts magiques, +1,25 PV max.",
+    "extra_description": "Branche « Ki ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 5,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0174,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b1": {
+    "title": "Kata I",
+    "description": "Mille fois le même geste. Effet : +1,64 % dégâts de mêlée.",
+    "extra_description": "Branche « Arts martiaux ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:stick"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0164,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "arbre_univers_dbz_arts_martiaux"
+        }
+      }
+    ]
+  },
+  "b2": {
+    "title": "Kata II",
+    "description": "Mille fois le même geste. Effet : +1,64 % dégâts de mêlée.",
+    "extra_description": "Branche « Arts martiaux ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:stick"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0164,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b3": {
+    "title": "Kata III",
+    "description": "Mille fois le même geste. Effet : +1,64 % dégâts de mêlée.",
+    "extra_description": "Branche « Arts martiaux ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:stick"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0164,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b4": {
+    "title": "Kata IV",
+    "description": "Mille fois le même geste. Effet : +1,64 % dégâts de mêlée.",
+    "extra_description": "Branche « Arts martiaux ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:stick"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0164,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b5": {
+    "title": "Enchaînement I",
+    "description": "Les coups pleuvent. Effet : +0,05 vitesse d'attaque.",
+    "extra_description": "Branche « Arts martiaux ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:clock"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_speed",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b6": {
+    "title": "Enchaînement II",
+    "description": "Les coups pleuvent. Effet : +0,05 vitesse d'attaque.",
+    "extra_description": "Branche « Arts martiaux ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:clock"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_speed",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b7": {
+    "title": "Enchaînement III",
+    "description": "Les coups pleuvent. Effet : +0,05 vitesse d'attaque.",
+    "extra_description": "Branche « Arts martiaux ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:clock"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_speed",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b8": {
+    "title": "Enchaînement IV",
+    "description": "Les coups pleuvent. Effet : +0,05 vitesse d'attaque.",
+    "extra_description": "Branche « Arts martiaux ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:clock"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_speed",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b9": {
+    "title": "Poing lourd I",
+    "description": "Chaque coup fait reculer. Effet : +0,25 dégâts d'attaque, +0,08 puissance de recul.",
+    "extra_description": "Branche « Arts martiaux ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_damage",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:knockback",
+          "value": 0.08,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b10": {
+    "title": "Poing lourd II",
+    "description": "Chaque coup fait reculer. Effet : +0,25 dégâts d'attaque, +0,08 puissance de recul.",
+    "extra_description": "Branche « Arts martiaux ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_damage",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:knockback",
+          "value": 0.08,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b11": {
+    "title": "Poing lourd III",
+    "description": "Chaque coup fait reculer. Effet : +0,25 dégâts d'attaque, +0,08 puissance de recul.",
+    "extra_description": "Branche « Arts martiaux ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_damage",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:knockback",
+          "value": 0.08,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b12": {
+    "title": "Poing lourd IV",
+    "description": "Chaque coup fait reculer. Effet : +0,25 dégâts d'attaque, +0,08 puissance de recul.",
+    "extra_description": "Branche « Arts martiaux ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_damage",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:knockback",
+          "value": 0.08,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b13": {
+    "title": "Image rémanente I",
+    "description": "Tu bouges si vite qu'on frappe ton ombre. Effet : +1 % chance d'esquive, +1,32 % dégâts de mêlée.",
+    "extra_description": "Branche « Arts martiaux ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:phantom_membrane"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:dodge_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0132,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b14": {
+    "title": "Image rémanente II",
+    "description": "Tu bouges si vite qu'on frappe ton ombre. Effet : +1 % chance d'esquive, +1,32 % dégâts de mêlée.",
+    "extra_description": "Branche « Arts martiaux ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:phantom_membrane"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:dodge_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0132,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b15": {
+    "title": "Image rémanente III",
+    "description": "Tu bouges si vite qu'on frappe ton ombre. Effet : +1 % chance d'esquive, +1,32 % dégâts de mêlée.",
+    "extra_description": "Branche « Arts martiaux ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:phantom_membrane"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:dodge_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0132,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b16": {
+    "title": "Image rémanente IV",
+    "description": "Tu bouges si vite qu'on frappe ton ombre. Effet : +1 % chance d'esquive, +1,32 % dégâts de mêlée.",
+    "extra_description": "Branche « Arts martiaux ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:phantom_membrane"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:dodge_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0132,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b17": {
+    "title": "Coup critique I",
+    "description": "Le coup qui finit le combat. Effet : +4 % dégâts critiques, +1 % chance de coup critique.",
+    "extra_description": "Branche « Arts martiaux ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_axe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_damage",
+          "value": 0.04,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b18": {
+    "title": "Coup critique II",
+    "description": "Le coup qui finit le combat. Effet : +4 % dégâts critiques, +1 % chance de coup critique.",
+    "extra_description": "Branche « Arts martiaux ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_axe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_damage",
+          "value": 0.04,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b19": {
+    "title": "Coup critique III",
+    "description": "Le coup qui finit le combat. Effet : +4 % dégâts critiques, +1 % chance de coup critique.",
+    "extra_description": "Branche « Arts martiaux ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_axe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_damage",
+          "value": 0.04,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b20": {
+    "title": "Coup critique IV",
+    "description": "Le coup qui finit le combat. Effet : +4 % dégâts critiques, +1 % chance de coup critique.",
+    "extra_description": "Branche « Arts martiaux ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_axe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_damage",
+          "value": 0.04,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b21": {
+    "title": "Instinct I",
+    "description": "Ton corps se bat tout seul. Effet : +3,29 % dégâts de mêlée, +1 % chance d'esquive, +1,25 PV max.",
+    "extra_description": "Branche « Arts martiaux ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0329,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:dodge_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b22": {
+    "title": "Instinct II",
+    "description": "Ton corps se bat tout seul. Effet : +3,29 % dégâts de mêlée, +1 % chance d'esquive, +1,25 PV max.",
+    "extra_description": "Branche « Arts martiaux ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0329,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:dodge_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b23": {
+    "title": "Instinct III",
+    "description": "Ton corps se bat tout seul. Effet : +3,29 % dégâts de mêlée, +1 % chance d'esquive, +1,25 PV max.",
+    "extra_description": "Branche « Arts martiaux ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 5,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0329,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:dodge_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b24": {
+    "title": "Instinct IV",
+    "description": "Ton corps se bat tout seul. Effet : +3,29 % dégâts de mêlée, +1 % chance d'esquive, +1,25 PV max.",
+    "extra_description": "Branche « Arts martiaux ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 5,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0329,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:dodge_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "c1": {
+    "title": "Entraînement lesté I",
+    "description": "Tu t'es entraîné avec du poids. Effet : +0,62 PV max.",
+    "extra_description": "Branche « Corps de guerrier ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:anvil"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 0.62,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "arbre_univers_dbz_corps_de_guerrier"
+        }
+      }
+    ]
+  },
+  "c2": {
+    "title": "Entraînement lesté II",
+    "description": "Tu t'es entraîné avec du poids. Effet : +0,62 PV max.",
+    "extra_description": "Branche « Corps de guerrier ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:anvil"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 0.62,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "c3": {
+    "title": "Entraînement lesté III",
+    "description": "Tu t'es entraîné avec du poids. Effet : +0,62 PV max.",
+    "extra_description": "Branche « Corps de guerrier ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:anvil"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 0.62,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "c4": {
+    "title": "Entraînement lesté IV",
+    "description": "Tu t'es entraîné avec du poids. Effet : +0,62 PV max.",
+    "extra_description": "Branche « Corps de guerrier ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:anvil"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 0.62,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "c5": {
+    "title": "Vol maîtrisé I",
+    "description": "Les chutes ne te font plus peur. Effet : +0,75 blocs de chute annulés, +2,5 % hauteur de saut.",
+    "extra_description": "Branche « Corps de guerrier ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:feather"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:fall_reduction",
+          "value": 0.75,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:jump",
+          "value": 0.025,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c6": {
+    "title": "Vol maîtrisé II",
+    "description": "Les chutes ne te font plus peur. Effet : +0,75 blocs de chute annulés, +2,5 % hauteur de saut.",
+    "extra_description": "Branche « Corps de guerrier ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:feather"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:fall_reduction",
+          "value": 0.75,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:jump",
+          "value": 0.025,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c7": {
+    "title": "Vol maîtrisé III",
+    "description": "Les chutes ne te font plus peur. Effet : +0,75 blocs de chute annulés, +2,5 % hauteur de saut.",
+    "extra_description": "Branche « Corps de guerrier ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:feather"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:fall_reduction",
+          "value": 0.75,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:jump",
+          "value": 0.025,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c8": {
+    "title": "Vol maîtrisé IV",
+    "description": "Les chutes ne te font plus peur. Effet : +0,75 blocs de chute annulés, +2,5 % hauteur de saut.",
+    "extra_description": "Branche « Corps de guerrier ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:feather"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:fall_reduction",
+          "value": 0.75,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:jump",
+          "value": 0.025,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c9": {
+    "title": "Haricot magique I",
+    "description": "Tu récupères très vite. Effet : +3,75 % régénération naturelle.",
+    "extra_description": "Branche « Corps de guerrier ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:melon_seeds"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.0375,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c10": {
+    "title": "Haricot magique II",
+    "description": "Tu récupères très vite. Effet : +3,75 % régénération naturelle.",
+    "extra_description": "Branche « Corps de guerrier ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:melon_seeds"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.0375,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c11": {
+    "title": "Haricot magique III",
+    "description": "Tu récupères très vite. Effet : +3,75 % régénération naturelle.",
+    "extra_description": "Branche « Corps de guerrier ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:melon_seeds"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.0375,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c12": {
+    "title": "Haricot magique IV",
+    "description": "Tu récupères très vite. Effet : +3,75 % régénération naturelle.",
+    "extra_description": "Branche « Corps de guerrier ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:melon_seeds"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.0375,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c13": {
+    "title": "Corps de saiyan I",
+    "description": "Plus tu prends de coups, plus tu tiens. Effet : +1,25 PV max, +0,25 robustesse.",
+    "extra_description": "Branche « Corps de guerrier ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1.25,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.armor_toughness",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "c14": {
+    "title": "Corps de saiyan II",
+    "description": "Plus tu prends de coups, plus tu tiens. Effet : +1,25 PV max, +0,25 robustesse.",
+    "extra_description": "Branche « Corps de guerrier ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1.25,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.armor_toughness",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "c15": {
+    "title": "Corps de saiyan III",
+    "description": "Plus tu prends de coups, plus tu tiens. Effet : +1,25 PV max, +0,25 robustesse.",
+    "extra_description": "Branche « Corps de guerrier ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1.25,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.armor_toughness",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "c16": {
+    "title": "Corps de saiyan IV",
+    "description": "Plus tu prends de coups, plus tu tiens. Effet : +1,25 PV max, +0,25 robustesse.",
+    "extra_description": "Branche « Corps de guerrier ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1.25,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.armor_toughness",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "c17": {
+    "title": "Salle de l'esprit et du temps I",
+    "description": "Un an d'entraînement en une journée. Effet : +1 % réduction des dégâts subis, +1,25 % expérience gagnée.",
+    "extra_description": "Branche « Corps de guerrier ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:clock"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:resistance",
+          "value": 0.01,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:experience",
+          "value": 0.0125,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c18": {
+    "title": "Salle de l'esprit et du temps II",
+    "description": "Un an d'entraînement en une journée. Effet : +1 % réduction des dégâts subis, +1,25 % expérience gagnée.",
+    "extra_description": "Branche « Corps de guerrier ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:clock"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:resistance",
+          "value": 0.01,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:experience",
+          "value": 0.0125,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c19": {
+    "title": "Salle de l'esprit et du temps III",
+    "description": "Un an d'entraînement en une journée. Effet : +1 % réduction des dégâts subis, +1,25 % expérience gagnée.",
+    "extra_description": "Branche « Corps de guerrier ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:clock"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:resistance",
+          "value": 0.01,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:experience",
+          "value": 0.0125,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c20": {
+    "title": "Salle de l'esprit et du temps IV",
+    "description": "Un an d'entraînement en une journée. Effet : +1 % réduction des dégâts subis, +1,25 % expérience gagnée.",
+    "extra_description": "Branche « Corps de guerrier ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:clock"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:resistance",
+          "value": 0.01,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:experience",
+          "value": 0.0125,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  }
+}

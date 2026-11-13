@@ -1,0 +1,486 @@
+{
+	id: "000DEBCB7DCBCF1A"
+	group: ""
+	order_index: 3
+	filename: "contrats"
+	title: "Contrats"
+	icon: "minecraft:paper"
+	subtitle: [
+		"Des chasses répétables, une fois par jour et par zone, pour varier le farm :"
+		"petite XP (et monnaie, plus tard)."
+	]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 3.0d
+			y: 0.75d
+			width: 9.0d
+			height: 4.5d
+			rotation: 0.0d
+			image: "shonen:textures/quetes/bg_contrats.png"
+			color: 16777215
+			alpha: 235
+			order: -11
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 3.0d
+			y: 0.75d
+			width: 30.0d
+			height: 21.94d
+			rotation: 0.0d
+			image: "shonen:textures/quetes/plein_contrats.png"
+			color: 16777215
+			alpha: 255
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			id: "000EA44ED4B59CE9"
+			title: "Contrat : chasse de la zone 1"
+			subtitle: "Niveau 9"
+			x: 0.0d
+			y: 0.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"contrats_contrat_chasse_de_la_zone_1"
+			]
+			description: [
+				"L'école paie pour garder la zone 1 sûre : bats vingt"
+				"monstres là-bas. Revient chaque jour."
+				""
+				"Tâche : tuer 20 monstres dans la zone 1"
+				""
+				"Récompense : 98 XP, 25 Éclats"
+				"Revient chaque jour."
+			]
+			tasks: [
+				{
+					id: "0004164F193699CA"
+					type: "custom"
+					title: "tuer 20 monstres dans la zone 1"
+				}
+			]
+			rewards: [
+				{
+					id: "000FCCB204AC0618"
+					type: "command"
+					title: "98 XP"
+					command: "/shonenquete recompense {p} contrats_contrat_chasse_de_la_zone_1"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:paper"
+			can_repeat: true
+			repeat_cooldown: 86400
+		}
+		{
+			id: "000F0F4E34F7F0D0"
+			title: "Contrat : élite de la zone 1"
+			subtitle: "Niveau 15"
+			x: 1.5d
+			y: 0.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"contrats_contrat_elite_de_la_zone_1"
+			]
+			description: [
+				"Des monstres d'élite rôdent dans la zone 1. Abats-en trois."
+				"Revient chaque jour."
+				""
+				"Tâche : tuer 3 monstres d'élite (300 PV ou plus) dans la zone 1"
+				""
+				"Récompense : 155 XP, 70 Éclats"
+				"Revient chaque jour."
+			]
+			tasks: [
+				{
+					id: "000709847297D6CA"
+					type: "custom"
+					title: "tuer 3 monstres d'élite (300 PV ou plus) dans la zone 1"
+				}
+			]
+			rewards: [
+				{
+					id: "000EE1AFE7A9B96B"
+					type: "command"
+					title: "155 XP"
+					command: "/shonenquete recompense {p} contrats_contrat_elite_de_la_zone_1"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:paper"
+			dependencies: [
+				"000EA44ED4B59CE9"
+			]
+			can_repeat: true
+			repeat_cooldown: 86400
+		}
+		{
+			id: "000669D6F16FC91A"
+			title: "Contrat : chasse de la zone 2"
+			subtitle: "Niveau 30"
+			x: 3.0d
+			y: 0.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"contrats_contrat_chasse_de_la_zone_2"
+			]
+			description: [
+				"L'école paie pour garder la zone 2 sûre : bats vingt"
+				"monstres là-bas. Revient chaque jour."
+				""
+				"Tâche : tuer 20 monstres dans la zone 2"
+				""
+				"Récompense : 307 XP, 65 Éclats"
+				"Revient chaque jour."
+			]
+			tasks: [
+				{
+					id: "0004DA87162A00BE"
+					type: "custom"
+					title: "tuer 20 monstres dans la zone 2"
+				}
+			]
+			rewards: [
+				{
+					id: "000C22842E906FD8"
+					type: "command"
+					title: "307 XP"
+					command: "/shonenquete recompense {p} contrats_contrat_chasse_de_la_zone_2"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:paper"
+			dependencies: [
+				"000F0F4E34F7F0D0"
+			]
+			can_repeat: true
+			repeat_cooldown: 86400
+		}
+		{
+			id: "00028F8CCD9DC543"
+			title: "Contrat : élite de la zone 2"
+			subtitle: "Niveau 40"
+			x: 4.5d
+			y: 0.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"contrats_contrat_elite_de_la_zone_2"
+			]
+			description: [
+				"Des monstres d'élite rôdent dans la zone 2. Abats-en trois."
+				"Revient chaque jour."
+				""
+				"Tâche : tuer 3 monstres d'élite (300 PV ou plus) dans la zone 2"
+				""
+				"Récompense : 413 XP, 170 Éclats"
+				"Revient chaque jour."
+			]
+			tasks: [
+				{
+					id: "000F02AFB68A19A6"
+					type: "custom"
+					title: "tuer 3 monstres d'élite (300 PV ou plus) dans la zone 2"
+				}
+			]
+			rewards: [
+				{
+					id: "000A8AD8AF1494D9"
+					type: "command"
+					title: "413 XP"
+					command: "/shonenquete recompense {p} contrats_contrat_elite_de_la_zone_2"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:paper"
+			dependencies: [
+				"000669D6F16FC91A"
+			]
+			can_repeat: true
+			repeat_cooldown: 86400
+		}
+		{
+			id: "000C20E337348025"
+			title: "Contrat : chasse de la zone 3"
+			subtitle: "Niveau 59"
+			x: 6.0d
+			y: 0.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"contrats_contrat_chasse_de_la_zone_3"
+			]
+			description: [
+				"L'école paie pour garder la zone 3 sûre : bats vingt"
+				"monstres là-bas. Revient chaque jour."
+				""
+				"Tâche : tuer 20 monstres dans la zone 3"
+				""
+				"Récompense : 629 XP, 125 Éclats"
+				"Revient chaque jour."
+			]
+			tasks: [
+				{
+					id: "0001329E7CD226AB"
+					type: "custom"
+					title: "tuer 20 monstres dans la zone 3"
+				}
+			]
+			rewards: [
+				{
+					id: "000249806951A5AA"
+					type: "command"
+					title: "629 XP"
+					command: "/shonenquete recompense {p} contrats_contrat_chasse_de_la_zone_3"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:paper"
+			dependencies: [
+				"00028F8CCD9DC543"
+			]
+			can_repeat: true
+			repeat_cooldown: 86400
+		}
+		{
+			id: "000ADA15B6C69E48"
+			title: "Contrat : élite de la zone 3"
+			subtitle: "Niveau 70"
+			x: 6.0d
+			y: 1.5d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"contrats_contrat_elite_de_la_zone_3"
+			]
+			description: [
+				"Des monstres d'élite rôdent dans la zone 3. Abats-en trois."
+				"Revient chaque jour."
+				""
+				"Tâche : tuer 3 monstres d'élite (300 PV ou plus) dans la zone 3"
+				""
+				"Récompense : 763 XP, 290 Éclats"
+				"Revient chaque jour."
+			]
+			tasks: [
+				{
+					id: "00096692FC5CCF2D"
+					type: "custom"
+					title: "tuer 3 monstres d'élite (300 PV ou plus) dans la zone 3"
+				}
+			]
+			rewards: [
+				{
+					id: "0001307549B9A6C4"
+					type: "command"
+					title: "763 XP"
+					command: "/shonenquete recompense {p} contrats_contrat_elite_de_la_zone_3"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:paper"
+			dependencies: [
+				"000C20E337348025"
+			]
+			can_repeat: true
+			repeat_cooldown: 86400
+		}
+		{
+			id: "000D5A278FB76479"
+			title: "Contrat : chasse de la zone 4"
+			subtitle: "Niveau 89"
+			x: 4.5d
+			y: 1.5d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"contrats_contrat_chasse_de_la_zone_4"
+			]
+			description: [
+				"L'école paie pour garder la zone 4 sûre : bats vingt"
+				"monstres là-bas. Revient chaque jour."
+				""
+				"Tâche : tuer 20 monstres dans la zone 4"
+				""
+				"Récompense : 1006 XP, 185 Éclats"
+				"Revient chaque jour."
+			]
+			tasks: [
+				{
+					id: "0000B2CDE5652C25"
+					type: "custom"
+					title: "tuer 20 monstres dans la zone 4"
+				}
+			]
+			rewards: [
+				{
+					id: "00064720A5D77C86"
+					type: "command"
+					title: "1006 XP"
+					command: "/shonenquete recompense {p} contrats_contrat_chasse_de_la_zone_4"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:paper"
+			dependencies: [
+				"000ADA15B6C69E48"
+			]
+			can_repeat: true
+			repeat_cooldown: 86400
+		}
+		{
+			id: "000C63EDBD69457C"
+			title: "Contrat : élite de la zone 4"
+			subtitle: "Niveau 100"
+			x: 3.0d
+			y: 1.5d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"contrats_contrat_elite_de_la_zone_4"
+			]
+			description: [
+				"Des monstres d'élite rôdent dans la zone 4. Abats-en trois."
+				"Revient chaque jour."
+				""
+				"Tâche : tuer 3 monstres d'élite (300 PV ou plus) dans la zone 4"
+				""
+				"Récompense : 1155 XP, 410 Éclats"
+				"Revient chaque jour."
+			]
+			tasks: [
+				{
+					id: "0003F210369A3391"
+					type: "custom"
+					title: "tuer 3 monstres d'élite (300 PV ou plus) dans la zone 4"
+				}
+			]
+			rewards: [
+				{
+					id: "000AF0AD9E3E8E0A"
+					type: "command"
+					title: "1155 XP"
+					command: "/shonenquete recompense {p} contrats_contrat_elite_de_la_zone_4"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:paper"
+			dependencies: [
+				"000D5A278FB76479"
+			]
+			can_repeat: true
+			repeat_cooldown: 86400
+		}
+		{
+			id: "000D0676253C7FC7"
+			title: "Contrat : chasse de la zone 5"
+			subtitle: "Niveau 119"
+			x: 1.5d
+			y: 1.5d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"contrats_contrat_chasse_de_la_zone_5"
+			]
+			description: [
+				"L'école paie pour garder la zone 5 sûre : bats vingt"
+				"monstres là-bas. Revient chaque jour."
+				""
+				"Tâche : tuer 20 monstres dans la zone 5"
+				""
+				"Récompense : 1426 XP, 245 Éclats"
+				"Revient chaque jour."
+			]
+			tasks: [
+				{
+					id: "0001C7C946E890E7"
+					type: "custom"
+					title: "tuer 20 monstres dans la zone 5"
+				}
+			]
+			rewards: [
+				{
+					id: "000833179BDBDEC8"
+					type: "command"
+					title: "1426 XP"
+					command: "/shonenquete recompense {p} contrats_contrat_chasse_de_la_zone_5"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:paper"
+			dependencies: [
+				"000C63EDBD69457C"
+			]
+			can_repeat: true
+			repeat_cooldown: 86400
+		}
+		{
+			id: "000188EB7DFCF949"
+			title: "Contrat : élite de la zone 5"
+			subtitle: "Niveau 130"
+			x: 0.0d
+			y: 1.5d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"contrats_contrat_elite_de_la_zone_5"
+			]
+			description: [
+				"Des monstres d'élite rôdent dans la zone 5. Abats-en trois."
+				"Revient chaque jour."
+				""
+				"Tâche : tuer 3 monstres d'élite (300 PV ou plus) dans la zone 5"
+				""
+				"Récompense : 1591 XP, 530 Éclats"
+				"Revient chaque jour."
+			]
+			tasks: [
+				{
+					id: "0008F6DC4A556402"
+					type: "custom"
+					title: "tuer 3 monstres d'élite (300 PV ou plus) dans la zone 5"
+				}
+			]
+			rewards: [
+				{
+					id: "00053D2BF74E0F1C"
+					type: "command"
+					title: "1591 XP"
+					command: "/shonenquete recompense {p} contrats_contrat_elite_de_la_zone_5"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:paper"
+			dependencies: [
+				"000D0676253C7FC7"
+			]
+			can_repeat: true
+			repeat_cooldown: 86400
+		}
+	]
+	quest_links: [ ]
+}

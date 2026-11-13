@@ -1,0 +1,28 @@
+{
+ "name": "Progresser",
+ "category": "patchouli:bleach",
+ "icon": "minecraft:experience_bottle",
+ "read_by_default": true,
+ "sortnum": 2,
+ "pages": [
+  {
+   "type": "patchouli:text",
+   "text": "Tue des $(l)Hollows$() : XP spirituelle, partagée entre ceux qui frappent.$(br)$(l)Points d'épée$() : ils viennent avec tes niveaux ($(l)500 au niveau 40$()), +1 tous les 25 Hollows."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Shikai et Bankai",
+   "text": "$(l)Ta voie$() : choisis-la chez $(l)Urahara$() ([Choisir ma voie]) : gratuit la 1re fois, $(l)300 Éclats$() pour changer. Tes points d'épée s'y placent tout seuls.$(br)Ou à la main : $(l)Maj + clic droit$() sur ton sabre nommé, le plus fort donne ta voie. Feu + Glace : Eau. Lumière + Ténèbres : Lune. Vent + Lumière : Foudre."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Éveiller le Shikai",
+   "text": "Sabre nommé, 500 points placés, puis :$(br)1. niveau $(l)40$() ;$(br)2. médite $(l)60 s$() sans bouger ($(l)$(k:key.bleachreborn.meditation)$()) dans le lieu de ton élément (Feu : Nether, Glace : neige, Eau : océan). $(l)Lune$() : de $(l)nuit$() près d'une torche, jusqu'à l'$(l)aube$() ;$(br)3. touche $(l)$(k:key.bleachreborn.activate)$().$(br2)$(l)Bankai$() : niveau $(l)100$(), examen S, moi intérieur."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "À savoir",
+   "text": "$(l)Hollow$() : tu évolues. Menos (15), Adjuchas (40), Arrancar (70).$(br)$(l)Vizard$() (70) : avec le Shikai, chasse 500 Hollows, puis touche le Hōgyoku.$(br)$(l)Capitaines$() : les 13 premiers à avoir le Shikai peuvent le devenir (dégâts ×2, un Lieutenant ×1,5).$(br)$(l)Appât à Hollows$() : il en fait venir.$(br)$(l)/bleachbook$() : le guide du mod."
+  }
+ ]
+}

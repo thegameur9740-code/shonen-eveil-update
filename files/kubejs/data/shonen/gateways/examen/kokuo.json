@@ -1,0 +1,63 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ninshuorigins"
+    }
+  ],
+  "size": "large",
+  "color": "#F08C00",
+  "waves": [
+    {
+      "entities": [
+        {
+          "entity": "ninshuorigins:ninja",
+          "count": 6
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 2400,
+      "setup_time": 100
+    },
+    {
+      "entities": [
+        {
+          "entity": "ninshuorigins:ninja",
+          "count": 4
+        },
+        {
+          "entity": "ninshuorigins:white_zetsu",
+          "count": 2
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 3000,
+      "setup_time": 160
+    },
+    {
+      "entities": [
+        {
+          "entity": "ninshuorigins:kukuo",
+          "desc": "shonen.examen.boss.kokuo",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 14400,
+      "setup_time": 200
+    }
+  ],
+  "rewards": [
+    {
+      "type": "gateways:command",
+      "command": "grands_ennemis examen <summoner> kokuo",
+      "desc": "shonen.examen.points.S"
+    }
+  ],
+  "failures": [],
+  "rules": {
+    "spawn_range": 10,
+    "leash_range": 48,
+    "allow_discarding": true
+  }
+}

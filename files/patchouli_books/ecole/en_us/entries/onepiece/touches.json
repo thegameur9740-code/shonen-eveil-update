@@ -1,0 +1,13 @@
+{
+ "name": "Tes touches",
+ "category": "patchouli:onepiece",
+ "icon": "minecraft:stone_button",
+ "read_by_default": true,
+ "sortnum": 1,
+ "pages": [
+  {
+   "type": "patchouli:text",
+   "text": "$(l)$(k:key.minepiece.key_start_technique)$() utiliser$(br)$(l)$(k:key.minepiece.key_change_technique)$() choisir (Maj : en arrière)$(br)$(l)$(k:key.minepiece.key_switch_technique)$() technique de base / du fruit$(br)$(l)$(k:key.minepiece.key_battle_mode)$() mode combat$(br)$(l)$(k:key.minepiece.key_transform)$() se transformer$(br)$(l)$(k:key.minepiece.key_haoshoku_haki)$() Haki des rois$(br2)Pas de touche : cet univers n'est pas à toi."
+  }
+ ]
+}

@@ -1,0 +1,2471 @@
+{
+  "racine": {
+    "title": "Le Joueur",
+    "description": "Une fenêtre bleue s'ouvre : quête quotidienne acceptée. Effet : +2,5 PV max, +3 % expérience gagnée.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:enchanted_book"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 2.5,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:experience",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "a1": {
+    "title": "Dague rapide I",
+    "description": "Plus vite que l'œil. Effet : +1,64 % dégâts de mêlée.",
+    "extra_description": "Branche « Lame de l'ombre ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0164,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "arbre_univers_sololeveling_lame_de_l_ombre"
+        }
+      }
+    ]
+  },
+  "a2": {
+    "title": "Dague rapide II",
+    "description": "Plus vite que l'œil. Effet : +1,64 % dégâts de mêlée.",
+    "extra_description": "Branche « Lame de l'ombre ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0164,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "a3": {
+    "title": "Dague rapide III",
+    "description": "Plus vite que l'œil. Effet : +1,64 % dégâts de mêlée.",
+    "extra_description": "Branche « Lame de l'ombre ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0164,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "a4": {
+    "title": "Dague rapide IV",
+    "description": "Plus vite que l'œil. Effet : +1,64 % dégâts de mêlée.",
+    "extra_description": "Branche « Lame de l'ombre ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0164,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "a5": {
+    "title": "Pas furtif I",
+    "description": "Les monstres te voient trop tard. Effet : +0,12 discrétion, +0,75 % vitesse de déplacement.",
+    "extra_description": "Branche « Lame de l'ombre ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_boots"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:stealth",
+          "value": 0.12,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.movement_speed",
+          "value": 0.0075,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "a6": {
+    "title": "Pas furtif II",
+    "description": "Les monstres te voient trop tard. Effet : +0,12 discrétion, +0,75 % vitesse de déplacement.",
+    "extra_description": "Branche « Lame de l'ombre ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_boots"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:stealth",
+          "value": 0.12,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.movement_speed",
+          "value": 0.0075,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "a7": {
+    "title": "Pas furtif III",
+    "description": "Les monstres te voient trop tard. Effet : +0,12 discrétion, +0,75 % vitesse de déplacement.",
+    "extra_description": "Branche « Lame de l'ombre ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_boots"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:stealth",
+          "value": 0.12,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.movement_speed",
+          "value": 0.0075,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "a8": {
+    "title": "Pas furtif IV",
+    "description": "Les monstres te voient trop tard. Effet : +0,12 discrétion, +0,75 % vitesse de déplacement.",
+    "extra_description": "Branche « Lame de l'ombre ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_boots"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:stealth",
+          "value": 0.12,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.movement_speed",
+          "value": 0.0075,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "a9": {
+    "title": "Point vital I",
+    "description": "Tu sais où frapper. Effet : +1 % chance de coup critique, +2 % dégâts critiques.",
+    "extra_description": "Branche « Lame de l'ombre ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:spider_eye"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_damage",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a10": {
+    "title": "Point vital II",
+    "description": "Tu sais où frapper. Effet : +1 % chance de coup critique, +2 % dégâts critiques.",
+    "extra_description": "Branche « Lame de l'ombre ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:spider_eye"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_damage",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a11": {
+    "title": "Point vital III",
+    "description": "Tu sais où frapper. Effet : +1 % chance de coup critique, +2 % dégâts critiques.",
+    "extra_description": "Branche « Lame de l'ombre ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:spider_eye"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_damage",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a12": {
+    "title": "Point vital IV",
+    "description": "Tu sais où frapper. Effet : +1 % chance de coup critique, +2 % dégâts critiques.",
+    "extra_description": "Branche « Lame de l'ombre ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:spider_eye"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_damage",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a13": {
+    "title": "Danse des lames I",
+    "description": "Tes coups s'enchaînent sans fin. Effet : +0,05 vitesse d'attaque, +1,32 % dégâts de mêlée.",
+    "extra_description": "Branche « Lame de l'ombre ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:clock"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_speed",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0132,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "a14": {
+    "title": "Danse des lames II",
+    "description": "Tes coups s'enchaînent sans fin. Effet : +0,05 vitesse d'attaque, +1,32 % dégâts de mêlée.",
+    "extra_description": "Branche « Lame de l'ombre ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:clock"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_speed",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0132,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "a15": {
+    "title": "Danse des lames III",
+    "description": "Tes coups s'enchaînent sans fin. Effet : +0,05 vitesse d'attaque, +1,32 % dégâts de mêlée.",
+    "extra_description": "Branche « Lame de l'ombre ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:clock"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_speed",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0132,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "a16": {
+    "title": "Danse des lames IV",
+    "description": "Tes coups s'enchaînent sans fin. Effet : +0,05 vitesse d'attaque, +1,32 % dégâts de mêlée.",
+    "extra_description": "Branche « Lame de l'ombre ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:clock"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_speed",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0132,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "a17": {
+    "title": "Meurtre furtif I",
+    "description": "Un coup, un mort. Effet : +4 % dégâts critiques, +1 % chance d'esquive.",
+    "extra_description": "Branche « Lame de l'ombre ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wither_rose"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_damage",
+          "value": 0.04,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:dodge_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a18": {
+    "title": "Meurtre furtif II",
+    "description": "Un coup, un mort. Effet : +4 % dégâts critiques, +1 % chance d'esquive.",
+    "extra_description": "Branche « Lame de l'ombre ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wither_rose"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_damage",
+          "value": 0.04,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:dodge_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a19": {
+    "title": "Meurtre furtif III",
+    "description": "Un coup, un mort. Effet : +4 % dégâts critiques, +1 % chance d'esquive.",
+    "extra_description": "Branche « Lame de l'ombre ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wither_rose"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_damage",
+          "value": 0.04,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:dodge_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a20": {
+    "title": "Meurtre furtif IV",
+    "description": "Un coup, un mort. Effet : +4 % dégâts critiques, +1 % chance d'esquive.",
+    "extra_description": "Branche « Lame de l'ombre ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wither_rose"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_damage",
+          "value": 0.04,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:dodge_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a21": {
+    "title": "Monarque des ombres I",
+    "description": "Les ombres se battent avec toi. Effet : +3,29 % dégâts de mêlée, +0,01 vol de vie, +1,25 PV max.",
+    "extra_description": "Branche « Lame de l'ombre ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0329,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:life_steal",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a22": {
+    "title": "Monarque des ombres II",
+    "description": "Les ombres se battent avec toi. Effet : +3,29 % dégâts de mêlée, +0,01 vol de vie, +1,25 PV max.",
+    "extra_description": "Branche « Lame de l'ombre ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0329,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:life_steal",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a23": {
+    "title": "Monarque des ombres III",
+    "description": "Les ombres se battent avec toi. Effet : +3,29 % dégâts de mêlée, +0,01 vol de vie, +1,25 PV max.",
+    "extra_description": "Branche « Lame de l'ombre ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 5,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0329,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:life_steal",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a24": {
+    "title": "Monarque des ombres IV",
+    "description": "Les ombres se battent avec toi. Effet : +3,29 % dégâts de mêlée, +0,01 vol de vie, +1,25 PV max.",
+    "extra_description": "Branche « Lame de l'ombre ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 5,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0329,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:life_steal",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b1": {
+    "title": "Mana I",
+    "description": "Ta réserve de mana grandit. Effet : +1,49 % dégâts magiques.",
+    "extra_description": "Branche « Arcanes ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:lapis_lazuli"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0149,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "arbre_univers_sololeveling_arcanes"
+        }
+      }
+    ]
+  },
+  "b2": {
+    "title": "Mana II",
+    "description": "Ta réserve de mana grandit. Effet : +1,49 % dégâts magiques.",
+    "extra_description": "Branche « Arcanes ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:lapis_lazuli"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0149,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b3": {
+    "title": "Mana III",
+    "description": "Ta réserve de mana grandit. Effet : +1,49 % dégâts magiques.",
+    "extra_description": "Branche « Arcanes ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:lapis_lazuli"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0149,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b4": {
+    "title": "Mana IV",
+    "description": "Ta réserve de mana grandit. Effet : +1,49 % dégâts magiques.",
+    "extra_description": "Branche « Arcanes ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:lapis_lazuli"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0149,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b5": {
+    "title": "Tir chargé I",
+    "description": "Tes flèches partent plus vite et plus loin. Effet : +2,21 % dégâts à distance, +2,5 % vitesse de tension de l'arc.",
+    "extra_description": "Branche « Arcanes ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bow"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:ranged_damage",
+          "value": 0.0221,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:draw_speed",
+          "value": 0.025,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b6": {
+    "title": "Tir chargé II",
+    "description": "Tes flèches partent plus vite et plus loin. Effet : +2,21 % dégâts à distance, +2,5 % vitesse de tension de l'arc.",
+    "extra_description": "Branche « Arcanes ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bow"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:ranged_damage",
+          "value": 0.0221,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:draw_speed",
+          "value": 0.025,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b7": {
+    "title": "Tir chargé III",
+    "description": "Tes flèches partent plus vite et plus loin. Effet : +2,21 % dégâts à distance, +2,5 % vitesse de tension de l'arc.",
+    "extra_description": "Branche « Arcanes ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bow"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:ranged_damage",
+          "value": 0.0221,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:draw_speed",
+          "value": 0.025,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b8": {
+    "title": "Tir chargé IV",
+    "description": "Tes flèches partent plus vite et plus loin. Effet : +2,21 % dégâts à distance, +2,5 % vitesse de tension de l'arc.",
+    "extra_description": "Branche « Arcanes ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bow"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:ranged_damage",
+          "value": 0.0221,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:draw_speed",
+          "value": 0.025,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b9": {
+    "title": "Soin I",
+    "description": "Tes sorts referment les plaies. Effet : +2,5 % soins reçus, +2,5 % régénération naturelle.",
+    "extra_description": "Branche « Arcanes ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glistering_melon_slice"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:healing",
+          "value": 0.025,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.025,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b10": {
+    "title": "Soin II",
+    "description": "Tes sorts referment les plaies. Effet : +2,5 % soins reçus, +2,5 % régénération naturelle.",
+    "extra_description": "Branche « Arcanes ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glistering_melon_slice"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:healing",
+          "value": 0.025,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.025,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b11": {
+    "title": "Soin III",
+    "description": "Tes sorts referment les plaies. Effet : +2,5 % soins reçus, +2,5 % régénération naturelle.",
+    "extra_description": "Branche « Arcanes ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glistering_melon_slice"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:healing",
+          "value": 0.025,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.025,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b12": {
+    "title": "Soin IV",
+    "description": "Tes sorts referment les plaies. Effet : +2,5 % soins reçus, +2,5 % régénération naturelle.",
+    "extra_description": "Branche « Arcanes ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glistering_melon_slice"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:healing",
+          "value": 0.025,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.025,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b13": {
+    "title": "Barrière de mana I",
+    "description": "Un bouclier de lumière bleue. Effet : +1,25 % réduction des dégâts magiques subis, +0,4 % réduction des dégâts subis.",
+    "extra_description": "Branche « Arcanes ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:shield"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_resistance",
+          "value": 0.0125,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:resistance",
+          "value": 0.004,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b14": {
+    "title": "Barrière de mana II",
+    "description": "Un bouclier de lumière bleue. Effet : +1,25 % réduction des dégâts magiques subis, +0,4 % réduction des dégâts subis.",
+    "extra_description": "Branche « Arcanes ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:shield"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_resistance",
+          "value": 0.0125,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:resistance",
+          "value": 0.004,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b15": {
+    "title": "Barrière de mana III",
+    "description": "Un bouclier de lumière bleue. Effet : +1,25 % réduction des dégâts magiques subis, +0,4 % réduction des dégâts subis.",
+    "extra_description": "Branche « Arcanes ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:shield"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_resistance",
+          "value": 0.0125,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:resistance",
+          "value": 0.004,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b16": {
+    "title": "Barrière de mana IV",
+    "description": "Un bouclier de lumière bleue. Effet : +1,25 % réduction des dégâts magiques subis, +0,4 % réduction des dégâts subis.",
+    "extra_description": "Branche « Arcanes ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:shield"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_resistance",
+          "value": 0.0125,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:resistance",
+          "value": 0.004,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b17": {
+    "title": "Sort de zone I",
+    "description": "Le sort qui vide une salle de donjon. Effet : +1,79 % dégâts magiques, +1,84 % dégâts à distance.",
+    "extra_description": "Branche « Arcanes ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:fire_charge"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0179,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:ranged_damage",
+          "value": 0.0184,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b18": {
+    "title": "Sort de zone II",
+    "description": "Le sort qui vide une salle de donjon. Effet : +1,79 % dégâts magiques, +1,84 % dégâts à distance.",
+    "extra_description": "Branche « Arcanes ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:fire_charge"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0179,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:ranged_damage",
+          "value": 0.0184,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b19": {
+    "title": "Sort de zone III",
+    "description": "Le sort qui vide une salle de donjon. Effet : +1,79 % dégâts magiques, +1,84 % dégâts à distance.",
+    "extra_description": "Branche « Arcanes ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:fire_charge"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0179,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:ranged_damage",
+          "value": 0.0184,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b20": {
+    "title": "Sort de zone IV",
+    "description": "Le sort qui vide une salle de donjon. Effet : +1,79 % dégâts magiques, +1,84 % dégâts à distance.",
+    "extra_description": "Branche « Arcanes ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:fire_charge"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0179,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:ranged_damage",
+          "value": 0.0184,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b21": {
+    "title": "Archimage I",
+    "description": "Le rang S des mages. Effet : +2,98 % dégâts magiques, +2,21 % dégâts à distance, +1,25 PV max.",
+    "extra_description": "Branche « Arcanes ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0298,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:ranged_damage",
+          "value": 0.0221,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b22": {
+    "title": "Archimage II",
+    "description": "Le rang S des mages. Effet : +2,98 % dégâts magiques, +2,21 % dégâts à distance, +1,25 PV max.",
+    "extra_description": "Branche « Arcanes ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0298,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:ranged_damage",
+          "value": 0.0221,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b23": {
+    "title": "Archimage III",
+    "description": "Le rang S des mages. Effet : +2,98 % dégâts magiques, +2,21 % dégâts à distance, +1,25 PV max.",
+    "extra_description": "Branche « Arcanes ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 5,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0298,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:ranged_damage",
+          "value": 0.0221,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b24": {
+    "title": "Archimage IV",
+    "description": "Le rang S des mages. Effet : +2,98 % dégâts magiques, +2,21 % dégâts à distance, +1,25 PV max.",
+    "extra_description": "Branche « Arcanes ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 5,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0298,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:ranged_damage",
+          "value": 0.0221,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "c1": {
+    "title": "Quête quotidienne I",
+    "description": "Pompes, abdos, course : tous les jours. Effet : +0,12 endurance (faim), +0,62 PV max.",
+    "extra_description": "Branche « Le Système ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:cooked_beef"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:stamina",
+          "value": 0.12,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 0.62,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "arbre_univers_sololeveling_le_systeme"
+        }
+      }
+    ]
+  },
+  "c2": {
+    "title": "Quête quotidienne II",
+    "description": "Pompes, abdos, course : tous les jours. Effet : +0,12 endurance (faim), +0,62 PV max.",
+    "extra_description": "Branche « Le Système ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:cooked_beef"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:stamina",
+          "value": 0.12,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 0.62,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "c3": {
+    "title": "Quête quotidienne III",
+    "description": "Pompes, abdos, course : tous les jours. Effet : +0,12 endurance (faim), +0,62 PV max.",
+    "extra_description": "Branche « Le Système ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:cooked_beef"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:stamina",
+          "value": 0.12,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 0.62,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "c4": {
+    "title": "Quête quotidienne IV",
+    "description": "Pompes, abdos, course : tous les jours. Effet : +0,12 endurance (faim), +0,62 PV max.",
+    "extra_description": "Branche « Le Système ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:cooked_beef"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:stamina",
+          "value": 0.12,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 0.62,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "c5": {
+    "title": "Statistiques I",
+    "description": "Tes points vont où il faut. Effet : +0,12 dégâts d'attaque, +0,75 % vitesse de déplacement.",
+    "extra_description": "Branche « Le Système ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:paper"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_damage",
+          "value": 0.12,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.movement_speed",
+          "value": 0.0075,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c6": {
+    "title": "Statistiques II",
+    "description": "Tes points vont où il faut. Effet : +0,12 dégâts d'attaque, +0,75 % vitesse de déplacement.",
+    "extra_description": "Branche « Le Système ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:paper"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_damage",
+          "value": 0.12,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.movement_speed",
+          "value": 0.0075,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c7": {
+    "title": "Statistiques III",
+    "description": "Tes points vont où il faut. Effet : +0,12 dégâts d'attaque, +0,75 % vitesse de déplacement.",
+    "extra_description": "Branche « Le Système ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:paper"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_damage",
+          "value": 0.12,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.movement_speed",
+          "value": 0.0075,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c8": {
+    "title": "Statistiques IV",
+    "description": "Tes points vont où il faut. Effet : +0,12 dégâts d'attaque, +0,75 % vitesse de déplacement.",
+    "extra_description": "Branche « Le Système ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:paper"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_damage",
+          "value": 0.12,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.movement_speed",
+          "value": 0.0075,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c9": {
+    "title": "Résistance au poison I",
+    "description": "Le Système te protège. Effet : +1 % réduction des dégâts magiques subis.",
+    "extra_description": "Branche « Le Système ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:milk_bucket"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_resistance",
+          "value": 0.01,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c10": {
+    "title": "Résistance au poison II",
+    "description": "Le Système te protège. Effet : +1 % réduction des dégâts magiques subis.",
+    "extra_description": "Branche « Le Système ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:milk_bucket"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_resistance",
+          "value": 0.01,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c11": {
+    "title": "Résistance au poison III",
+    "description": "Le Système te protège. Effet : +1 % réduction des dégâts magiques subis.",
+    "extra_description": "Branche « Le Système ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:milk_bucket"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_resistance",
+          "value": 0.01,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c12": {
+    "title": "Résistance au poison IV",
+    "description": "Le Système te protège. Effet : +1 % réduction des dégâts magiques subis.",
+    "extra_description": "Branche « Le Système ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:milk_bucket"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_resistance",
+          "value": 0.01,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c13": {
+    "title": "Butin de donjon I",
+    "description": "Les donjons te récompensent mieux. Effet : +0,25 chance, +0,06 fortune.",
+    "extra_description": "Branche « Le Système ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:chest"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.luck",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:fortune",
+          "value": 0.06,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "c14": {
+    "title": "Butin de donjon II",
+    "description": "Les donjons te récompensent mieux. Effet : +0,25 chance, +0,06 fortune.",
+    "extra_description": "Branche « Le Système ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:chest"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.luck",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:fortune",
+          "value": 0.06,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "c15": {
+    "title": "Butin de donjon III",
+    "description": "Les donjons te récompensent mieux. Effet : +0,25 chance, +0,06 fortune.",
+    "extra_description": "Branche « Le Système ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:chest"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.luck",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:fortune",
+          "value": 0.06,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "c16": {
+    "title": "Butin de donjon IV",
+    "description": "Les donjons te récompensent mieux. Effet : +0,25 chance, +0,06 fortune.",
+    "extra_description": "Branche « Le Système ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:chest"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.luck",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:fortune",
+          "value": 0.06,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "c17": {
+    "title": "Rang S I",
+    "description": "Tu fais partie des plus grands chasseurs. Effet : +1,25 PV max, +0,6 % réduction des dégâts subis.",
+    "extra_description": "Branche « Le Système ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:diamond"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1.25,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:resistance",
+          "value": 0.006,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c18": {
+    "title": "Rang S II",
+    "description": "Tu fais partie des plus grands chasseurs. Effet : +1,25 PV max, +0,6 % réduction des dégâts subis.",
+    "extra_description": "Branche « Le Système ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:diamond"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1.25,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:resistance",
+          "value": 0.006,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c19": {
+    "title": "Rang S III",
+    "description": "Tu fais partie des plus grands chasseurs. Effet : +1,25 PV max, +0,6 % réduction des dégâts subis.",
+    "extra_description": "Branche « Le Système ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:diamond"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1.25,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:resistance",
+          "value": 0.006,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c20": {
+    "title": "Rang S IV",
+    "description": "Tu fais partie des plus grands chasseurs. Effet : +1,25 PV max, +0,6 % réduction des dégâts subis.",
+    "extra_description": "Branche « Le Système ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:diamond"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1.25,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:resistance",
+          "value": 0.006,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  }
+}

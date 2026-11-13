@@ -1,0 +1,300 @@
+{
+	id: "00065BC6B5B447CE"
+	group: ""
+	order_index: 4
+	filename: "paliers"
+	title: "Les Paliers"
+	icon: "minecraft:experience_bottle"
+	subtitle: [
+		"Une quête par verrou de niveau : elle dit quel examen passer et se coche à la"
+		"réussite."
+	]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 5.62d
+			y: 0.0d
+			width: 14.25d
+			height: 3.5d
+			rotation: 0.0d
+			image: "shonen:textures/quetes/bg_paliers.png"
+			color: 16777215
+			alpha: 235
+			order: -11
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 5.62d
+			y: 0.0d
+			width: 30.0d
+			height: 21.94d
+			rotation: 0.0d
+			image: "shonen:textures/quetes/plein_paliers.png"
+			color: 16777215
+			alpha: 255
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			id: "000651BCE236AB10"
+			title: "Le palier C"
+			subtitle: "Niveau 15"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"paliers_le_palier_c"
+			]
+			description: [
+				"Ton premier examen. Choisis une salle, un examen de rang C,"
+				"et prouve que tu peux sortir des murs."
+				""
+				"Tâche : réussir un examen de rang C dans n'importe quelle salle (débloque le niveau)"
+				""
+				"quête-miroir du verrou ; cochée par ecole.js"
+				""
+				"Récompense : 155 XP, 70 Éclats"
+			]
+			tasks: [
+				{
+					id: "0004A37116720864"
+					type: "custom"
+					title: "réussir un examen de rang C dans n'importe quelle salle (déb"
+				}
+			]
+			rewards: [
+				{
+					id: "00050ECAD98C9D98"
+					type: "command"
+					title: "155 XP"
+					command: "/shonenquete recompense {p} paliers_le_palier_c"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:experience_bottle"
+		}
+		{
+			id: "0001BE4C70C822A2"
+			title: "Le palier B"
+			subtitle: "Niveau 40"
+			x: 2.25d
+			y: 0.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"paliers_le_palier_b"
+			]
+			description: [
+				"Niveau 40 : le monde sauvage ne te suffit plus. Un examen de"
+				"rang B débloque la suite."
+				""
+				"Tâche : réussir un examen de rang B dans n'importe quelle salle (débloque le niveau)"
+				""
+				"quête-miroir du verrou ; cochée par ecole.js"
+				""
+				"Récompense : 413 XP, 170 Éclats"
+			]
+			tasks: [
+				{
+					id: "00096610904B041D"
+					type: "custom"
+					title: "réussir un examen de rang B dans n'importe quelle salle (déb"
+				}
+			]
+			rewards: [
+				{
+					id: "0008A0BEA9F872A1"
+					type: "command"
+					title: "413 XP"
+					command: "/shonenquete recompense {p} paliers_le_palier_b"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:experience_bottle"
+			dependencies: [
+				"000651BCE236AB10"
+			]
+		}
+		{
+			id: "000AFA3440E61B13"
+			title: "Le palier A"
+			subtitle: "Niveau 70"
+			x: 4.5d
+			y: 0.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"paliers_le_palier_a"
+			]
+			description: [
+				"Niveau 70 : les vrais monstres t'attendent. Réussis un"
+				"examen de rang A."
+				""
+				"Tâche : réussir un examen de rang A dans n'importe quelle salle (débloque le niveau)"
+				""
+				"quête-miroir du verrou ; cochée par ecole.js"
+				""
+				"Récompense : 763 XP, 290 Éclats"
+			]
+			tasks: [
+				{
+					id: "000F4F2719AF5123"
+					type: "custom"
+					title: "réussir un examen de rang A dans n'importe quelle salle (déb"
+				}
+			]
+			rewards: [
+				{
+					id: "000AB21CF2F6CEC7"
+					type: "command"
+					title: "763 XP"
+					command: "/shonenquete recompense {p} paliers_le_palier_a"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:experience_bottle"
+			dependencies: [
+				"0001BE4C70C822A2"
+			]
+		}
+		{
+			id: "00026DF3B0291B42"
+			title: "Le palier S"
+			subtitle: "Niveau 100"
+			x: 6.75d
+			y: 0.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"paliers_le_palier_s"
+			]
+			description: [
+				"Niveau 100 : il ne reste que les légendes. Un examen de rang"
+				"S, et tu es parmi elles."
+				""
+				"Tâche : réussir un examen de rang S dans n'importe quelle salle (débloque le niveau)"
+				""
+				"quête-miroir du verrou ; cochée par ecole.js"
+				""
+				"Récompense : 1155 XP, 410 Éclats"
+			]
+			tasks: [
+				{
+					id: "00033D076202EEAE"
+					type: "custom"
+					title: "réussir un examen de rang S dans n'importe quelle salle (déb"
+				}
+			]
+			rewards: [
+				{
+					id: "0007189B292F2EBC"
+					type: "command"
+					title: "1155 XP"
+					command: "/shonenquete recompense {p} paliers_le_palier_s"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:experience_bottle"
+			dependencies: [
+				"000AFA3440E61B13"
+			]
+		}
+		{
+			id: "00054F40D8D959FB"
+			title: "Le palier S+"
+			subtitle: "Niveau 130"
+			x: 9.0d
+			y: 0.0d
+			shape: "gear"
+			size: 1.5d
+			tags: [
+				"paliers_le_palier_s_plus"
+			]
+			description: [
+				"Niveau 130 : bats le boss final d'une salle pour atteindre"
+				"tes derniers niveaux."
+				""
+				"Tâche : vaincre un boss final de salle (débloque les derniers niveaux)"
+				""
+				"Récompense : 1591 XP, 530 Éclats"
+			]
+			tasks: [
+				{
+					id: "000DB254C63B3294"
+					type: "custom"
+					title: "vaincre un boss final de salle (débloque les derniers niveau"
+				}
+			]
+			rewards: [
+				{
+					id: "000B0A1B03994553"
+					type: "command"
+					title: "1591 XP"
+					command: "/shonenquete recompense {p} paliers_le_palier_s_plus"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:experience_bottle"
+			dependencies: [
+				"00026DF3B0291B42"
+			]
+		}
+		{
+			id: "000A47C27D011CA4"
+			title: "Éveillé accompli"
+			subtitle: "Niveau 150"
+			x: 11.25d
+			y: 0.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"paliers_eveille_accompli"
+			]
+			description: [
+				"Niveau 150. Ta flamme est complète. Le multivers te doit"
+				"beaucoup."
+				""
+				"Tâche : atteindre le niveau 150"
+				""
+				"Récompense : 1905 XP, 305 Éclats"
+			]
+			tasks: [
+				{
+					id: "000D11B7DF53EAF2"
+					type: "custom"
+					title: "atteindre le niveau 150"
+				}
+			]
+			rewards: [
+				{
+					id: "00025CD71730F7B8"
+					type: "command"
+					title: "1905 XP"
+					command: "/shonenquete recompense {p} paliers_eveille_accompli"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:experience_bottle"
+			dependencies: [
+				"00054F40D8D959FB"
+			]
+		}
+	]
+	quest_links: [ ]
+}

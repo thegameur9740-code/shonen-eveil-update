@@ -1,0 +1,22 @@
+{
+ "name": "L'essentiel",
+ "category": "patchouli:bleach",
+ "icon": "minecraft:iron_sword",
+ "read_by_default": true,
+ "sortnum": 0,
+ "pages": [
+  {
+   "type": "patchouli:image",
+   "images": [
+    "shonen:textures/livre/ill_bleach.png"
+   ],
+   "border": false,
+   "text": "Urahara : « Un client ? Non, un élève. C'est encore mieux. »"
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Ce que tu es",
+   "text": "$(l)Shinigami$(), $(l)Quincy$(), $(l)Hollow$() ou $(l)Fullbringer$() : choisi dans le menu du chat.$(br)Tout repose sur ta $(l)pression spirituelle$().$(br2)$(l)Commencer$() :$(li)Shinigami : donne un $(l)nom$() à ton zanpakutō ;$(li)$(l)médite$() au calme : $(l)$(k:key.bleachreborn.meditation)$() ;$(li)essaie le pas éclair et le cero au $(l)dojo$()."
+  }
+ ]
+}

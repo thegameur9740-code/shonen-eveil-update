@@ -1,0 +1,22 @@
+{
+ "univers": "mha",
+ "nom": "All Might",
+ "role": "le Symbole de la paix",
+ "corps": "quirksunchained:all_might",
+ "salut": {
+  "tien": "N'aie pas peur ! Un héros est là. Et à partir d'aujourd'hui, tu en es un aussi.",
+  "autre": "Un héros n'a pas besoin d'un Alter pour tendre la main. Approche !"
+ },
+ "sujets": {
+  "monde": "Ici, presque tout le monde naît avec un Alter, un pouvoir unique. Le tien a été tiré au hasard à l'Éveil, et la mort ne te le prendra pas. La Ligue des vilains, elle, veut tout faire tomber.",
+  "commencer": "Ton Alter a ses touches, regarde /touches. La carte du joueur te montre ton Alter et son niveau. Essaie-le au dojo : certains Alters font plus de dégâts qu'on ne croit.",
+  "fort": "Ton Alter monte de niveau en combattant, jusqu'à ton niveau d'Éveillé. Au rang A, le maître d'armes de cette salle t'apprendra un style de combat. Et si tu bats All For One, peut-être que… non, je n'en dis pas plus.",
+  "aller": "Lignée de My Hero Academia : des ruelles de Hosu à l'hôpital de Jaku, jusqu'à Shigaraki. Mes examens : de Moonfish à All For One. Ta Boussole de lignée, réglée sur My Hero Academia (clic droit), te montre ta prochaine étape."
+ },
+ "encouragements": [
+  "Plus Ultra ! Va toujours plus loin !",
+  "Un héros sourit, même quand c’est dur. Surtout quand c’est dur.",
+  "Tu n’es pas seul : un héros compte sur les autres."
+ ],
+ "a_verifier": []
+}

@@ -1,0 +1,1717 @@
+{
+	id: "00039E72DEF5F087"
+	group: ""
+	order_index: 11
+	filename: "naruto"
+	title: "Naruto"
+	icon: "ninshuorigins:rasengan"
+	subtitle: [
+		"La salle de Naruto (maître, guide), ses examens du rang C au boss final, les"
+		"paliers de la voie pour ceux qui ont l'univers, et la lignée d'histoire en 5"
+	]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 6.25d
+			y: 9.88d
+			width: 19.0d
+			height: 22.75d
+			rotation: 0.0d
+			image: "shonen:textures/quetes/bg_naruto.png"
+			color: 16777215
+			alpha: 235
+			order: -11
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 6.25d
+			y: 9.88d
+			width: 30.0d
+			height: 21.94d
+			rotation: 0.0d
+			image: "shonen:textures/quetes/plein_naruto.png"
+			color: 16777215
+			alpha: 255
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.75d
+			y: 0.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/writable_book.png"
+			color: 16777215
+			alpha: 255
+			order: 0
+			hover: [
+				"La salle"
+			]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.75d
+			y: 3.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/writable_book.png"
+			color: 16777215
+			alpha: 255
+			order: 0
+			hover: [
+				"Les examens de la salle"
+			]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.75d
+			y: 7.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/writable_book.png"
+			color: 16777215
+			alpha: 255
+			order: 0
+			hover: [
+				"La voie (si tu as cet univers)"
+			]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.75d
+			y: 10.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/writable_book.png"
+			color: 16777215
+			alpha: 255
+			order: 0
+			hover: [
+				"La lignée (histoire, ouverte à tous)"
+			]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			id: "000F5BB72C0E0D2D"
+			title: "Le maître de Naruto"
+			subtitle: "Niveau 3"
+			x: 0.0d
+			y: 0.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"naruto_le_maitre_de_naruto"
+			]
+			description: [
+				"Le maître de la salle Naruto t'attend. Parle-lui : il"
+				"t'ouvre la lignée de son univers."
+				""
+				"Tâche : parler au maître de la salle (Jiraya (ninshuorigins:jiraya))"
+				""
+				"Récompense : 42 XP, 10 Éclats"
+			]
+			tasks: [
+				{
+					id: "000C1284B45F21B0"
+					type: "custom"
+					title: "parler au maître de la salle (Jiraya (ninshuorigins:jiraya))"
+				}
+			]
+			rewards: [
+				{
+					id: "000D479B6EFBA04E"
+					type: "command"
+					title: "42 XP"
+					command: "/shonenquete recompense {p} naruto_le_maitre_de_naruto"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "ninshuorigins:rasengan"
+		}
+		{
+			id: "0009D732DE2E464D"
+			title: "Guide : Naruto"
+			subtitle: "Niveau 3"
+			x: 1.5d
+			y: 0.0d
+			shape: "circle"
+			size: 0.75d
+			tags: [
+				"naruto_guide_naruto"
+			]
+			description: [
+				"Chakra, ninjas, démons à queues : le monde des villages"
+				"cachés. Son guide est dans le Livre de l'école : comment"
+				"progresser, où aller."
+				""
+				"Tâche : lire le guide de l'univers dans le Livre de l'école"
+				""
+				"Récompense : 42 XP"
+			]
+			tasks: [
+				{
+					id: "000EAD3B4739E69F"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "000EDB9714BC2E48"
+					type: "command"
+					title: "42 XP"
+					command: "/shonenquete recompense {p} naruto_guide_naruto"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "ninshuorigins:questscroll"
+			dependencies: [
+				"000F5BB72C0E0D2D"
+			]
+		}
+		{
+			id: "00069404DB4D7A06"
+			title: "Examen C : Zabuza et Haku"
+			subtitle: "Niveau 15"
+			x: 0.0d
+			y: 3.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"naruto_examen_c_zabuza_et_haku"
+			]
+			description: [
+				"L'examen de rang C de la salle Naruto. Si Naruto est un de"
+				"tes univers, il ouvre aussi le palier C de ses pouvoirs."
+				""
+				"Tâche : réussir l'examen C de la salle Naruto"
+				""
+				"ouvre le palier C des pouvoirs de cet univers"
+				""
+				"Récompense : 155 XP, 70 Éclats"
+			]
+			tasks: [
+				{
+					id: "000834ACFCEEB292"
+					type: "custom"
+					title: "réussir l'examen C de la salle Naruto"
+				}
+			]
+			rewards: [
+				{
+					id: "00018AAEA047D6D4"
+					type: "command"
+					title: "155 XP"
+					command: "/shonenquete recompense {p} naruto_examen_c_zabuza_et_haku"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "ninshuorigins:rasengan"
+		}
+		{
+			id: "0000E13B9A822A1C"
+			title: "Examen B : Orochimaru"
+			subtitle: "Niveau 40"
+			x: 1.5d
+			y: 3.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"naruto_examen_b_orochimaru"
+			]
+			description: [
+				"L'examen de rang B de la salle Naruto. Si Naruto est un de"
+				"tes univers, il ouvre aussi le palier B de ses pouvoirs."
+				""
+				"Tâche : réussir l'examen B de la salle Naruto"
+				""
+				"ouvre le palier B des pouvoirs de cet univers"
+				""
+				"Récompense : 413 XP, 170 Éclats"
+			]
+			tasks: [
+				{
+					id: "0005CFA5F0797B62"
+					type: "custom"
+					title: "réussir l'examen B de la salle Naruto"
+				}
+			]
+			rewards: [
+				{
+					id: "0003C1013D9DAC38"
+					type: "command"
+					title: "413 XP"
+					command: "/shonenquete recompense {p} naruto_examen_b_orochimaru"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "ninshuorigins:rasengan"
+			dependencies: [
+				"00069404DB4D7A06"
+			]
+		}
+		{
+			id: "0007CE5E89DD12B8"
+			title: "Examen A : Shukaku"
+			subtitle: "Niveau 70"
+			x: 3.0d
+			y: 3.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"naruto_examen_a_shukaku"
+			]
+			description: [
+				"L'examen de rang A de la salle Naruto. Si Naruto est un de"
+				"tes univers, il ouvre aussi le palier A de ses pouvoirs."
+				""
+				"Tâche : réussir l'examen A de la salle Naruto"
+				""
+				"ouvre le palier A des pouvoirs de cet univers"
+				""
+				"Récompense : 763 XP, 290 Éclats"
+			]
+			tasks: [
+				{
+					id: "00005CB2777F531D"
+					type: "custom"
+					title: "réussir l'examen A de la salle Naruto"
+				}
+			]
+			rewards: [
+				{
+					id: "000B5B2789BB2BBC"
+					type: "command"
+					title: "763 XP"
+					command: "/shonenquete recompense {p} naruto_examen_a_shukaku"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "ninshuorigins:rasengan"
+			dependencies: [
+				"0000E13B9A822A1C"
+			]
+		}
+		{
+			id: "0006FC46B95457CE"
+			title: "Examen A : Matatabi"
+			subtitle: "Niveau 70"
+			x: 4.5d
+			y: 3.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"naruto_examen_a_matatabi"
+			]
+			description: [
+				"L'examen de rang A de la salle Naruto. Si Naruto est un de"
+				"tes univers, il ouvre aussi le palier A de ses pouvoirs."
+				""
+				"Tâche : réussir l'examen A de la salle Naruto"
+				""
+				"ouvre le palier A des pouvoirs de cet univers"
+				""
+				"Récompense : 763 XP, 290 Éclats"
+			]
+			tasks: [
+				{
+					id: "000391187774051D"
+					type: "custom"
+					title: "réussir l'examen A de la salle Naruto"
+				}
+			]
+			rewards: [
+				{
+					id: "0003621D73C19CE6"
+					type: "command"
+					title: "763 XP"
+					command: "/shonenquete recompense {p} naruto_examen_a_matatabi"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "ninshuorigins:rasengan"
+			dependencies: [
+				"0007CE5E89DD12B8"
+			]
+		}
+		{
+			id: "00042ADAFE30642A"
+			title: "Examen A : Isobu"
+			subtitle: "Niveau 70"
+			x: 6.0d
+			y: 3.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"naruto_examen_a_isobu"
+			]
+			description: [
+				"L'examen de rang A de la salle Naruto. Si Naruto est un de"
+				"tes univers, il ouvre aussi le palier A de ses pouvoirs."
+				""
+				"Tâche : réussir l'examen A de la salle Naruto"
+				""
+				"ouvre le palier A des pouvoirs de cet univers"
+				""
+				"Récompense : 763 XP, 290 Éclats"
+			]
+			tasks: [
+				{
+					id: "000A2A226682833E"
+					type: "custom"
+					title: "réussir l'examen A de la salle Naruto"
+				}
+			]
+			rewards: [
+				{
+					id: "0003A014E4F10BD1"
+					type: "command"
+					title: "763 XP"
+					command: "/shonenquete recompense {p} naruto_examen_a_isobu"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "ninshuorigins:rasengan"
+			dependencies: [
+				"0006FC46B95457CE"
+			]
+		}
+		{
+			id: "000031E8E5889980"
+			title: "Examen A : Son Goku"
+			subtitle: "Niveau 70"
+			x: 7.5d
+			y: 3.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"naruto_examen_a_son_goku"
+			]
+			description: [
+				"L'examen de rang A de la salle Naruto. Si Naruto est un de"
+				"tes univers, il ouvre aussi le palier A de ses pouvoirs."
+				""
+				"Tâche : réussir l'examen A de la salle Naruto"
+				""
+				"ouvre le palier A des pouvoirs de cet univers"
+				""
+				"Récompense : 763 XP, 290 Éclats"
+			]
+			tasks: [
+				{
+					id: "0008CDEAA08B9CE7"
+					type: "custom"
+					title: "réussir l'examen A de la salle Naruto"
+				}
+			]
+			rewards: [
+				{
+					id: "0003B411F023136F"
+					type: "command"
+					title: "763 XP"
+					command: "/shonenquete recompense {p} naruto_examen_a_son_goku"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "ninshuorigins:rasengan"
+			dependencies: [
+				"00042ADAFE30642A"
+			]
+		}
+		{
+			id: "000C784A5ABEF9E9"
+			title: "Examen S : Kokuo"
+			subtitle: "Niveau 100"
+			x: 7.5d
+			y: 4.5d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"naruto_examen_s_kokuo"
+			]
+			description: [
+				"L'examen de rang S de la salle Naruto. Si Naruto est un de"
+				"tes univers, il ouvre aussi le palier S de ses pouvoirs."
+				""
+				"Tâche : réussir l'examen S de la salle Naruto"
+				""
+				"ouvre le palier S des pouvoirs de cet univers"
+				""
+				"Récompense : 1155 XP, 410 Éclats"
+			]
+			tasks: [
+				{
+					id: "00035D2383BBA8DD"
+					type: "custom"
+					title: "réussir l'examen S de la salle Naruto"
+				}
+			]
+			rewards: [
+				{
+					id: "00099DFC516C2DBA"
+					type: "command"
+					title: "1155 XP"
+					command: "/shonenquete recompense {p} naruto_examen_s_kokuo"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "ninshuorigins:rasengan"
+			dependencies: [
+				"000031E8E5889980"
+			]
+		}
+		{
+			id: "0002946F532D4CBA"
+			title: "Examen S : Saiken"
+			subtitle: "Niveau 100"
+			x: 6.0d
+			y: 4.5d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"naruto_examen_s_saiken"
+			]
+			description: [
+				"L'examen de rang S de la salle Naruto. Si Naruto est un de"
+				"tes univers, il ouvre aussi le palier S de ses pouvoirs."
+				""
+				"Tâche : réussir l'examen S de la salle Naruto"
+				""
+				"ouvre le palier S des pouvoirs de cet univers"
+				""
+				"Récompense : 1155 XP, 410 Éclats"
+			]
+			tasks: [
+				{
+					id: "0005A7867EF56FBA"
+					type: "custom"
+					title: "réussir l'examen S de la salle Naruto"
+				}
+			]
+			rewards: [
+				{
+					id: "0007C164CF6693B7"
+					type: "command"
+					title: "1155 XP"
+					command: "/shonenquete recompense {p} naruto_examen_s_saiken"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "ninshuorigins:rasengan"
+			dependencies: [
+				"000C784A5ABEF9E9"
+			]
+		}
+		{
+			id: "0000E46DED8987BD"
+			title: "Examen S : Chomei"
+			subtitle: "Niveau 100"
+			x: 4.5d
+			y: 4.5d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"naruto_examen_s_chomei"
+			]
+			description: [
+				"L'examen de rang S de la salle Naruto. Si Naruto est un de"
+				"tes univers, il ouvre aussi le palier S de ses pouvoirs."
+				""
+				"Tâche : réussir l'examen S de la salle Naruto"
+				""
+				"ouvre le palier S des pouvoirs de cet univers"
+				""
+				"Récompense : 1155 XP, 410 Éclats"
+			]
+			tasks: [
+				{
+					id: "00020CE003198147"
+					type: "custom"
+					title: "réussir l'examen S de la salle Naruto"
+				}
+			]
+			rewards: [
+				{
+					id: "0008E6807E4F7863"
+					type: "command"
+					title: "1155 XP"
+					command: "/shonenquete recompense {p} naruto_examen_s_chomei"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "ninshuorigins:rasengan"
+			dependencies: [
+				"0002946F532D4CBA"
+			]
+		}
+		{
+			id: "000DB86838589C3D"
+			title: "Examen S : Gyuki"
+			subtitle: "Niveau 100"
+			x: 3.0d
+			y: 4.5d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"naruto_examen_s_gyuki"
+			]
+			description: [
+				"L'examen de rang S de la salle Naruto. Si Naruto est un de"
+				"tes univers, il ouvre aussi le palier S de ses pouvoirs."
+				""
+				"Tâche : réussir l'examen S de la salle Naruto"
+				""
+				"ouvre le palier S des pouvoirs de cet univers"
+				""
+				"Récompense : 1155 XP, 410 Éclats"
+			]
+			tasks: [
+				{
+					id: "0004B3F9C797EED1"
+					type: "custom"
+					title: "réussir l'examen S de la salle Naruto"
+				}
+			]
+			rewards: [
+				{
+					id: "0000C10E9724A268"
+					type: "command"
+					title: "1155 XP"
+					command: "/shonenquete recompense {p} naruto_examen_s_gyuki"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "ninshuorigins:rasengan"
+			dependencies: [
+				"0000E46DED8987BD"
+			]
+		}
+		{
+			id: "000C0A1792AAC5A4"
+			title: "Examen S : Itachi"
+			subtitle: "Niveau 100"
+			x: 1.5d
+			y: 4.5d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"naruto_examen_s_itachi"
+			]
+			description: [
+				"L'examen de rang S de la salle Naruto. Si Naruto est un de"
+				"tes univers, il ouvre aussi le palier S de ses pouvoirs."
+				""
+				"Tâche : réussir l'examen S de la salle Naruto"
+				""
+				"ouvre le palier S des pouvoirs de cet univers"
+				""
+				"Récompense : 1155 XP, 410 Éclats"
+			]
+			tasks: [
+				{
+					id: "0000F43252D82083"
+					type: "custom"
+					title: "réussir l'examen S de la salle Naruto"
+				}
+			]
+			rewards: [
+				{
+					id: "00014787BCFD2CD5"
+					type: "command"
+					title: "1155 XP"
+					command: "/shonenquete recompense {p} naruto_examen_s_itachi"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "ninshuorigins:rasengan"
+			dependencies: [
+				"000DB86838589C3D"
+			]
+		}
+		{
+			id: "000883AE8F70058C"
+			title: "Examen S+ : Kurama (boss final)"
+			subtitle: "Niveau 130"
+			x: 0.0d
+			y: 4.5d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"naruto_examen_s_plus_kurama_boss_final"
+			]
+			description: [
+				"Le boss final de la salle Naruto. Tous les examens de la"
+				"salle d'abord ; ensuite, la légende."
+				""
+				"Tâche : réussir l'examen S+ de la salle Naruto"
+				""
+				"boss final de la salle"
+				""
+				"Récompense : 1591 XP, 530 Éclats"
+			]
+			tasks: [
+				{
+					id: "00085CF19BD26A7E"
+					type: "custom"
+					title: "réussir l'examen S+ de la salle Naruto"
+				}
+			]
+			rewards: [
+				{
+					id: "000138D8B39D4A71"
+					type: "command"
+					title: "1591 XP"
+					command: "/shonenquete recompense {p} naruto_examen_s_plus_kurama_boss_final"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "ninshuorigins:rasengan"
+			dependencies: [
+				"000C0A1792AAC5A4"
+			]
+		}
+		{
+			id: "0009C333A94C0524"
+			title: "Palier B de la voie : jutsus de rang B et ta nature affinée"
+			subtitle: "Niveau 40"
+			x: 0.0d
+			y: 7.5d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"naruto_palier_b_de_la_voie_jutsus_de_rang_b_et_ta_natur"
+			]
+			description: [
+				"Ton univers grandit : jutsus de rang B et ta nature affinée."
+				"Réussis l'examen de ce rang dans cette salle pour l'ouvrir."
+				""
+				"Tâche : avoir réussi l'examen B de la salle Naruto ET avoir l'univers dans sa voie"
+				""
+				"visible seulement pour ceux qui ont l'univers ; détail des formes : progression.md section 14"
+				""
+				"Récompense : 413 XP, 170 Éclats"
+			]
+			tasks: [
+				{
+					id: "0005EAF1936FA82E"
+					type: "custom"
+					title: "avoir réussi l'examen B de la salle Naruto ET avoir l'univer"
+				}
+			]
+			rewards: [
+				{
+					id: "000CD87B4C272A37"
+					type: "command"
+					title: "413 XP"
+					command: "/shonenquete recompense {p} naruto_palier_b_de_la_voie_jutsus_de_rang_b_et_ta_natur"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "ninshuorigins:rasengan"
+		}
+		{
+			id: "0008A3D31F471F63"
+			title: "Palier A de la voie : jutsus de rang A et pouvoir de ton clan"
+			subtitle: "Niveau 70"
+			x: 1.5d
+			y: 7.5d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"naruto_palier_a_de_la_voie_jutsus_de_rang_a_et_pouvoir_"
+			]
+			description: [
+				"Ton univers grandit : jutsus de rang A et pouvoir de ton"
+				"clan. Réussis l'examen de ce rang dans cette salle pour"
+				"l'ouvrir."
+				""
+				"Tâche : avoir réussi l'examen A de la salle Naruto ET avoir l'univers dans sa voie"
+				""
+				"visible seulement pour ceux qui ont l'univers ; détail des formes : progression.md section 14"
+				""
+				"Récompense : 763 XP, 290 Éclats"
+			]
+			tasks: [
+				{
+					id: "00085D537E77002D"
+					type: "custom"
+					title: "avoir réussi l'examen A de la salle Naruto ET avoir l'univer"
+				}
+			]
+			rewards: [
+				{
+					id: "000968DEC548E04B"
+					type: "command"
+					title: "763 XP"
+					command: "/shonenquete recompense {p} naruto_palier_a_de_la_voie_jutsus_de_rang_a_et_pouvoir_"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "ninshuorigins:rasengan"
+			dependencies: [
+				"0009C333A94C0524"
+			]
+		}
+		{
+			id: "000A936113FDF6D8"
+			title: "Palier S de la voie : jutsus de rang S et mode Ermite"
+			subtitle: "Niveau 100"
+			x: 3.0d
+			y: 7.5d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"naruto_palier_s_de_la_voie_jutsus_de_rang_s_et_mode_erm"
+			]
+			description: [
+				"Ton univers grandit : jutsus de rang S et mode Ermite."
+				"Réussis l'examen de ce rang dans cette salle pour l'ouvrir."
+				""
+				"Tâche : avoir réussi l'examen S de la salle Naruto ET avoir l'univers dans sa voie"
+				""
+				"visible seulement pour ceux qui ont l'univers ; détail des formes : progression.md section 14"
+				""
+				"Récompense : 1155 XP, 410 Éclats"
+			]
+			tasks: [
+				{
+					id: "000028DE7646B0FB"
+					type: "custom"
+					title: "avoir réussi l'examen S de la salle Naruto ET avoir l'univer"
+				}
+			]
+			rewards: [
+				{
+					id: "000B34E8CC580D6E"
+					type: "command"
+					title: "1155 XP"
+					command: "/shonenquete recompense {p} naruto_palier_s_de_la_voie_jutsus_de_rang_s_et_mode_erm"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "ninshuorigins:rasengan"
+			dependencies: [
+				"0008A3D31F471F63"
+			]
+		}
+		{
+			id: "0000C5DF22ABD063"
+			title: "Zone 1 — Trouver le pont dans la brume"
+			subtitle: "Niveau 4"
+			x: 0.0d
+			y: 10.5d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"naruto_zone_1_trouver_le_pont_dans_la_brume"
+			]
+			description: [
+				"Une brume épaisse sur un pont inachevé. Trouve le lieu."
+				""
+				"Tâche : tâche d'emplacement (lieu posé à la création du monde ; la Boussole de lignée y mène)"
+				""
+				"Récompense : 51 XP, 15 Éclats"
+			]
+			tasks: [
+				{
+					id: "00052CB80F77B700"
+					type: "custom"
+					title: "tâche d'emplacement (lieu posé à la création du monde ; la B"
+				}
+			]
+			rewards: [
+				{
+					id: "0006EF02F8E39F9D"
+					type: "command"
+					title: "51 XP"
+					command: "/shonenquete recompense {p} naruto_zone_1_trouver_le_pont_dans_la_brume"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "ninshuorigins:rasengan"
+		}
+		{
+			id: "000C51AB3A48FDF7"
+			title: "Zone 1 — Les sbires"
+			subtitle: "Niveau 6"
+			x: 0.0d
+			y: 12.75d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"naruto_zone_1_les_sbires"
+			]
+			description: [
+				"Des ninjas de la brume."
+				""
+				"Tâche : tuer 15 ninjas de la brume (ninshuorigins:ninja)"
+				""
+				"Récompense : 70 XP, 15 Éclats"
+			]
+			tasks: [
+				{
+					id: "0001A063C438B962"
+					type: "custom"
+					title: "tuer 15 ninjas de la brume (ninshuorigins:ninja)"
+				}
+			]
+			rewards: [
+				{
+					id: "000283B171701E63"
+					type: "command"
+					title: "70 XP"
+					command: "/shonenquete recompense {p} naruto_zone_1_les_sbires"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "ninshuorigins:rasengan"
+			dependencies: [
+				"0000C5DF22ABD063"
+			]
+		}
+		{
+			id: "0004E6CE209E8A06"
+			title: "Zone 1 — Nettoyer le terrain"
+			subtitle: "Niveau 9"
+			x: 0.0d
+			y: 15.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"naruto_zone_1_nettoyer_le_terrain"
+			]
+			description: [
+				"La brume en cache encore."
+				""
+				"Tâche : tuer 30 ninjas de la brume (ninshuorigins:ninja) de plus"
+				""
+				"Récompense : 98 XP, 25 Éclats"
+			]
+			tasks: [
+				{
+					id: "000F9C668EFD09B6"
+					type: "custom"
+					title: "tuer 30 ninjas de la brume (ninshuorigins:ninja) de plus"
+				}
+			]
+			rewards: [
+				{
+					id: "00081CD69EC4C3C0"
+					type: "command"
+					title: "98 XP"
+					command: "/shonenquete recompense {p} naruto_zone_1_nettoyer_le_terrain"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "ninshuorigins:rasengan"
+			dependencies: [
+				"000C51AB3A48FDF7"
+			]
+		}
+		{
+			id: "000B0702EB76E8E6"
+			title: "Zone 1 — Le lieutenant : Haku"
+			subtitle: "Niveau 12"
+			x: 0.0d
+			y: 17.25d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"naruto_zone_1_le_lieutenant_haku"
+			]
+			description: [
+				"Haku et ses miroirs de glace."
+				""
+				"Tâche : vaincre Haku"
+				""
+				"Récompense : 127 XP, 60 Éclats"
+			]
+			tasks: [
+				{
+					id: "000727EEF2C6E58E"
+					type: "custom"
+					title: "vaincre Haku"
+				}
+			]
+			rewards: [
+				{
+					id: "000F626EE5EF9266"
+					type: "command"
+					title: "127 XP"
+					command: "/shonenquete recompense {p} naruto_zone_1_le_lieutenant_haku"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "ninshuorigins:konoha_headband"
+			dependencies: [
+				"0004E6CE209E8A06"
+			]
+		}
+		{
+			id: "000BE78BCED312C2"
+			title: "Zone 1 — Zabuza"
+			subtitle: "Niveau 15"
+			x: 0.0d
+			y: 19.5d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"naruto_zone_1_zabuza"
+			]
+			description: [
+				"Zabuza, le Démon du brouillard."
+				""
+				"Tâche : vaincre Zabuza (coché par histoire.js pour les participants)"
+				""
+				"Récompense : 155 XP, 70 Éclats"
+			]
+			tasks: [
+				{
+					id: "000CCCF670CFEA5B"
+					type: "custom"
+					title: "vaincre Zabuza (coché par histoire.js pour les participants)"
+				}
+			]
+			rewards: [
+				{
+					id: "0003782D0B0ACFFC"
+					type: "command"
+					title: "155 XP"
+					command: "/shonenquete recompense {p} naruto_zone_1_zabuza"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "ninshuorigins:konoha_headband"
+			dependencies: [
+				"000B0702EB76E8E6"
+			]
+		}
+		{
+			id: "00032E7C7CB07DB7"
+			title: "Zone 2 — Trouver le repaire du serpent"
+			subtitle: "Niveau 20"
+			x: 3.5d
+			y: 10.5d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"naruto_zone_2_trouver_le_repaire_du_serpent"
+			]
+			description: [
+				"Une tête de serpent sculptée dans la falaise : l'entrée du"
+				"repaire. Trouve le lieu."
+				""
+				"Tâche : tâche d'emplacement (lieu posé à la création du monde ; la Boussole de lignée y mène)"
+				""
+				"Récompense : 205 XP, 45 Éclats"
+			]
+			tasks: [
+				{
+					id: "0000AC8D0882CE60"
+					type: "custom"
+					title: "tâche d'emplacement (lieu posé à la création du monde ; la B"
+				}
+			]
+			rewards: [
+				{
+					id: "000C61DE54D3D11D"
+					type: "command"
+					title: "205 XP"
+					command: "/shonenquete recompense {p} naruto_zone_2_trouver_le_repaire_du_serpent"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "ninshuorigins:rasengan"
+			dependencies: [
+				"000BE78BCED312C2"
+			]
+		}
+		{
+			id: "000880C5FE9729AE"
+			title: "Zone 2 — Les sbires"
+			subtitle: "Niveau 25"
+			x: 3.5d
+			y: 12.75d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"naruto_zone_2_les_sbires"
+			]
+			description: [
+				"Les ninjas du Son."
+				""
+				"Tâche : tuer 15 ninjas du Son (ninja)"
+				""
+				"Récompense : 255 XP, 55 Éclats"
+			]
+			tasks: [
+				{
+					id: "00047F84AFEEFB57"
+					type: "custom"
+					title: "tuer 15 ninjas du Son (ninja)"
+				}
+			]
+			rewards: [
+				{
+					id: "000536F3D64F7831"
+					type: "command"
+					title: "255 XP"
+					command: "/shonenquete recompense {p} naruto_zone_2_les_sbires"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "ninshuorigins:rasengan"
+			dependencies: [
+				"00032E7C7CB07DB7"
+			]
+		}
+		{
+			id: "000F6E868AF5D531"
+			title: "Zone 2 — Nettoyer le terrain"
+			subtitle: "Niveau 30"
+			x: 3.5d
+			y: 15.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"naruto_zone_2_nettoyer_le_terrain"
+			]
+			description: [
+				"Le repaire est profond."
+				""
+				"Tâche : tuer 30 ninjas du Son (ninja) de plus"
+				""
+				"Récompense : 307 XP, 65 Éclats"
+			]
+			tasks: [
+				{
+					id: "00030C27771C30DC"
+					type: "custom"
+					title: "tuer 30 ninjas du Son (ninja) de plus"
+				}
+			]
+			rewards: [
+				{
+					id: "0006C8BDF5260A8E"
+					type: "command"
+					title: "307 XP"
+					command: "/shonenquete recompense {p} naruto_zone_2_nettoyer_le_terrain"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "ninshuorigins:rasengan"
+			dependencies: [
+				"000880C5FE9729AE"
+			]
+		}
+		{
+			id: "0009DAC7669ED287"
+			title: "Zone 2 — Orochimaru"
+			subtitle: "Niveau 40"
+			x: 3.5d
+			y: 17.25d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"naruto_zone_2_orochimaru"
+			]
+			description: [
+				"Orochimaru, le Sannin des serpents."
+				""
+				"Tâche : vaincre Orochimaru (coché par histoire.js pour les participants)"
+				""
+				"Récompense : 413 XP, 170 Éclats"
+			]
+			tasks: [
+				{
+					id: "00089F3BE00D7C3A"
+					type: "custom"
+					title: "vaincre Orochimaru (coché par histoire.js pour les participa"
+				}
+			]
+			rewards: [
+				{
+					id: "000ACD4B1927A58A"
+					type: "command"
+					title: "413 XP"
+					command: "/shonenquete recompense {p} naruto_zone_2_orochimaru"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "ninshuorigins:konoha_headband"
+			dependencies: [
+				"000F6E868AF5D531"
+			]
+		}
+		{
+			id: "0005DAE481D4EC0A"
+			title: "Zone 3 — Trouver le quartier de la Racine"
+			subtitle: "Niveau 48"
+			x: 7.0d
+			y: 10.5d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"naruto_zone_3_trouver_le_quartier_de_la_racine"
+			]
+			description: [
+				"Un quartier ninja abandonné, et ses souterrains vers une"
+				"cour cachée. Trouve le lieu."
+				""
+				"Tâche : tâche d'emplacement (lieu posé à la création du monde ; la Boussole de lignée y mène)"
+				""
+				"Récompense : 502 XP, 100 Éclats"
+			]
+			tasks: [
+				{
+					id: "0009A29864C48CA2"
+					type: "custom"
+					title: "tâche d'emplacement (lieu posé à la création du monde ; la B"
+				}
+			]
+			rewards: [
+				{
+					id: "0002A1D806A74FC8"
+					type: "command"
+					title: "502 XP"
+					command: "/shonenquete recompense {p} naruto_zone_3_trouver_le_quartier_de_la_racine"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "ninshuorigins:rasengan"
+			dependencies: [
+				"0009DAC7669ED287"
+			]
+		}
+		{
+			id: "00058B6EC2FA8720"
+			title: "Zone 3 — Les sbires"
+			subtitle: "Niveau 53"
+			x: 7.0d
+			y: 12.75d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"naruto_zone_3_les_sbires"
+			]
+			description: [
+				"Les ninjas de la Racine."
+				""
+				"Tâche : tuer 15 ninjas de la Racine (ninja)"
+				""
+				"Récompense : 560 XP, 110 Éclats"
+			]
+			tasks: [
+				{
+					id: "0005B4E5A0B52D01"
+					type: "custom"
+					title: "tuer 15 ninjas de la Racine (ninja)"
+				}
+			]
+			rewards: [
+				{
+					id: "0003FA7D5FA9A99A"
+					type: "command"
+					title: "560 XP"
+					command: "/shonenquete recompense {p} naruto_zone_3_les_sbires"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "ninshuorigins:rasengan"
+			dependencies: [
+				"0005DAE481D4EC0A"
+			]
+		}
+		{
+			id: "000B091F68F9862B"
+			title: "Zone 3 — Nettoyer le terrain"
+			subtitle: "Niveau 59"
+			x: 7.0d
+			y: 15.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"naruto_zone_3_nettoyer_le_terrain"
+			]
+			description: [
+				"Il en reste."
+				""
+				"Tâche : tuer 30 ninjas de la Racine (ninja) de plus"
+				""
+				"Récompense : 629 XP, 125 Éclats"
+			]
+			tasks: [
+				{
+					id: "0004406BADF522AB"
+					type: "custom"
+					title: "tuer 30 ninjas de la Racine (ninja) de plus"
+				}
+			]
+			rewards: [
+				{
+					id: "00013A3AFCB8AF84"
+					type: "command"
+					title: "629 XP"
+					command: "/shonenquete recompense {p} naruto_zone_3_nettoyer_le_terrain"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "ninshuorigins:rasengan"
+			dependencies: [
+				"00058B6EC2FA8720"
+			]
+		}
+		{
+			id: "000CD9577667A62A"
+			title: "Zone 3 — Danzō"
+			subtitle: "Niveau 70"
+			x: 7.0d
+			y: 17.25d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"naruto_zone_3_danzo"
+			]
+			description: [
+				"Danzō. Il revient de la mort, deux fois."
+				""
+				"Tâche : vaincre Danzō (coché par histoire.js pour les participants)"
+				""
+				"Récompense : 763 XP, 290 Éclats"
+			]
+			tasks: [
+				{
+					id: "00033711BE3A99B3"
+					type: "custom"
+					title: "vaincre Danzō (coché par histoire.js pour les participants)"
+				}
+			]
+			rewards: [
+				{
+					id: "0004BCF4C90C75E2"
+					type: "command"
+					title: "763 XP"
+					command: "/shonenquete recompense {p} naruto_zone_3_danzo"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "ninshuorigins:konoha_headband"
+			dependencies: [
+				"000B091F68F9862B"
+			]
+		}
+		{
+			id: "000A8A46E82F25FC"
+			title: "Zone 4 — Trouver la falaise aux corbeaux"
+			subtitle: "Niveau 78"
+			x: 10.5d
+			y: 10.5d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"naruto_zone_4_trouver_la_falaise_aux_corbeaux"
+			]
+			description: [
+				"Un temple en ruine au bord d'une falaise, sous une lune"
+				"rouge et des corbeaux. Trouve le lieu."
+				""
+				"Tâche : tâche d'emplacement (lieu posé à la création du monde ; la Boussole de lignée y mène)"
+				""
+				"Récompense : 863 XP, 160 Éclats"
+			]
+			tasks: [
+				{
+					id: "000C3E557A7C55A6"
+					type: "custom"
+					title: "tâche d'emplacement (lieu posé à la création du monde ; la B"
+				}
+			]
+			rewards: [
+				{
+					id: "000C9BACD8A4DF67"
+					type: "command"
+					title: "863 XP"
+					command: "/shonenquete recompense {p} naruto_zone_4_trouver_la_falaise_aux_corbeaux"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "ninshuorigins:rasengan"
+			dependencies: [
+				"000CD9577667A62A"
+			]
+		}
+		{
+			id: "000A6059A3F06C41"
+			title: "Zone 4 — Les sbires"
+			subtitle: "Niveau 83"
+			x: 10.5d
+			y: 12.75d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"naruto_zone_4_les_sbires"
+			]
+			description: [
+				"Les Zetsu blancs."
+				""
+				"Tâche : tuer 15 Zetsu blancs (white_zetsu)"
+				""
+				"Récompense : 927 XP, 170 Éclats"
+			]
+			tasks: [
+				{
+					id: "0004A2CC8C0283F9"
+					type: "custom"
+					title: "tuer 15 Zetsu blancs (white_zetsu)"
+				}
+			]
+			rewards: [
+				{
+					id: "00058E95BDE64740"
+					type: "command"
+					title: "927 XP"
+					command: "/shonenquete recompense {p} naruto_zone_4_les_sbires"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "ninshuorigins:rasengan"
+			dependencies: [
+				"000A8A46E82F25FC"
+			]
+		}
+		{
+			id: "000F7689DEBF9252"
+			title: "Zone 4 — Nettoyer le terrain"
+			subtitle: "Niveau 89"
+			x: 10.5d
+			y: 15.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"naruto_zone_4_nettoyer_le_terrain"
+			]
+			description: [
+				"Ils sortent des arbres."
+				""
+				"Tâche : tuer 30 Zetsu blancs (white_zetsu) de plus"
+				""
+				"Récompense : 1006 XP, 185 Éclats"
+			]
+			tasks: [
+				{
+					id: "000869868ED707CC"
+					type: "custom"
+					title: "tuer 30 Zetsu blancs (white_zetsu) de plus"
+				}
+			]
+			rewards: [
+				{
+					id: "000CD588DDDA8968"
+					type: "command"
+					title: "1006 XP"
+					command: "/shonenquete recompense {p} naruto_zone_4_nettoyer_le_terrain"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "ninshuorigins:rasengan"
+			dependencies: [
+				"000A6059A3F06C41"
+			]
+		}
+		{
+			id: "000EA00ACE49774C"
+			title: "Zone 4 — Itachi et son Susanoo"
+			subtitle: "Niveau 100"
+			x: 10.5d
+			y: 17.25d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"naruto_zone_4_itachi_et_son_susanoo"
+			]
+			description: [
+				"Itachi Uchiwa et son Susanoo."
+				""
+				"Tâche : vaincre Itachi et son Susanoo (histoire_itachi) (coché par histoire.js pour les participants)"
+				""
+				"Récompense : 1155 XP, 410 Éclats"
+			]
+			tasks: [
+				{
+					id: "000238933CA64397"
+					type: "custom"
+					title: "vaincre Itachi et son Susanoo (histoire_itachi) (coché par h"
+				}
+			]
+			rewards: [
+				{
+					id: "00086C6D1E80DC91"
+					type: "command"
+					title: "1155 XP"
+					command: "/shonenquete recompense {p} naruto_zone_4_itachi_et_son_susanoo"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "ninshuorigins:konoha_headband"
+			dependencies: [
+				"000F7689DEBF9252"
+			]
+		}
+		{
+			id: "000224A7310B38E3"
+			title: "Zone 5 — Trouver le repaire des nuages rouges"
+			subtitle: "Niveau 108"
+			x: 14.0d
+			y: 10.5d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"naruto_zone_5_trouver_le_repaire_des_nuages_rouges"
+			]
+			description: [
+				"Une montagne fendue : le repaire des nuages rouges. Trouve"
+				"le lieu."
+				""
+				"Tâche : tâche d'emplacement (lieu posé à la création du monde ; la Boussole de lignée y mène)"
+				""
+				"Récompense : 1267 XP, 220 Éclats"
+			]
+			tasks: [
+				{
+					id: "00088C025B526937"
+					type: "custom"
+					title: "tâche d'emplacement (lieu posé à la création du monde ; la B"
+				}
+			]
+			rewards: [
+				{
+					id: "00022508D12905F1"
+					type: "command"
+					title: "1267 XP"
+					command: "/shonenquete recompense {p} naruto_zone_5_trouver_le_repaire_des_nuages_rouges"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "ninshuorigins:rasengan"
+			dependencies: [
+				"000EA00ACE49774C"
+			]
+		}
+		{
+			id: "00012D0E904D2732"
+			title: "Zone 5 — Les sbires"
+			subtitle: "Niveau 113"
+			x: 14.0d
+			y: 12.75d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"naruto_zone_5_les_sbires"
+			]
+			description: [
+				"Les Zetsu blancs, par dizaines."
+				""
+				"Tâche : tuer 15 Zetsu blancs"
+				""
+				"Récompense : 1339 XP, 230 Éclats"
+			]
+			tasks: [
+				{
+					id: "000E2E2A69C4215C"
+					type: "custom"
+					title: "tuer 15 Zetsu blancs"
+				}
+			]
+			rewards: [
+				{
+					id: "0004F913B9053F94"
+					type: "command"
+					title: "1339 XP"
+					command: "/shonenquete recompense {p} naruto_zone_5_les_sbires"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "ninshuorigins:rasengan"
+			dependencies: [
+				"000224A7310B38E3"
+			]
+		}
+		{
+			id: "000775148687D996"
+			title: "Zone 5 — Nettoyer le terrain"
+			subtitle: "Niveau 119"
+			x: 14.0d
+			y: 15.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"naruto_zone_5_nettoyer_le_terrain"
+			]
+			description: [
+				"Ils n'arrêtent pas."
+				""
+				"Tâche : tuer 30 Zetsu blancs de plus"
+				""
+				"Récompense : 1426 XP, 245 Éclats"
+			]
+			tasks: [
+				{
+					id: "000B46B2F5D2A918"
+					type: "custom"
+					title: "tuer 30 Zetsu blancs de plus"
+				}
+			]
+			rewards: [
+				{
+					id: "000B1D2E2A5EA32D"
+					type: "command"
+					title: "1426 XP"
+					command: "/shonenquete recompense {p} naruto_zone_5_nettoyer_le_terrain"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "ninshuorigins:rasengan"
+			dependencies: [
+				"00012D0E904D2732"
+			]
+		}
+		{
+			id: "0002454DA8591EBF"
+			title: "Zone 5 — Le lieutenant : Pain (6 voies)"
+			subtitle: "Niveau 124"
+			x: 14.0d
+			y: 17.25d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"naruto_zone_5_le_lieutenant_pain_6_voies"
+			]
+			description: [
+				"Pain et ses six voies."
+				""
+				"Tâche : vaincre Pain (6 voies)"
+				""
+				"Récompense : 1500 XP, 510 Éclats"
+			]
+			tasks: [
+				{
+					id: "000DEAE6E1A41ED2"
+					type: "custom"
+					title: "vaincre Pain (6 voies)"
+				}
+			]
+			rewards: [
+				{
+					id: "00018241B6270427"
+					type: "command"
+					title: "1500 XP"
+					command: "/shonenquete recompense {p} naruto_zone_5_le_lieutenant_pain_6_voies"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "ninshuorigins:konoha_headband"
+			dependencies: [
+				"000775148687D996"
+			]
+		}
+		{
+			id: "0008862958C81B5D"
+			title: "Zone 5 — Pain → Obito, l'Ancre"
+			subtitle: "Niveau 130"
+			x: 14.0d
+			y: 19.5d
+			shape: "star"
+			size: 1.5d
+			tags: [
+				"naruto_zone_5_pain_obito_l_ancre"
+			]
+			description: [
+				"Obito, l'homme masqué. L'Ancre de Naruto."
+				""
+				"Tâche : vaincre Pain → Obito, l'Ancre (coché par histoire.js pour les participants)"
+				""
+				"Récompense : 1591 XP, 530 Éclats"
+			]
+			tasks: [
+				{
+					id: "000C7EDD689DDB69"
+					type: "custom"
+					title: "vaincre Pain → Obito, l'Ancre (coché par histoire.js pour le"
+				}
+			]
+			rewards: [
+				{
+					id: "0008B71EF01FA818"
+					type: "command"
+					title: "1591 XP"
+					command: "/shonenquete recompense {p} naruto_zone_5_pain_obito_l_ancre"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "ninshuorigins:konoha_headband"
+			dependencies: [
+				"0002454DA8591EBF"
+			]
+		}
+	]
+	quest_links: [ ]
+}

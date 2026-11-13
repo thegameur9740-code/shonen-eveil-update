@@ -1,0 +1,42 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = net.minecraft.client.gui.screens.ConnectScreen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1793500000000
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+}
+
+element {
+  element_type = text_v2
+  instance_identifier = shonen_astuce_titre_ConnectScreen
+  anchor_point = bottom-centered
+  x = -160
+  y = -74
+  width = 320
+  height = 12
+  enable_scrolling = false
+  shadow = true
+  source_mode = direct
+  source = §6Astuce
+  auto_line_wrapping = true
+}
+
+element {
+  element_type = text_v2
+  instance_identifier = shonen_astuce_texte_ConnectScreen
+  anchor_point = bottom-centered
+  x = -160
+  y = -60
+  width = 320
+  height = 40
+  enable_scrolling = false
+  shadow = true
+  source_mode = direct
+  source = §e{"placeholder":"randomtext","values":{"source":"/config/fancymenu/assets/shonen/astuces.txt","interval":"8"}}
+  auto_line_wrapping = true
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Dragon Ball",
+  "description": "Saiyan, Humain, Namek, Arcosien, Majin ou Bio-androïde (DragonMine Z).\nTu crées ensuite ton guerrier.\nC'est ton 2e univers : ses touches sont sur Ctrl.",
+  "icon": {
+    "item": "dragonminez:red_scouter"
+  },
+  "impact": 2,
+  "order": 4,
+  "powers": [
+    "shonen:univers2_dbz"
+  ]
+}

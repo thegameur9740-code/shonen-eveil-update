@@ -1,0 +1,13 @@
+{
+ "name": "La nuit",
+ "category": "patchouli:monde",
+ "icon": "minecraft:clock",
+ "read_by_default": true,
+ "sortnum": 1,
+ "pages": [
+  {
+   "type": "patchouli:text",
+   "text": "Dès la zone 2, la nuit :$(li)+30 % de monstres ;$(li)+20 % de PV et de dégâts ;$(li)en échange : XP +25 %, Éclats ×2.$(br2)5 % sont des $(l)élites$() (nom doré).$(br2)$(l)Nuit rouge$() : pleine lune, une nuit sur 8. Deux fois plus d'élites, Éclats ×3."
+  }
+ ]
+}

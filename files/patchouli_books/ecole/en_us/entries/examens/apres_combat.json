@@ -1,0 +1,24 @@
+{
+ "name": "Après le combat",
+ "category": "patchouli:examens",
+ "icon": "minecraft:paper",
+ "read_by_default": true,
+ "sortnum": 4,
+ "pages": [
+  {
+   "type": "patchouli:text",
+   "title": "Le tableau des dégâts",
+   "text": "Quand un Grand Ennemi est vaincu, le chat affiche un $(l)tableau$() pour chaque joueur du combat : dégâts infligés, dégâts reçus du boss, morts, soins reçus.$(br2)Tes compagnons et familiers sont comptés $(l)à part$()."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Le souvenir de boss",
+   "text": "Chaque Grand Ennemi vaincu peut laisser un $(l)souvenir$() : un objet à garder, sans bonus de combat.$(br2)$(l)10 %$() de chance ($(l)25 %$() en cauchemar), et $(l)garanti$() à la 8e victoire sans souvenir sur ce personnage.$(br)Un seul par personnage.$(br2)$(l)/souvenirs$() : ta liste.$(br)En avoir 20 donne le titre Collectionneur."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Les titres",
+   "text": "Rangs, examens finaux, boss, Sceaux, souvenirs : le jeu te donne des $(l)titres$().$(br2)$(l)/titre$() : ta liste (clique pour choisir).$(br)$(l)/titre$() puis un numéro : l'afficher.$(br)$(l)/titre aucun$() : le retirer.$(br2)Le titre actif s'affiche $(l)[Titre]$() devant ton nom : chat, liste des joueurs, au-dessus de ta tête."
+  }
+ ]
+}

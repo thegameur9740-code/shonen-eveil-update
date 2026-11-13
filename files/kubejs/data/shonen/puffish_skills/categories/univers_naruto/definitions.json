@@ -1,0 +1,2407 @@
+{
+  "racine": {
+    "title": "Chakra",
+    "description": "L'énergie du corps et de l'esprit, mêlées. Effet : +2,5 PV max, +0,5 endurance (faim).",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:paper"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 2.5,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:stamina",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a1": {
+    "title": "Mudras I",
+    "description": "Tes signes s'enchaînent plus vite. Effet : +1,01 % dégâts magiques.",
+    "extra_description": "Branche « Ninjutsu ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:paper"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0101,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "arbre_univers_naruto_ninjutsu"
+        }
+      }
+    ]
+  },
+  "a2": {
+    "title": "Mudras II",
+    "description": "Tes signes s'enchaînent plus vite. Effet : +1,01 % dégâts magiques.",
+    "extra_description": "Branche « Ninjutsu ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:paper"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0101,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "a3": {
+    "title": "Mudras III",
+    "description": "Tes signes s'enchaînent plus vite. Effet : +1,01 % dégâts magiques.",
+    "extra_description": "Branche « Ninjutsu ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:paper"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0101,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "a4": {
+    "title": "Mudras IV",
+    "description": "Tes signes s'enchaînent plus vite. Effet : +1,01 % dégâts magiques.",
+    "extra_description": "Branche « Ninjutsu ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:paper"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0101,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "a5": {
+    "title": "Nature du chakra I",
+    "description": "Ton élément répond mieux. Effet : +0,81 % dégâts magiques, +0,12 dégâts de feu.",
+    "extra_description": "Branche « Ninjutsu ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blaze_powder"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0081,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:fire_damage",
+          "value": 0.12,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a6": {
+    "title": "Nature du chakra II",
+    "description": "Ton élément répond mieux. Effet : +0,81 % dégâts magiques, +0,12 dégâts de feu.",
+    "extra_description": "Branche « Ninjutsu ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blaze_powder"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0081,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:fire_damage",
+          "value": 0.12,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a7": {
+    "title": "Nature du chakra III",
+    "description": "Ton élément répond mieux. Effet : +0,81 % dégâts magiques, +0,12 dégâts de feu.",
+    "extra_description": "Branche « Ninjutsu ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blaze_powder"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0081,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:fire_damage",
+          "value": 0.12,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a8": {
+    "title": "Nature du chakra IV",
+    "description": "Ton élément répond mieux. Effet : +0,81 % dégâts magiques, +0,12 dégâts de feu.",
+    "extra_description": "Branche « Ninjutsu ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blaze_powder"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0081,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:fire_damage",
+          "value": 0.12,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a9": {
+    "title": "Clone I",
+    "description": "Tu n'es jamais vraiment seul. Effet : +1 % chance d'esquive.",
+    "extra_description": "Branche « Ninjutsu ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:armor_stand"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:dodge_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a10": {
+    "title": "Clone II",
+    "description": "Tu n'es jamais vraiment seul. Effet : +1 % chance d'esquive.",
+    "extra_description": "Branche « Ninjutsu ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:armor_stand"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:dodge_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a11": {
+    "title": "Clone III",
+    "description": "Tu n'es jamais vraiment seul. Effet : +1 % chance d'esquive.",
+    "extra_description": "Branche « Ninjutsu ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:armor_stand"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:dodge_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a12": {
+    "title": "Clone IV",
+    "description": "Tu n'es jamais vraiment seul. Effet : +1 % chance d'esquive.",
+    "extra_description": "Branche « Ninjutsu ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:armor_stand"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:dodge_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a13": {
+    "title": "Technique de rang A I",
+    "description": "Des jutsus que peu de ninjas maîtrisent. Effet : +1,21 % dégâts magiques, +1 % chance de coup critique.",
+    "extra_description": "Branche « Ninjutsu ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:enchanted_book"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0121,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a14": {
+    "title": "Technique de rang A II",
+    "description": "Des jutsus que peu de ninjas maîtrisent. Effet : +1,21 % dégâts magiques, +1 % chance de coup critique.",
+    "extra_description": "Branche « Ninjutsu ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:enchanted_book"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0121,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a15": {
+    "title": "Technique de rang A III",
+    "description": "Des jutsus que peu de ninjas maîtrisent. Effet : +1,21 % dégâts magiques, +1 % chance de coup critique.",
+    "extra_description": "Branche « Ninjutsu ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:enchanted_book"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0121,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a16": {
+    "title": "Technique de rang A IV",
+    "description": "Des jutsus que peu de ninjas maîtrisent. Effet : +1,21 % dégâts magiques, +1 % chance de coup critique.",
+    "extra_description": "Branche « Ninjutsu ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:enchanted_book"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0121,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a17": {
+    "title": "Technique interdite I",
+    "description": "Un jutsu qui coûte cher, et frappe plus fort encore. Effet : +1,21 % dégâts magiques, +4 % dégâts critiques.",
+    "extra_description": "Branche « Ninjutsu ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:tnt"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0121,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_damage",
+          "value": 0.04,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a18": {
+    "title": "Technique interdite II",
+    "description": "Un jutsu qui coûte cher, et frappe plus fort encore. Effet : +1,21 % dégâts magiques, +4 % dégâts critiques.",
+    "extra_description": "Branche « Ninjutsu ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:tnt"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0121,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_damage",
+          "value": 0.04,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a19": {
+    "title": "Technique interdite III",
+    "description": "Un jutsu qui coûte cher, et frappe plus fort encore. Effet : +1,21 % dégâts magiques, +4 % dégâts critiques.",
+    "extra_description": "Branche « Ninjutsu ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:tnt"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0121,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_damage",
+          "value": 0.04,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a20": {
+    "title": "Technique interdite IV",
+    "description": "Un jutsu qui coûte cher, et frappe plus fort encore. Effet : +1,21 % dégâts magiques, +4 % dégâts critiques.",
+    "extra_description": "Branche « Ninjutsu ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:tnt"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0121,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_damage",
+          "value": 0.04,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a21": {
+    "title": "Mode Ermite I",
+    "description": "L'énergie de la nature coule en toi. Effet : +2,02 % dégâts magiques, +1,25 PV max, +2,5 % régénération naturelle.",
+    "extra_description": "Branche « Ninjutsu ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0202,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1.25,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.025,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "a22": {
+    "title": "Mode Ermite II",
+    "description": "L'énergie de la nature coule en toi. Effet : +2,02 % dégâts magiques, +1,25 PV max, +2,5 % régénération naturelle.",
+    "extra_description": "Branche « Ninjutsu ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0202,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1.25,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.025,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "a23": {
+    "title": "Mode Ermite III",
+    "description": "L'énergie de la nature coule en toi. Effet : +2,02 % dégâts magiques, +1,25 PV max, +2,5 % régénération naturelle.",
+    "extra_description": "Branche « Ninjutsu ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 5,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0202,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1.25,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.025,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "a24": {
+    "title": "Mode Ermite IV",
+    "description": "L'énergie de la nature coule en toi. Effet : +2,02 % dégâts magiques, +1,25 PV max, +2,5 % régénération naturelle.",
+    "extra_description": "Branche « Ninjutsu ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 5,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0202,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1.25,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.025,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b1": {
+    "title": "Coups de pied I",
+    "description": "Les bases, à la perfection. Effet : +1,25 % dégâts de mêlée.",
+    "extra_description": "Branche « Taijutsu et Kenjutsu ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_boots"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0125,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "arbre_univers_naruto_taijutsu_et_kenjutsu"
+        }
+      }
+    ]
+  },
+  "b2": {
+    "title": "Coups de pied II",
+    "description": "Les bases, à la perfection. Effet : +1,25 % dégâts de mêlée.",
+    "extra_description": "Branche « Taijutsu et Kenjutsu ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_boots"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0125,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b3": {
+    "title": "Coups de pied III",
+    "description": "Les bases, à la perfection. Effet : +1,25 % dégâts de mêlée.",
+    "extra_description": "Branche « Taijutsu et Kenjutsu ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_boots"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0125,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b4": {
+    "title": "Coups de pied IV",
+    "description": "Les bases, à la perfection. Effet : +1,25 % dégâts de mêlée.",
+    "extra_description": "Branche « Taijutsu et Kenjutsu ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_boots"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0125,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b5": {
+    "title": "Poids aux chevilles I",
+    "description": "Quand tu les enlèves, tu voles. Effet : +1 % vitesse de déplacement, +0,02 vitesse d'attaque.",
+    "extra_description": "Branche « Taijutsu et Kenjutsu ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.movement_speed",
+          "value": 0.01,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_speed",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b6": {
+    "title": "Poids aux chevilles II",
+    "description": "Quand tu les enlèves, tu voles. Effet : +1 % vitesse de déplacement, +0,02 vitesse d'attaque.",
+    "extra_description": "Branche « Taijutsu et Kenjutsu ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.movement_speed",
+          "value": 0.01,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_speed",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b7": {
+    "title": "Poids aux chevilles III",
+    "description": "Quand tu les enlèves, tu voles. Effet : +1 % vitesse de déplacement, +0,02 vitesse d'attaque.",
+    "extra_description": "Branche « Taijutsu et Kenjutsu ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.movement_speed",
+          "value": 0.01,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_speed",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b8": {
+    "title": "Poids aux chevilles IV",
+    "description": "Quand tu les enlèves, tu voles. Effet : +1 % vitesse de déplacement, +0,02 vitesse d'attaque.",
+    "extra_description": "Branche « Taijutsu et Kenjutsu ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.movement_speed",
+          "value": 0.01,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_speed",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b9": {
+    "title": "Lame ninja I",
+    "description": "Ton sabre suit ton chakra. Effet : +3 % dégâts d'épée.",
+    "extra_description": "Branche « Taijutsu et Kenjutsu ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:sword_damage",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b10": {
+    "title": "Lame ninja II",
+    "description": "Ton sabre suit ton chakra. Effet : +3 % dégâts d'épée.",
+    "extra_description": "Branche « Taijutsu et Kenjutsu ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:sword_damage",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b11": {
+    "title": "Lame ninja III",
+    "description": "Ton sabre suit ton chakra. Effet : +3 % dégâts d'épée.",
+    "extra_description": "Branche « Taijutsu et Kenjutsu ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:sword_damage",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b12": {
+    "title": "Lame ninja IV",
+    "description": "Ton sabre suit ton chakra. Effet : +3 % dégâts d'épée.",
+    "extra_description": "Branche « Taijutsu et Kenjutsu ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:sword_damage",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b13": {
+    "title": "Lotus I",
+    "description": "Une attaque qui part du sol jusqu'au ciel. Effet : +1,5 % dégâts de mêlée, +0,08 puissance de recul.",
+    "extra_description": "Branche « Taijutsu et Kenjutsu ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:pink_petals"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.015,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:knockback",
+          "value": 0.08,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b14": {
+    "title": "Lotus II",
+    "description": "Une attaque qui part du sol jusqu'au ciel. Effet : +1,5 % dégâts de mêlée, +0,08 puissance de recul.",
+    "extra_description": "Branche « Taijutsu et Kenjutsu ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:pink_petals"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.015,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:knockback",
+          "value": 0.08,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b15": {
+    "title": "Lotus III",
+    "description": "Une attaque qui part du sol jusqu'au ciel. Effet : +1,5 % dégâts de mêlée, +0,08 puissance de recul.",
+    "extra_description": "Branche « Taijutsu et Kenjutsu ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:pink_petals"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.015,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:knockback",
+          "value": 0.08,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b16": {
+    "title": "Lotus IV",
+    "description": "Une attaque qui part du sol jusqu'au ciel. Effet : +1,5 % dégâts de mêlée, +0,08 puissance de recul.",
+    "extra_description": "Branche « Taijutsu et Kenjutsu ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:pink_petals"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.015,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:knockback",
+          "value": 0.08,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b17": {
+    "title": "Portes du chakra I",
+    "description": "Tu ouvres des portes que ton corps garde fermées. Effet : +1,5 % dégâts de mêlée, +4 % dégâts critiques.",
+    "extra_description": "Branche « Taijutsu et Kenjutsu ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_door"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.015,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_damage",
+          "value": 0.04,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b18": {
+    "title": "Portes du chakra II",
+    "description": "Tu ouvres des portes que ton corps garde fermées. Effet : +1,5 % dégâts de mêlée, +4 % dégâts critiques.",
+    "extra_description": "Branche « Taijutsu et Kenjutsu ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_door"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.015,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_damage",
+          "value": 0.04,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b19": {
+    "title": "Portes du chakra III",
+    "description": "Tu ouvres des portes que ton corps garde fermées. Effet : +1,5 % dégâts de mêlée, +4 % dégâts critiques.",
+    "extra_description": "Branche « Taijutsu et Kenjutsu ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_door"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.015,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_damage",
+          "value": 0.04,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b20": {
+    "title": "Portes du chakra IV",
+    "description": "Tu ouvres des portes que ton corps garde fermées. Effet : +1,5 % dégâts de mêlée, +4 % dégâts critiques.",
+    "extra_description": "Branche « Taijutsu et Kenjutsu ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_door"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.015,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_damage",
+          "value": 0.04,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b21": {
+    "title": "Maître ninja I",
+    "description": "Ta lame et tes poings ne font plus qu'un. Effet : +2 % dégâts de mêlée, +3 % dégâts d'épée, +1,25 PV max.",
+    "extra_description": "Branche « Taijutsu et Kenjutsu ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.02,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:sword_damage",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b22": {
+    "title": "Maître ninja II",
+    "description": "Ta lame et tes poings ne font plus qu'un. Effet : +2 % dégâts de mêlée, +3 % dégâts d'épée, +1,25 PV max.",
+    "extra_description": "Branche « Taijutsu et Kenjutsu ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.02,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:sword_damage",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b23": {
+    "title": "Maître ninja III",
+    "description": "Ta lame et tes poings ne font plus qu'un. Effet : +2 % dégâts de mêlée, +3 % dégâts d'épée, +1,25 PV max.",
+    "extra_description": "Branche « Taijutsu et Kenjutsu ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 5,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.02,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:sword_damage",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b24": {
+    "title": "Maître ninja IV",
+    "description": "Ta lame et tes poings ne font plus qu'un. Effet : +2 % dégâts de mêlée, +3 % dégâts d'épée, +1,25 PV max.",
+    "extra_description": "Branche « Taijutsu et Kenjutsu ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 5,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.02,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:sword_damage",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "c1": {
+    "title": "Marche sur les murs I",
+    "description": "Le chakra colle tes pieds. Effet : +0,12 hauteur de pas, +2,5 % hauteur de saut.",
+    "extra_description": "Branche « Shinobi ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:vine"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "forge:step_height_addition",
+          "value": 0.12,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:jump",
+          "value": 0.025,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "arbre_univers_naruto_shinobi"
+        }
+      }
+    ]
+  },
+  "c2": {
+    "title": "Marche sur les murs II",
+    "description": "Le chakra colle tes pieds. Effet : +0,12 hauteur de pas, +2,5 % hauteur de saut.",
+    "extra_description": "Branche « Shinobi ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:vine"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "forge:step_height_addition",
+          "value": 0.12,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:jump",
+          "value": 0.025,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c3": {
+    "title": "Marche sur les murs III",
+    "description": "Le chakra colle tes pieds. Effet : +0,12 hauteur de pas, +2,5 % hauteur de saut.",
+    "extra_description": "Branche « Shinobi ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:vine"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "forge:step_height_addition",
+          "value": 0.12,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:jump",
+          "value": 0.025,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c4": {
+    "title": "Marche sur les murs IV",
+    "description": "Le chakra colle tes pieds. Effet : +0,12 hauteur de pas, +2,5 % hauteur de saut.",
+    "extra_description": "Branche « Shinobi ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:vine"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "forge:step_height_addition",
+          "value": 0.12,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:jump",
+          "value": 0.025,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c5": {
+    "title": "Course ninja I",
+    "description": "Bras en arrière, et tu files. Effet : +2 % vitesse de sprint.",
+    "extra_description": "Branche « Shinobi ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:feather"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:sprinting_speed",
+          "value": 0.02,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c6": {
+    "title": "Course ninja II",
+    "description": "Bras en arrière, et tu files. Effet : +2 % vitesse de sprint.",
+    "extra_description": "Branche « Shinobi ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:feather"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:sprinting_speed",
+          "value": 0.02,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c7": {
+    "title": "Course ninja III",
+    "description": "Bras en arrière, et tu files. Effet : +2 % vitesse de sprint.",
+    "extra_description": "Branche « Shinobi ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:feather"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:sprinting_speed",
+          "value": 0.02,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c8": {
+    "title": "Course ninja IV",
+    "description": "Bras en arrière, et tu files. Effet : +2 % vitesse de sprint.",
+    "extra_description": "Branche « Shinobi ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:feather"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:sprinting_speed",
+          "value": 0.02,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c9": {
+    "title": "Discrétion I",
+    "description": "Un ninja qu'on voit est un ninja mort. Effet : +0,12 discrétion, +0,75 blocs de chute annulés.",
+    "extra_description": "Branche « Shinobi ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:black_wool"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:stealth",
+          "value": 0.12,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:fall_reduction",
+          "value": 0.75,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "c10": {
+    "title": "Discrétion II",
+    "description": "Un ninja qu'on voit est un ninja mort. Effet : +0,12 discrétion, +0,75 blocs de chute annulés.",
+    "extra_description": "Branche « Shinobi ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:black_wool"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:stealth",
+          "value": 0.12,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:fall_reduction",
+          "value": 0.75,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "c11": {
+    "title": "Discrétion III",
+    "description": "Un ninja qu'on voit est un ninja mort. Effet : +0,12 discrétion, +0,75 blocs de chute annulés.",
+    "extra_description": "Branche « Shinobi ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:black_wool"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:stealth",
+          "value": 0.12,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:fall_reduction",
+          "value": 0.75,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "c12": {
+    "title": "Discrétion IV",
+    "description": "Un ninja qu'on voit est un ninja mort. Effet : +0,12 discrétion, +0,75 blocs de chute annulés.",
+    "extra_description": "Branche « Shinobi ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:black_wool"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:stealth",
+          "value": 0.12,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:fall_reduction",
+          "value": 0.75,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "c13": {
+    "title": "Chakra profond I",
+    "description": "Tes réserves semblent sans fond. Effet : +2,5 % régénération naturelle, +0,62 PV max.",
+    "extra_description": "Branche « Shinobi ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:lapis_block"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.025,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 0.62,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "c14": {
+    "title": "Chakra profond II",
+    "description": "Tes réserves semblent sans fond. Effet : +2,5 % régénération naturelle, +0,62 PV max.",
+    "extra_description": "Branche « Shinobi ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:lapis_block"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.025,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 0.62,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "c15": {
+    "title": "Chakra profond III",
+    "description": "Tes réserves semblent sans fond. Effet : +2,5 % régénération naturelle, +0,62 PV max.",
+    "extra_description": "Branche « Shinobi ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:lapis_block"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.025,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 0.62,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "c16": {
+    "title": "Chakra profond IV",
+    "description": "Tes réserves semblent sans fond. Effet : +2,5 % régénération naturelle, +0,62 PV max.",
+    "extra_description": "Branche « Shinobi ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:lapis_block"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.025,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 0.62,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "c17": {
+    "title": "Volonté du feu I",
+    "description": "Tu te relèves pour ceux qui comptent. Effet : +1,25 PV max, +1 % réduction des dégâts subis.",
+    "extra_description": "Branche « Shinobi ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:campfire"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1.25,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:resistance",
+          "value": 0.01,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c18": {
+    "title": "Volonté du feu II",
+    "description": "Tu te relèves pour ceux qui comptent. Effet : +1,25 PV max, +1 % réduction des dégâts subis.",
+    "extra_description": "Branche « Shinobi ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:campfire"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1.25,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:resistance",
+          "value": 0.01,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c19": {
+    "title": "Volonté du feu III",
+    "description": "Tu te relèves pour ceux qui comptent. Effet : +1,25 PV max, +1 % réduction des dégâts subis.",
+    "extra_description": "Branche « Shinobi ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:campfire"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1.25,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:resistance",
+          "value": 0.01,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c20": {
+    "title": "Volonté du feu IV",
+    "description": "Tu te relèves pour ceux qui comptent. Effet : +1,25 PV max, +1 % réduction des dégâts subis.",
+    "extra_description": "Branche « Shinobi ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:campfire"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1.25,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:resistance",
+          "value": 0.01,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  }
+}

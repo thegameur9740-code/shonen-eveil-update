@@ -1,0 +1,12 @@
+{
+  "name": "Jujutsu Kaisen",
+  "description": "Exorcistes, utilisateurs de malédictions et fléaux (JujutsuCraft).\nTu choisis ensuite ta voie puis ta technique maudite.",
+  "icon": {
+    "item": "jujutsucraft:cursed_technique_starter"
+  },
+  "impact": 2,
+  "order": 2,
+  "powers": [
+    "shonen:univers_jjk"
+  ]
+}

@@ -1,0 +1,107 @@
+
+[Attack]
+	#Base Shinigami Zanpakuto damage multiplier
+	#Range: 1.0 ~ 1.7976931348623157E308
+	zanpakutoDamage = 1.0
+	#Base Shinigami Shikai damage multiplier
+	#Range: 1.0 ~ 1.7976931348623157E308
+	shikaiDamage = 1.5
+	#Base Shinigami Bankai damage multiplier
+	#Range: 1.0 ~ 1.7976931348623157E308
+	bankaiDamage = 2.2
+	#Base Quincy Letzt Stil damage multiplier
+	#Range: 1.0 ~ 1.7976931348623157E308
+	letztStilDamage = 2.2
+	#Base Quincy Vollstandig damage multiplier
+	#Range: 1.0 ~ 1.7976931348623157E308
+	vollstandigDamage = 4.4
+
+[Progression]
+	#Shonen Eveil (P4-C): spirit thresholds = the spirit cap (50 + 20 x Eveille level, Shonen Core) at the rank gates:
+	#Shinigami / Menos at level 15 (350), Adjuchas at 40 (850), Arrancar / Vizard at 70 (1450); Shikai 40 (850) and Bankai 100 (2050) by Shonen Core.
+	#Spirit required for a Substitute Shinigami to become a Shinigami
+	#Range: > 0
+	shinigamiRequiredSpirit = 350
+	#Hollow kills required for a Substitute Shinigami to become a Shinigami
+	#Range: > 0
+	shinigamiRequiredHollowKills = 2500
+	#Spirit required for a normal Hollow to grow into a Menos/Gillian
+	#Range: > 0
+	hollowToMenosRequiredSpirit = 350
+	#Hollow kills required for a normal Hollow to grow into a Menos/Gillian
+	#Range: > 0
+	hollowToMenosRequiredKills = 1000
+	#Spirit required for a Menos/Gillian to grow into an Adjuchas
+	#Range: > 0
+	menosToAdjuchasRequiredSpirit = 850
+	#Hollow kills required for a Menos/Gillian to grow into an Adjuchas
+	#Range: > 0
+	menosToAdjuchasRequiredKills = 2500
+	#Spirit required before an Adjuchas can use the Hogyoku to become an Arrancar
+	#Range: > 0
+	adjuchasToArrancarRequiredSpirit = 1450
+	#Hollow kills required before an Adjuchas can use the Hogyoku to become an Arrancar
+	#Range: > 0
+	adjuchasToArrancarRequiredKills = 6000
+	#Spirit required before a Shinigami or Substitute Shinigami can use the Hogyoku to become a Vizard
+	#Range: > 0
+	vizardRequiredSpirit = 1450
+	#Hollow kills required before a Shinigami or Substitute Shinigami can use the Hogyoku to become a Vizard
+	#Range: > 0
+	#Shonen Eveil (Admin, 06/11): 500 instead of 5 000 (the other Vizard conditions of the mod unchanged)
+	vizardRequiredHollowKills = 500
+	#Scale Hollow combat separately for each opposing player so strong players are challenged without blocking weak players
+	adaptiveHollowScaling = false
+	#Spirit at which adaptive Hollow scaling reaches its maximum difficulty
+	#Range: > 1
+	adaptiveHollowScalingSpiritCeiling = 10000
+	#Additional Spirit XP requirement multiplier added per 1000 Spirit. Default 0.20 means +20% per 1000 Spirit; 0 disables the extra curve.
+	#Range: 0.0 ~ 10.0
+	spiritXpGrowthPer1000Spirit = 0.2
+
+[Mobs]
+	#Will Aizen give sp when killed. Default = false | (true/false)
+	aizenSP = true
+	#Aizen Health
+	#Range: 10.0 ~ 1.7976931348623157E308
+	aizenHealth = 20.0
+	#Hollow Fisher Health
+	#Range: 10.0 ~ 1.7976931348623157E308
+	fisherHealth = 150.0
+	#Grimmjow Health
+	#Range: 10.0 ~ 1.7976931348623157E308
+	grimmjowHealth = 150.0
+	#Hollow Bat Health
+	#Range: 10.0 ~ 1.7976931348623157E308
+	batHealth = 150.0
+	#Hollow Blaze Health
+	#Range: 10.0 ~ 1.7976931348623157E308
+	blazeHealth = 150.0
+	#Hollow Blaze Health
+	#Range: 10.0 ~ 1.7976931348623157E308
+	golemHealth = 150.0
+	#Hollow Ore Health
+	#Range: 10.0 ~ 1.7976931348623157E308
+	oreHealth = 150.0
+	#Hollow Snake Health
+	#Range: 10.0 ~ 1.7976931348623157E308
+	snakeHealth = 150.0
+	#Hollow Spider Health
+	#Range: 10.0 ~ 1.7976931348623157E308
+	spiderHealth = 150.0
+	#Hollow Stalker Health
+	#Range: 10.0 ~ 1.7976931348623157E308
+	stalkerHealth = 150.0
+	#Hollow Wolf Health
+	#Range: 10.0 ~ 1.7976931348623157E308
+	waspHealth = 150.0
+	#Hollow Menos Health
+	#Range: 10.0 ~ 1.7976931348623157E308
+	menosHealth = 150.0
+
+[Mics]
+	#Consume energy in creative
+	consumeCreative = false
+	#Override effects for creative mode to have it
+	effectCreative = true
+

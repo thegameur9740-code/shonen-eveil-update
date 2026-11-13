@@ -1,0 +1,34 @@
+{
+ "name": "La Maison des métiers",
+ "category": "patchouli:ecole",
+ "icon": "minecraft:smithing_table",
+ "read_by_default": true,
+ "sortnum": 2,
+ "pages": [
+  {
+   "type": "patchouli:text",
+   "title": "Trois ateliers",
+   "text": "Une maison, à l'enseigne $(l)MÉTIERS$() (à gauche de la porte).$(br2)$(l)Bertille Tisonnier$() : la forge. Renforcer, sertir une gemme, fabriquer des outils.$(br)$(l)Zéphyrin Mortier$() : l'alchimie. Élixirs de préparation."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Les maîtres",
+   "text": "$(l)Pétronille Marmiton$() : la cuisine. Des plats, communs ou de ton univers.$(br2)Ouverts de $(l)7 h à 22 h$().$(br2)Clic droit sur le maître, puis $(l)Voir l'atelier$() : niveau requis, matières à apporter, prix en Éclats.$(br2)Pas de soin instantané ici : c'est l'infirmerie."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Réparer",
+   "text": "Bertille ne répare pas.$(br2)Pour $(l)réparer$() un objet : $(l)Daigo$(), à la vieille forge de l'école (8 h à 19 h).$(br2)Pour renforcer ou sertir : Bertille, à la Maison des métiers."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Ton niveau de métier",
+   "text": "Un seul niveau, de $(l)1 à 10$(), pour les trois ateliers.$(br)Il monte quand tu fabriques ; le menu montre ta barre d'XP.$(br2)$(l)1re fois$() qu'on fait une recette : XP doublée.$(br)Après 10 fois la même dans la journée : XP réduite de moitié ; après 30 : plus rien.$(br2)Chaque niveau ouvre de nouvelles recettes."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Le niveau du joueur",
+   "text": "Ton niveau de métier est limité par ton niveau de joueur :$(li)métier 2 : niveau $(l)5$() ;$(li)3 : $(l)10$() ; 4 : $(l)20$() ;$(li)5 : $(l)30$() ; 6 : $(l)45$() ;$(li)7 : $(l)60$() ; 8 : $(l)80$() ;$(li)9 : $(l)100$() ; 10 : $(l)120$()."
+  }
+ ]
+}

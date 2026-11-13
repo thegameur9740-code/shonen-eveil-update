@@ -1,0 +1,1508 @@
+{
+	id: "0007D7C7B26ACDFB"
+	group: ""
+	order_index: 5
+	filename: "jjk"
+	title: "Jujutsu Kaisen"
+	icon: "jujutsucraft:sukuna_finger"
+	subtitle: [
+		"La salle de Jujutsu Kaisen (maître, guide), ses examens du rang C au boss final,"
+		"les paliers de la voie pour ceux qui ont l'univers, et la lignée d'histoire en 5"
+	]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 6.25d
+			y: 9.12d
+			width: 19.0d
+			height: 21.25d
+			rotation: 0.0d
+			image: "shonen:textures/quetes/bg_jjk.png"
+			color: 16777215
+			alpha: 235
+			order: -11
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 6.25d
+			y: 9.12d
+			width: 30.0d
+			height: 21.94d
+			rotation: 0.0d
+			image: "shonen:textures/quetes/plein_jjk.png"
+			color: 16777215
+			alpha: 255
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.75d
+			y: 0.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/writable_book.png"
+			color: 16777215
+			alpha: 255
+			order: 0
+			hover: [
+				"La salle"
+			]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.75d
+			y: 3.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/writable_book.png"
+			color: 16777215
+			alpha: 255
+			order: 0
+			hover: [
+				"Les examens de la salle"
+			]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.75d
+			y: 6.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/writable_book.png"
+			color: 16777215
+			alpha: 255
+			order: 0
+			hover: [
+				"La voie (si tu as cet univers)"
+			]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.75d
+			y: 9.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/writable_book.png"
+			color: 16777215
+			alpha: 255
+			order: 0
+			hover: [
+				"La lignée (histoire, ouverte à tous)"
+			]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			id: "0004F510F45DF712"
+			title: "Le maître de Jujutsu Kaisen"
+			subtitle: "Niveau 3"
+			x: 0.0d
+			y: 0.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"jjk_le_maitre_de_jujutsu_kaisen"
+			]
+			description: [
+				"Le maître de la salle Jujutsu Kaisen t'attend. Parle-lui :"
+				"il t'ouvre la lignée de son univers."
+				""
+				"Tâche : parler au maître de la salle (Yaga Masamichi (jujutsucraft:yaga_masamichi))"
+				""
+				"Récompense : 42 XP, 10 Éclats"
+			]
+			tasks: [
+				{
+					id: "00006E2290E95638"
+					type: "custom"
+					title: "parler au maître de la salle (Yaga Masamichi (jujutsucraft:y"
+				}
+			]
+			rewards: [
+				{
+					id: "0001A25BF49F689D"
+					type: "command"
+					title: "42 XP"
+					command: "/shonenquete recompense {p} jjk_le_maitre_de_jujutsu_kaisen"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "jujutsucraft:sukuna_finger"
+		}
+		{
+			id: "000A6DC777D0050B"
+			title: "Guide : Jujutsu Kaisen"
+			subtitle: "Niveau 3"
+			x: 1.5d
+			y: 0.0d
+			shape: "circle"
+			size: 0.75d
+			tags: [
+				"jjk_guide_jujutsu_kaisen"
+			]
+			description: [
+				"Énergie occulte, techniques, extension du territoire : le"
+				"monde des sorciers et des fléaux. Son guide est dans le"
+				"Livre de l'école : comment progresser, où aller."
+				""
+				"Tâche : lire le guide de l'univers dans le Livre de l'école"
+				""
+				"Récompense : 42 XP"
+			]
+			tasks: [
+				{
+					id: "000AD5F3F484B906"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "0007CE69D90E8D31"
+					type: "command"
+					title: "42 XP"
+					command: "/shonenquete recompense {p} jjk_guide_jujutsu_kaisen"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:book"
+			dependencies: [
+				"0004F510F45DF712"
+			]
+		}
+		{
+			id: "000F120CC5D4F56D"
+			title: "Examen C : un fléau de grade 1 ou 2 au hasard"
+			subtitle: "Niveau 15"
+			x: 0.0d
+			y: 3.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"jjk_examen_c_un_fleau_de_grade_1_ou_2_au_hasard"
+			]
+			description: [
+				"L'examen de rang C de la salle Jujutsu Kaisen. Si Jujutsu"
+				"Kaisen est un de tes univers, il ouvre aussi le palier C de"
+				"ses pouvoirs."
+				""
+				"Tâche : réussir l'examen C de la salle Jujutsu Kaisen"
+				""
+				"ouvre le palier C des pouvoirs de cet univers"
+				""
+				"Récompense : 155 XP, 70 Éclats"
+			]
+			tasks: [
+				{
+					id: "0004C2AB33656C77"
+					type: "custom"
+					title: "réussir l'examen C de la salle Jujutsu Kaisen"
+				}
+			]
+			rewards: [
+				{
+					id: "0007FB372FCE8F65"
+					type: "command"
+					title: "155 XP"
+					command: "/shonenquete recompense {p} jjk_examen_c_un_fleau_de_grade_1_ou_2_au_hasard"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "jujutsucraft:sukuna_finger"
+		}
+		{
+			id: "0000D252F0ACE4A5"
+			title: "Examen B : Toji"
+			subtitle: "Niveau 40"
+			x: 1.5d
+			y: 3.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"jjk_examen_b_toji"
+			]
+			description: [
+				"L'examen de rang B de la salle Jujutsu Kaisen. Si Jujutsu"
+				"Kaisen est un de tes univers, il ouvre aussi le palier B de"
+				"ses pouvoirs."
+				""
+				"Tâche : réussir l'examen B de la salle Jujutsu Kaisen"
+				""
+				"ouvre le palier B des pouvoirs de cet univers"
+				""
+				"Récompense : 413 XP, 170 Éclats"
+			]
+			tasks: [
+				{
+					id: "000496A5736BA4EE"
+					type: "custom"
+					title: "réussir l'examen B de la salle Jujutsu Kaisen"
+				}
+			]
+			rewards: [
+				{
+					id: "000B6A87FA78D4A1"
+					type: "command"
+					title: "413 XP"
+					command: "/shonenquete recompense {p} jjk_examen_b_toji"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "jujutsucraft:sukuna_finger"
+			dependencies: [
+				"000F120CC5D4F56D"
+			]
+		}
+		{
+			id: "000BB4E835D15690"
+			title: "Examen A : Jogo"
+			subtitle: "Niveau 70"
+			x: 3.0d
+			y: 3.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"jjk_examen_a_jogo"
+			]
+			description: [
+				"L'examen de rang A de la salle Jujutsu Kaisen. Si Jujutsu"
+				"Kaisen est un de tes univers, il ouvre aussi le palier A de"
+				"ses pouvoirs."
+				""
+				"Tâche : réussir l'examen A de la salle Jujutsu Kaisen"
+				""
+				"ouvre le palier A des pouvoirs de cet univers"
+				""
+				"Récompense : 763 XP, 290 Éclats"
+			]
+			tasks: [
+				{
+					id: "000CEAED1A6D1DA5"
+					type: "custom"
+					title: "réussir l'examen A de la salle Jujutsu Kaisen"
+				}
+			]
+			rewards: [
+				{
+					id: "000CFF6EA88DF555"
+					type: "command"
+					title: "763 XP"
+					command: "/shonenquete recompense {p} jjk_examen_a_jogo"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "jujutsucraft:sukuna_finger"
+			dependencies: [
+				"0000D252F0ACE4A5"
+			]
+		}
+		{
+			id: "0000D8D9489447F5"
+			title: "Examen S : Sukuna"
+			subtitle: "Niveau 100"
+			x: 4.5d
+			y: 3.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"jjk_examen_s_sukuna"
+			]
+			description: [
+				"L'examen de rang S de la salle Jujutsu Kaisen. Si Jujutsu"
+				"Kaisen est un de tes univers, il ouvre aussi le palier S de"
+				"ses pouvoirs."
+				""
+				"Tâche : réussir l'examen S de la salle Jujutsu Kaisen"
+				""
+				"ouvre le palier S des pouvoirs de cet univers"
+				""
+				"Récompense : 1155 XP, 410 Éclats"
+			]
+			tasks: [
+				{
+					id: "000A1307686F7FB4"
+					type: "custom"
+					title: "réussir l'examen S de la salle Jujutsu Kaisen"
+				}
+			]
+			rewards: [
+				{
+					id: "00021E069D457CAD"
+					type: "command"
+					title: "1155 XP"
+					command: "/shonenquete recompense {p} jjk_examen_s_sukuna"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "jujutsucraft:sukuna_finger"
+			dependencies: [
+				"000BB4E835D15690"
+			]
+		}
+		{
+			id: "00002CE35E1F9E4C"
+			title: "Examen S : Mahoraga"
+			subtitle: "Niveau 100"
+			x: 6.0d
+			y: 3.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"jjk_examen_s_mahoraga"
+			]
+			description: [
+				"L'examen de rang S de la salle Jujutsu Kaisen. Si Jujutsu"
+				"Kaisen est un de tes univers, il ouvre aussi le palier S de"
+				"ses pouvoirs."
+				""
+				"Tâche : réussir l'examen S de la salle Jujutsu Kaisen"
+				""
+				"ouvre le palier S des pouvoirs de cet univers"
+				""
+				"Récompense : 1155 XP, 410 Éclats"
+			]
+			tasks: [
+				{
+					id: "00063477B136BDCA"
+					type: "custom"
+					title: "réussir l'examen S de la salle Jujutsu Kaisen"
+				}
+			]
+			rewards: [
+				{
+					id: "00066803787DCE0E"
+					type: "command"
+					title: "1155 XP"
+					command: "/shonenquete recompense {p} jjk_examen_s_mahoraga"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "jujutsucraft:sukuna_finger"
+			dependencies: [
+				"0000D8D9489447F5"
+			]
+		}
+		{
+			id: "0004179A10C288EA"
+			title: "Examen S+ : Gojo (boss final)"
+			subtitle: "Niveau 130"
+			x: 7.5d
+			y: 3.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"jjk_examen_s_plus_gojo_boss_final"
+			]
+			description: [
+				"Le boss final de la salle Jujutsu Kaisen. Tous les examens"
+				"de la salle d'abord ; ensuite, la légende."
+				""
+				"Tâche : réussir l'examen S+ de la salle Jujutsu Kaisen"
+				""
+				"boss final de la salle"
+				""
+				"Récompense : 1591 XP, 530 Éclats"
+			]
+			tasks: [
+				{
+					id: "00096AA5AB458376"
+					type: "custom"
+					title: "réussir l'examen S+ de la salle Jujutsu Kaisen"
+				}
+			]
+			rewards: [
+				{
+					id: "0002718880FB93CD"
+					type: "command"
+					title: "1591 XP"
+					command: "/shonenquete recompense {p} jjk_examen_s_plus_gojo_boss_final"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "jujutsucraft:sukuna_finger"
+			dependencies: [
+				"00002CE35E1F9E4C"
+			]
+		}
+		{
+			id: "00031FCCB20FC9BC"
+			title: "Palier B de la voie : énergie occulte renforcée"
+			subtitle: "Niveau 40"
+			x: 0.0d
+			y: 6.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"jjk_palier_b_de_la_voie_energie_occulte_renforcee"
+			]
+			description: [
+				"Ton univers grandit : énergie occulte renforcée. Réussis"
+				"l'examen de ce rang dans cette salle pour l'ouvrir."
+				""
+				"Tâche : avoir réussi l'examen B de la salle Jujutsu Kaisen ET avoir l'univers dans sa voie"
+				""
+				"visible seulement pour ceux qui ont l'univers ; détail des formes : progression.md section 14"
+				""
+				"Récompense : 413 XP, 170 Éclats"
+			]
+			tasks: [
+				{
+					id: "000636AC53D739C5"
+					type: "custom"
+					title: "avoir réussi l'examen B de la salle Jujutsu Kaisen ET avoir "
+				}
+			]
+			rewards: [
+				{
+					id: "0003DF75A3AD7F8A"
+					type: "command"
+					title: "413 XP"
+					command: "/shonenquete recompense {p} jjk_palier_b_de_la_voie_energie_occulte_renforcee"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "jujutsucraft:sukuna_finger"
+		}
+		{
+			id: "000F661C568814E4"
+			title: "Palier A de la voie : technique inversée et techniques avancées"
+			subtitle: "Niveau 70"
+			x: 1.5d
+			y: 6.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"jjk_palier_a_de_la_voie_technique_inversee_et_techni"
+			]
+			description: [
+				"Ton univers grandit : technique inversée et techniques"
+				"avancées. Réussis l'examen de ce rang dans cette salle pour"
+				"l'ouvrir."
+				""
+				"Tâche : avoir réussi l'examen A de la salle Jujutsu Kaisen ET avoir l'univers dans sa voie"
+				""
+				"visible seulement pour ceux qui ont l'univers ; détail des formes : progression.md section 14"
+				""
+				"Récompense : 763 XP, 290 Éclats"
+			]
+			tasks: [
+				{
+					id: "000111F2DAEA6557"
+					type: "custom"
+					title: "avoir réussi l'examen A de la salle Jujutsu Kaisen ET avoir "
+				}
+			]
+			rewards: [
+				{
+					id: "0005942C8B8D1A71"
+					type: "command"
+					title: "763 XP"
+					command: "/shonenquete recompense {p} jjk_palier_a_de_la_voie_technique_inversee_et_techni"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "jujutsucraft:sukuna_finger"
+			dependencies: [
+				"00031FCCB20FC9BC"
+			]
+		}
+		{
+			id: "000BDD1A0221AF1D"
+			title: "Palier S de la voie : extension du territoire"
+			subtitle: "Niveau 100"
+			x: 3.0d
+			y: 6.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"jjk_palier_s_de_la_voie_extension_du_territoire"
+			]
+			description: [
+				"Ton univers grandit : extension du territoire. Réussis"
+				"l'examen de ce rang dans cette salle pour l'ouvrir."
+				""
+				"Tâche : avoir réussi l'examen S de la salle Jujutsu Kaisen ET avoir l'univers dans sa voie"
+				""
+				"visible seulement pour ceux qui ont l'univers ; détail des formes : progression.md section 14"
+				""
+				"Récompense : 1155 XP, 410 Éclats"
+			]
+			tasks: [
+				{
+					id: "000820B680D8D072"
+					type: "custom"
+					title: "avoir réussi l'examen S de la salle Jujutsu Kaisen ET avoir "
+				}
+			]
+			rewards: [
+				{
+					id: "0006FAC77F43321A"
+					type: "command"
+					title: "1155 XP"
+					command: "/shonenquete recompense {p} jjk_palier_s_de_la_voie_extension_du_territoire"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "jujutsucraft:sukuna_finger"
+			dependencies: [
+				"000F661C568814E4"
+			]
+		}
+		{
+			id: "00080F3526377C56"
+			title: "Zone 1 — Trouver la rue hantée"
+			subtitle: "Niveau 4"
+			x: 0.0d
+			y: 9.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"jjk_zone_1_trouver_la_rue_hantee"
+			]
+			description: [
+				"Une rue de petites maisons couverte de talismans, où la peur"
+				"s'est accumulée trop longtemps : les fléaux y naissent."
+				"Trouve le lieu."
+				""
+				"Tâche : tâche d'emplacement (lieu posé à la création du monde ; la Boussole de lignée y mène)"
+				""
+				"Récompense : 51 XP, 15 Éclats"
+			]
+			tasks: [
+				{
+					id: "000F23C4EB2B6720"
+					type: "custom"
+					title: "tâche d'emplacement (lieu posé à la création du monde ; la B"
+				}
+			]
+			rewards: [
+				{
+					id: "00024ACD062F2CE0"
+					type: "command"
+					title: "51 XP"
+					command: "/shonenquete recompense {p} jjk_zone_1_trouver_la_rue_hantee"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "jujutsucraft:sukuna_finger"
+		}
+		{
+			id: "000C7268C0469361"
+			title: "Zone 1 — Les sbires"
+			subtitle: "Niveau 6"
+			x: 0.0d
+			y: 11.25d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"jjk_zone_1_les_sbires"
+			]
+			description: [
+				"Les fléaux de grade 3 pullulent. Exorcise-les."
+				""
+				"Tâche : tuer 15 fléaux de grade 3"
+				""
+				"Récompense : 70 XP, 15 Éclats"
+			]
+			tasks: [
+				{
+					id: "000BE03FB1EF7009"
+					type: "custom"
+					title: "tuer 15 fléaux de grade 3"
+				}
+			]
+			rewards: [
+				{
+					id: "00081D217BCA5C69"
+					type: "command"
+					title: "70 XP"
+					command: "/shonenquete recompense {p} jjk_zone_1_les_sbires"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "jujutsucraft:sukuna_finger"
+			dependencies: [
+				"00080F3526377C56"
+			]
+		}
+		{
+			id: "000D2CA51D10CC4A"
+			title: "Zone 1 — Nettoyer le terrain"
+			subtitle: "Niveau 9"
+			x: 0.0d
+			y: 13.5d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"jjk_zone_1_nettoyer_le_terrain"
+			]
+			description: [
+				"Ils reviennent toujours. Nettoie la ruelle."
+				""
+				"Tâche : tuer 30 fléaux de grade 3 de plus"
+				""
+				"Récompense : 98 XP, 25 Éclats"
+			]
+			tasks: [
+				{
+					id: "000915C8342493BE"
+					type: "custom"
+					title: "tuer 30 fléaux de grade 3 de plus"
+				}
+			]
+			rewards: [
+				{
+					id: "000566D93B119552"
+					type: "command"
+					title: "98 XP"
+					command: "/shonenquete recompense {p} jjk_zone_1_nettoyer_le_terrain"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "jujutsucraft:sukuna_finger"
+			dependencies: [
+				"000C7268C0469361"
+			]
+		}
+		{
+			id: "000FA26543161CC3"
+			title: "Zone 1 — Le fléau de la ruelle (grade 1)"
+			subtitle: "Niveau 15"
+			x: 0.0d
+			y: 15.75d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"jjk_zone_1_le_fleau_de_la_ruelle_grade_1"
+			]
+			description: [
+				"Le fléau qui les nourrit est là. Exorcise-le."
+				""
+				"Tâche : vaincre le fléau de la ruelle (grade 1) (coché par histoire.js pour les participants)"
+				""
+				"à créer : boss de zone 1 JJK"
+				""
+				"Récompense : 155 XP, 70 Éclats"
+			]
+			tasks: [
+				{
+					id: "000498536F8AA290"
+					type: "custom"
+					title: "vaincre le fléau de la ruelle (grade 1) (coché par histoire."
+				}
+			]
+			rewards: [
+				{
+					id: "000BC7843E84611E"
+					type: "command"
+					title: "155 XP"
+					command: "/shonenquete recompense {p} jjk_zone_1_le_fleau_de_la_ruelle_grade_1"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "jujutsucraft:sukuna_finger"
+			dependencies: [
+				"000D2CA51D10CC4A"
+			]
+		}
+		{
+			id: "0004A291B2C50833"
+			title: "Zone 2 — Trouver le jardin botanique"
+			subtitle: "Niveau 20"
+			x: 3.5d
+			y: 9.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"jjk_zone_2_trouver_le_jardin_botanique"
+			]
+			description: [
+				"Un jardin botanique sous une grande serre, envahi de racines"
+				": la nature elle-même y est maudite. Trouve le lieu."
+				""
+				"Tâche : tâche d'emplacement (lieu posé à la création du monde ; la Boussole de lignée y mène)"
+				""
+				"Récompense : 205 XP, 45 Éclats"
+			]
+			tasks: [
+				{
+					id: "000AEEC2FADEA4B0"
+					type: "custom"
+					title: "tâche d'emplacement (lieu posé à la création du monde ; la B"
+				}
+			]
+			rewards: [
+				{
+					id: "000E9FF63731CAFC"
+					type: "command"
+					title: "205 XP"
+					command: "/shonenquete recompense {p} jjk_zone_2_trouver_le_jardin_botanique"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "jujutsucraft:sukuna_finger"
+			dependencies: [
+				"000FA26543161CC3"
+			]
+		}
+		{
+			id: "0008F14A6513365F"
+			title: "Zone 2 — Les sbires"
+			subtitle: "Niveau 25"
+			x: 3.5d
+			y: 11.25d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"jjk_zone_2_les_sbires"
+			]
+			description: [
+				"Des fléaux de grade 2 gardent le parc."
+				""
+				"Tâche : tuer 15 fléaux de grade 2"
+				""
+				"Récompense : 255 XP, 55 Éclats"
+			]
+			tasks: [
+				{
+					id: "000B3B1922074336"
+					type: "custom"
+					title: "tuer 15 fléaux de grade 2"
+				}
+			]
+			rewards: [
+				{
+					id: "000F911A8485B81D"
+					type: "command"
+					title: "255 XP"
+					command: "/shonenquete recompense {p} jjk_zone_2_les_sbires"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "jujutsucraft:sukuna_finger"
+			dependencies: [
+				"0004A291B2C50833"
+			]
+		}
+		{
+			id: "000B3FD42D96222B"
+			title: "Zone 2 — Nettoyer le terrain"
+			subtitle: "Niveau 30"
+			x: 3.5d
+			y: 13.5d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"jjk_zone_2_nettoyer_le_terrain"
+			]
+			description: [
+				"Le parc saigne encore. Continue."
+				""
+				"Tâche : tuer 30 fléaux de grade 2 de plus"
+				""
+				"Récompense : 307 XP, 65 Éclats"
+			]
+			tasks: [
+				{
+					id: "0007D63C53EAC877"
+					type: "custom"
+					title: "tuer 30 fléaux de grade 2 de plus"
+				}
+			]
+			rewards: [
+				{
+					id: "000366C88D774160"
+					type: "command"
+					title: "307 XP"
+					command: "/shonenquete recompense {p} jjk_zone_2_nettoyer_le_terrain"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "jujutsucraft:sukuna_finger"
+			dependencies: [
+				"0008F14A6513365F"
+			]
+		}
+		{
+			id: "0000C13E0F8088A4"
+			title: "Zone 2 — Le lieutenant : Hanami"
+			subtitle: "Niveau 35"
+			x: 3.5d
+			y: 15.75d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"jjk_zone_2_le_lieutenant_hanami"
+			]
+			description: [
+				"Hanami, la fléau de la forêt."
+				""
+				"Tâche : vaincre Hanami"
+				""
+				"Récompense : 359 XP, 150 Éclats"
+			]
+			tasks: [
+				{
+					id: "00069C939ABCF978"
+					type: "custom"
+					title: "vaincre Hanami"
+				}
+			]
+			rewards: [
+				{
+					id: "000C4A57158DD18E"
+					type: "command"
+					title: "359 XP"
+					command: "/shonenquete recompense {p} jjk_zone_2_le_lieutenant_hanami"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "jujutsucraft:sukuna_finger"
+			dependencies: [
+				"000B3FD42D96222B"
+			]
+		}
+		{
+			id: "000497F5C8728DFB"
+			title: "Zone 2 — Dagon"
+			subtitle: "Niveau 40"
+			x: 3.5d
+			y: 18.0d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"jjk_zone_2_dagon"
+			]
+			description: [
+				"Dagon, le fléau de la mer, sort de l'eau."
+				""
+				"Tâche : vaincre Dagon (coché par histoire.js pour les participants)"
+				""
+				"Récompense : 413 XP, 170 Éclats"
+			]
+			tasks: [
+				{
+					id: "0001868FD2F5CAA8"
+					type: "custom"
+					title: "vaincre Dagon (coché par histoire.js pour les participants)"
+				}
+			]
+			rewards: [
+				{
+					id: "000176B69CD9F4A8"
+					type: "command"
+					title: "413 XP"
+					command: "/shonenquete recompense {p} jjk_zone_2_dagon"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "jujutsucraft:sukuna_finger"
+			dependencies: [
+				"0000C13E0F8088A4"
+			]
+		}
+		{
+			id: "000E2C987FC106CA"
+			title: "Zone 3 — Trouver le quartier en flammes"
+			subtitle: "Niveau 48"
+			x: 7.0d
+			y: 9.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"jjk_zone_3_trouver_le_quartier_en_flammes"
+			]
+			description: [
+				"Un carrefour de ville en flammes, des immeubles à moitié"
+				"effondrés et des braises partout. Trouve le lieu."
+				""
+				"Tâche : tâche d'emplacement (lieu posé à la création du monde ; la Boussole de lignée y mène)"
+				""
+				"Récompense : 502 XP, 100 Éclats"
+			]
+			tasks: [
+				{
+					id: "000BCF94E6141127"
+					type: "custom"
+					title: "tâche d'emplacement (lieu posé à la création du monde ; la B"
+				}
+			]
+			rewards: [
+				{
+					id: "00054AFA0BA08FEF"
+					type: "command"
+					title: "502 XP"
+					command: "/shonenquete recompense {p} jjk_zone_3_trouver_le_quartier_en_flammes"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "jujutsucraft:sukuna_finger"
+			dependencies: [
+				"000497F5C8728DFB"
+			]
+		}
+		{
+			id: "000CF397EEFCF66B"
+			title: "Zone 3 — Les sbires"
+			subtitle: "Niveau 53"
+			x: 7.0d
+			y: 11.25d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"jjk_zone_3_les_sbires"
+			]
+			description: [
+				"Des fléaux de grade 1 dans les rues."
+				""
+				"Tâche : tuer 15 fléaux de grade 1"
+				""
+				"Récompense : 560 XP, 110 Éclats"
+			]
+			tasks: [
+				{
+					id: "000204F4B3AB85B7"
+					type: "custom"
+					title: "tuer 15 fléaux de grade 1"
+				}
+			]
+			rewards: [
+				{
+					id: "000C4205C7BEBCFA"
+					type: "command"
+					title: "560 XP"
+					command: "/shonenquete recompense {p} jjk_zone_3_les_sbires"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "jujutsucraft:sukuna_finger"
+			dependencies: [
+				"000E2C987FC106CA"
+			]
+		}
+		{
+			id: "000D8C1410362377"
+			title: "Zone 3 — Nettoyer le terrain"
+			subtitle: "Niveau 59"
+			x: 7.0d
+			y: 13.5d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"jjk_zone_3_nettoyer_le_terrain"
+			]
+			description: [
+				"Le rideau tient toujours. Continue."
+				""
+				"Tâche : tuer 30 fléaux de grade 1 de plus"
+				""
+				"Récompense : 629 XP, 125 Éclats"
+			]
+			tasks: [
+				{
+					id: "0008F4E6865D8696"
+					type: "custom"
+					title: "tuer 30 fléaux de grade 1 de plus"
+				}
+			]
+			rewards: [
+				{
+					id: "000FDE28EE371AD6"
+					type: "command"
+					title: "629 XP"
+					command: "/shonenquete recompense {p} jjk_zone_3_nettoyer_le_terrain"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "jujutsucraft:sukuna_finger"
+			dependencies: [
+				"000CF397EEFCF66B"
+			]
+		}
+		{
+			id: "0006F83C6682F935"
+			title: "Zone 3 — Le lieutenant : Jogo"
+			subtitle: "Niveau 64"
+			x: 7.0d
+			y: 15.75d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"jjk_zone_3_le_lieutenant_jogo"
+			]
+			description: [
+				"Jogo, le fléau du volcan."
+				""
+				"Tâche : vaincre Jogo"
+				""
+				"Récompense : 689 XP, 270 Éclats"
+			]
+			tasks: [
+				{
+					id: "000A04A1F5D76075"
+					type: "custom"
+					title: "vaincre Jogo"
+				}
+			]
+			rewards: [
+				{
+					id: "0009F8176A0F1D75"
+					type: "command"
+					title: "689 XP"
+					command: "/shonenquete recompense {p} jjk_zone_3_le_lieutenant_jogo"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "jujutsucraft:sukuna_finger"
+			dependencies: [
+				"000D8C1410362377"
+			]
+		}
+		{
+			id: "000248D4F43D7D5E"
+			title: "Zone 3 — Mahito"
+			subtitle: "Niveau 70"
+			x: 7.0d
+			y: 18.0d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"jjk_zone_3_mahito"
+			]
+			description: [
+				"Mahito joue avec les âmes. Arrête-le."
+				""
+				"Tâche : vaincre Mahito (coché par histoire.js pour les participants)"
+				""
+				"Récompense : 763 XP, 290 Éclats"
+			]
+			tasks: [
+				{
+					id: "0006040FDA4DC7FE"
+					type: "custom"
+					title: "vaincre Mahito (coché par histoire.js pour les participants)"
+				}
+			]
+			rewards: [
+				{
+					id: "0004F85B3E8D4AF6"
+					type: "command"
+					title: "763 XP"
+					command: "/shonenquete recompense {p} jjk_zone_3_mahito"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "jujutsucraft:sukuna_finger"
+			dependencies: [
+				"0006F83C6682F935"
+			]
+		}
+		{
+			id: "00011BADEA273DE4"
+			title: "Zone 4 — Trouver la gare souterraine"
+			subtitle: "Niveau 78"
+			x: 10.5d
+			y: 9.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"jjk_zone_4_trouver_la_gare_souterraine"
+			]
+			description: [
+				"Une gare souterraine, des quais déserts sous les néons. Un"
+				"sorcier y a perdu son corps. Trouve le lieu."
+				""
+				"Tâche : tâche d'emplacement (lieu posé à la création du monde ; la Boussole de lignée y mène)"
+				""
+				"Récompense : 863 XP, 160 Éclats"
+			]
+			tasks: [
+				{
+					id: "0006A66F0A7A1C20"
+					type: "custom"
+					title: "tâche d'emplacement (lieu posé à la création du monde ; la B"
+				}
+			]
+			rewards: [
+				{
+					id: "000A4DC49089DC27"
+					type: "command"
+					title: "863 XP"
+					command: "/shonenquete recompense {p} jjk_zone_4_trouver_la_gare_souterraine"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "jujutsucraft:sukuna_finger"
+			dependencies: [
+				"000248D4F43D7D5E"
+			]
+		}
+		{
+			id: "0007F8D3987F066F"
+			title: "Zone 4 — Les sbires"
+			subtitle: "Niveau 83"
+			x: 10.5d
+			y: 11.25d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"jjk_zone_4_les_sbires"
+			]
+			description: [
+				"Fléaux et sorciers maudits partout."
+				""
+				"Tâche : tuer 15 fléaux et sorciers maudits"
+				""
+				"Récompense : 927 XP, 170 Éclats"
+			]
+			tasks: [
+				{
+					id: "000E8DBF9B6CC83F"
+					type: "custom"
+					title: "tuer 15 fléaux et sorciers maudits"
+				}
+			]
+			rewards: [
+				{
+					id: "00032FF0832EF85A"
+					type: "command"
+					title: "927 XP"
+					command: "/shonenquete recompense {p} jjk_zone_4_les_sbires"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "jujutsucraft:sukuna_finger"
+			dependencies: [
+				"00011BADEA273DE4"
+			]
+		}
+		{
+			id: "000A53B458B93B33"
+			title: "Zone 4 — Nettoyer le terrain"
+			subtitle: "Niveau 89"
+			x: 10.5d
+			y: 13.5d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"jjk_zone_4_nettoyer_le_terrain"
+			]
+			description: [
+				"Il reste encore des sorciers maudits."
+				""
+				"Tâche : tuer 30 fléaux et sorciers maudits de plus"
+				""
+				"Récompense : 1006 XP, 185 Éclats"
+			]
+			tasks: [
+				{
+					id: "0007C3D77779CF6A"
+					type: "custom"
+					title: "tuer 30 fléaux et sorciers maudits de plus"
+				}
+			]
+			rewards: [
+				{
+					id: "00005796CCA116B8"
+					type: "command"
+					title: "1006 XP"
+					command: "/shonenquete recompense {p} jjk_zone_4_nettoyer_le_terrain"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "jujutsucraft:sukuna_finger"
+			dependencies: [
+				"0007F8D3987F066F"
+			]
+		}
+		{
+			id: "000CA91F57FC1943"
+			title: "Zone 4 — Megumi possédé et Mahoraga"
+			subtitle: "Niveau 100"
+			x: 10.5d
+			y: 15.75d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"jjk_zone_4_megumi_possede_et_mahoraga"
+			]
+			description: [
+				"Megumi possédé appelle le Général divin, Mahoraga."
+				""
+				"Tâche : vaincre Megumi possédé et Mahoraga (histoire_megumi) (coché par histoire.js pour les participants)"
+				""
+				"Récompense : 1155 XP, 410 Éclats"
+			]
+			tasks: [
+				{
+					id: "00023C23360681C9"
+					type: "custom"
+					title: "vaincre Megumi possédé et Mahoraga (histoire_megumi) (coché "
+				}
+			]
+			rewards: [
+				{
+					id: "000F9CA55F381D88"
+					type: "command"
+					title: "1155 XP"
+					command: "/shonenquete recompense {p} jjk_zone_4_megumi_possede_et_mahoraga"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "jujutsucraft:sukuna_finger"
+			dependencies: [
+				"000A53B458B93B33"
+			]
+		}
+		{
+			id: "0003655280682496"
+			title: "Zone 5 — Trouver le sanctuaire du roi des fléaux"
+			subtitle: "Niveau 108"
+			x: 14.0d
+			y: 9.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"jjk_zone_5_trouver_le_sanctuaire_du_roi_des_fleaux"
+			]
+			description: [
+				"Un temple noir sur une plaine de cendres : le sanctuaire du"
+				"roi des fléaux. Trouve le lieu."
+				""
+				"Tâche : tâche d'emplacement (lieu posé à la création du monde ; la Boussole de lignée y mène)"
+				""
+				"Récompense : 1267 XP, 220 Éclats"
+			]
+			tasks: [
+				{
+					id: "0001D4CBEDB9C933"
+					type: "custom"
+					title: "tâche d'emplacement (lieu posé à la création du monde ; la B"
+				}
+			]
+			rewards: [
+				{
+					id: "000FA3DE02437D9C"
+					type: "command"
+					title: "1267 XP"
+					command: "/shonenquete recompense {p} jjk_zone_5_trouver_le_sanctuaire_du_roi_des_fleaux"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "jujutsucraft:sukuna_finger"
+			dependencies: [
+				"000CA91F57FC1943"
+			]
+		}
+		{
+			id: "00076A8308EE4058"
+			title: "Zone 5 — Les sbires"
+			subtitle: "Niveau 113"
+			x: 14.0d
+			y: 11.25d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"jjk_zone_5_les_sbires"
+			]
+			description: [
+				"Les fléaux de grade 1 gardent les colonies."
+				""
+				"Tâche : tuer 15 fléaux de grade 1"
+				""
+				"Récompense : 1339 XP, 230 Éclats"
+			]
+			tasks: [
+				{
+					id: "000FBDBE8ED804CF"
+					type: "custom"
+					title: "tuer 15 fléaux de grade 1"
+				}
+			]
+			rewards: [
+				{
+					id: "0005DDB65CA8DFFB"
+					type: "command"
+					title: "1339 XP"
+					command: "/shonenquete recompense {p} jjk_zone_5_les_sbires"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "jujutsucraft:sukuna_finger"
+			dependencies: [
+				"0003655280682496"
+			]
+		}
+		{
+			id: "000F7C9976AB4BCA"
+			title: "Zone 5 — Nettoyer le terrain"
+			subtitle: "Niveau 119"
+			x: 14.0d
+			y: 13.5d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"jjk_zone_5_nettoyer_le_terrain"
+			]
+			description: [
+				"Le jeu doit cesser."
+				""
+				"Tâche : tuer 30 fléaux de grade 1 de plus"
+				""
+				"Récompense : 1426 XP, 245 Éclats"
+			]
+			tasks: [
+				{
+					id: "000B83A156E177C7"
+					type: "custom"
+					title: "tuer 30 fléaux de grade 1 de plus"
+				}
+			]
+			rewards: [
+				{
+					id: "00074E86C5615132"
+					type: "command"
+					title: "1426 XP"
+					command: "/shonenquete recompense {p} jjk_zone_5_nettoyer_le_terrain"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "jujutsucraft:sukuna_finger"
+			dependencies: [
+				"00076A8308EE4058"
+			]
+		}
+		{
+			id: "000EB4FE1CCC8040"
+			title: "Zone 5 — Le lieutenant : Kenjaku"
+			subtitle: "Niveau 124"
+			x: 14.0d
+			y: 15.75d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"jjk_zone_5_le_lieutenant_kenjaku"
+			]
+			description: [
+				"Kenjaku, le cerveau derrière tout, t'attend."
+				""
+				"Tâche : vaincre Kenjaku"
+				""
+				"Récompense : 1500 XP, 510 Éclats"
+			]
+			tasks: [
+				{
+					id: "000D50474FEE968F"
+					type: "custom"
+					title: "vaincre Kenjaku"
+				}
+			]
+			rewards: [
+				{
+					id: "0007C923955ED5B7"
+					type: "command"
+					title: "1500 XP"
+					command: "/shonenquete recompense {p} jjk_zone_5_le_lieutenant_kenjaku"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "jujutsucraft:sukuna_finger"
+			dependencies: [
+				"000F7C9976AB4BCA"
+			]
+		}
+		{
+			id: "000BAD0C2259CA05"
+			title: "Zone 5 — Sukuna, l'Ancre"
+			subtitle: "Niveau 130"
+			x: 14.0d
+			y: 18.0d
+			shape: "star"
+			size: 1.5d
+			tags: [
+				"jjk_zone_5_sukuna_l_ancre"
+			]
+			description: [
+				"Le Roi des Fléaux. L'Ancre de Jujutsu Kaisen."
+				""
+				"Tâche : vaincre Sukuna, l'Ancre (histoire_sukuna) (coché par histoire.js pour les participants)"
+				""
+				"Récompense : 1591 XP, 530 Éclats"
+			]
+			tasks: [
+				{
+					id: "000BB65ABC963DF8"
+					type: "custom"
+					title: "vaincre Sukuna, l'Ancre (histoire_sukuna) (coché par histoir"
+				}
+			]
+			rewards: [
+				{
+					id: "00034C547FE76DE8"
+					type: "command"
+					title: "1591 XP"
+					command: "/shonenquete recompense {p} jjk_zone_5_sukuna_l_ancre"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "jujutsucraft:sukuna_finger"
+			dependencies: [
+				"000EB4FE1CCC8040"
+			]
+		}
+	]
+	quest_links: [ ]
+}

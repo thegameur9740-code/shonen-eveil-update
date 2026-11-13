@@ -1,0 +1,13 @@
+{
+ "name": "Tes touches",
+ "category": "patchouli:dbz",
+ "icon": "minecraft:stone_button",
+ "read_by_default": true,
+ "sortnum": 1,
+ "pages": [
+  {
+   "type": "patchouli:text",
+   "text": "$(l)$(k:key.dragonminez.ki_charge)$() charger le ki$(br)$(l)$(k:key.dragonminez.action_key)$() action, transformation$(br)$(l)$(k:key.dragonminez.descend)$() forme d'avant$(br)$(l)$(k:key.dragonminez.fly_key)$() voler$(br)$(l)$(k:key.dragonminez.dash_key)$() esquive$(br)$(l)$(k:key.dragonminez.stats_menu)$() stats$(br)$(l)$(k:key.dragonminez.lock_on)$() verrouiller la cible$(br)$(l)$(k:key.dragonminez.utility_menu)$() menu utilitaire$(br2)Pas de touche : pas à toi."
+  }
+ ]
+}

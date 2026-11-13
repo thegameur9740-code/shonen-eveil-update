@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:generic",
+  "pools": [],
+  "random_sequence": "minepiece:gameplay/loot_book"
+}

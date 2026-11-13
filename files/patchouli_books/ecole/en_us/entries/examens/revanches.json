@@ -1,0 +1,13 @@
+{
+ "name": "Les revanches",
+ "category": "patchouli:examens",
+ "icon": "minecraft:respawn_anchor",
+ "read_by_default": true,
+ "sortnum": 3,
+ "pages": [
+  {
+   "type": "patchouli:text",
+   "text": "L'$(l)autel des revanches$() d'une salle rappelle un boss du monde déjà battu.$(br)Pas d'XP, mais son butin.$(br2)Prix : C 100, B 250, A 500, S 1 000, S+ 2 000 Éclats.$(br2)$(l)Cauchemar$() : prix ×3, Éclats ×2, butin unique 25 % (au lieu de 10 %)."
+  }
+ ]
+}

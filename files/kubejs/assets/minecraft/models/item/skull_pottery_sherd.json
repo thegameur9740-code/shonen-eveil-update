@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/skull_pottery_sherd"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 7028
+      },
+      "model": "shonen:item/souvenirs/fleau_ruelle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7032
+      },
+      "model": "shonen:item/souvenirs/hanami"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7036
+      },
+      "model": "shonen:item/souvenirs/megumi"
+    }
+  ]
+}

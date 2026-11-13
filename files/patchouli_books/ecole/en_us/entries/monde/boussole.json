@@ -1,0 +1,13 @@
+{
+ "name": "La boussole de lignée",
+ "category": "patchouli:monde",
+ "icon": "minecraft:compass",
+ "read_by_default": true,
+ "sortnum": 3,
+ "pages": [
+  {
+   "type": "patchouli:text",
+   "text": "Elle est dans ton kit.$(br)$(l)Clic droit$() : lignée suivante.$(br)$(l)Maj + clic droit$() : les 7 lignées.$(br2)L'aiguille montre ta $(l)prochaine étape$(). Elle tourne quand la lignée est finie.$(br)Perdue ? La $(l)magnétite$() d'une salle ou $(l)/boussole$() en redonne une."
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "name": "Les événements",
+ "category": "patchouli:monde",
+ "icon": "minecraft:beacon",
+ "read_by_default": true,
+ "sortnum": 5,
+ "pages": [
+  {
+   "type": "patchouli:text",
+   "text": "Toutes les 80 à 100 min, près d'un joueur, dans sa zone. Il dure $(l)5 min$().$(br)Le chat donne la direction ; un faisceau le montre.$(br)$(l)/evenement$() : où et combien de temps.$(br2)Viens à 48 blocs : 15 Éclats × la zone."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Les 7 événements",
+   "text": "Un par univers :$(li)météores (Dragon Ball) ;$(li)tempête de reiatsu (Bleach) ;$(li)brume maudite : brûle les 3 autels (JJK) ;$(li)coffres à la dérive (One Piece) ;$(li)portail instable (Solo Leveling) ;$(li)tempête de chakra (Naruto) ;$(li)vilains : sauve les habitants, prime ×2 (MHA)."
+  }
+ ]
+}

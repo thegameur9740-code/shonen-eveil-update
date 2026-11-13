@@ -1,0 +1,14 @@
+{
+  "moogs_structures.config.reload_notice": "Les changements s'appliquent après le rechargement du monde (retour à l'écran titre puis retour en jeu, ou /reload), et ne concernent que les chunks nouvellement générés.",
+  "moogs_structures.config.category.replace_vanilla": "Remplacer les structures vanilla",
+  "moogs_structures.config.category.structures": "Structures",
+  "moogs_structures.config.universal_frequency": "Fréquence globale",
+  "moogs_structures.config.universal_frequency.tooltip": "Fréquence de chaque structure de Moog. 2x signifie environ deux fois plus, 0.5x environ deux fois moins.",
+  "moogs_structures.config.all_of_mod": "Tout %s",
+  "moogs_structures.config.mod_frequency.tooltip": "Fréquence de chaque structure de %s. 2x signifie environ deux fois plus, 0.5x environ deux fois moins.",
+  "moogs_structures.config.preview": "Aperçu",
+  "moogs_structures.config.preview.unavailable": "Pas d'aperçu : ce mod n'a pas défini de lien d'aperçu (mod_slug).",
+  "moogs_structures.config.enabled": "Activé",
+  "moogs_structures.config.disabled": "Désactivé",
+  "moogs_structures.cloth_required.message": "L'écran de configuration de Moog's Structure Lib nécessite Cloth Config API. Installez-le pour configurer en jeu."
+}

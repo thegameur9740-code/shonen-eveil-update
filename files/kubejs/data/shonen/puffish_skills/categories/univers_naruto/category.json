@@ -1,0 +1,14 @@
+{
+  "title": "Arbre de Naruto",
+  "description": "Ton chakra. Tous les chemins sont ouverts : Ninjutsu, Taijutsu et Kenjutsu, Chakra.",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "minecraft:paper"
+    }
+  },
+  "background": "minecraft:textures/gui/advancements/backgrounds/end.png",
+  "unlocked_by_default": false,
+  "starting_points": 0,
+  "exclusive_root": false
+}

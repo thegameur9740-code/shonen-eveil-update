@@ -1,0 +1,21 @@
+{
+ "name": "Les Éclats",
+ "category": "patchouli:ecole",
+ "icon": "shonen:eclat",
+ "read_by_default": true,
+ "sortnum": 9,
+ "pages": [
+  {
+   "type": "patchouli:spotlight",
+   "item": "shonen:eclat",
+   "link_recipe": false,
+   "title": "Les Éclats",
+   "text": "Tes Éclats s'affichent $(l)en haut à droite$() de l'écran : un compteur, plus des pièces.$(br2)Les anciennes pièces se changent toutes seules.$(br2)$(l)/eclats donner$() joueur nombre : à un ami près de toi."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "En gagner",
+   "text": "$(li)monstres (plus loin = plus) ;$(li)boss et examens ;$(li)quêtes et contrats du jour ;$(li)événements du monde ;$(li)reprise de tes objets.$(br2)La nuit : ×2. La nuit rouge : ×3."
+  }
+ ]
+}

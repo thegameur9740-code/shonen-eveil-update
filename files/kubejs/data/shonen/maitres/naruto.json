@@ -1,0 +1,22 @@
+{
+ "univers": "naruto",
+ "nom": "Jiraya",
+ "role": "l'ermite",
+ "corps": "ninshuorigins:jiraya",
+ "salut": {
+  "tien": "Ah, un jeune ninja ! Tu as de la chance, tu tombes sur le plus grand ermite de tous les temps.",
+  "autre": "Pas besoin d'un bandeau pour apprendre deux ou trois choses."
+ },
+ "sujets": {
+  "monde": "Le chakra fait tout ici. Ton clan, tes natures (feu, eau, vent, foudre, terre) et ton village sont tirés au hasard à ta naissance. Toi, tu as choisi deux spécialités : ninjutsu, taijutsu, genjutsu, kenjutsu ou médecine.",
+  "commencer": "Ouvre le menu ninja pour voir ton clan et tes jutsus. Je t'ai donné 30 points de jutsu : dans ton inventaire ninja, choisis le rouleau d'une de tes natures, puis un jutsu, et lance-le ; le premier essai l'apprend (son prix est dans la bulle d'aide). Si ton clan ne te plaît pas, le marchand de la boutique, à l'étage, le relance contre des Éclats.",
+  "fort": "Tes jutsus s'apprennent avec des points de jutsu, gagnés en battant des ninjas et en faisant des quêtes ; il faut la bonne nature ou le bon clan, et certains demandent de l'entraînement dans ta spécialité. Certains clans ont un pouvoir héréditaire ; bats un démon à queues et le meilleur ninja de ton équipe devient son jinchūriki (un seul de chaque).",
+  "aller": "Lignée de Naruto : de Zabuza dans la brume à l'Akatsuki, Pain puis Obito. Les démons à queues errent dans le monde. Mes examens : de Zabuza à Kurama. Ta Boussole de lignée, réglée sur Naruto (clic droit), te montre ta prochaine étape."
+ },
+ "encouragements": [
+  "Ne renonce jamais : c’est ça, la voie du ninja !",
+  "Un bon ninja lit entre les lignes. Et moi, j’écris entre les lignes.",
+  "Ton chakra est plus calme qu’hier. C’est bon signe."
+ ],
+ "a_verifier": []
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Bleach",
+  "description": "Shinigami, Quincy, Hollow ou Fullbringer (Bleach Reborn).\nTu choisis ensuite ta faction.",
+  "icon": {
+    "item": "bleachreborn:asauchi"
+  },
+  "impact": 2,
+  "order": 3,
+  "powers": [
+    "shonen:univers_bleach"
+  ]
+}

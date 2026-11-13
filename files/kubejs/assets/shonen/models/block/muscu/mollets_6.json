@@ -1,0 +1,109 @@
+{
+ "textures": {
+  "disc": "minecraft:block/black_concrete",
+  "iron": "minecraft:block/iron_block",
+  "particle": "shonen:block/muscu_fer"
+ },
+ "elements": [
+  {
+   "from": [
+    4.16,
+    0,
+    0
+   ],
+   "to": [
+    16,
+    0.8399999999999999,
+    5.84
+   ],
+   "faces": {
+    "south": {
+     "uv": [
+      4.16,
+      15.16,
+      16,
+      16
+     ],
+     "texture": "#iron"
+    },
+    "west": {
+     "uv": [
+      0,
+      15.16,
+      5.84,
+      16
+     ],
+     "texture": "#iron"
+    },
+    "up": {
+     "uv": [
+      4.16,
+      0,
+      16,
+      5.84
+     ],
+     "texture": "#iron"
+    }
+   }
+  },
+  {
+   "from": [
+    6.18,
+    0,
+    2.1799999999999997
+   ],
+   "to": [
+    9.82,
+    1.8200000000000003,
+    5.82
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      6.18,
+      14.18,
+      9.82,
+      16
+     ],
+     "texture": "#disc"
+    },
+    "south": {
+     "uv": [
+      6.18,
+      14.18,
+      9.82,
+      16
+     ],
+     "texture": "#disc"
+    },
+    "west": {
+     "uv": [
+      2.1799999999999997,
+      14.18,
+      5.82,
+      16
+     ],
+     "texture": "#disc"
+    },
+    "east": {
+     "uv": [
+      10.18,
+      14.18,
+      13.82,
+      16
+     ],
+     "texture": "#disc"
+    },
+    "up": {
+     "uv": [
+      6.18,
+      2.1799999999999997,
+      9.82,
+      5.82
+     ],
+     "texture": "#disc"
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/flint"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 7041
+      },
+      "model": "shonen:item/souvenirs/matatabi"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7045
+      },
+      "model": "shonen:item/souvenirs/saiken"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7049
+      },
+      "model": "shonen:item/souvenirs/itachi"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7053
+      },
+      "model": "shonen:item/souvenirs/orochimaru"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7057
+      },
+      "model": "shonen:item/souvenirs/pain"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7061
+      },
+      "model": "shonen:item/souvenirs/sasori"
+    }
+  ]
+}

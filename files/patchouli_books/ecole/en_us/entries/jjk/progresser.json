@@ -1,0 +1,18 @@
+{
+ "name": "Progresser",
+ "category": "patchouli:jjk",
+ "icon": "minecraft:experience_bottle",
+ "read_by_default": true,
+ "sortnum": 2,
+ "pages": [
+  {
+   "type": "patchouli:text",
+   "text": "Tuer donne de la $(l)Renommée$() : elle monte ton $(l)grade$().$(br)Utiliser ta technique monte son $(l)niveau$().$(li)$(l)Territoire simple$() : niveau 4 001.$(li)$(l)Extension du territoire$() : niveau 12 001, et niveau d'Éveillé $(l)100$() (examen S de la salle).$(br)Ton énergie occulte suit ton niveau d'Éveillé."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Au hasard",
+   "text": "$(l)Technique inversée$() : en prenant des coups à faible vie. Trop de soins fatiguent.$(br)$(l)Flash noir$() : sur tes coups physiques, rare.$(br2)$(l)Corps à corps$() : une roue de coups.$(br)Maintiens pour un coup chargé.$(br)Accroupi : la garde."
+  }
+ ]
+}

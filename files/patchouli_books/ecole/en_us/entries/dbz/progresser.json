@@ -1,0 +1,18 @@
+{
+ "name": "Progresser",
+ "category": "patchouli:dbz",
+ "icon": "minecraft:experience_bottle",
+ "read_by_default": true,
+ "sortnum": 2,
+ "pages": [
+  {
+   "type": "patchouli:text",
+   "text": "$(l)TP$() : frapper, tuer, miner, et surtout les quêtes. Dépense-les dans 6 stats (le coût monte).$(br2)$(l)Techniques$() : achetées aux maîtres ou créées. Main vide, 8 emplacements.$(br2)$(l)Parade$() : bloque au bon moment, l'attaquant est sonné."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Transformations",
+   "text": "TP + forme d'avant maîtrisée + quête de saga.$(br)Ici, il faut aussi le niveau et l'examen du rang :$(li)Super Saiyan : 40 ;$(li)SSJ2 : 70 ; SSJ3 : 100 ;$(li)formes divines : 130.$(br2)$(l)Sagas$() : menu Quêtes. La difficulté choisie à la 1re ouverture est définitive."
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Dragon Ball",
+  "description": "Saiyan, Humain, Namek, Arcosien, Majin ou Bio-androïde (DragonMine Z).\nTu crées ensuite ton guerrier.",
+  "icon": {
+    "item": "dragonminez:red_scouter"
+  },
+  "impact": 2,
+  "order": 4,
+  "powers": [
+    "shonen:univers_dbz"
+  ]
+}

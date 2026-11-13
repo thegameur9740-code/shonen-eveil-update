@@ -1,0 +1,22 @@
+{
+ "univers": "dbz",
+ "nom": "Tortue Géniale",
+ "role": "le vieux maître",
+ "corps": "dragonminez:master_roshi",
+ "salut": {
+  "tien": "Ho ho ho ! Encore un jeune plein d'énergie. On va voir ce que tu as dans le ventre.",
+  "autre": "Même sans ki, un bon entraînement ne fait jamais de mal !"
+ },
+ "sujets": {
+  "monde": "Tu as choisi ta race à l'Éveil : Saiyan, Humain, Namek, Arcosien, Majin ou Bio-androïde. Tout passe par le ki : tu le charges, tu voles, tu frappes, tu esquives.",
+  "commencer": "Charge ton ki, puis ouvre le menu des stats : chaque combat te donne des points à y placer. Le vol coûte du ki, alors surveille ta barre. /touches te montre tout.",
+  "fort": "Tes transformations s'achètent avec tes points d'entraînement, mais chacune demande d'avoir avancé dans les sagas et d'avoir atteint le bon niveau. On remonte d'une forme avec une touche, on redescend avec Alt.",
+  "aller": "Lignée de Dragon Ball : Ruban Rouge, cratère saiyan, Namek, jusqu'à Majin Buu. Mes examens : de Raditz à Broly. Ta Boussole de lignée, réglée sur Dragon Ball (clic droit), te montre ta prochaine étape."
+ },
+ "encouragements": [
+  "Mange bien, entraîne-toi bien, repose-toi bien !",
+  "Il y a toujours plus fort que toi. C’est ça qui est amusant.",
+  "Ho ho ho ! Ton ki grandit, je le sens d’ici."
+ ],
+ "a_verifier": []
+}

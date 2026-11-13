@@ -1,0 +1,22 @@
+{
+ "name": "L'essentiel",
+ "category": "patchouli:solo",
+ "icon": "minecraft:amethyst_shard",
+ "read_by_default": true,
+ "sortnum": 0,
+ "pages": [
+  {
+   "type": "patchouli:image",
+   "images": [
+    "shonen:textures/livre/ill_solo.png"
+   ],
+   "border": false,
+   "text": "Go Gun-hee : « Un chasseur qui ne se prépare pas ne revient pas. »"
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Ce que tu es",
+   "text": "Ta $(l)classe$() : assassin, mage, combattant, tank, soigneur ou archer.$(br)Confirme dans le chat : [Garder] ou [Changer] (3 fois au plus), ou $(l)/classe$().$(br2)$(l)Commencer$() :$(li)ouvre le panneau : $(l)$(k:key.sololeveling.open_panel)$() ;$(li)place tes points ;$(li)essaie tes capacités au $(l)dojo$()."
+  }
+ ]
+}

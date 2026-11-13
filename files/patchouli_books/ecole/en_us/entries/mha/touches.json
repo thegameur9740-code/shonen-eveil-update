@@ -1,0 +1,13 @@
+{
+ "name": "Tes touches",
+ "category": "patchouli:mha",
+ "icon": "minecraft:stone_button",
+ "read_by_default": true,
+ "sortnum": 1,
+ "pages": [
+  {
+   "type": "patchouli:text",
+   "text": "$(l)$(k:key.quirksunchained.z)$() capacité 1$(br)$(l)$(k:key.quirksunchained.x)$() capacité 2$(br)$(l)$(k:key.quirksunchained.c)$() capacité 3$(br)$(l)$(k:key.quirksunchained.v)$() capacité 4$(br)$(l)$(k:key.quirksunchained.r)$() spécial de l'Alter$(br)$(l)$(k:key.quirksunchained.m)$() menu des capacités$(br)$(l)$(k:key.quirksunchained.alt)$() changer de barre$(br)$(l)Espace$() : voler, si ton Alter vole.$(br2)Pas de touche : pas à toi."
+  }
+ ]
+}

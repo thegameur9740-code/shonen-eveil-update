@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "enabled": true,
+  "order": 2,
+  "name": "2e univers",
+  "gui_title": {
+    "choose_origin": "Choisis ton 2e univers",
+    "view_origin": "2e univers"
+  },
+  "missing_name": "Aucun univers",
+  "missing_description": "Pas encore choisi.",
+  "origins": [
+    "shonen:univers2_onepiece",
+    "shonen:univers2_jjk",
+    "shonen:univers2_bleach",
+    "shonen:univers2_dbz",
+    "shonen:univers2_sololeveling",
+    "shonen:univers2_naruto",
+    "shonen:univers2_mha",
+    "shonen:univers2_aucun"
+  ],
+  "allow_random": false,
+  "hidden": true,
+  "default": "shonen:univers2_aucun",
+  "auto_choose": false
+}

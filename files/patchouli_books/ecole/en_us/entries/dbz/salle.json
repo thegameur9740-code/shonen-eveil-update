@@ -1,0 +1,20 @@
+{
+ "name": "Ta salle et ta lignée",
+ "category": "patchouli:dbz",
+ "icon": "minecraft:lodestone",
+ "read_by_default": true,
+ "sortnum": 3,
+ "pages": [
+  {
+   "type": "patchouli:text",
+   "text": "À l'étage, la $(l)boutique$() : haricots magiques, poids, détecteur, sabres.$(br)Capsules et eau sacrée : à gagner.$(br2)Tes examens : de Raditz à Broly.$(br2)$(l)Lignée$() : base du Ruban Rouge, cratère saiyan, Namek, jusqu'à $(l)Majin Buu$()."
+  },
+  {
+   "type": "patchouli:spotlight",
+   "item": "shonen:tenue_eveille_dbz_casque,shonen:tenue_eveille_dbz_plastron,shonen:tenue_eveille_dbz_jambieres,shonen:tenue_eveille_dbz_bottes",
+   "link_recipe": false,
+   "title": "La tenue de l'Éveillé",
+   "text": "Dans ton kit, aux couleurs de ton univers."
+  }
+ ]
+}

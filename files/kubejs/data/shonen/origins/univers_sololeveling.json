@@ -1,0 +1,12 @@
+{
+  "name": "Solo Leveling",
+  "description": "Le Système te choisit (Solo Leveling).\nTu choisis ensuite ta classe de chasseur.",
+  "icon": {
+    "item": "sololeveling:job_key"
+  },
+  "impact": 2,
+  "order": 5,
+  "powers": [
+    "shonen:univers_sololeveling"
+  ]
+}

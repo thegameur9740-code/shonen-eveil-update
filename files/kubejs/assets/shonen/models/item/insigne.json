@@ -1,0 +1,320 @@
+{
+ "parent": "minecraft:item/generated",
+ "textures": {
+  "layer0": "shonen:item/insigne/ecole_eveil"
+ },
+ "overrides": [
+  {
+   "predicate": {
+    "custom_model_data": 1
+   },
+   "model": "shonen:item/insigne/ecole_eveil"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 2
+   },
+   "model": "shonen:item/insigne/ecole_rang_c"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 3
+   },
+   "model": "shonen:item/insigne/ecole_rang_b"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 4
+   },
+   "model": "shonen:item/insigne/ecole_rang_a"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 5
+   },
+   "model": "shonen:item/insigne/ecole_rang_s"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 6
+   },
+   "model": "shonen:item/insigne/ecole_rang_sp"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 7
+   },
+   "model": "shonen:item/insigne/examen_zabuza"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 8
+   },
+   "model": "shonen:item/insigne/examen_orochimaru"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 9
+   },
+   "model": "shonen:item/insigne/examen_shukaku"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 10
+   },
+   "model": "shonen:item/insigne/examen_matatabi"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 11
+   },
+   "model": "shonen:item/insigne/examen_isobu"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 12
+   },
+   "model": "shonen:item/insigne/examen_son_goku"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 13
+   },
+   "model": "shonen:item/insigne/examen_kokuo"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 14
+   },
+   "model": "shonen:item/insigne/examen_saiken"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 15
+   },
+   "model": "shonen:item/insigne/examen_chomei"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 16
+   },
+   "model": "shonen:item/insigne/examen_gyuki"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 17
+   },
+   "model": "shonen:item/insigne/examen_itachi"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 18
+   },
+   "model": "shonen:item/insigne/examen_kurama"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 19
+   },
+   "model": "shonen:item/insigne/examen_menos"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 20
+   },
+   "model": "shonen:item/insigne/examen_grimmjow"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 21
+   },
+   "model": "shonen:item/insigne/examen_aizen"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 22
+   },
+   "model": "shonen:item/insigne/examen_yhwach"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 23
+   },
+   "model": "shonen:item/insigne/examen_ulquiorra"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 24
+   },
+   "model": "shonen:item/insigne/examen_moonfish"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 25
+   },
+   "model": "shonen:item/insigne/examen_stain"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 26
+   },
+   "model": "shonen:item/insigne/examen_muscular"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 27
+   },
+   "model": "shonen:item/insigne/examen_nomu_usj"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 28
+   },
+   "model": "shonen:item/insigne/examen_overhaul"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 29
+   },
+   "model": "shonen:item/insigne/examen_dabi"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 30
+   },
+   "model": "shonen:item/insigne/examen_all_for_one"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 31
+   },
+   "model": "shonen:item/insigne/examen_raditz"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 32
+   },
+   "model": "shonen:item/insigne/examen_vegeta"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 33
+   },
+   "model": "shonen:item/insigne/examen_freezer"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 34
+   },
+   "model": "shonen:item/insigne/examen_cell"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 35
+   },
+   "model": "shonen:item/insigne/examen_broly"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 36
+   },
+   "model": "shonen:item/insigne/examen_jiren"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 37
+   },
+   "model": "shonen:item/insigne/examen_kasaka"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 38
+   },
+   "model": "shonen:item/insigne/examen_igris"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 39
+   },
+   "model": "shonen:item/insigne/examen_roi_fourmis"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 40
+   },
+   "model": "shonen:item/insigne/examen_baran_examen"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 41
+   },
+   "model": "shonen:item/insigne/examen_thomas_andre"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 42
+   },
+   "model": "shonen:item/insigne/examen_buggy"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 43
+   },
+   "model": "shonen:item/insigne/examen_akainu"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 44
+   },
+   "model": "shonen:item/insigne/examen_crocodile"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 45
+   },
+   "model": "shonen:item/insigne/examen_kaido"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 46
+   },
+   "model": "shonen:item/insigne/examen_barbe_noire"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 47
+   },
+   "model": "shonen:item/insigne/examen_fleau"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 48
+   },
+   "model": "shonen:item/insigne/examen_toji"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 49
+   },
+   "model": "shonen:item/insigne/examen_jogo_examen"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 50
+   },
+   "model": "shonen:item/insigne/examen_sukuna"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 51
+   },
+   "model": "shonen:item/insigne/examen_mahoraga"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 52
+   },
+   "model": "shonen:item/insigne/examen_gojo"
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "jujutsucraft:gojo_satoru",
+      "required": false
+    },
+    {
+      "id": "jujutsucraft:sukuna",
+      "required": false
+    },
+    {
+      "id": "jujutsucraft:sukuna_perfect",
+      "required": false
+    },
+    {
+      "id": "jujutsucraft:sukuna_fushiguro",
+      "required": false
+    },
+    {
+      "id": "jujutsucraft:eight_handled_sword_divergent_sila_divine_general_mahoraga",
+      "required": false
+    },
+    {
+      "id": "jujutsucraft:jogo",
+      "required": false
+    },
+    {
+      "id": "jujutsucraft:mahito",
+      "required": false
+    },
+    {
+      "id": "jujutsucraft:hanami",
+      "required": false
+    },
+    {
+      "id": "jujutsucraft:dagon",
+      "required": false
+    },
+    {
+      "id": "jujutsucraft:kenjaku",
+      "required": false
+    },
+    {
+      "id": "jujutsucraft:okkotsu_yuta_culling_game",
+      "required": false
+    },
+    {
+      "id": "jujutsucraft:okkotsu_yuta",
+      "required": false
+    },
+    {
+      "id": "jujutsucraft:hakari_kinji",
+      "required": false
+    },
+    {
+      "id": "jujutsucraft:fushiguro_megumi_shibuya",
+      "required": false
+    },
+    {
+      "id": "jujutsucraft:fushiguro_toji",
+      "required": false
+    },
+    {
+      "id": "jujutsucraft:fushiguro_toji_bug",
+      "required": false
+    },
+    {
+      "id": "jujutsucraft:cursed_spirit_grade_14",
+      "required": false
+    }
+  ]
+}

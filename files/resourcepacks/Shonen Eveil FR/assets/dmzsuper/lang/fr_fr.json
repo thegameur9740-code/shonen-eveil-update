@@ -1,0 +1,9 @@
+{
+  "gui.dmzsuper.ultrainstinct.exhaustion_bar": "Épuisement : %s §7[%s%%]",
+  "message.dmzsuper.ultrainstinct.exhausted": "Vous êtes physiquement épuisé !",
+  "gui.dmzsuper.ultraego.rage_bar": "Rage : %s §7[%s%%]",
+  "key.dmzsuper.descend": "Descendre (Alt+G)",
+  "message.dmzsuper.ultrainstinct.cannot_activate_with_rage": "§cVous ne pouvez pas garder l'esprit vide avec de la rage accumulée",
+  "message.dmzsuper.ultraego.deactivated_no_rage": "§cVous avez perdu votre esprit destructeur et quitté l'état Ultra Ego",
+  "gui.dragonminez.spacepod.beerus": "Planète de Beerus"
+}

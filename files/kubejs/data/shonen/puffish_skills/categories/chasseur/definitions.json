@@ -1,0 +1,1899 @@
+{
+  "racine": {
+    "title": "Chasseur éveillé",
+    "description": "Ton éveil t'a rendu plus résistant que le commun des mortels. Effet : +3,2 PV max.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 3.2,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a1": {
+    "title": "Cœur robuste I",
+    "description": "Un cœur qui encaisse davantage. Effet : +3,2 PV max.",
+    "extra_description": "Branche « Endurance ». Rang 1 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:apple"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 3.2,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "arbre_chasseur_endurance"
+        }
+      }
+    ]
+  },
+  "a2": {
+    "title": "Cœur robuste II",
+    "description": "Un cœur qui encaisse davantage. Effet : +3,2 PV max.",
+    "extra_description": "Branche « Endurance ». Rang 2 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:apple"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 3.2,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a3": {
+    "title": "Peau tannée I",
+    "description": "Les coups glissent un peu mieux sur toi. Effet : +0,5 armure.",
+    "extra_description": "Branche « Endurance ». Rang 1 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_chestplate"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.armor",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a4": {
+    "title": "Peau tannée II",
+    "description": "Les coups glissent un peu mieux sur toi. Effet : +0,5 armure.",
+    "extra_description": "Branche « Endurance ». Rang 2 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_chestplate"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.armor",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a5": {
+    "title": "Second souffle I",
+    "description": "Tu tiens plus longtemps sans manger. Effet : +0,25 endurance (faim).",
+    "extra_description": "Branche « Endurance ». Rang 1 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:cooked_beef"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:stamina",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a6": {
+    "title": "Second souffle II",
+    "description": "Tu tiens plus longtemps sans manger. Effet : +0,25 endurance (faim).",
+    "extra_description": "Branche « Endurance ». Rang 2 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:cooked_beef"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:stamina",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a7": {
+    "title": "Corps d'acier I",
+    "description": "Ton corps s'est endurci à force de combats. Effet : +3,2 PV max.",
+    "extra_description": "Branche « Endurance ». Rang 1 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 3.2,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a8": {
+    "title": "Corps d'acier II",
+    "description": "Ton corps s'est endurci à force de combats. Effet : +3,2 PV max.",
+    "extra_description": "Branche « Endurance ». Rang 2 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 3.2,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a9": {
+    "title": "Pied ferme I",
+    "description": "Plus personne ne te fait reculer facilement. Effet : +5 % résistance au recul.",
+    "extra_description": "Branche « Endurance ». Rang 1 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:shield"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.knockback_resistance",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a10": {
+    "title": "Pied ferme II",
+    "description": "Plus personne ne te fait reculer facilement. Effet : +5 % résistance au recul.",
+    "extra_description": "Branche « Endurance ». Rang 2 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:shield"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.knockback_resistance",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a11": {
+    "title": "Récupération I",
+    "description": "Tes blessures se referment plus vite. Effet : +7,5 % régénération naturelle.",
+    "extra_description": "Branche « Endurance ». Rang 1 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glistering_melon_slice"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.075,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "a12": {
+    "title": "Récupération II",
+    "description": "Tes blessures se referment plus vite. Effet : +7,5 % régénération naturelle.",
+    "extra_description": "Branche « Endurance ». Rang 2 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glistering_melon_slice"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.075,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "a13": {
+    "title": "Titan d'endurance I",
+    "description": "Un organisme hors norme, forgé par l'épreuve. Effet : +4,8 PV max, +0,5 robustesse.",
+    "extra_description": "Branche « Endurance ». Rang 1 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:enchanted_golden_apple"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 4.8,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.armor_toughness",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a14": {
+    "title": "Titan d'endurance II",
+    "description": "Un organisme hors norme, forgé par l'épreuve. Effet : +4,8 PV max, +0,5 robustesse.",
+    "extra_description": "Branche « Endurance ». Rang 2 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:enchanted_golden_apple"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 4.8,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.armor_toughness",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b1": {
+    "title": "Poing aguerri I",
+    "description": "Chaque coup porte un peu plus. Effet : +0,25 dégâts d'attaque.",
+    "extra_description": "Branche « Combat ». Rang 1 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wooden_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_damage",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "arbre_chasseur_combat"
+        }
+      }
+    ]
+  },
+  "b2": {
+    "title": "Poing aguerri II",
+    "description": "Chaque coup porte un peu plus. Effet : +0,25 dégâts d'attaque.",
+    "extra_description": "Branche « Combat ». Rang 2 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wooden_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_damage",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b3": {
+    "title": "Frappe précise I",
+    "description": "Tes coups de mêlée trouvent la faille. Effet : +1,01 % dégâts de mêlée.",
+    "extra_description": "Branche « Combat ». Rang 1 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:stone_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0101,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b4": {
+    "title": "Frappe précise II",
+    "description": "Tes coups de mêlée trouvent la faille. Effet : +1,01 % dégâts de mêlée.",
+    "extra_description": "Branche « Combat ». Rang 2 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:stone_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0101,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b5": {
+    "title": "Réflexes de combat I",
+    "description": "Tu enchaînes les attaques plus vite. Effet : +0,1 vitesse d'attaque.",
+    "extra_description": "Branche « Combat ». Rang 1 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:clock"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_speed",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b6": {
+    "title": "Réflexes de combat II",
+    "description": "Tu enchaînes les attaques plus vite. Effet : +0,1 vitesse d'attaque.",
+    "extra_description": "Branche « Combat ». Rang 2 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:clock"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_speed",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b7": {
+    "title": "Coup au but I",
+    "description": "Tes coups font parfois mouche. Effet : +2 % chance de coup critique.",
+    "extra_description": "Branche « Combat ». Rang 1 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_chance",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b8": {
+    "title": "Coup au but II",
+    "description": "Tes coups font parfois mouche. Effet : +2 % chance de coup critique.",
+    "extra_description": "Branche « Combat ». Rang 2 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_chance",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b9": {
+    "title": "Garde de fer I",
+    "description": "Tu sais parer l'essentiel des coups. Effet : +0,5 armure, +1,38 % réduction des dégâts subis.",
+    "extra_description": "Branche « Combat ». Rang 1 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_chestplate"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.armor",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:resistance",
+          "value": 0.0138,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b10": {
+    "title": "Garde de fer II",
+    "description": "Tu sais parer l'essentiel des coups. Effet : +0,5 armure, +1,38 % réduction des dégâts subis.",
+    "extra_description": "Branche « Combat ». Rang 2 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_chestplate"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.armor",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:resistance",
+          "value": 0.0138,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b11": {
+    "title": "Furie du Chasseur I",
+    "description": "Quand tu frappes fort, tu frappes très fort. Effet : +1,62 % dégâts de mêlée, +5 % dégâts critiques.",
+    "extra_description": "Branche « Combat ». Rang 1 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_axe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0162,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_damage",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b12": {
+    "title": "Furie du Chasseur II",
+    "description": "Quand tu frappes fort, tu frappes très fort. Effet : +1,62 % dégâts de mêlée, +5 % dégâts critiques.",
+    "extra_description": "Branche « Combat ». Rang 2 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_axe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0162,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_damage",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b13": {
+    "title": "Maître de guerre I",
+    "description": "Chaque victoire te redonne un peu de souffle. Effet : +0,5 dégâts d'attaque, +1,62 % dégâts de mêlée, +0,02 vol de vie.",
+    "extra_description": "Branche « Combat ». Rang 1 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_damage",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0162,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:life_steal",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b14": {
+    "title": "Maître de guerre II",
+    "description": "Chaque victoire te redonne un peu de souffle. Effet : +0,5 dégâts d'attaque, +1,62 % dégâts de mêlée, +0,02 vol de vie.",
+    "extra_description": "Branche « Combat ». Rang 2 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_damage",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0162,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:life_steal",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "c1": {
+    "title": "Pas léger I",
+    "description": "Tu te déplaces avec plus de vivacité. Effet : +2,5 % vitesse de déplacement.",
+    "extra_description": "Branche « Exploration ». Rang 1 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_boots"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.movement_speed",
+          "value": 0.025,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "arbre_chasseur_exploration"
+        }
+      }
+    ]
+  },
+  "c2": {
+    "title": "Pas léger II",
+    "description": "Tu te déplaces avec plus de vivacité. Effet : +2,5 % vitesse de déplacement.",
+    "extra_description": "Branche « Exploration ». Rang 2 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_boots"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.movement_speed",
+          "value": 0.025,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c3": {
+    "title": "Mineur acharné I",
+    "description": "La pioche chante dans tes mains. Effet : +5 % vitesse de minage (bon outil).",
+    "extra_description": "Branche « Exploration ». Rang 1 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_pickaxe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:mining_speed",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c4": {
+    "title": "Mineur acharné II",
+    "description": "La pioche chante dans tes mains. Effet : +5 % vitesse de minage (bon outil).",
+    "extra_description": "Branche « Exploration ». Rang 2 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_pickaxe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:mining_speed",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c5": {
+    "title": "Chute amortie I",
+    "description": "Tu retombes sur tes pieds de plus haut. Effet : +1,5 blocs de chute annulés.",
+    "extra_description": "Branche « Exploration ». Rang 1 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:feather"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:fall_reduction",
+          "value": 1.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "c6": {
+    "title": "Chute amortie II",
+    "description": "Tu retombes sur tes pieds de plus haut. Effet : +1,5 blocs de chute annulés.",
+    "extra_description": "Branche « Exploration ». Rang 2 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:feather"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:fall_reduction",
+          "value": 1.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "c7": {
+    "title": "Sprinteur I",
+    "description": "Quand tu cours, tu files. Effet : +4 % vitesse de sprint.",
+    "extra_description": "Branche « Exploration ». Rang 1 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_boots"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:sprinting_speed",
+          "value": 0.04,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c8": {
+    "title": "Sprinteur II",
+    "description": "Quand tu cours, tu files. Effet : +4 % vitesse de sprint.",
+    "extra_description": "Branche « Exploration ». Rang 2 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_boots"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:sprinting_speed",
+          "value": 0.04,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c9": {
+    "title": "Bras long I",
+    "description": "Tu atteins plus loin, blocs comme ennemis. Effet : +0,5 portée de bloc, +0,25 portée d'attaque.",
+    "extra_description": "Branche « Exploration ». Rang 1 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:spyglass"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "forge:block_reach",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "forge:entity_reach",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "c10": {
+    "title": "Bras long II",
+    "description": "Tu atteins plus loin, blocs comme ennemis. Effet : +0,5 portée de bloc, +0,25 portée d'attaque.",
+    "extra_description": "Branche « Exploration ». Rang 2 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:spyglass"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "forge:block_reach",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "forge:entity_reach",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "c11": {
+    "title": "Favori du destin I",
+    "description": "La chance sourit aux éveillés persévérants. Effet : +0,5 chance, +0,12 fortune.",
+    "extra_description": "Branche « Exploration ». Rang 1 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:emerald"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.luck",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:fortune",
+          "value": 0.12,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "c12": {
+    "title": "Favori du destin II",
+    "description": "La chance sourit aux éveillés persévérants. Effet : +0,5 chance, +0,12 fortune.",
+    "extra_description": "Branche « Exploration ». Rang 2 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:emerald"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.luck",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:fortune",
+          "value": 0.12,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "d1": {
+    "title": "Instinct de survie I",
+    "description": "Ton corps se répare de lui-même un peu plus vite. Effet : +5 % régénération naturelle.",
+    "extra_description": "Branche « Survivant ». Rang 1 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:sweet_berries"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "arbre_chasseur_survivant"
+        }
+      }
+    ]
+  },
+  "d2": {
+    "title": "Instinct de survie II",
+    "description": "Ton corps se répare de lui-même un peu plus vite. Effet : +5 % régénération naturelle.",
+    "extra_description": "Branche « Survivant ». Rang 2 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:sweet_berries"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "d3": {
+    "title": "Pansements I",
+    "description": "Les soins te font plus d'effet. Effet : +5 % soins reçus.",
+    "extra_description": "Branche « Survivant ». Rang 1 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:paper"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:healing",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "d4": {
+    "title": "Pansements II",
+    "description": "Les soins te font plus d'effet. Effet : +5 % soins reçus.",
+    "extra_description": "Branche « Survivant ». Rang 2 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:paper"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:healing",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "d5": {
+    "title": "Estomac de fer I",
+    "description": "Tu manges et tu bois plus vite. Effet : +10 % vitesse de consommation.",
+    "extra_description": "Branche « Survivant ». Rang 1 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bread"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:consuming_speed",
+          "value": 0.1,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "d6": {
+    "title": "Estomac de fer II",
+    "description": "Tu manges et tu bois plus vite. Effet : +10 % vitesse de consommation.",
+    "extra_description": "Branche « Survivant ». Rang 2 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bread"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:consuming_speed",
+          "value": 0.1,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "d7": {
+    "title": "Dernier souffle I",
+    "description": "Tu encaisses un peu mieux les coups. Effet : +0,92 % réduction des dégâts subis.",
+    "extra_description": "Branche « Survivant ». Rang 1 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:totem_of_undying"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:resistance",
+          "value": 0.0092,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "d8": {
+    "title": "Dernier souffle II",
+    "description": "Tu encaisses un peu mieux les coups. Effet : +0,92 % réduction des dégâts subis.",
+    "extra_description": "Branche « Survivant ». Rang 2 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:totem_of_undying"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:resistance",
+          "value": 0.0092,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "d9": {
+    "title": "Increvable I",
+    "description": "On ne t'abat pas si facilement. Effet : +3,2 PV max, +0,5 robustesse.",
+    "extra_description": "Branche « Survivant ». Rang 1 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 3.2,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.armor_toughness",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "d10": {
+    "title": "Increvable II",
+    "description": "On ne t'abat pas si facilement. Effet : +3,2 PV max, +0,5 robustesse.",
+    "extra_description": "Branche « Survivant ». Rang 2 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 3.2,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.armor_toughness",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "e1": {
+    "title": "Œil du chercheur I",
+    "description": "Tu repères ce que les autres ratent. Effet : +0,5 chance.",
+    "extra_description": "Branche « Fortuné ». Rang 1 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ender_eye"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.luck",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "arbre_chasseur_fortune"
+        }
+      }
+    ]
+  },
+  "e2": {
+    "title": "Œil du chercheur II",
+    "description": "Tu repères ce que les autres ratent. Effet : +0,5 chance.",
+    "extra_description": "Branche « Fortuné ». Rang 2 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ender_eye"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.luck",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "e3": {
+    "title": "Prospecteur I",
+    "description": "Les filons te donnent davantage. Effet : +0,12 fortune.",
+    "extra_description": "Branche « Fortuné ». Rang 1 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:raw_gold"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:fortune",
+          "value": 0.12,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "e4": {
+    "title": "Prospecteur II",
+    "description": "Les filons te donnent davantage. Effet : +0,12 fortune.",
+    "extra_description": "Branche « Fortuné ». Rang 2 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:raw_gold"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:fortune",
+          "value": 0.12,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "e5": {
+    "title": "Élève assidu I",
+    "description": "Tu tires plus d'expérience de tout ce que tu fais. Effet : +2,5 % expérience gagnée.",
+    "extra_description": "Branche « Fortuné ». Rang 1 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:experience_bottle"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:experience",
+          "value": 0.025,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "e6": {
+    "title": "Élève assidu II",
+    "description": "Tu tires plus d'expérience de tout ce que tu fais. Effet : +2,5 % expérience gagnée.",
+    "extra_description": "Branche « Fortuné ». Rang 2 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:experience_bottle"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:experience",
+          "value": 0.025,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "e7": {
+    "title": "Pillard I",
+    "description": "Tu creuses et tu casses plus vite. Effet : +5 % vitesse de minage (bon outil), +5 % vitesse de cassage.",
+    "extra_description": "Branche « Fortuné ». Rang 1 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_pickaxe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:mining_speed",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:breaking_speed",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "e8": {
+    "title": "Pillard II",
+    "description": "Tu creuses et tu casses plus vite. Effet : +5 % vitesse de minage (bon outil), +5 % vitesse de cassage.",
+    "extra_description": "Branche « Fortuné ». Rang 2 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_pickaxe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:mining_speed",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:breaking_speed",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "e9": {
+    "title": "Né sous une bonne étoile I",
+    "description": "La chance et le savoir te suivent partout. Effet : +0,5 chance, +2,5 % expérience gagnée.",
+    "extra_description": "Branche « Fortuné ». Rang 1 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.luck",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:experience",
+          "value": 0.025,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "e10": {
+    "title": "Né sous une bonne étoile II",
+    "description": "La chance et le savoir te suivent partout. Effet : +0,5 chance, +2,5 % expérience gagnée.",
+    "extra_description": "Branche « Fortuné ». Rang 2 sur 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.luck",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:experience",
+          "value": 0.025,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  }
+}

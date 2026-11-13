@@ -1,0 +1,17 @@
+# Ninshu: Origins - reglages client du pack Shonen Eveil (P3-1). Copie UNE fois (fichier .once) : tes changements
+# sont ensuite gardes. Le mod sert seulement pour ses boss (bijuu) : ses effets de camera, ses popups de quete et
+# le sang sur chaque coup sont coupes pour tout le monde. Forge complete les autres reglages avec leurs valeurs par
+# defaut au premier lancement.
+
+[questPopups]
+	enabled = false
+
+[playerCameraMotion]
+	enabled = false
+
+[thirdPersonCamera]
+	enabled = false
+
+[bloodEffects]
+	enabled = false
+	soundsEnabled = false

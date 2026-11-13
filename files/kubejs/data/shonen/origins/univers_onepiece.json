@@ -1,0 +1,12 @@
+{
+  "name": "One Piece",
+  "description": "Pirates, Marines et fruits du démon (MinePiece).\nTu choisis ensuite ton style ; « utilisateur de fruit » tire un fruit au hasard.",
+  "icon": {
+    "item": "minepiece:item_devil_fruit_gomu_gomu"
+  },
+  "impact": 2,
+  "order": 1,
+  "powers": [
+    "shonen:univers_onepiece"
+  ]
+}

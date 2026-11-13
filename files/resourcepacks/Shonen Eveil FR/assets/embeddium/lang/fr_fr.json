@@ -1,0 +1,9 @@
+{
+  "embeddium.conflicting_mod": "Embeddium a détecté la présence de mods connus pour causer des problèmes de rendu / plantages. Il est recommandé de les désinstaller. Voir la liste ci-dessous.",
+  "embeddium.conflicting_mod_list": "[{2}]",
+  "embeddium.search_bar_empty": "Rechercher des options...",
+  "embeddium.options.added_by_mod_string": "Ajouté par le mod : %s",
+  "embeddium.options.fullscreen.resolution.tooltip": "Définit la résolution du jeu en mode plein écran.",
+  "embeddium.options.use_quad_normals_for_lighting.name": "Ombrage précis des faces",
+  "embeddium.options.use_quad_normals_for_lighting.tooltip": "Si activé, Embeddium applique l'ombrage aux faces de blocs non vanilla selon leur orientation réelle, et non selon l'axe le plus proche. Cela peut améliorer la qualité de l'éclairage quand le pipeline d'éclairage expérimental de Forge est désactivé (recommandé pour de meilleures performances).\n\nCela n'a aucun effet si le pipeline d'éclairage expérimental est activé."
+}

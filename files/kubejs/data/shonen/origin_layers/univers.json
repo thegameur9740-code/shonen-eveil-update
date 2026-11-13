@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "enabled": true,
+  "order": 1,
+  "name": "Univers",
+  "gui_title": {
+    "choose_origin": "Éveil : choisis ton univers",
+    "view_origin": "Univers"
+  },
+  "missing_name": "Aucun univers",
+  "missing_description": "Pas encore choisi.",
+  "origins": [
+    "shonen:univers_onepiece",
+    "shonen:univers_jjk",
+    "shonen:univers_bleach",
+    "shonen:univers_dbz",
+    "shonen:univers_sololeveling",
+    "shonen:univers_naruto",
+    "shonen:univers_mha"
+  ],
+  "allow_random": false,
+  "hidden": false
+}

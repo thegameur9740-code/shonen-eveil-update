@@ -1,0 +1,20 @@
+{
+ "name": "Ta salle et ta lignée",
+ "category": "patchouli:mha",
+ "icon": "minecraft:lodestone",
+ "read_by_default": true,
+ "sortnum": 3,
+ "pages": [
+  {
+   "type": "patchouli:text",
+   "text": "À l'étage, la $(l)boutique$() : tenues de héros et de vilains, du rang C au rang S. Une tenue complète par stand, ou une seule pièce.$(br2)Tes examens : de Moonfish à All For One.$(br2)$(l)Lignée$() : ruelles de Hosu, hôpital de Jaku, jusqu'à $(l)Tomura Shigaraki$()."
+  },
+  {
+   "type": "patchouli:spotlight",
+   "item": "shonen:tenue_eveille_mha_casque,shonen:tenue_eveille_mha_plastron,shonen:tenue_eveille_mha_jambieres,shonen:tenue_eveille_mha_bottes",
+   "link_recipe": false,
+   "title": "La tenue de l'Éveillé",
+   "text": "Dans ton kit, aux couleurs de ton univers."
+  }
+ ]
+}

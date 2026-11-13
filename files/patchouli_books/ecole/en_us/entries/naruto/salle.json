@@ -1,0 +1,20 @@
+{
+ "name": "Ta salle et ta lignée",
+ "category": "patchouli:naruto",
+ "icon": "minecraft:lodestone",
+ "read_by_default": true,
+ "sortnum": 3,
+ "pages": [
+  {
+   "type": "patchouli:text",
+   "text": "Ton clan ne te plaît pas ? Le $(l)marchand$() de la boutique le relance : tout ton côté Naruto recommence.$(br2)Tes examens : de Zabuza et Haku jusqu'à Kurama.$(br2)$(l)Lignée$() : de Zabuza dans la brume jusqu'à l'Akatsuki, $(l)Pain$() puis $(l)Obito$()."
+  },
+  {
+   "type": "patchouli:spotlight",
+   "item": "shonen:tenue_eveille_naruto_casque,shonen:tenue_eveille_naruto_plastron,shonen:tenue_eveille_naruto_jambieres,shonen:tenue_eveille_naruto_bottes",
+   "link_recipe": false,
+   "title": "La tenue de l'Éveillé",
+   "text": "Dans ton kit, aux couleurs de ton univers."
+  }
+ ]
+}

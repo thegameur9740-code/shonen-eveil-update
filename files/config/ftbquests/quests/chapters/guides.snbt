@@ -1,0 +1,854 @@
+{
+	id: "000E461F90645BD5"
+	group: ""
+	order_index: 0
+	filename: "guides"
+	title: "Guides"
+	icon: "minecraft:book"
+	subtitle: [
+		"Des quêtes juste à lire, avec une case « J'ai lu » et un peu d'XP : les systèmes"
+		"du pack, puis un guide par univers (pour tous, même hors de sa voie)."
+	]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 3.0d
+			y: 2.25d
+			width: 8.75d
+			height: 7.25d
+			rotation: 0.0d
+			image: "shonen:textures/quetes/bg_guides.png"
+			color: 16777215
+			alpha: 235
+			order: -11
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 3.0d
+			y: 2.25d
+			width: 30.0d
+			height: 21.94d
+			rotation: 0.0d
+			image: "shonen:textures/quetes/plein_guides.png"
+			color: 16777215
+			alpha: 255
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			id: "0000A53933472F3A"
+			title: "Bienvenue, Éveillé"
+			subtitle: "Niveau 1"
+			x: 0.0d
+			y: 0.0d
+			shape: "circle"
+			size: 0.75d
+			tags: [
+				"guides_bienvenue_eveille"
+			]
+			description: [
+				"Le ciel s'est fendu et sept mondes sont tombés dans le"
+				"nôtre. Tu t'es réveillé avec une flamme qui ne t'appartenait"
+				"pas : ce livre de quêtes sera ton guide. Tout le reste est"
+				"dans le Livre de l'école."
+				""
+				"Tâche : lire (case « J'ai lu »)"
+				""
+				"Récompense : 24 XP"
+			]
+			tasks: [
+				{
+					id: "00027E2F98543DEC"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "000924F37AB9CEA7"
+					type: "command"
+					title: "24 XP"
+					command: "/shonenquete recompense {p} guides_bienvenue_eveille"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:book"
+		}
+		{
+			id: "0004A2CCF04D445F"
+			title: "Ton Éveil : ton univers"
+			subtitle: "Niveau 1"
+			x: 1.5d
+			y: 0.0d
+			shape: "circle"
+			size: 0.75d
+			tags: [
+				"guides_ton_eveil_ton_univers"
+			]
+			description: [
+				"Ton étincelle vient d'un des sept mondes : choisis ton"
+				"univers, puis ce que tu y es (un style de pirate, une"
+				"technique occulte, une faction, une race, une classe, un"
+				"clan, un Alter). Plus tard, un examen de rang A t'ouvrira un"
+				"deuxième univers."
+				""
+				"Tâche : lire"
+				""
+				"Récompense : 24 XP"
+			]
+			tasks: [
+				{
+					id: "000744C804791465"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "0008105A7C420576"
+					type: "command"
+					title: "24 XP"
+					command: "/shonenquete recompense {p} guides_ton_eveil_ton_univers"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:book"
+			dependencies: [
+				"0000A53933472F3A"
+			]
+		}
+		{
+			id: "000A68FCAB107859"
+			title: "Le niveau d'Éveillé et l'XP"
+			subtitle: "Niveau 1"
+			x: 3.0d
+			y: 0.0d
+			shape: "circle"
+			size: 0.75d
+			tags: [
+				"guides_le_niveau_d_eveille_et_l_xp"
+			]
+			description: [
+				"Tout ce que tu fais te fait grandir : les monstres, les"
+				"quêtes, les examens. Ton niveau d'Éveillé (1 à 150) décide"
+				"de ta puissance, des examens que tu peux passer et des"
+				"points de tes arbres. /niveau te dit où tu en es."
+				""
+				"Tâche : lire"
+				""
+				"Récompense : 24 XP"
+			]
+			tasks: [
+				{
+					id: "0002F20E1DA6A65A"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "000FD7B17797CA60"
+					type: "command"
+					title: "24 XP"
+					command: "/shonenquete recompense {p} guides_le_niveau_d_eveille_et_l_xp"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:book"
+			dependencies: [
+				"0004A2CCF04D445F"
+			]
+		}
+		{
+			id: "000A198A0F4B518C"
+			title: "Les arbres de compétences (K)"
+			subtitle: "Niveau 1"
+			x: 4.5d
+			y: 0.0d
+			shape: "circle"
+			size: 0.75d
+			tags: [
+				"guides_les_arbres_de_competences_k"
+			]
+			description: [
+				"Chaque niveau te donne un point dans chacun de tes arbres."
+				"Appuie sur K pour les ouvrir : l'arbre du Chasseur pour"
+				"tous, puis l'arbre de ton univers (et de ton 2e univers"
+				"quand tu l'auras)."
+				""
+				"Tâche : lire"
+				""
+				"Récompense : 24 XP"
+			]
+			tasks: [
+				{
+					id: "000C10687EA4FCC2"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "0009CFA75C806DD5"
+					type: "command"
+					title: "24 XP"
+					command: "/shonenquete recompense {p} guides_les_arbres_de_competences_k"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:book"
+			dependencies: [
+				"000A68FCAB107859"
+			]
+		}
+		{
+			id: "000CE58A016C1C65"
+			title: "L'école et les examens"
+			subtitle: "Niveau 1"
+			x: 6.0d
+			y: 0.0d
+			shape: "circle"
+			size: 0.75d
+			tags: [
+				"guides_l_ecole_et_les_examens"
+			]
+			description: [
+				"La Shonen Jump School est le seul sol stable du monde :"
+				"aucun monstre n'y entre, rien ne s'y casse. Chaque salle de"
+				"l'école garde les examens d'un univers, du rang C au boss"
+				"final."
+				""
+				"Tâche : lire"
+				""
+				"Récompense : 24 XP"
+			]
+			tasks: [
+				{
+					id: "000DD94158264484"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "000E4BBFBFD6B743"
+					type: "command"
+					title: "24 XP"
+					command: "/shonenquete recompense {p} guides_l_ecole_et_les_examens"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:book"
+			dependencies: [
+				"000A198A0F4B518C"
+			]
+		}
+		{
+			id: "000EFED2594317F8"
+			title: "Les boutiques et la reprise"
+			subtitle: "Niveau 1"
+			x: 6.0d
+			y: 1.5d
+			shape: "circle"
+			size: 0.75d
+			tags: [
+				"guides_les_boutiques_et_la_reprise"
+			]
+			description: [
+				"Chaque salle a sa boutique à l'étage : les objets de son"
+				"univers flottent sur des stands, avec leur prix en Éclats ;"
+				"un objet en rouge attend l'examen de son rang. Au fond, le"
+				"marchand de reprise rachète ce que tu as trouvé dans son"
+				"univers (un plafond par jour). Orin, au Grand Hall, vend"
+				"tout le reste et change tes Éclats."
+				""
+				"Tâche : lire"
+				""
+				"Récompense : 24 XP"
+			]
+			tasks: [
+				{
+					id: "000FFC980669A4CB"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "00066F00522FF3B6"
+					type: "command"
+					title: "24 XP"
+					command: "/shonenquete recompense {p} guides_les_boutiques_et_la_reprise"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:book"
+			dependencies: [
+				"000CE58A016C1C65"
+			]
+		}
+		{
+			id: "0001CB87AF4F846D"
+			title: "Le verrou des examens"
+			subtitle: "Niveau 1"
+			x: 4.5d
+			y: 1.5d
+			shape: "circle"
+			size: 0.75d
+			tags: [
+				"guides_le_verrou_des_examens"
+			]
+			description: [
+				"Aux niveaux 15, 40, 70, 100 et 130, ton niveau se bloque :"
+				"l'XP gagnée est perdue tant que tu n'as pas réussi un examen"
+				"de ce rang. Et les pouvoirs de chacun de tes univers ne"
+				"grandissent qu'avec les examens de sa salle."
+				""
+				"Tâche : lire"
+				""
+				"Récompense : 24 XP"
+			]
+			tasks: [
+				{
+					id: "0002B419270268E9"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "000661BDDCE0EE4C"
+					type: "command"
+					title: "24 XP"
+					command: "/shonenquete recompense {p} guides_le_verrou_des_examens"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:book"
+			dependencies: [
+				"000EFED2594317F8"
+			]
+		}
+		{
+			id: "00055F37FBBC16C0"
+			title: "Les zones de danger"
+			subtitle: "Niveau 1"
+			x: 3.0d
+			y: 1.5d
+			shape: "circle"
+			size: 0.75d
+			tags: [
+				"guides_les_zones_de_danger"
+			]
+			description: [
+				"Plus tu t'éloignes de l'école, plus le monde est dur :"
+				"abords, terres sauvages, terres hostiles, puis l'inconnu."
+				"Les monstres ne sont jamais beaucoup plus faibles que toi."
+				"/danger te dit où tu es."
+				""
+				"Tâche : lire"
+				""
+				"Récompense : 24 XP"
+			]
+			tasks: [
+				{
+					id: "000B7573AE86AF57"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "000AE168B92F72E6"
+					type: "command"
+					title: "24 XP"
+					command: "/shonenquete recompense {p} guides_les_zones_de_danger"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:book"
+			dependencies: [
+				"0001CB87AF4F846D"
+			]
+		}
+		{
+			id: "0008B83D72B0F6A1"
+			title: "La mort"
+			subtitle: "Niveau 1"
+			x: 1.5d
+			y: 1.5d
+			shape: "circle"
+			size: 0.75d
+			tags: [
+				"guides_la_mort"
+			]
+			description: [
+				"Tu gardes ton inventaire, toujours. Mais mourir te coûte 10"
+				"% de l'XP de ton niveau, et tu réapparais à l'école (ou à"
+				"ton lit)."
+				""
+				"Tâche : lire"
+				""
+				"Récompense : 24 XP"
+			]
+			tasks: [
+				{
+					id: "0001BD0ED538F4F4"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "00089CA0587AA8AE"
+					type: "command"
+					title: "24 XP"
+					command: "/shonenquete recompense {p} guides_la_mort"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:book"
+			dependencies: [
+				"00055F37FBBC16C0"
+			]
+		}
+		{
+			id: "000E562FD563A7BF"
+			title: "Les Grands Ennemis et leurs barres"
+			subtitle: "Niveau 1"
+			x: 0.0d
+			y: 1.5d
+			shape: "circle"
+			size: 0.75d
+			tags: [
+				"guides_les_grands_ennemis_et_leurs_barres"
+			]
+			description: [
+				"Les boss des sept univers ont une barre en haut de l'écran,"
+				"des attaques annoncées (lis l'avertissement, puis bouge) et"
+				"plusieurs phases. Une barre rouge veut dire : trop fort pour"
+				"toi, reviens plus tard."
+				""
+				"Tâche : lire"
+				""
+				"Récompense : 24 XP"
+			]
+			tasks: [
+				{
+					id: "000D034EF229FFA6"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "0007A33EF99B7C16"
+					type: "command"
+					title: "24 XP"
+					command: "/shonenquete recompense {p} guides_les_grands_ennemis_et_leurs_barres"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:book"
+			dependencies: [
+				"0008B83D72B0F6A1"
+			]
+		}
+		{
+			id: "000680360EF24BA0"
+			title: "Les Sceaux et la Convergence"
+			subtitle: "Niveau 1"
+			x: 0.0d
+			y: 3.0d
+			shape: "circle"
+			size: 0.75d
+			tags: [
+				"guides_les_sceaux_et_la_convergence"
+			]
+			description: [
+				"Dans chaque univers, une Ancre tient sa fissure ouverte. La"
+				"vaincre referme la fissure et donne un Sceau. Avec les sept"
+				"Sceaux de ton équipe, tu sauras ce qui a provoqué la"
+				"Convergence."
+				""
+				"Tâche : lire"
+				""
+				"Récompense : 24 XP"
+			]
+			tasks: [
+				{
+					id: "00059E2DD4BC55AB"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "000A7C25874292BB"
+					type: "command"
+					title: "24 XP"
+					command: "/shonenquete recompense {p} guides_les_sceaux_et_la_convergence"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:book"
+			dependencies: [
+				"000E562FD563A7BF"
+			]
+		}
+		{
+			id: "000EC20A68ACC21C"
+			title: "Les touches (/touches)"
+			subtitle: "Niveau 1"
+			x: 1.5d
+			y: 3.0d
+			shape: "circle"
+			size: 0.75d
+			tags: [
+				"guides_les_touches_touches"
+			]
+			description: [
+				"Le pack règle tes touches tout seul : ton 1er univers sur W,"
+				"R, X, C, V et F6 à F12, ton 2e univers sur les mêmes avec"
+				"Ctrl. Tape /touches pour les voir, /touches auto pour les"
+				"remettre. Tu peux tout changer dans les options."
+				""
+				"Tâche : lire"
+				""
+				"Récompense : 24 XP"
+			]
+			tasks: [
+				{
+					id: "000F30D5369C9858"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "00040648E249CC00"
+					type: "command"
+					title: "24 XP"
+					command: "/shonenquete recompense {p} guides_les_touches_touches"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:book"
+			dependencies: [
+				"000680360EF24BA0"
+			]
+		}
+		{
+			id: "0009A988E7421018"
+			title: "Guide : Jujutsu Kaisen"
+			subtitle: "Niveau 1"
+			x: 3.0d
+			y: 3.0d
+			shape: "circle"
+			size: 0.75d
+			tags: [
+				"guides_guide_jujutsu_kaisen"
+			]
+			description: [
+				"Énergie occulte, techniques, extension du territoire : le"
+				"monde des sorciers et des fléaux. Son guide est dans le"
+				"Livre de l'école : comment progresser, où aller."
+				""
+				"Tâche : lire"
+				""
+				"ce que fait le mod, comment progresser, où aller ; aussi en tête du chapitre de l'univers"
+				""
+				"Récompense : 24 XP"
+			]
+			tasks: [
+				{
+					id: "00042E8D95EF0015"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "000D43FE8838BB13"
+					type: "command"
+					title: "24 XP"
+					command: "/shonenquete recompense {p} guides_guide_jujutsu_kaisen"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:book"
+			dependencies: [
+				"000EC20A68ACC21C"
+			]
+		}
+		{
+			id: "000EEE4A4C94E7D2"
+			title: "Guide : One Piece"
+			subtitle: "Niveau 1"
+			x: 4.5d
+			y: 3.0d
+			shape: "circle"
+			size: 0.75d
+			tags: [
+				"guides_guide_one_piece"
+			]
+			description: [
+				"Fruits du démon, Haki, sabres, primes : le monde des pirates"
+				"et de la Marine. Son guide est dans le Livre de l'école :"
+				"comment progresser, où aller."
+				""
+				"Tâche : lire"
+				""
+				"ce que fait le mod, comment progresser, où aller ; aussi en tête du chapitre de l'univers"
+				""
+				"Récompense : 24 XP"
+			]
+			tasks: [
+				{
+					id: "0000FE449C10E1B8"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "000F9B067ABB828B"
+					type: "command"
+					title: "24 XP"
+					command: "/shonenquete recompense {p} guides_guide_one_piece"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:book"
+			dependencies: [
+				"0009A988E7421018"
+			]
+		}
+		{
+			id: "00049CE1D09BAED5"
+			title: "Guide : Bleach"
+			subtitle: "Niveau 1"
+			x: 6.0d
+			y: 3.0d
+			shape: "circle"
+			size: 0.75d
+			tags: [
+				"guides_guide_bleach"
+			]
+			description: [
+				"Reiatsu, Zanpakuto, Shikai et Bankai, masques de Hollow : le"
+				"monde des Shinigami et des Quincy. Son guide est dans le"
+				"Livre de l'école : comment progresser, où aller."
+				""
+				"Tâche : lire"
+				""
+				"ce que fait le mod, comment progresser, où aller ; aussi en tête du chapitre de l'univers"
+				""
+				"Récompense : 24 XP"
+			]
+			tasks: [
+				{
+					id: "0005F308E1267741"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "0007D3225FBD9729"
+					type: "command"
+					title: "24 XP"
+					command: "/shonenquete recompense {p} guides_guide_bleach"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:book"
+			dependencies: [
+				"000EEE4A4C94E7D2"
+			]
+		}
+		{
+			id: "0000CC3ABB4AA1E7"
+			title: "Guide : Dragon Ball"
+			subtitle: "Niveau 1"
+			x: 6.0d
+			y: 4.5d
+			shape: "circle"
+			size: 0.75d
+			tags: [
+				"guides_guide_dragon_ball"
+			]
+			description: [
+				"Ki, races, transformations, Super Saiyan : le monde des"
+				"guerriers de l'espace. Son guide est dans le Livre de"
+				"l'école : comment progresser, où aller."
+				""
+				"Tâche : lire"
+				""
+				"ce que fait le mod, comment progresser, où aller ; aussi en tête du chapitre de l'univers"
+				""
+				"Récompense : 24 XP"
+			]
+			tasks: [
+				{
+					id: "000F24C0EAC08CED"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "000312C03394A8D1"
+					type: "command"
+					title: "24 XP"
+					command: "/shonenquete recompense {p} guides_guide_dragon_ball"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:book"
+			dependencies: [
+				"00049CE1D09BAED5"
+			]
+		}
+		{
+			id: "000F3DF49EBAC9A3"
+			title: "Guide : Solo Leveling"
+			subtitle: "Niveau 1"
+			x: 4.5d
+			y: 4.5d
+			shape: "circle"
+			size: 0.75d
+			tags: [
+				"guides_guide_solo_leveling"
+			]
+			description: [
+				"Système, classes, donjons, ombres : le monde des chasseurs"
+				"de portails. Son guide est dans le Livre de l'école :"
+				"comment progresser, où aller."
+				""
+				"Tâche : lire"
+				""
+				"ce que fait le mod, comment progresser, où aller ; aussi en tête du chapitre de l'univers"
+				""
+				"Récompense : 24 XP"
+			]
+			tasks: [
+				{
+					id: "0000C332A4276D0E"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "000595CB6A246B6F"
+					type: "command"
+					title: "24 XP"
+					command: "/shonenquete recompense {p} guides_guide_solo_leveling"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:book"
+			dependencies: [
+				"0000CC3ABB4AA1E7"
+			]
+		}
+		{
+			id: "000B2573D9C593FA"
+			title: "Guide : Naruto"
+			subtitle: "Niveau 1"
+			x: 3.0d
+			y: 4.5d
+			shape: "circle"
+			size: 0.75d
+			tags: [
+				"guides_guide_naruto"
+			]
+			description: [
+				"Chakra, ninjas, démons à queues : le monde des villages"
+				"cachés. Son guide est dans le Livre de l'école : comment"
+				"progresser, où aller."
+				""
+				"Tâche : lire"
+				""
+				"ce que fait le mod, comment progresser, où aller ; aussi en tête du chapitre de l'univers"
+				""
+				"Récompense : 24 XP"
+			]
+			tasks: [
+				{
+					id: "0003CE0B6D0F9CB1"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "000D0978E81874F8"
+					type: "command"
+					title: "24 XP"
+					command: "/shonenquete recompense {p} guides_guide_naruto"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "ninshuorigins:questscroll"
+			dependencies: [
+				"000F3DF49EBAC9A3"
+			]
+		}
+		{
+			id: "000559503EFBD920"
+			title: "Guide : My Hero Academia"
+			subtitle: "Niveau 1"
+			x: 1.5d
+			y: 4.5d
+			shape: "circle"
+			size: 0.75d
+			tags: [
+				"guides_guide_my_hero_academia"
+			]
+			description: [
+				"Alters, héros et vilains : le monde où chacun naît avec un"
+				"pouvoir, et où la Ligue des vilains veut tout faire tomber."
+				"Son guide est dans le Livre de l'école : comment progresser,"
+				"où aller."
+				""
+				"Tâche : lire"
+				""
+				"ce que fait le mod, comment progresser, où aller ; aussi en tête du chapitre de l'univers"
+				""
+				"Récompense : 24 XP"
+			]
+			tasks: [
+				{
+					id: "0007D35966E0AE97"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "0009F1CB3A3A74DF"
+					type: "command"
+					title: "24 XP"
+					command: "/shonenquete recompense {p} guides_guide_my_hero_academia"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:book"
+			dependencies: [
+				"000B2573D9C593FA"
+			]
+		}
+	]
+	quest_links: [ ]
+}

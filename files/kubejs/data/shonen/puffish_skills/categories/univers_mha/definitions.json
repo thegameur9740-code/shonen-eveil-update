@@ -1,0 +1,2375 @@
+{
+  "racine": {
+    "title": "Alter",
+    "description": "Un pouvoir né avec toi, et rien qu'à toi. Effet : +2 PV max, +0,5 dégâts d'attaque.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:firework_star"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 2,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_damage",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a1": {
+    "title": "Contrôle I",
+    "description": "Ton Alter part où tu veux. Effet : +0,87 % dégâts magiques.",
+    "extra_description": "Branche « Alter offensif ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:firework_star"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0087,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "arbre_univers_mha_alter_offensif"
+        }
+      }
+    ]
+  },
+  "a2": {
+    "title": "Contrôle II",
+    "description": "Ton Alter part où tu veux. Effet : +0,87 % dégâts magiques.",
+    "extra_description": "Branche « Alter offensif ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:firework_star"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0087,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "a3": {
+    "title": "Contrôle III",
+    "description": "Ton Alter part où tu veux. Effet : +0,87 % dégâts magiques.",
+    "extra_description": "Branche « Alter offensif ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:firework_star"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0087,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "a4": {
+    "title": "Contrôle IV",
+    "description": "Ton Alter part où tu veux. Effet : +0,87 % dégâts magiques.",
+    "extra_description": "Branche « Alter offensif ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:firework_star"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0087,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "a5": {
+    "title": "Portée I",
+    "description": "Ton Alter va plus loin. Effet : +0,69 % dégâts magiques, +0,12 portée d'attaque.",
+    "extra_description": "Branche « Alter offensif ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:spyglass"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0069,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "forge:entity_reach",
+          "value": 0.12,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a6": {
+    "title": "Portée II",
+    "description": "Ton Alter va plus loin. Effet : +0,69 % dégâts magiques, +0,12 portée d'attaque.",
+    "extra_description": "Branche « Alter offensif ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:spyglass"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0069,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "forge:entity_reach",
+          "value": 0.12,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a7": {
+    "title": "Portée III",
+    "description": "Ton Alter va plus loin. Effet : +0,69 % dégâts magiques, +0,12 portée d'attaque.",
+    "extra_description": "Branche « Alter offensif ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:spyglass"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0069,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "forge:entity_reach",
+          "value": 0.12,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a8": {
+    "title": "Portée IV",
+    "description": "Ton Alter va plus loin. Effet : +0,69 % dégâts magiques, +0,12 portée d'attaque.",
+    "extra_description": "Branche « Alter offensif ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:spyglass"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0069,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "forge:entity_reach",
+          "value": 0.12,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a9": {
+    "title": "Super-coup I",
+    "description": "Un nom à crier, un coup à placer. Effet : +0,87 % dégâts magiques, +2 % dégâts critiques.",
+    "extra_description": "Branche « Alter offensif ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:fire_charge"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0087,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_damage",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a10": {
+    "title": "Super-coup II",
+    "description": "Un nom à crier, un coup à placer. Effet : +0,87 % dégâts magiques, +2 % dégâts critiques.",
+    "extra_description": "Branche « Alter offensif ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:fire_charge"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0087,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_damage",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a11": {
+    "title": "Super-coup III",
+    "description": "Un nom à crier, un coup à placer. Effet : +0,87 % dégâts magiques, +2 % dégâts critiques.",
+    "extra_description": "Branche « Alter offensif ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:fire_charge"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0087,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_damage",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a12": {
+    "title": "Super-coup IV",
+    "description": "Un nom à crier, un coup à placer. Effet : +0,87 % dégâts magiques, +2 % dégâts critiques.",
+    "extra_description": "Branche « Alter offensif ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:fire_charge"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0087,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_damage",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a13": {
+    "title": "Limite repoussée I",
+    "description": "Ton corps encaisse ton Alter. Effet : +1,04 % dégâts magiques, +0,5 PV max.",
+    "extra_description": "Branche « Alter offensif ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0104,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a14": {
+    "title": "Limite repoussée II",
+    "description": "Ton corps encaisse ton Alter. Effet : +1,04 % dégâts magiques, +0,5 PV max.",
+    "extra_description": "Branche « Alter offensif ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0104,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a15": {
+    "title": "Limite repoussée III",
+    "description": "Ton corps encaisse ton Alter. Effet : +1,04 % dégâts magiques, +0,5 PV max.",
+    "extra_description": "Branche « Alter offensif ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0104,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a16": {
+    "title": "Limite repoussée IV",
+    "description": "Ton corps encaisse ton Alter. Effet : +1,04 % dégâts magiques, +0,5 PV max.",
+    "extra_description": "Branche « Alter offensif ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0104,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a17": {
+    "title": "Éveil de l'Alter I",
+    "description": "Ton Alter évolue. Effet : +1,04 % dégâts magiques, +1 % chance de coup critique.",
+    "extra_description": "Branche « Alter offensif ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:end_crystal"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0104,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a18": {
+    "title": "Éveil de l'Alter II",
+    "description": "Ton Alter évolue. Effet : +1,04 % dégâts magiques, +1 % chance de coup critique.",
+    "extra_description": "Branche « Alter offensif ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:end_crystal"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0104,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a19": {
+    "title": "Éveil de l'Alter III",
+    "description": "Ton Alter évolue. Effet : +1,04 % dégâts magiques, +1 % chance de coup critique.",
+    "extra_description": "Branche « Alter offensif ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:end_crystal"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0104,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a20": {
+    "title": "Éveil de l'Alter IV",
+    "description": "Ton Alter évolue. Effet : +1,04 % dégâts magiques, +1 % chance de coup critique.",
+    "extra_description": "Branche « Alter offensif ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:end_crystal"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0104,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a21": {
+    "title": "Pleine puissance I",
+    "description": "100 %, sans te briser. Effet : +1,74 % dégâts magiques, +1 PV max.",
+    "extra_description": "Branche « Alter offensif ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0174,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a22": {
+    "title": "Pleine puissance II",
+    "description": "100 %, sans te briser. Effet : +1,74 % dégâts magiques, +1 PV max.",
+    "extra_description": "Branche « Alter offensif ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0174,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a23": {
+    "title": "Pleine puissance III",
+    "description": "100 %, sans te briser. Effet : +1,74 % dégâts magiques, +1 PV max.",
+    "extra_description": "Branche « Alter offensif ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 5,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0174,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a24": {
+    "title": "Pleine puissance IV",
+    "description": "100 %, sans te briser. Effet : +1,74 % dégâts magiques, +1 PV max.",
+    "extra_description": "Branche « Alter offensif ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 5,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0174,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b1": {
+    "title": "Entraînement de héros I",
+    "description": "Ton corps suit ton Alter. Effet : +1,74 % dégâts de mêlée.",
+    "extra_description": "Branche « Corps de héros ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0174,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "arbre_univers_mha_corps_de_heros"
+        }
+      }
+    ]
+  },
+  "b2": {
+    "title": "Entraînement de héros II",
+    "description": "Ton corps suit ton Alter. Effet : +1,74 % dégâts de mêlée.",
+    "extra_description": "Branche « Corps de héros ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0174,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b3": {
+    "title": "Entraînement de héros III",
+    "description": "Ton corps suit ton Alter. Effet : +1,74 % dégâts de mêlée.",
+    "extra_description": "Branche « Corps de héros ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0174,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b4": {
+    "title": "Entraînement de héros IV",
+    "description": "Ton corps suit ton Alter. Effet : +1,74 % dégâts de mêlée.",
+    "extra_description": "Branche « Corps de héros ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0174,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b5": {
+    "title": "Costume renforcé I",
+    "description": "Ton costume a été pensé pour toi. Effet : +0,25 armure, +0,5 PV max.",
+    "extra_description": "Branche « Corps de héros ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_chestplate"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.armor",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b6": {
+    "title": "Costume renforcé II",
+    "description": "Ton costume a été pensé pour toi. Effet : +0,25 armure, +0,5 PV max.",
+    "extra_description": "Branche « Corps de héros ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_chestplate"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.armor",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b7": {
+    "title": "Costume renforcé III",
+    "description": "Ton costume a été pensé pour toi. Effet : +0,25 armure, +0,5 PV max.",
+    "extra_description": "Branche « Corps de héros ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_chestplate"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.armor",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b8": {
+    "title": "Costume renforcé IV",
+    "description": "Ton costume a été pensé pour toi. Effet : +0,25 armure, +0,5 PV max.",
+    "extra_description": "Branche « Corps de héros ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_chestplate"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.armor",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b9": {
+    "title": "Style de combat I",
+    "description": "Le maître d'armes t'a appris ses coups. Effet : +2,5 % dégâts d'épée, +1,04 % dégâts de mêlée.",
+    "extra_description": "Branche « Corps de héros ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:sword_damage",
+          "value": 0.025,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0104,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b10": {
+    "title": "Style de combat II",
+    "description": "Le maître d'armes t'a appris ses coups. Effet : +2,5 % dégâts d'épée, +1,04 % dégâts de mêlée.",
+    "extra_description": "Branche « Corps de héros ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:sword_damage",
+          "value": 0.025,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0104,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b11": {
+    "title": "Style de combat III",
+    "description": "Le maître d'armes t'a appris ses coups. Effet : +2,5 % dégâts d'épée, +1,04 % dégâts de mêlée.",
+    "extra_description": "Branche « Corps de héros ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:sword_damage",
+          "value": 0.025,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0104,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b12": {
+    "title": "Style de combat IV",
+    "description": "Le maître d'armes t'a appris ses coups. Effet : +2,5 % dégâts d'épée, +1,04 % dégâts de mêlée.",
+    "extra_description": "Branche « Corps de héros ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:sword_damage",
+          "value": 0.025,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0104,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b13": {
+    "title": "Smash I",
+    "description": "Un coup qui change la météo. Effet : +0,25 dégâts d'attaque, +0,08 puissance de recul.",
+    "extra_description": "Branche « Corps de héros ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:anvil"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_damage",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:knockback",
+          "value": 0.08,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b14": {
+    "title": "Smash II",
+    "description": "Un coup qui change la météo. Effet : +0,25 dégâts d'attaque, +0,08 puissance de recul.",
+    "extra_description": "Branche « Corps de héros ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:anvil"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_damage",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:knockback",
+          "value": 0.08,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b15": {
+    "title": "Smash III",
+    "description": "Un coup qui change la météo. Effet : +0,25 dégâts d'attaque, +0,08 puissance de recul.",
+    "extra_description": "Branche « Corps de héros ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:anvil"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_damage",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:knockback",
+          "value": 0.08,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b16": {
+    "title": "Smash IV",
+    "description": "Un coup qui change la météo. Effet : +0,25 dégâts d'attaque, +0,08 puissance de recul.",
+    "extra_description": "Branche « Corps de héros ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:anvil"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_damage",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:knockback",
+          "value": 0.08,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b17": {
+    "title": "Rapidité I",
+    "description": "Tu arrives avant le danger. Effet : +1,25 % vitesse de déplacement, +1 % chance d'esquive.",
+    "extra_description": "Branche « Corps de héros ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:feather"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.movement_speed",
+          "value": 0.0125,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:dodge_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b18": {
+    "title": "Rapidité II",
+    "description": "Tu arrives avant le danger. Effet : +1,25 % vitesse de déplacement, +1 % chance d'esquive.",
+    "extra_description": "Branche « Corps de héros ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:feather"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.movement_speed",
+          "value": 0.0125,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:dodge_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b19": {
+    "title": "Rapidité III",
+    "description": "Tu arrives avant le danger. Effet : +1,25 % vitesse de déplacement, +1 % chance d'esquive.",
+    "extra_description": "Branche « Corps de héros ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:feather"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.movement_speed",
+          "value": 0.0125,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:dodge_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b20": {
+    "title": "Rapidité IV",
+    "description": "Tu arrives avant le danger. Effet : +1,25 % vitesse de déplacement, +1 % chance d'esquive.",
+    "extra_description": "Branche « Corps de héros ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:feather"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.movement_speed",
+          "value": 0.0125,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:dodge_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b21": {
+    "title": "Symbole I",
+    "description": "Tu es un pilier pour les autres. Effet : +3,47 % dégâts de mêlée, +1 PV max, +2 % résistance au recul.",
+    "extra_description": "Branche « Corps de héros ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0347,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.knockback_resistance",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b22": {
+    "title": "Symbole II",
+    "description": "Tu es un pilier pour les autres. Effet : +3,47 % dégâts de mêlée, +1 PV max, +2 % résistance au recul.",
+    "extra_description": "Branche « Corps de héros ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0347,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.knockback_resistance",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b23": {
+    "title": "Symbole III",
+    "description": "Tu es un pilier pour les autres. Effet : +3,47 % dégâts de mêlée, +1 PV max, +2 % résistance au recul.",
+    "extra_description": "Branche « Corps de héros ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 5,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0347,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.knockback_resistance",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b24": {
+    "title": "Symbole IV",
+    "description": "Tu es un pilier pour les autres. Effet : +3,47 % dégâts de mêlée, +1 PV max, +2 % résistance au recul.",
+    "extra_description": "Branche « Corps de héros ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 5,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0347,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.knockback_resistance",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "c1": {
+    "title": "Sauvetage I",
+    "description": "Les héros tiennent debout plus longtemps. Effet : +0,5 PV max.",
+    "extra_description": "Branche « Plus Ultra ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:red_bed"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "arbre_univers_mha_plus_ultra"
+        }
+      }
+    ]
+  },
+  "c2": {
+    "title": "Sauvetage II",
+    "description": "Les héros tiennent debout plus longtemps. Effet : +0,5 PV max.",
+    "extra_description": "Branche « Plus Ultra ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:red_bed"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "c3": {
+    "title": "Sauvetage III",
+    "description": "Les héros tiennent debout plus longtemps. Effet : +0,5 PV max.",
+    "extra_description": "Branche « Plus Ultra ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:red_bed"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "c4": {
+    "title": "Sauvetage IV",
+    "description": "Les héros tiennent debout plus longtemps. Effet : +0,5 PV max.",
+    "extra_description": "Branche « Plus Ultra ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:red_bed"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "c5": {
+    "title": "Instinct de héros I",
+    "description": "Tu sens le danger arriver. Effet : +1 % chance d'esquive.",
+    "extra_description": "Branche « Plus Ultra ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bell"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:dodge_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "c6": {
+    "title": "Instinct de héros II",
+    "description": "Tu sens le danger arriver. Effet : +1 % chance d'esquive.",
+    "extra_description": "Branche « Plus Ultra ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bell"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:dodge_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "c7": {
+    "title": "Instinct de héros III",
+    "description": "Tu sens le danger arriver. Effet : +1 % chance d'esquive.",
+    "extra_description": "Branche « Plus Ultra ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bell"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:dodge_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "c8": {
+    "title": "Instinct de héros IV",
+    "description": "Tu sens le danger arriver. Effet : +1 % chance d'esquive.",
+    "extra_description": "Branche « Plus Ultra ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bell"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:dodge_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "c9": {
+    "title": "Récupération I",
+    "description": "La dame de l'infirmerie fait des miracles. Effet : +3,75 % régénération naturelle.",
+    "extra_description": "Branche « Plus Ultra ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glistering_melon_slice"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.0375,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c10": {
+    "title": "Récupération II",
+    "description": "La dame de l'infirmerie fait des miracles. Effet : +3,75 % régénération naturelle.",
+    "extra_description": "Branche « Plus Ultra ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glistering_melon_slice"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.0375,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c11": {
+    "title": "Récupération III",
+    "description": "La dame de l'infirmerie fait des miracles. Effet : +3,75 % régénération naturelle.",
+    "extra_description": "Branche « Plus Ultra ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glistering_melon_slice"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.0375,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c12": {
+    "title": "Récupération IV",
+    "description": "La dame de l'infirmerie fait des miracles. Effet : +3,75 % régénération naturelle.",
+    "extra_description": "Branche « Plus Ultra ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glistering_melon_slice"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.0375,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c13": {
+    "title": "Ne jamais reculer I",
+    "description": "Rien ne te fait céder. Effet : +2 % résistance au recul, +0,4 % réduction des dégâts subis.",
+    "extra_description": "Branche « Plus Ultra ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:shield"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.knockback_resistance",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:resistance",
+          "value": 0.004,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c14": {
+    "title": "Ne jamais reculer II",
+    "description": "Rien ne te fait céder. Effet : +2 % résistance au recul, +0,4 % réduction des dégâts subis.",
+    "extra_description": "Branche « Plus Ultra ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:shield"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.knockback_resistance",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:resistance",
+          "value": 0.004,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c15": {
+    "title": "Ne jamais reculer III",
+    "description": "Rien ne te fait céder. Effet : +2 % résistance au recul, +0,4 % réduction des dégâts subis.",
+    "extra_description": "Branche « Plus Ultra ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:shield"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.knockback_resistance",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:resistance",
+          "value": 0.004,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c16": {
+    "title": "Ne jamais reculer IV",
+    "description": "Rien ne te fait céder. Effet : +2 % résistance au recul, +0,4 % réduction des dégâts subis.",
+    "extra_description": "Branche « Plus Ultra ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:shield"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.knockback_resistance",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:resistance",
+          "value": 0.004,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c17": {
+    "title": "Plus Ultra I",
+    "description": "Toujours plus loin. Effet : +1 PV max, +0,6 % réduction des dégâts subis.",
+    "extra_description": "Branche « Plus Ultra ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_ingot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:resistance",
+          "value": 0.006,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c18": {
+    "title": "Plus Ultra II",
+    "description": "Toujours plus loin. Effet : +1 PV max, +0,6 % réduction des dégâts subis.",
+    "extra_description": "Branche « Plus Ultra ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_ingot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:resistance",
+          "value": 0.006,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c19": {
+    "title": "Plus Ultra III",
+    "description": "Toujours plus loin. Effet : +1 PV max, +0,6 % réduction des dégâts subis.",
+    "extra_description": "Branche « Plus Ultra ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_ingot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:resistance",
+          "value": 0.006,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c20": {
+    "title": "Plus Ultra IV",
+    "description": "Toujours plus loin. Effet : +1 PV max, +0,6 % réduction des dégâts subis.",
+    "extra_description": "Branche « Plus Ultra ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_ingot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:resistance",
+          "value": 0.006,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  }
+}

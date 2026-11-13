@@ -1,0 +1,7 @@
+Mods inclus dans le zip (pas sur CurseForge) et leur licence :
+  memoryleakfix : LGPL-2.1-only - 1.1.5 absente de CurseForge (projet 627566 : 1.0.0 seulement) ; LGPL : redistribution permise, licence citee
+  noisium : LGPL-3.0-only - projet CurseForge 930207 archive, sans fichier ; LGPL : redistribution permise, licence citee
+  terrablender : LGPL-3.0-only - 3.0.1.11 absente de CurseForge (projet 563928 : 3.0.1.10 au plus) ; meme version que le serveur exigee ; LGPL : redistribution permise
+  shonencore : mod du pack (Shonen Eveil), fait pour ce pack.
+Les textes des licences LGPL : https://www.gnu.org/licenses/lgpl-3.0.html et https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html
+Sources : https://github.com/Glitchfiend/TerraBlender , https://github.com/Steveplays28/noisium , https://github.com/FxMorin/MemoryLeakFix

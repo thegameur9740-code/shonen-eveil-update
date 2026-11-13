@@ -1,0 +1,13 @@
+{
+ "name": "Tes touches",
+ "category": "patchouli:bleach",
+ "icon": "minecraft:stone_button",
+ "read_by_default": true,
+ "sortnum": 1,
+ "pages": [
+  {
+   "type": "patchouli:text",
+   "text": "$(l)$(k:key.bleachreborn.flash)$() pas éclair$(br)$(l)$(k:key.bleachreborn.activate)$() activer le Shikai$(br)$(l)$(k:key.bleachreborn.mask_up)$() masque de Vizard$(br)$(l)$(k:key.bleachreborn.cero)$() cero$(br)$(l)$(k:key.bleachreborn.active_skill)$() compétence active$(br)$(l)$(k:key.bleachreborn.kido)$() kidō$(br)$(l)$(k:key.bleachreborn.meditation)$() méditation$(br)$(l)$(k:key.bleachreborn.reishi_bow)$() arc reishi$(br2)Pas de touche : pas à toi."
+  }
+ ]
+}

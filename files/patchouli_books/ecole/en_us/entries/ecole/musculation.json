@@ -1,0 +1,29 @@
+{
+ "name": "La salle de sport",
+ "category": "patchouli:ecole",
+ "icon": "minecraft:iron_ingot",
+ "read_by_default": true,
+ "sortnum": 14,
+ "pages": [
+  {
+   "type": "patchouli:text",
+   "title": "La salle de sport",
+   "text": "Au rez-de-chaussée, près de la tour-dortoir.$(br)$(l)8 machines$(), 3 familles : jambes, force, tirage.$(br2)Clic droit sur une machine libre : tu t'assois, la séance dure $(l)20 s$().$(br)$(l)Maj$() : tu te lèves, la séance est annulée."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Les bonus",
+   "text": "Séance finie : $(l)30 minutes$() de bonus niveau I.$(li)jambes : $(l)Vitesse$() et $(l)Saut$() ;$(li)force : $(l)Force$() ;$(li)tirage : $(l)Résistance$().$(br2)Refaire la même famille remet les 30 minutes à zéro. Les 3 familles se cumulent.$(br)Une machine, un seul sportif à la fois."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Le coach",
+   "text": "Le coach vend, en Éclats :$(li)boissons $(l)Wonster$() (3 saveurs, 40) : la $(l)prochaine$() séance dure 10 s au lieu de 20 ;$(li)$(l)gants$(), $(l)ceinture$(), $(l)sangles$() (600) : -5 s sur leur famille de machines, dans ton sac."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Le coach (suite)",
+   "text": "Une $(l)serviette$() et gourde (400 Éclats) : ton bonus dure 40 minutes.$(br2)La boisson reste valable 5 minutes.$(br)Jamais moins de 8 s par séance."
+  }
+ ]
+}

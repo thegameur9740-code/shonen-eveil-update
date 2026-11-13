@@ -1,0 +1,13 @@
+{
+ "name": "Tes touches",
+ "category": "patchouli:solo",
+ "icon": "minecraft:stone_button",
+ "read_by_default": true,
+ "sortnum": 1,
+ "pages": [
+  {
+   "type": "patchouli:text",
+   "text": "$(l)$(k:key.sololeveling.use_skill)$() utiliser$(br)$(l)$(k:key.sololeveling.skill_cycle_button)$() changer de compétence$(br)$(l)$(k:key.sololeveling.ability_1)$() capacité 1$(br)$(l)$(k:key.sololeveling.ability_2)$() capacité 2$(br)$(l)$(k:key.sololeveling.ability_3)$() capacité 3$(br)$(l)$(k:key.sololeveling.ability_4)$() capacité 4$(br)$(l)$(k:key.sololeveling.open_panel)$() panneau$(br)$(l)$(k:key.sololeveling.quest_info)$() quête$(br2)Pas de touche : pas à toi."
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+  "size": "small",
+  "color": "#F08C00",
+  "waves": [
+    {
+      "entities": [
+        {
+          "entity": "minepiece:pirate",
+          "count": 3
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 2400,
+      "setup_time": 100
+    },
+    {
+      "entities": [
+        {
+          "entity": "minepiece:pirate",
+          "count": 5
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 3000,
+      "setup_time": 160
+    },
+    {
+      "entities": [
+        {
+          "entity": "minepiece:buggy",
+          "desc": "shonen.examen.boss.buggy",
+          "nbt": "{Tags:[\"shonen_ge_buggy\"]}",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 9600,
+      "setup_time": 200
+    }
+  ],
+  "rewards": [
+    {
+      "type": "gateways:command",
+      "command": "grands_ennemis examen <summoner> buggy",
+      "desc": "shonen.examen.points.C"
+    }
+  ],
+  "failures": [],
+  "rules": {
+    "spawn_range": 10,
+    "leash_range": 48,
+    "allow_discarding": true
+  }
+}

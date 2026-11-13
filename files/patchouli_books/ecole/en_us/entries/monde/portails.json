@@ -1,0 +1,19 @@
+{
+ "name": "Les portails de Solo Leveling",
+ "category": "patchouli:monde",
+ "icon": "minecraft:end_portal_frame",
+ "read_by_default": true,
+ "sortnum": 6,
+ "pages": [
+  {
+   "type": "patchouli:text",
+   "title": "Un portail s'ouvre",
+   "text": "Quand un portail apparaît dans le monde normal, les joueurs de $(l)Solo Leveling$() reçoivent une annonce dans le chat : son $(l)rang$() et ses coordonnées.$(br2)Chaque portail n'est annoncé qu'une fois."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Sur ta carte",
+   "text": "Clique le lien : un $(l)point$() s'ajoute sur ta carte.$(br2)$(l)/portails$() : la liste des portails connus, avec les mêmes liens."
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+  "size": "medium",
+  "color": "#3B5BDB",
+  "waves": [
+    {
+      "entities": [
+        {
+          "entity": "sololeveling:skeleton_warrior",
+          "count": 4
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 2400,
+      "setup_time": 100
+    },
+    {
+      "entities": [
+        {
+          "entity": "sololeveling:d_knight_1",
+          "count": 2
+        },
+        {
+          "entity": "sololeveling:d_knight_2",
+          "count": 2
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 3000,
+      "setup_time": 160
+    },
+    {
+      "entities": [
+        {
+          "entity": "sololeveling:blood_red_com_igris",
+          "desc": "shonen.examen.boss.igris",
+          "count": 1
+        },
+        {
+          "entity": "sololeveling:d_knight_3",
+          "count": 2
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 10800,
+      "setup_time": 200
+    }
+  ],
+  "rewards": [
+    {
+      "type": "gateways:command",
+      "command": "grands_ennemis examen <summoner> igris",
+      "desc": "shonen.examen.points.B"
+    }
+  ],
+  "failures": [],
+  "rules": {
+    "spawn_range": 10,
+    "leash_range": 48,
+    "allow_discarding": true
+  }
+}

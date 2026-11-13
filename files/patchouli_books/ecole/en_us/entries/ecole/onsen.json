@@ -1,0 +1,19 @@
+{
+ "name": "L'onsen",
+ "category": "patchouli:ecole",
+ "icon": "minecraft:water_bucket",
+ "read_by_default": true,
+ "sortnum": 13,
+ "pages": [
+  {
+   "type": "patchouli:text",
+   "title": "Les bains",
+   "text": "Un bassin de l'école, ouvert quand tu veux.$(br2)$(l)Dans l'eau$() : Régénération I, tant que tu y restes.$(br2)En sortant : $(l)Détente$(), Régénération I pendant $(l)10 minutes$()."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "S'asseoir",
+   "text": "Clic droit (main vide) sur un bord de bassin ou un banc : tu t'assois. $(l)Maj$() : tu te lèves.$(br2)Assis près de l'eau, même effet.$(br)Le soir, des élèves viennent aussi s'y baigner."
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+  "size": "medium",
+  "color": "#9C36B5",
+  "waves": [
+    {
+      "entities": [
+        {
+          "entity": "dragonminez:saga_friezasoldier01",
+          "count": 3
+        },
+        {
+          "entity": "dragonminez:saga_friezasoldier02",
+          "count": 2
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 2400,
+      "setup_time": 100
+    },
+    {
+      "entities": [
+        {
+          "entity": "dragonminez:saga_friezasoldier02",
+          "count": 3
+        },
+        {
+          "entity": "dragonminez:saga_friezasoldier03",
+          "count": 2
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 3000,
+      "setup_time": 160
+    },
+    {
+      "entities": [
+        {
+          "entity": "dragonminez:saga_vegeta",
+          "desc": "shonen.examen.boss.vegeta",
+          "nbt": "{Tags:[\"shonen_ge_vegeta\"]}",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 10800,
+      "setup_time": 200
+    }
+  ],
+  "rewards": [
+    {
+      "type": "gateways:command",
+      "command": "grands_ennemis examen <summoner> vegeta",
+      "desc": "shonen.examen.points.B"
+    }
+  ],
+  "failures": [],
+  "rules": {
+    "spawn_range": 10,
+    "leash_range": 48,
+    "allow_discarding": true
+  }
+}

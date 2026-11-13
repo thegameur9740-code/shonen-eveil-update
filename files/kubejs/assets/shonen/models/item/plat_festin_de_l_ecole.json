@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "shonen:item/plat_festin_de_l_ecole"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Arbre de One Piece",
+  "description": "La vie de pirate. Tous les chemins sont ouverts : Fruit du démon, Style de combat et Haki.",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "minecraft:spyglass"
+    }
+  },
+  "background": "minecraft:textures/gui/advancements/backgrounds/end.png",
+  "unlocked_by_default": false,
+  "starting_points": 0,
+  "exclusive_root": false
+}

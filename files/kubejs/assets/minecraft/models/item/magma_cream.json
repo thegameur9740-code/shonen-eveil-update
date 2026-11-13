@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/magma_cream"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 7071
+      },
+      "model": "shonen:item/souvenirs/stain"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7075
+      },
+      "model": "shonen:item/souvenirs/dabi"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7079
+      },
+      "model": "shonen:item/souvenirs/twice"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7083
+      },
+      "model": "shonen:item/souvenirs/hood"
+    }
+  ]
+}

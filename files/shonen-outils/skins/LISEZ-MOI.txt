@@ -1,0 +1,25 @@
+MES SKINS DE BOSS - Shonen Éveil
+================================
+
+Ce dossier sert à donner TON apparence à certains boss du pack, sur TON jeu seulement.
+Rien de ce dossier n'est envoyé au serveur ni aux autres joueurs (chacun voit ses propres skins).
+
+Comment faire
+-------------
+1. Mets ici une image PNG dont le nom est la clé du boss, par exemple : itachi.png
+2. Relance la mise à jour du pack, jeu fermé : « Mettre a jour mes musiques et skins.bat » dans le dossier
+   de l'instance (pour Admin : la synchronisation, scripts\sync-client.ps1).
+   L'image est copiée dans le pack de ressources « Shonen Mes Skins », activé tout seul.
+3. Pour revenir à l'apparence de base : supprime (ou renomme) le fichier, puis relance la mise à jour.
+   Un dossier vide = l'apparence de base de chaque boss.
+
+L'image doit suivre le PATRON du modèle du boss (ce n'est pas un skin de joueur Minecraft) :
+pars de l'image d'origine copiée dans le sous-dossier « modeles » (par exemple modeles\itachi.png),
+peins par-dessus et garde la même forme (même rapport largeur / hauteur ; une taille plus grande marche).
+Les fichiers de « modeles » sont des copies pour t'aider : les modifier ne change rien en jeu.
+
+Boss possibles (nom du fichier -> boss, taille de base) :
+{BOSS}
+
+Un fichier au mauvais nom, qui n'est pas un vrai PNG ou à la mauvaise forme est ignoré :
+la mise à jour l'écrit dans sa fenêtre et le boss garde son apparence de base.

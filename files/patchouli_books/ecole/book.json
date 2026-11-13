@@ -1,0 +1,18 @@
+{
+ "name": "Livre de l'école",
+ "subtitle": "Shonen Jump School",
+ "landing_text": "Tout ce qu'un Éveillé doit savoir.$(br2)Choisis un chapitre à droite.$(br2)Clic droit sur un pupitre de l'école : le même livre.",
+ "version": 2,
+ "show_progress": false,
+ "model": "shonen:livre_ecole",
+ "book_texture": "patchouli:textures/gui/book_brown.png",
+ "filler_texture": "shonen:textures/livre/filler.png",
+ "header_color": "4A2C0E",
+ "text_color": "1E140A",
+ "nameplate_color": "F2C64B",
+ "link_color": "8A4B00",
+ "link_hover_color": "C07000",
+ "creative_tab": "tools_and_utilities",
+ "use_resource_pack": false,
+ "show_toasts": false
+}

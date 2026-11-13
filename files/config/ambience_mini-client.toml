@@ -1,0 +1,12 @@
+#Ambience Mini Mod Configurations
+[AmbienceMini]
+	#Shonen Eveil: the server has no Ambience Mini (client-only music), so no "no server support" chat message at each join.
+	Notify_Server_Support = false
+	#Shonen Eveil: no toast at each music change (credits: docs/credits-musique.md).
+	Print_Now_Playing = false
+	Print_Basic_Controls = false
+	#Shonen Eveil (11/11): 10 s between two tracks (default 4 s). The exploration tracks end with 50 s of silence in the file (scripts/music-lib.ps1), so: about 60 s while exploring, 10 s in a fight, a boss fight and the tavern. A change of ambience still starts its music at once.
+	Next_Music_Delay = 10000
+	#Shonen Eveil (11/11): the fight music stays longer after the last hit (the mod's maximums; defaults 3500 and 5000). The server also keeps it while a monster targets the player (hidden effect shonencore:en_combat).
+	Combat_Grace_Period = 10000
+	Combatant_Timeout = 15000

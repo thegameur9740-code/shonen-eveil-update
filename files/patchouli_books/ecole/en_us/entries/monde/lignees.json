@@ -1,0 +1,13 @@
+{
+ "name": "Les lignées",
+ "category": "patchouli:monde",
+ "icon": "minecraft:lodestone",
+ "read_by_default": true,
+ "sortnum": 2,
+ "pages": [
+  {
+   "type": "patchouli:text",
+   "text": "Chaque univers a sa $(l)lignée$() : 5 lieux, un par zone, dans sa direction.$(br2)À chaque lieu, un boss.$(br)Celui d'une zone n'apparaît que si ton équipe a battu celui d'avant.$(br2)Au bout : l'$(l)Ancre$(). Elle donne le $(l)Sceau$() de l'univers."
+  }
+ ]
+}

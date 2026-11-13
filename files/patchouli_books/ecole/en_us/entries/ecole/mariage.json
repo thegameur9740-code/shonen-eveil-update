@@ -1,0 +1,31 @@
+{
+ "name": "Faire la cour, se marier",
+ "category": "patchouli:ecole",
+ "icon": "minecraft:poppy",
+ "read_by_default": true,
+ "sortnum": 6,
+ "pages": [
+  {
+   "type": "patchouli:text",
+   "title": "Faire la cour",
+   "text": "Seules les $(l)femmes$() adultes de l'école et du Grand Hall se draguent. Jamais le personnel, les maîtres, les vendeuses.$(br2)Amitié $(l)60$() : [Lui faire la cour], [L'inviter à sortir] (le soir).$(br)À $(l)100$() : [Demander sa main]."
+  },
+  {
+   "type": "patchouli:spotlight",
+   "item": "shonen:bague_mariage",
+   "link_recipe": false,
+   "title": "La bague",
+   "text": "$(l)Bague de mariage$() : 1 500 éclats chez Orin.$(br)Elle est prise au début de la cérémonie, et rendue si tu l'annules.$(br2)Clic droit sur ta fiancée : [Fixer la cérémonie] dans 5, 10 ou 20 minutes, au $(l)sanctuaire des liens$()."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "La cérémonie",
+   "text": "Environ $(l)35 s$() : allée, discours, échange des bagues, feux d'artifice.$(br)Tous les joueurs sont invités.$(br)Sois à l'autel à l'heure (3 minutes de retard au plus)."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Ta femme",
+   "text": "Elle te $(l)suit$() (hors des 2 compagnons), $(l)reste ici$() ou $(l)rentre à la maison$().$(br)À la maison, elle dort dans le $(l)lit double$(). Absente un jour ou plus, elle te prépare un petit cadeau.$(br2)4 couples au plus par serveur."
+  }
+ ]
+}

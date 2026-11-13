@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/sheaf_pottery_sherd"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 7012
+      },
+      "model": "shonen:item/souvenirs/buggy"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7016
+      },
+      "model": "shonen:item/souvenirs/katakuri"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7020
+      },
+      "model": "shonen:item/souvenirs/barbe_noire"
+    }
+  ]
+}

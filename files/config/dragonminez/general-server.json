@@ -1,0 +1,12 @@
+{
+  "configVersion": "2.2.1",
+  "gameplay": {
+    "forceCharacterCreation": false,
+    "tpGainMultiplier": 0.3,
+    "senzuGiftAmount": 3,
+    "senzuGiftCooldownTicks": 24000
+  },
+  "worldGen": {
+    "otherworldActive": false
+  }
+}

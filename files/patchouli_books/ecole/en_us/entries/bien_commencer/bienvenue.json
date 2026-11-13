@@ -1,0 +1,22 @@
+{
+ "name": "Bienvenue",
+ "category": "patchouli:bien_commencer",
+ "icon": "minecraft:bell",
+ "read_by_default": true,
+ "sortnum": 0,
+ "pages": [
+  {
+   "type": "patchouli:image",
+   "images": [
+    "shonen:textures/livre/couverture_manuel.png"
+   ],
+   "border": false,
+   "text": "Dans l'école, rien ne peut t'attaquer et rien ne se casse."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Ton premier jour",
+   "text": "Dans l'ordre :$(li)suis le $(l)guide doré$() ($(l)/guide$()) ;$(li)enfile la $(l)tenue de l'Éveillé$() de ton kit ;$(li)ouvre tes arbres : $(l)$(k:key.puffish_skills.open)$() ;$(li)parle au $(l)maître$() de ta salle ;$(li)fais la $(l)Fosse d'endurance$() : on n'y meurt pas."
+  }
+ ]
+}

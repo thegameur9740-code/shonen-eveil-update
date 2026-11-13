@@ -1,0 +1,1545 @@
+{
+	id: "000EAD8A8AC5674F"
+	group: ""
+	order_index: 8
+	filename: "dbz"
+	title: "Dragon Ball"
+	icon: "dragonminez:dball4"
+	subtitle: [
+		"La salle de Dragon Ball (maître, guide), ses examens du rang C au boss final,"
+		"les paliers de la voie pour ceux qui ont l'univers, et la lignée d'histoire en 5"
+	]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 6.25d
+			y: 9.12d
+			width: 19.0d
+			height: 21.25d
+			rotation: 0.0d
+			image: "shonen:textures/quetes/bg_dbz.png"
+			color: 16777215
+			alpha: 235
+			order: -11
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 6.25d
+			y: 9.12d
+			width: 30.0d
+			height: 21.94d
+			rotation: 0.0d
+			image: "shonen:textures/quetes/plein_dbz.png"
+			color: 16777215
+			alpha: 255
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.75d
+			y: 0.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/writable_book.png"
+			color: 16777215
+			alpha: 255
+			order: 0
+			hover: [
+				"La salle"
+			]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.75d
+			y: 3.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/writable_book.png"
+			color: 16777215
+			alpha: 255
+			order: 0
+			hover: [
+				"Les examens de la salle"
+			]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.75d
+			y: 6.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/writable_book.png"
+			color: 16777215
+			alpha: 255
+			order: 0
+			hover: [
+				"La voie (si tu as cet univers)"
+			]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.75d
+			y: 9.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/writable_book.png"
+			color: 16777215
+			alpha: 255
+			order: 0
+			hover: [
+				"La lignée (histoire, ouverte à tous)"
+			]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			id: "000E4BBB0283C5B0"
+			title: "Le maître de Dragon Ball"
+			subtitle: "Niveau 3"
+			x: 0.0d
+			y: 0.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"dbz_le_maitre_de_dragon_ball"
+			]
+			description: [
+				"Le maître de la salle Dragon Ball t'attend. Parle-lui : il"
+				"t'ouvre la lignée de son univers."
+				""
+				"Tâche : parler au maître de la salle (Maître Roshi (dragonminez:master_roshi))"
+				""
+				"Récompense : 42 XP, 10 Éclats"
+			]
+			tasks: [
+				{
+					id: "0004A243E691FB95"
+					type: "custom"
+					title: "parler au maître de la salle (Maître Roshi (dragonminez:mast"
+				}
+			]
+			rewards: [
+				{
+					id: "0003DDC3D76983EB"
+					type: "command"
+					title: "42 XP"
+					command: "/shonenquete recompense {p} dbz_le_maitre_de_dragon_ball"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "dragonminez:dball4"
+		}
+		{
+			id: "0007E35C2E4671D6"
+			title: "Guide : Dragon Ball"
+			subtitle: "Niveau 3"
+			x: 1.5d
+			y: 0.0d
+			shape: "circle"
+			size: 0.75d
+			tags: [
+				"dbz_guide_dragon_ball"
+			]
+			description: [
+				"Ki, races, transformations, Super Saiyan : le monde des"
+				"guerriers de l'espace. Son guide est dans le Livre de"
+				"l'école : comment progresser, où aller."
+				""
+				"Tâche : lire le guide de l'univers dans le Livre de l'école"
+				""
+				"Récompense : 42 XP"
+			]
+			tasks: [
+				{
+					id: "0002672D1B5CCCE5"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "000A5D8283F6A63D"
+					type: "command"
+					title: "42 XP"
+					command: "/shonenquete recompense {p} dbz_guide_dragon_ball"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:book"
+			dependencies: [
+				"000E4BBB0283C5B0"
+			]
+		}
+		{
+			id: "00050017F4614FCC"
+			title: "Examen C : Raditz"
+			subtitle: "Niveau 15"
+			x: 0.0d
+			y: 3.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"dbz_examen_c_raditz"
+			]
+			description: [
+				"L'examen de rang C de la salle Dragon Ball. Si Dragon Ball"
+				"est un de tes univers, il ouvre aussi le palier C de ses"
+				"pouvoirs."
+				""
+				"Tâche : réussir l'examen C de la salle Dragon Ball"
+				""
+				"ouvre le palier C des pouvoirs de cet univers"
+				""
+				"Récompense : 155 XP, 70 Éclats"
+			]
+			tasks: [
+				{
+					id: "0008CBF4585C0C36"
+					type: "custom"
+					title: "réussir l'examen C de la salle Dragon Ball"
+				}
+			]
+			rewards: [
+				{
+					id: "0003231F1B47300F"
+					type: "command"
+					title: "155 XP"
+					command: "/shonenquete recompense {p} dbz_examen_c_raditz"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "dragonminez:dball4"
+		}
+		{
+			id: "0008B68BCE3D669D"
+			title: "Examen B : Vegeta"
+			subtitle: "Niveau 40"
+			x: 1.5d
+			y: 3.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"dbz_examen_b_vegeta"
+			]
+			description: [
+				"L'examen de rang B de la salle Dragon Ball. Si Dragon Ball"
+				"est un de tes univers, il ouvre aussi le palier B de ses"
+				"pouvoirs."
+				""
+				"Tâche : réussir l'examen B de la salle Dragon Ball"
+				""
+				"ouvre le palier B des pouvoirs de cet univers"
+				""
+				"Récompense : 413 XP, 170 Éclats"
+			]
+			tasks: [
+				{
+					id: "0004F470C11145CD"
+					type: "custom"
+					title: "réussir l'examen B de la salle Dragon Ball"
+				}
+			]
+			rewards: [
+				{
+					id: "000E0FBD3385A69F"
+					type: "command"
+					title: "413 XP"
+					command: "/shonenquete recompense {p} dbz_examen_b_vegeta"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "dragonminez:dball4"
+			dependencies: [
+				"00050017F4614FCC"
+			]
+		}
+		{
+			id: "000341B8BB386417"
+			title: "Examen A : Freezer"
+			subtitle: "Niveau 70"
+			x: 3.0d
+			y: 3.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"dbz_examen_a_freezer"
+			]
+			description: [
+				"L'examen de rang A de la salle Dragon Ball. Si Dragon Ball"
+				"est un de tes univers, il ouvre aussi le palier A de ses"
+				"pouvoirs."
+				""
+				"Tâche : réussir l'examen A de la salle Dragon Ball"
+				""
+				"ouvre le palier A des pouvoirs de cet univers"
+				""
+				"Récompense : 763 XP, 290 Éclats"
+			]
+			tasks: [
+				{
+					id: "000D00D30E7B3747"
+					type: "custom"
+					title: "réussir l'examen A de la salle Dragon Ball"
+				}
+			]
+			rewards: [
+				{
+					id: "000AE3096710E733"
+					type: "command"
+					title: "763 XP"
+					command: "/shonenquete recompense {p} dbz_examen_a_freezer"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "dragonminez:dball4"
+			dependencies: [
+				"0008B68BCE3D669D"
+			]
+		}
+		{
+			id: "0003D66C22360B95"
+			title: "Examen A : Cell"
+			subtitle: "Niveau 70"
+			x: 4.5d
+			y: 3.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"dbz_examen_a_cell"
+			]
+			description: [
+				"L'examen de rang A de la salle Dragon Ball. Si Dragon Ball"
+				"est un de tes univers, il ouvre aussi le palier A de ses"
+				"pouvoirs."
+				""
+				"Tâche : réussir l'examen A de la salle Dragon Ball"
+				""
+				"ouvre le palier A des pouvoirs de cet univers"
+				""
+				"Récompense : 763 XP, 290 Éclats"
+			]
+			tasks: [
+				{
+					id: "0005A27378C07C98"
+					type: "custom"
+					title: "réussir l'examen A de la salle Dragon Ball"
+				}
+			]
+			rewards: [
+				{
+					id: "00070C4AB110C2FF"
+					type: "command"
+					title: "763 XP"
+					command: "/shonenquete recompense {p} dbz_examen_a_cell"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "dragonminez:dball4"
+			dependencies: [
+				"000341B8BB386417"
+			]
+		}
+		{
+			id: "000BF4C81F4E50FD"
+			title: "Examen S : Bio-Broly"
+			subtitle: "Niveau 100"
+			x: 6.0d
+			y: 3.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"dbz_examen_s_bio_broly"
+			]
+			description: [
+				"L'examen de rang S de la salle Dragon Ball. Si Dragon Ball"
+				"est un de tes univers, il ouvre aussi le palier S de ses"
+				"pouvoirs."
+				""
+				"Tâche : réussir l'examen S de la salle Dragon Ball"
+				""
+				"ouvre le palier S des pouvoirs de cet univers"
+				""
+				"Récompense : 1155 XP, 410 Éclats"
+			]
+			tasks: [
+				{
+					id: "00013CC70C7701B7"
+					type: "custom"
+					title: "réussir l'examen S de la salle Dragon Ball"
+				}
+			]
+			rewards: [
+				{
+					id: "000E474425B47C28"
+					type: "command"
+					title: "1155 XP"
+					command: "/shonenquete recompense {p} dbz_examen_s_bio_broly"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "dragonminez:dball4"
+			dependencies: [
+				"0003D66C22360B95"
+			]
+		}
+		{
+			id: "00069350946ADE0C"
+			title: "Examen S+ : Broly légendaire (boss final)"
+			subtitle: "Niveau 130"
+			x: 7.5d
+			y: 3.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"dbz_examen_s_plus_broly_legendaire_boss_final"
+			]
+			description: [
+				"Le boss final de la salle Dragon Ball. Tous les examens de"
+				"la salle d'abord ; ensuite, la légende."
+				""
+				"Tâche : réussir l'examen S+ de la salle Dragon Ball"
+				""
+				"boss final de la salle"
+				""
+				"Récompense : 1591 XP, 530 Éclats"
+			]
+			tasks: [
+				{
+					id: "00068C9B147DECCE"
+					type: "custom"
+					title: "réussir l'examen S+ de la salle Dragon Ball"
+				}
+			]
+			rewards: [
+				{
+					id: "00007AD968234317"
+					type: "command"
+					title: "1591 XP"
+					command: "/shonenquete recompense {p} dbz_examen_s_plus_broly_legendaire_boss_final"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "dragonminez:dball4"
+			dependencies: [
+				"000BF4C81F4E50FD"
+			]
+		}
+		{
+			id: "00058A5889CD56EA"
+			title: "Palier B de la voie : 1re transformation de ta race (Super Saiyan…)"
+			subtitle: "Niveau 40"
+			x: 0.0d
+			y: 6.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"dbz_palier_b_de_la_voie_1re_transformation_de_ta_rac"
+			]
+			description: [
+				"Ton univers grandit : 1re transformation de ta race (Super"
+				"Saiyan…). Réussis l'examen de ce rang dans cette salle pour"
+				"l'ouvrir."
+				""
+				"Tâche : avoir réussi l'examen B de la salle Dragon Ball ET avoir l'univers dans sa voie"
+				""
+				"visible seulement pour ceux qui ont l'univers ; détail des formes : progression.md section 14"
+				""
+				"Récompense : 413 XP, 170 Éclats"
+			]
+			tasks: [
+				{
+					id: "000BCB46B4939AA0"
+					type: "custom"
+					title: "avoir réussi l'examen B de la salle Dragon Ball ET avoir l'u"
+				}
+			]
+			rewards: [
+				{
+					id: "000E3DA9645200F3"
+					type: "command"
+					title: "413 XP"
+					command: "/shonenquete recompense {p} dbz_palier_b_de_la_voie_1re_transformation_de_ta_rac"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "dragonminez:dball4"
+		}
+		{
+			id: "000AEAA7E805E0CA"
+			title: "Palier A de la voie : 2e transformation (SSJ2…)"
+			subtitle: "Niveau 70"
+			x: 1.5d
+			y: 6.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"dbz_palier_a_de_la_voie_2e_transformation_ssj2"
+			]
+			description: [
+				"Ton univers grandit : 2e transformation (SSJ2…). Réussis"
+				"l'examen de ce rang dans cette salle pour l'ouvrir."
+				""
+				"Tâche : avoir réussi l'examen A de la salle Dragon Ball ET avoir l'univers dans sa voie"
+				""
+				"visible seulement pour ceux qui ont l'univers ; détail des formes : progression.md section 14"
+				""
+				"Récompense : 763 XP, 290 Éclats"
+			]
+			tasks: [
+				{
+					id: "0006D76B91C469BC"
+					type: "custom"
+					title: "avoir réussi l'examen A de la salle Dragon Ball ET avoir l'u"
+				}
+			]
+			rewards: [
+				{
+					id: "000E9E70089D2BB7"
+					type: "command"
+					title: "763 XP"
+					command: "/shonenquete recompense {p} dbz_palier_a_de_la_voie_2e_transformation_ssj2"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "dragonminez:dball4"
+			dependencies: [
+				"00058A5889CD56EA"
+			]
+		}
+		{
+			id: "00084ED87C295584"
+			title: "Palier S de la voie : 3e transformation (SSJ3…)"
+			subtitle: "Niveau 100"
+			x: 3.0d
+			y: 6.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"dbz_palier_s_de_la_voie_3e_transformation_ssj3"
+			]
+			description: [
+				"Ton univers grandit : 3e transformation (SSJ3…). Réussis"
+				"l'examen de ce rang dans cette salle pour l'ouvrir."
+				""
+				"Tâche : avoir réussi l'examen S de la salle Dragon Ball ET avoir l'univers dans sa voie"
+				""
+				"visible seulement pour ceux qui ont l'univers ; détail des formes : progression.md section 14"
+				""
+				"Récompense : 1155 XP, 410 Éclats"
+			]
+			tasks: [
+				{
+					id: "000261FE848EF31E"
+					type: "custom"
+					title: "avoir réussi l'examen S de la salle Dragon Ball ET avoir l'u"
+				}
+			]
+			rewards: [
+				{
+					id: "0003EC861F2F31F8"
+					type: "command"
+					title: "1155 XP"
+					command: "/shonenquete recompense {p} dbz_palier_s_de_la_voie_3e_transformation_ssj3"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "dragonminez:dball4"
+			dependencies: [
+				"000AEAA7E805E0CA"
+			]
+		}
+		{
+			id: "000D021A2D9930C4"
+			title: "Zone 1 — Trouver la base au ruban"
+			subtitle: "Niveau 4"
+			x: 0.0d
+			y: 9.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"dbz_zone_1_trouver_la_base_au_ruban"
+			]
+			description: [
+				"Une base militaire au ruban rouge : hangars, tour de radio"
+				"et barbelés. Trouve le lieu."
+				""
+				"Tâche : tâche d'emplacement (lieu posé à la création du monde ; la Boussole de lignée y mène)"
+				""
+				"Récompense : 51 XP, 15 Éclats"
+			]
+			tasks: [
+				{
+					id: "000388B44417E84A"
+					type: "custom"
+					title: "tâche d'emplacement (lieu posé à la création du monde ; la B"
+				}
+			]
+			rewards: [
+				{
+					id: "000AE47364C00ECA"
+					type: "command"
+					title: "51 XP"
+					command: "/shonenquete recompense {p} dbz_zone_1_trouver_la_base_au_ruban"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "dragonminez:dball4"
+		}
+		{
+			id: "000B396DA9D61E6C"
+			title: "Zone 1 — Les sbires"
+			subtitle: "Niveau 6"
+			x: 0.0d
+			y: 11.25d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"dbz_zone_1_les_sbires"
+			]
+			description: [
+				"Soldats et robots du Ruban Rouge."
+				""
+				"Tâche : tuer 15 soldats et robots du Ruban Rouge (red_ribbon_soldier, robot1)"
+				""
+				"Récompense : 70 XP, 15 Éclats"
+			]
+			tasks: [
+				{
+					id: "00043BADAE1D5799"
+					type: "custom"
+					title: "tuer 15 soldats et robots du Ruban Rouge (red_ribbon_soldier"
+				}
+			]
+			rewards: [
+				{
+					id: "0001F408689963E0"
+					type: "command"
+					title: "70 XP"
+					command: "/shonenquete recompense {p} dbz_zone_1_les_sbires"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "dragonminez:dball4"
+			dependencies: [
+				"000D021A2D9930C4"
+			]
+		}
+		{
+			id: "00062CEE828CDDAA"
+			title: "Zone 1 — Nettoyer le terrain"
+			subtitle: "Niveau 9"
+			x: 0.0d
+			y: 13.5d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"dbz_zone_1_nettoyer_le_terrain"
+			]
+			description: [
+				"La base n'est pas encore vide."
+				""
+				"Tâche : tuer 30 soldats et robots du Ruban Rouge (red_ribbon_soldier, robot1) de plus"
+				""
+				"Récompense : 98 XP, 25 Éclats"
+			]
+			tasks: [
+				{
+					id: "000226ED9C9A7D68"
+					type: "custom"
+					title: "tuer 30 soldats et robots du Ruban Rouge (red_ribbon_soldier"
+				}
+			]
+			rewards: [
+				{
+					id: "000B33E977B65724"
+					type: "command"
+					title: "98 XP"
+					command: "/shonenquete recompense {p} dbz_zone_1_nettoyer_le_terrain"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "dragonminez:dball4"
+			dependencies: [
+				"000B396DA9D61E6C"
+			]
+		}
+		{
+			id: "000AED8DF2FA01D5"
+			title: "Zone 1 — Raditz"
+			subtitle: "Niveau 15"
+			x: 0.0d
+			y: 15.75d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"dbz_zone_1_raditz"
+			]
+			description: [
+				"Raditz, le Saiyan venu des étoiles."
+				""
+				"Tâche : vaincre Raditz (coché par histoire.js pour les participants)"
+				""
+				"Récompense : 155 XP, 70 Éclats"
+			]
+			tasks: [
+				{
+					id: "0006D40198AC3FFB"
+					type: "custom"
+					title: "vaincre Raditz (coché par histoire.js pour les participants)"
+				}
+			]
+			rewards: [
+				{
+					id: "0001302E5194072D"
+					type: "command"
+					title: "155 XP"
+					command: "/shonenquete recompense {p} dbz_zone_1_raditz"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "dragonminez:red_scouter"
+			dependencies: [
+				"00062CEE828CDDAA"
+			]
+		}
+		{
+			id: "0002DD086474AAE1"
+			title: "Zone 2 — Trouver le cratère"
+			subtitle: "Niveau 20"
+			x: 3.5d
+			y: 9.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"dbz_zone_2_trouver_le_cratere"
+			]
+			description: [
+				"Un cratère d'impact où deux capsules spatiales se sont"
+				"posées. Trouve le lieu."
+				""
+				"Tâche : tâche d'emplacement (lieu posé à la création du monde ; la Boussole de lignée y mène)"
+				""
+				"Récompense : 205 XP, 45 Éclats"
+			]
+			tasks: [
+				{
+					id: "0004B787FE938050"
+					type: "custom"
+					title: "tâche d'emplacement (lieu posé à la création du monde ; la B"
+				}
+			]
+			rewards: [
+				{
+					id: "000B556416B63CA6"
+					type: "command"
+					title: "205 XP"
+					command: "/shonenquete recompense {p} dbz_zone_2_trouver_le_cratere"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "dragonminez:dball4"
+			dependencies: [
+				"000AED8DF2FA01D5"
+			]
+		}
+		{
+			id: "00079F4BEF9C1156"
+			title: "Zone 2 — Les sbires"
+			subtitle: "Niveau 25"
+			x: 3.5d
+			y: 11.25d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"dbz_zone_2_les_sbires"
+			]
+			description: [
+				"Des Saibaimen sortent du sol."
+				""
+				"Tâche : tuer 15 Saibaimen (saga_saibaman1)"
+				""
+				"Récompense : 255 XP, 55 Éclats"
+			]
+			tasks: [
+				{
+					id: "0004CAFDFC7FDA34"
+					type: "custom"
+					title: "tuer 15 Saibaimen (saga_saibaman1)"
+				}
+			]
+			rewards: [
+				{
+					id: "000286751A1009F4"
+					type: "command"
+					title: "255 XP"
+					command: "/shonenquete recompense {p} dbz_zone_2_les_sbires"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "dragonminez:dball4"
+			dependencies: [
+				"0002DD086474AAE1"
+			]
+		}
+		{
+			id: "000B96109C76397A"
+			title: "Zone 2 — Nettoyer le terrain"
+			subtitle: "Niveau 30"
+			x: 3.5d
+			y: 13.5d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"dbz_zone_2_nettoyer_le_terrain"
+			]
+			description: [
+				"Il en pousse encore."
+				""
+				"Tâche : tuer 30 Saibaimen (saga_saibaman1) de plus"
+				""
+				"Récompense : 307 XP, 65 Éclats"
+			]
+			tasks: [
+				{
+					id: "0008EEE468A33F31"
+					type: "custom"
+					title: "tuer 30 Saibaimen (saga_saibaman1) de plus"
+				}
+			]
+			rewards: [
+				{
+					id: "0004376B2E435957"
+					type: "command"
+					title: "307 XP"
+					command: "/shonenquete recompense {p} dbz_zone_2_nettoyer_le_terrain"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "dragonminez:dball4"
+			dependencies: [
+				"00079F4BEF9C1156"
+			]
+		}
+		{
+			id: "000CCB2A4E2ECAE8"
+			title: "Zone 2 — Le lieutenant : Nappa"
+			subtitle: "Niveau 35"
+			x: 3.5d
+			y: 15.75d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"dbz_zone_2_le_lieutenant_nappa"
+			]
+			description: [
+				"Nappa, l'élite saiyan."
+				""
+				"Tâche : vaincre Nappa"
+				""
+				"Récompense : 359 XP, 150 Éclats"
+			]
+			tasks: [
+				{
+					id: "000F9E02C03419C9"
+					type: "custom"
+					title: "vaincre Nappa"
+				}
+			]
+			rewards: [
+				{
+					id: "000F44516F6F5E19"
+					type: "command"
+					title: "359 XP"
+					command: "/shonenquete recompense {p} dbz_zone_2_le_lieutenant_nappa"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "dragonminez:red_scouter"
+			dependencies: [
+				"000B96109C76397A"
+			]
+		}
+		{
+			id: "0004325A68069732"
+			title: "Zone 2 — Vegeta"
+			subtitle: "Niveau 40"
+			x: 3.5d
+			y: 18.0d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"dbz_zone_2_vegeta"
+			]
+			description: [
+				"Vegeta, le Prince des Saiyans. Gare à la pleine lune."
+				""
+				"Tâche : vaincre Vegeta (coché par histoire.js pour les participants)"
+				""
+				"Récompense : 413 XP, 170 Éclats"
+			]
+			tasks: [
+				{
+					id: "000ACE1FB9F649D8"
+					type: "custom"
+					title: "vaincre Vegeta (coché par histoire.js pour les participants)"
+				}
+			]
+			rewards: [
+				{
+					id: "000C0CFBFCAEA601"
+					type: "command"
+					title: "413 XP"
+					command: "/shonenquete recompense {p} dbz_zone_2_vegeta"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "dragonminez:red_scouter"
+			dependencies: [
+				"000CCB2A4E2ECAE8"
+			]
+		}
+		{
+			id: "0004E91C6282B8EB"
+			title: "Zone 3 — Trouver le village vert"
+			subtitle: "Niveau 48"
+			x: 7.0d
+			y: 9.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"dbz_zone_3_trouver_le_village_vert"
+			]
+			description: [
+				"Un village de maisons rondes sur une herbe bleu-vert, et un"
+				"vaisseau posé à côté. Trouve le lieu."
+				""
+				"Tâche : tâche d'emplacement (lieu posé à la création du monde ; la Boussole de lignée y mène)"
+				""
+				"Récompense : 502 XP, 100 Éclats"
+			]
+			tasks: [
+				{
+					id: "00051BD8E0997ADC"
+					type: "custom"
+					title: "tâche d'emplacement (lieu posé à la création du monde ; la B"
+				}
+			]
+			rewards: [
+				{
+					id: "000251110EAE48DA"
+					type: "command"
+					title: "502 XP"
+					command: "/shonenquete recompense {p} dbz_zone_3_trouver_le_village_vert"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "dragonminez:dball4"
+			dependencies: [
+				"0004325A68069732"
+			]
+		}
+		{
+			id: "0007BA2E31DCB107"
+			title: "Zone 3 — Les sbires"
+			subtitle: "Niveau 53"
+			x: 7.0d
+			y: 11.25d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"dbz_zone_3_les_sbires"
+			]
+			description: [
+				"Les soldats de Freezer."
+				""
+				"Tâche : tuer 15 soldats de Freezer (saga_friezasoldier01)"
+				""
+				"Récompense : 560 XP, 110 Éclats"
+			]
+			tasks: [
+				{
+					id: "000F96FFDEF5CF57"
+					type: "custom"
+					title: "tuer 15 soldats de Freezer (saga_friezasoldier01)"
+				}
+			]
+			rewards: [
+				{
+					id: "000ACE90B9FD43E0"
+					type: "command"
+					title: "560 XP"
+					command: "/shonenquete recompense {p} dbz_zone_3_les_sbires"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "dragonminez:dball4"
+			dependencies: [
+				"0004E91C6282B8EB"
+			]
+		}
+		{
+			id: "0007ED6739EE4570"
+			title: "Zone 3 — Nettoyer le terrain"
+			subtitle: "Niveau 59"
+			x: 7.0d
+			y: 13.5d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"dbz_zone_3_nettoyer_le_terrain"
+			]
+			description: [
+				"Il en reste partout."
+				""
+				"Tâche : tuer 30 soldats de Freezer (saga_friezasoldier01) de plus"
+				""
+				"Récompense : 629 XP, 125 Éclats"
+			]
+			tasks: [
+				{
+					id: "000BD2332E94F4D0"
+					type: "custom"
+					title: "tuer 30 soldats de Freezer (saga_friezasoldier01) de plus"
+				}
+			]
+			rewards: [
+				{
+					id: "00030F5CDB604CD6"
+					type: "command"
+					title: "629 XP"
+					command: "/shonenquete recompense {p} dbz_zone_3_nettoyer_le_terrain"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "dragonminez:dball4"
+			dependencies: [
+				"0007BA2E31DCB107"
+			]
+		}
+		{
+			id: "0008A4211825DCDD"
+			title: "Zone 3 — Le lieutenant : Commando Ginyu, Ginyu"
+			subtitle: "Niveau 64"
+			x: 7.0d
+			y: 15.75d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"dbz_zone_3_le_lieutenant_commando_ginyu_ginyu"
+			]
+			description: [
+				"Le Commando Ginyu, puis Ginyu lui-même."
+				""
+				"Tâche : vaincre Commando Ginyu, Ginyu"
+				""
+				"Récompense : 689 XP, 270 Éclats"
+			]
+			tasks: [
+				{
+					id: "00065B951E852E1B"
+					type: "custom"
+					title: "vaincre Commando Ginyu, Ginyu"
+				}
+			]
+			rewards: [
+				{
+					id: "000E11D111985B8D"
+					type: "command"
+					title: "689 XP"
+					command: "/shonenquete recompense {p} dbz_zone_3_le_lieutenant_commando_ginyu_ginyu"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "dragonminez:red_scouter"
+			dependencies: [
+				"0007ED6739EE4570"
+			]
+		}
+		{
+			id: "0001C33B23103A5C"
+			title: "Zone 3 — Freezer"
+			subtitle: "Niveau 70"
+			x: 7.0d
+			y: 18.0d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"dbz_zone_3_freezer"
+			]
+			description: [
+				"Freezer, dans ses quatre formes."
+				""
+				"Tâche : vaincre Freezer (histoire_freezer) (coché par histoire.js pour les participants)"
+				""
+				"Récompense : 763 XP, 290 Éclats"
+			]
+			tasks: [
+				{
+					id: "0003DA95D4E741CB"
+					type: "custom"
+					title: "vaincre Freezer (histoire_freezer) (coché par histoire.js po"
+				}
+			]
+			rewards: [
+				{
+					id: "0005A84EC996BC1A"
+					type: "command"
+					title: "763 XP"
+					command: "/shonenquete recompense {p} dbz_zone_3_freezer"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "dragonminez:red_scouter"
+			dependencies: [
+				"0008A4211825DCDD"
+			]
+		}
+		{
+			id: "0006998295360B00"
+			title: "Zone 4 — Trouver l'arène de l'épreuve"
+			subtitle: "Niveau 78"
+			x: 10.5d
+			y: 9.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"dbz_zone_4_trouver_l_arene_de_l_epreuve"
+			]
+			description: [
+				"Une arène de pierre blanche à quatre piliers, au milieu des"
+				"rochers. Trouve le lieu."
+				""
+				"Tâche : tâche d'emplacement (lieu posé à la création du monde ; la Boussole de lignée y mène)"
+				""
+				"Récompense : 863 XP, 160 Éclats"
+			]
+			tasks: [
+				{
+					id: "000D03F82DF5D8EE"
+					type: "custom"
+					title: "tâche d'emplacement (lieu posé à la création du monde ; la B"
+				}
+			]
+			rewards: [
+				{
+					id: "00043F860FD6502C"
+					type: "command"
+					title: "863 XP"
+					command: "/shonenquete recompense {p} dbz_zone_4_trouver_l_arene_de_l_epreuve"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "dragonminez:dball4"
+			dependencies: [
+				"0001C33B23103A5C"
+			]
+		}
+		{
+			id: "000A2E542CC14951"
+			title: "Zone 4 — Les sbires"
+			subtitle: "Niveau 83"
+			x: 10.5d
+			y: 11.25d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"dbz_zone_4_les_sbires"
+			]
+			description: [
+				"Les Cell Jr."
+				""
+				"Tâche : tuer 15 Cell Jr (saga_cell_jr)"
+				""
+				"Récompense : 927 XP, 170 Éclats"
+			]
+			tasks: [
+				{
+					id: "000E061F02EA14D1"
+					type: "custom"
+					title: "tuer 15 Cell Jr (saga_cell_jr)"
+				}
+			]
+			rewards: [
+				{
+					id: "00089BF72707A4EE"
+					type: "command"
+					title: "927 XP"
+					command: "/shonenquete recompense {p} dbz_zone_4_les_sbires"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "dragonminez:dball4"
+			dependencies: [
+				"0006998295360B00"
+			]
+		}
+		{
+			id: "0001A4307349C400"
+			title: "Zone 4 — Nettoyer le terrain"
+			subtitle: "Niveau 89"
+			x: 10.5d
+			y: 13.5d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"dbz_zone_4_nettoyer_le_terrain"
+			]
+			description: [
+				"Ils sont rapides. Continue."
+				""
+				"Tâche : tuer 30 Cell Jr (saga_cell_jr) de plus"
+				""
+				"Récompense : 1006 XP, 185 Éclats"
+			]
+			tasks: [
+				{
+					id: "0005D538725EAC7F"
+					type: "custom"
+					title: "tuer 30 Cell Jr (saga_cell_jr) de plus"
+				}
+			]
+			rewards: [
+				{
+					id: "000384F9A5F853B4"
+					type: "command"
+					title: "1006 XP"
+					command: "/shonenquete recompense {p} dbz_zone_4_nettoyer_le_terrain"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "dragonminez:dball4"
+			dependencies: [
+				"000A2E542CC14951"
+			]
+		}
+		{
+			id: "0006BAB0550362CF"
+			title: "Zone 4 — Le lieutenant : androïdes"
+			subtitle: "Niveau 94"
+			x: 10.5d
+			y: 15.75d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"dbz_zone_4_le_lieutenant_androides"
+			]
+			description: [
+				"Les androïdes."
+				""
+				"Tâche : vaincre androïdes (saga_a17, saga_a18)"
+				""
+				"Récompense : 1073 XP, 390 Éclats"
+			]
+			tasks: [
+				{
+					id: "000B028C5166F59B"
+					type: "custom"
+					title: "vaincre androïdes (saga_a17, saga_a18)"
+				}
+			]
+			rewards: [
+				{
+					id: "00002DA5A64A4AB5"
+					type: "command"
+					title: "1073 XP"
+					command: "/shonenquete recompense {p} dbz_zone_4_le_lieutenant_androides"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "dragonminez:red_scouter"
+			dependencies: [
+				"0001A4307349C400"
+			]
+		}
+		{
+			id: "0003241BDEA03A22"
+			title: "Zone 4 — Cell"
+			subtitle: "Niveau 100"
+			x: 10.5d
+			y: 18.0d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"dbz_zone_4_cell"
+			]
+			description: [
+				"Cell, de l'imparfait au super-parfait."
+				""
+				"Tâche : vaincre Cell (histoire_cell) (coché par histoire.js pour les participants)"
+				""
+				"Récompense : 1155 XP, 410 Éclats"
+			]
+			tasks: [
+				{
+					id: "0006E4541ABE4C02"
+					type: "custom"
+					title: "vaincre Cell (histoire_cell) (coché par histoire.js pour les"
+				}
+			]
+			rewards: [
+				{
+					id: "00096B8EDC9F60C2"
+					type: "command"
+					title: "1155 XP"
+					command: "/shonenquete recompense {p} dbz_zone_4_cell"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "dragonminez:red_scouter"
+			dependencies: [
+				"0006BAB0550362CF"
+			]
+		}
+		{
+			id: "0000491A710A7646"
+			title: "Zone 5 — Trouver le vaisseau du sorcier"
+			subtitle: "Niveau 108"
+			x: 14.0d
+			y: 9.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"dbz_zone_5_trouver_le_vaisseau_du_sorcier"
+			]
+			description: [
+				"Un grand vaisseau rond enfoui dans la roche : le vaisseau du"
+				"sorcier. Trouve le lieu."
+				""
+				"Tâche : tâche d'emplacement (lieu posé à la création du monde ; la Boussole de lignée y mène)"
+				""
+				"Récompense : 1267 XP, 220 Éclats"
+			]
+			tasks: [
+				{
+					id: "00050918260FFB2D"
+					type: "custom"
+					title: "tâche d'emplacement (lieu posé à la création du monde ; la B"
+				}
+			]
+			rewards: [
+				{
+					id: "000FE0C3DBE0A2F2"
+					type: "command"
+					title: "1267 XP"
+					command: "/shonenquete recompense {p} dbz_zone_5_trouver_le_vaisseau_du_sorcier"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "dragonminez:dball4"
+			dependencies: [
+				"0003241BDEA03A22"
+			]
+		}
+		{
+			id: "0001625774B3F899"
+			title: "Zone 5 — Les sbires"
+			subtitle: "Niveau 113"
+			x: 14.0d
+			y: 11.25d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"dbz_zone_5_les_sbires"
+			]
+			description: [
+				"Les serviteurs Majin."
+				""
+				"Tâche : tuer 15 Majin (Mini Buu, Pui Pui, Yakon)"
+				""
+				"Récompense : 1339 XP, 230 Éclats"
+			]
+			tasks: [
+				{
+					id: "0007B19C7AC76BDE"
+					type: "custom"
+					title: "tuer 15 Majin (Mini Buu, Pui Pui, Yakon)"
+				}
+			]
+			rewards: [
+				{
+					id: "0009EBBC5A15B989"
+					type: "command"
+					title: "1339 XP"
+					command: "/shonenquete recompense {p} dbz_zone_5_les_sbires"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "dragonminez:dball4"
+			dependencies: [
+				"0000491A710A7646"
+			]
+		}
+		{
+			id: "000EBE7E44CE1503"
+			title: "Zone 5 — Nettoyer le terrain"
+			subtitle: "Niveau 119"
+			x: 14.0d
+			y: 13.5d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"dbz_zone_5_nettoyer_le_terrain"
+			]
+			description: [
+				"Le vaisseau en est plein."
+				""
+				"Tâche : tuer 30 Majin (Mini Buu, Pui Pui, Yakon) de plus"
+				""
+				"Récompense : 1426 XP, 245 Éclats"
+			]
+			tasks: [
+				{
+					id: "000BF154E7DC959E"
+					type: "custom"
+					title: "tuer 30 Majin (Mini Buu, Pui Pui, Yakon) de plus"
+				}
+			]
+			rewards: [
+				{
+					id: "000D482BD8D52303"
+					type: "command"
+					title: "1426 XP"
+					command: "/shonenquete recompense {p} dbz_zone_5_nettoyer_le_terrain"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "dragonminez:dball4"
+			dependencies: [
+				"0001625774B3F899"
+			]
+		}
+		{
+			id: "00086D788468582A"
+			title: "Zone 5 — Le lieutenant : Babidi, Dabura"
+			subtitle: "Niveau 124"
+			x: 14.0d
+			y: 15.75d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"dbz_zone_5_le_lieutenant_babidi_dabura"
+			]
+			description: [
+				"Babidi et Dabura."
+				""
+				"Tâche : vaincre Babidi, Dabura"
+				""
+				"Récompense : 1500 XP, 510 Éclats"
+			]
+			tasks: [
+				{
+					id: "000D142EF5FF53F1"
+					type: "custom"
+					title: "vaincre Babidi, Dabura"
+				}
+			]
+			rewards: [
+				{
+					id: "00087E096F6F36D6"
+					type: "command"
+					title: "1500 XP"
+					command: "/shonenquete recompense {p} dbz_zone_5_le_lieutenant_babidi_dabura"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "dragonminez:red_scouter"
+			dependencies: [
+				"000EBE7E44CE1503"
+			]
+		}
+		{
+			id: "000C2550983A580F"
+			title: "Zone 5 — Majin Buu, l'Ancre"
+			subtitle: "Niveau 130"
+			x: 14.0d
+			y: 18.0d
+			shape: "star"
+			size: 1.5d
+			tags: [
+				"dbz_zone_5_majin_buu_l_ancre"
+			]
+			description: [
+				"Majin Buu. L'Ancre de Dragon Ball."
+				""
+				"Tâche : vaincre Majin Buu, l'Ancre (buu) (coché par histoire.js pour les participants)"
+				""
+				"Récompense : 1591 XP, 530 Éclats"
+			]
+			tasks: [
+				{
+					id: "000B4ACE442B56C2"
+					type: "custom"
+					title: "vaincre Majin Buu, l'Ancre (buu) (coché par histoire.js pour"
+				}
+			]
+			rewards: [
+				{
+					id: "000A4CA352DF486D"
+					type: "command"
+					title: "1591 XP"
+					command: "/shonenquete recompense {p} dbz_zone_5_majin_buu_l_ancre"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "dragonminez:red_scouter"
+			dependencies: [
+				"00086D788468582A"
+			]
+		}
+	]
+	quest_links: [ ]
+}

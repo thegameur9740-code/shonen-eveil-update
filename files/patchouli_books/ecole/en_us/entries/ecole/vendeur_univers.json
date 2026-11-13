@@ -1,0 +1,19 @@
+{
+ "name": "Le vendeur de ta salle",
+ "category": "patchouli:ecole",
+ "icon": "shonen:eclat",
+ "read_by_default": true,
+ "sortnum": 11,
+ "pages": [
+  {
+   "type": "patchouli:text",
+   "title": "Un vendeur par salle",
+   "text": "À l'étage de chaque salle d'univers, le $(l)vendeur$() tient tout le rayon de cet univers.$(br)Clic droit : $(l)Armes · Tenues · Soins · Divers · Vendre$().$(br2)Un objet d'un rang fermé reste visible, en gris : réussis l'examen dans cette salle."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Vendre, services",
+   "text": "Onglet $(l)Vendre$() : il rachète les objets du mod de sa salle (plafond du jour : 300 + 10 par niveau).$(br2)En bas : les services de l'univers (relance du fruit ou du clan, change de l'or du Système).$(br2)Les stands de la salle sont des présentoirs : on regarde, on achète au comptoir."
+  }
+ ]
+}

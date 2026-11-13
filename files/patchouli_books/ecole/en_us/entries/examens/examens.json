@@ -1,0 +1,28 @@
+{
+ "name": "Les examens",
+ "category": "patchouli:examens",
+ "icon": "minecraft:gold_block",
+ "read_by_default": true,
+ "sortnum": 0,
+ "pages": [
+  {
+   "type": "patchouli:image",
+   "images": [
+    "shonen:textures/livre/couverture_reglement.png",
+    "shonen:textures/livre/ill_examens.png"
+   ],
+   "border": false,
+   "text": "Chaque $(l)socle$() d'une salle est un examen : un Grand Ennemi et ses troupes."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Lancer",
+   "text": "Clic droit sur le $(l)socle$().$(br)Les joueurs à 6 blocs ou moins qui l'ont débloqué partent avec toi.$(br)Une seule équipe à la fois dans l'$(l)arène$(), sous la salle.$(br2)5 s de préparation, puis les vagues, puis le boss.$(br)Chaque vague a un temps limite.$(br)Pas de $(l)/ecole$() pendant un examen."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "La fin",
+   "text": "Réussite, échec ou plus personne en vie : retour à la salle.$(br)Les objets au sol sont rapportés.$(br2)$(l)1re réussite$() : XP et un insigne.$(br)Ensuite : un entraînement, sans récompense.$(br2)De la $(l)tribune$(), on regarde le combat."
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/friend_pottery_sherd"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 7072
+      },
+      "model": "shonen:item/souvenirs/muscular"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7076
+      },
+      "model": "shonen:item/souvenirs/all_for_one"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7080
+      },
+      "model": "shonen:item/souvenirs/mr_compress"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7084
+      },
+      "model": "shonen:item/souvenirs/shigaraki"
+    }
+  ]
+}

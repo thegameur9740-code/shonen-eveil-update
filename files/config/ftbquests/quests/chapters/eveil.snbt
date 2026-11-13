@@ -1,0 +1,834 @@
+{
+	id: "0006BD698901F243"
+	group: ""
+	order_index: 1
+	filename: "eveil"
+	title: "L'Éveil"
+	icon: "minecraft:nether_star"
+	subtitle: [
+		"Le tronc commun du niveau 1 au 15 : apprendre le pack pas à pas, jusqu'au"
+		"premier verrou (examen de rang C)."
+	]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 3.0d
+			y: 2.25d
+			width: 9.0d
+			height: 7.5d
+			rotation: 0.0d
+			image: "shonen:textures/quetes/bg_eveil.png"
+			color: 16777215
+			alpha: 235
+			order: -11
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 3.0d
+			y: 2.25d
+			width: 30.0d
+			height: 21.94d
+			rotation: 0.0d
+			image: "shonen:textures/quetes/plein_eveil.png"
+			color: 16777215
+			alpha: 255
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			id: "000EA9C684917376"
+			title: "Le jour où le ciel s'est fendu"
+			subtitle: "Niveau 1"
+			x: 0.0d
+			y: 0.0d
+			shape: "circle"
+			size: 0.75d
+			tags: [
+				"eveil_le_jour_ou_le_ciel_s_est_fendu"
+			]
+			description: [
+				"Ouvre le Livre de l'école, chapitre « La Convergence »."
+				"C'est ton histoire qui commence."
+				""
+				"Tâche : lire le chapitre « La Convergence » du Livre de l'école"
+				""
+				"Récompense : 24 XP"
+			]
+			tasks: [
+				{
+					id: "000348D09FBCFDC7"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "000A52450282501C"
+					type: "command"
+					title: "24 XP"
+					command: "/shonenquete recompense {p} eveil_le_jour_ou_le_ciel_s_est_fendu"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:book"
+		}
+		{
+			id: "0003DE4BDC8BB249"
+			title: "L'Éveil"
+			subtitle: "Niveau 1"
+			x: 1.5d
+			y: 0.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"eveil_l_eveil"
+			]
+			description: [
+				"Choisis ton univers, puis l'écran de ce monde s'ouvre : un"
+				"style ou un fruit, une technique, une faction, une race, une"
+				"classe. À Naruto et à My Hero Academia, c'est le destin qui"
+				"tire ton clan ou ton Alter. Prends ce qui te fait envie, pas"
+				"ce qui semble le plus fort."
+				""
+				"Tâche : finir l'Éveil (univers choisi et écran du mod passé) — coché par eveil.js"
+				""
+				"Récompense : 24 XP, 5 Éclats"
+			]
+			tasks: [
+				{
+					id: "000F10CC0C2DE89B"
+					type: "custom"
+					title: "finir l'Éveil (univers choisi et écran du mod passé) — coché"
+				}
+			]
+			rewards: [
+				{
+					id: "00008E9BC606F469"
+					type: "command"
+					title: "24 XP"
+					command: "/shonenquete recompense {p} eveil_l_eveil"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:nether_star"
+			dependencies: [
+				"000EA9C684917376"
+			]
+		}
+		{
+			id: "000572C6A3049552"
+			title: "Le kit de départ"
+			subtitle: "Niveau 1"
+			x: 3.0d
+			y: 0.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"eveil_le_kit_de_depart"
+			]
+			description: [
+				"L'école t'a donné de quoi commencer dans ton univers."
+				"Garde-le sur toi."
+				""
+				"Tâche : avoir un objet du kit de sa voie"
+				""
+				"Récompense : 24 XP, 5 Éclats"
+			]
+			tasks: [
+				{
+					id: "0007DBB97844F9D5"
+					type: "custom"
+					title: "avoir un objet du kit de sa voie"
+				}
+			]
+			rewards: [
+				{
+					id: "0002367768C7BE67"
+					type: "command"
+					title: "24 XP"
+					command: "/shonenquete recompense {p} eveil_le_kit_de_depart"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:nether_star"
+			dependencies: [
+				"0003DE4BDC8BB249"
+			]
+		}
+		{
+			id: "000389AEF6155481"
+			title: "La tenue de l'Éveillé"
+			subtitle: "Niveau 1"
+			x: 4.5d
+			y: 0.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"eveil_la_tenue_de_l_eveille"
+			]
+			description: [
+				"L'école ne t'envoie pas dehors les mains vides : ton kit"
+				"cache une tenue légère aux couleurs de ton monde et cinq"
+				"rations. Enfile-la avant de passer la grande porte. Jusqu'au"
+				"niveau 10, le bouclier du novice amortit aussi les coups."
+				""
+				"Tâche : porter les 4 pièces de la tenue de l'Éveillé (script)"
+				""
+				"dans le kit de chaque univers ; progression.md section 16"
+				""
+				"Récompense : 24 XP, 5 Éclats"
+			]
+			tasks: [
+				{
+					id: "000FC0906B60A87F"
+					type: "custom"
+					title: "porter les 4 pièces de la tenue de l'Éveillé (script)"
+				}
+			]
+			rewards: [
+				{
+					id: "0007E276FD5CA436"
+					type: "command"
+					title: "24 XP"
+					command: "/shonenquete recompense {p} eveil_la_tenue_de_l_eveille"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:nether_star"
+			dependencies: [
+				"000572C6A3049552"
+			]
+		}
+		{
+			id: "000B437395AB5B6E"
+			title: "Plus jamais faim"
+			subtitle: "Niveau 1"
+			x: 6.0d
+			y: 0.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"eveil_plus_jamais_faim"
+			]
+			description: [
+				"L'Insecte du monde de Jujutsu Kaisen coupe la faim pour"
+				"toujours. Utilise-le une fois et n'y pense plus."
+				""
+				"Tâche : utiliser l'Insecte (satiété infinie)"
+				""
+				"Récompense : 24 XP, 5 Éclats"
+			]
+			tasks: [
+				{
+					id: "000D322EE6DF909A"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "000970EFC33025F3"
+					type: "command"
+					title: "24 XP"
+					command: "/shonenquete recompense {p} eveil_plus_jamais_faim"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:nether_star"
+			dependencies: [
+				"000389AEF6155481"
+			]
+		}
+		{
+			id: "000027C1F1773236"
+			title: "Tes touches"
+			subtitle: "Niveau 1"
+			x: 6.0d
+			y: 1.5d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"eveil_tes_touches"
+			]
+			description: [
+				"Tape /touches : voilà tes attaques, rangées pour ton"
+				"univers."
+				""
+				"Tâche : taper /touches (coché par touches_auto)"
+				""
+				"Récompense : 24 XP, 5 Éclats"
+			]
+			tasks: [
+				{
+					id: "000638C37A97C110"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "00017F2E1A69D953"
+					type: "command"
+					title: "24 XP"
+					command: "/shonenquete recompense {p} eveil_tes_touches"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:nether_star"
+			dependencies: [
+				"000B437395AB5B6E"
+			]
+		}
+		{
+			id: "000AC77F7BC325DC"
+			title: "La boussole de lignée"
+			subtitle: "Niveau 1"
+			x: 4.5d
+			y: 1.5d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"eveil_la_boussole_de_lignee"
+			]
+			description: [
+				"Clic droit : elle change de lignée. Maj + clic droit :"
+				"choisis-en une. L'aiguille montre ta prochaine étape."
+				""
+				"Tâche : choisir une lignée sur la Boussole de lignée (script)"
+				""
+				"donnée après l'Éveil ; /boussole en redonne une"
+				""
+				"Récompense : 24 XP, 5 Éclats"
+			]
+			tasks: [
+				{
+					id: "0001266203287322"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "000C6C7D4CCCA111"
+					type: "command"
+					title: "24 XP"
+					command: "/shonenquete recompense {p} eveil_la_boussole_de_lignee"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:nether_star"
+			dependencies: [
+				"000027C1F1773236"
+			]
+		}
+		{
+			id: "0008FCAE0FE13DA5"
+			title: "Premier point de compétence"
+			subtitle: "Niveau 2"
+			x: 3.0d
+			y: 1.5d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"eveil_premier_point_de_competence"
+			]
+			description: [
+				"Ouvre ton arbre avec K et prends ton premier talent."
+				""
+				"Tâche : dépenser 1 point dans un arbre (K)"
+				""
+				"Récompense : 33 XP, 10 Éclats"
+			]
+			tasks: [
+				{
+					id: "0005887CD9317F13"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "00098B490DCA7DFC"
+					type: "command"
+					title: "33 XP"
+					command: "/shonenquete recompense {p} eveil_premier_point_de_competence"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:nether_star"
+			dependencies: [
+				"000AC77F7BC325DC"
+			]
+		}
+		{
+			id: "0003696236EBCB21"
+			title: "Le dojo"
+			subtitle: "Niveau 2"
+			x: 1.5d
+			y: 1.5d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"eveil_le_dojo"
+			]
+			description: [
+				"Le dojo de l'école est le bon endroit pour essayer tes"
+				"techniques sans danger."
+				""
+				"Tâche : aller au dojo de l'école (emplacement)"
+				""
+				"Récompense : 33 XP, 10 Éclats"
+			]
+			tasks: [
+				{
+					id: "0005E9E405D0664B"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "000147B0B183E7D5"
+					type: "command"
+					title: "33 XP"
+					command: "/shonenquete recompense {p} eveil_le_dojo"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:nether_star"
+			dependencies: [
+				"0008FCAE0FE13DA5"
+			]
+		}
+		{
+			id: "000DFE149FD429AB"
+			title: "L'entraînement de l'Éveillé"
+			subtitle: "Niveau 2"
+			x: 0.0d
+			y: 1.5d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"eveil_l_entrainement_de_l_eveille"
+			]
+			description: [
+				"Avant de te laisser sortir, ton maître veut te voir à"
+				"l'œuvre. Descends dans la Fosse d'endurance : cinq vagues de"
+				"monstres faibles, venus des sept mondes. Tu ne peux pas y"
+				"mourir : si tu tombes, on te relève au bord et la vague"
+				"recommence. Au bout, tes premiers niveaux."
+				""
+				"Tâche : finir les 5 vagues de la Fosse d'endurance (coché par le script de la fosse)"
+				""
+				"une seule fois par personnage ; mène au niveau 5 ; progression.md section 16"
+				""
+				"Récompense : 33 XP, 10 Éclats"
+			]
+			tasks: [
+				{
+					id: "000631C5C008CE8E"
+					type: "custom"
+					title: "finir les 5 vagues de la Fosse d'endurance (coché par le scr"
+				}
+			]
+			rewards: [
+				{
+					id: "000D0A9C49C9D09D"
+					type: "command"
+					title: "33 XP"
+					command: "/shonenquete recompense {p} eveil_l_entrainement_de_l_eveille"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:nether_star"
+			dependencies: [
+				"0003696236EBCB21"
+			]
+		}
+		{
+			id: "000320DCE0DF3642"
+			title: "Fais équipe"
+			subtitle: "Niveau 3"
+			x: 0.0d
+			y: 3.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"eveil_fais_equipe"
+			]
+			description: [
+				"Seul, on va vite ; à plusieurs, on va loin. Dans une équipe"
+				"FTB, vos attaques ne se blessent pas et vos quêtes avancent"
+				"ensemble."
+				""
+				"Tâche : rejoindre ou créer une équipe FTB (facultative)"
+				""
+				"les coéquipiers ne se blessent pas"
+				""
+				"Récompense : 42 XP, 10 Éclats"
+			]
+			tasks: [
+				{
+					id: "00047794401569CF"
+					type: "custom"
+					title: "rejoindre ou créer une équipe FTB (facultative)"
+				}
+			]
+			rewards: [
+				{
+					id: "00061505F97D4BEA"
+					type: "command"
+					title: "42 XP"
+					command: "/shonenquete recompense {p} eveil_fais_equipe"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:nether_star"
+			dependencies: [
+				"000DFE149FD429AB"
+			]
+		}
+		{
+			id: "000A9843AB3B5703"
+			title: "Les sept salles"
+			subtitle: "Niveau 3"
+			x: 1.5d
+			y: 3.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"eveil_les_sept_salles"
+			]
+			description: [
+				"Fais le tour des sept salles de l'école : chacune garde un"
+				"univers, ses examens, ses autels et son maître."
+				""
+				"Tâche : visiter les 7 salles de l'école (7 emplacements)"
+				""
+				"Récompense : 42 XP, 10 Éclats"
+			]
+			tasks: [
+				{
+					id: "0005F4228377D7C0"
+					type: "custom"
+					title: "visiter les 7 salles de l'école (7 emplacements)"
+				}
+			]
+			rewards: [
+				{
+					id: "0009A11CDDCFC9EB"
+					type: "command"
+					title: "42 XP"
+					command: "/shonenquete recompense {p} eveil_les_sept_salles"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:nether_star"
+			dependencies: [
+				"000320DCE0DF3642"
+			]
+		}
+		{
+			id: "000A6814470F0FB4"
+			title: "Premier sang"
+			subtitle: "Niveau 3"
+			x: 3.0d
+			y: 3.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"eveil_premier_sang"
+			]
+			description: [
+				"Sors des murs et bats tes dix premiers monstres. Ne va pas"
+				"trop loin."
+				""
+				"Tâche : tuer 10 monstres hors de l'école"
+				""
+				"Récompense : 42 XP, 10 Éclats"
+			]
+			tasks: [
+				{
+					id: "00003FCD373541F4"
+					type: "custom"
+					title: "tuer 10 monstres hors de l'école"
+				}
+			]
+			rewards: [
+				{
+					id: "0009AC4B8E95B7AD"
+					type: "command"
+					title: "42 XP"
+					command: "/shonenquete recompense {p} eveil_premier_sang"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:nether_star"
+			dependencies: [
+				"000A9843AB3B5703"
+			]
+		}
+		{
+			id: "0001E8BBFB1D3530"
+			title: "Les abords"
+			subtitle: "Niveau 5"
+			x: 4.5d
+			y: 3.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"eveil_les_abords"
+			]
+			description: [
+				"Va jusqu'au bout des abords de l'école (2 000 blocs)."
+				"Au-delà, les terres sauvages commencent."
+				""
+				"Tâche : atteindre la limite de la zone 1 (2000 blocs)"
+				""
+				"Récompense : 61 XP, 15 Éclats"
+			]
+			tasks: [
+				{
+					id: "0008CD51A929D9B4"
+					type: "custom"
+					title: "atteindre la limite de la zone 1 (2000 blocs)"
+				}
+			]
+			rewards: [
+				{
+					id: "000FD3758F4D9226"
+					type: "command"
+					title: "61 XP"
+					command: "/shonenquete recompense {p} eveil_les_abords"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:nether_star"
+			dependencies: [
+				"000A6814470F0FB4"
+			]
+		}
+		{
+			id: "00056D3372E5382F"
+			title: "Retour à l'école"
+			subtitle: "Niveau 5"
+			x: 6.0d
+			y: 3.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"eveil_retour_a_l_ecole"
+			]
+			description: [
+				"Tape /ecole pour rentrer, puis utilise le Talisman du retour"
+				"pour revenir là où tu étais."
+				""
+				"Tâche : utiliser /ecole puis le Talisman du retour"
+				""
+				"Récompense : 61 XP, 15 Éclats"
+			]
+			tasks: [
+				{
+					id: "000938CF8167696C"
+					type: "custom"
+					title: "utiliser /ecole puis le Talisman du retour"
+				}
+			]
+			rewards: [
+				{
+					id: "0001FF8A72E25C49"
+					type: "command"
+					title: "61 XP"
+					command: "/shonenquete recompense {p} eveil_retour_a_l_ecole"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:nether_star"
+			dependencies: [
+				"0001E8BBFB1D3530"
+			]
+		}
+		{
+			id: "000ADB75C3F06F20"
+			title: "Le monde des autres"
+			subtitle: "Niveau 6"
+			x: 6.0d
+			y: 4.5d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"eveil_le_monde_des_autres"
+			]
+			description: [
+				"Les sept mondes se sont mélangés : bats des monstres venus"
+				"de trois univers différents."
+				""
+				"Tâche : tuer 5 monstres de 3 univers différents"
+				""
+				"Récompense : 70 XP, 15 Éclats"
+			]
+			tasks: [
+				{
+					id: "000AAA976C21E543"
+					type: "custom"
+					title: "tuer 5 monstres de 3 univers différents"
+				}
+			]
+			rewards: [
+				{
+					id: "000D1978A0FC066B"
+					type: "command"
+					title: "70 XP"
+					command: "/shonenquete recompense {p} eveil_le_monde_des_autres"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:nether_star"
+			dependencies: [
+				"00056D3372E5382F"
+			]
+		}
+		{
+			id: "0006B24BC6D548AF"
+			title: "Ta première lignée"
+			subtitle: "Niveau 7"
+			x: 4.5d
+			y: 4.5d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"eveil_ta_premiere_lignee"
+			]
+			description: [
+				"Choisis un univers et parle à son maître : il t'ouvrira sa"
+				"lignée, le chemin vers son Ancre."
+				""
+				"Tâche : accepter le chapitre d'un univers (parler à son maître)"
+				""
+				"Récompense : 79 XP, 20 Éclats"
+			]
+			tasks: [
+				{
+					id: "000A566E8875B56D"
+					type: "custom"
+					title: "accepter le chapitre d'un univers (parler à son maître)"
+				}
+			]
+			rewards: [
+				{
+					id: "000C71513688E183"
+					type: "command"
+					title: "79 XP"
+					command: "/shonenquete recompense {p} eveil_ta_premiere_lignee"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:nether_star"
+			dependencies: [
+				"000ADB75C3F06F20"
+			]
+		}
+		{
+			id: "000BBC478853263D"
+			title: "Plus fort chaque jour"
+			subtitle: "Niveau 10"
+			x: 3.0d
+			y: 4.5d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"eveil_plus_fort_chaque_jour"
+			]
+			description: [
+				"Niveau 10 : ton étincelle grandit. Continue."
+				""
+				"Tâche : atteindre le niveau 10"
+				""
+				"Récompense : 107 XP, 25 Éclats"
+			]
+			tasks: [
+				{
+					id: "0002D6CEC9356206"
+					type: "custom"
+					title: "atteindre le niveau 10"
+				}
+			]
+			rewards: [
+				{
+					id: "000981B7509A4FEC"
+					type: "command"
+					title: "107 XP"
+					command: "/shonenquete recompense {p} eveil_plus_fort_chaque_jour"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:nether_star"
+			dependencies: [
+				"0006B24BC6D548AF"
+			]
+		}
+		{
+			id: "0006484968FB971C"
+			title: "Le premier verrou"
+			subtitle: "Niveau 15"
+			x: 1.5d
+			y: 4.5d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"eveil_le_premier_verrou"
+			]
+			description: [
+				"Niveau 15 : ton niveau se bloque. Passe un examen de rang C"
+				"dans n'importe quelle salle pour continuer."
+				""
+				"Tâche : atteindre le niveau 15 (le niveau se bloque : il faut l'examen C)"
+				""
+				"Récompense : 155 XP, 70 Éclats"
+			]
+			tasks: [
+				{
+					id: "00060CAFC26A2C6B"
+					type: "custom"
+					title: "atteindre le niveau 15 (le niveau se bloque : il faut l'exam"
+				}
+			]
+			rewards: [
+				{
+					id: "000886D84F90EC20"
+					type: "command"
+					title: "155 XP"
+					command: "/shonenquete recompense {p} eveil_le_premier_verrou"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:nether_star"
+			dependencies: [
+				"000BBC478853263D"
+			]
+		}
+	]
+	quest_links: [ ]
+}

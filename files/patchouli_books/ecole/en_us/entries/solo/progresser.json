@@ -1,0 +1,18 @@
+{
+ "name": "Progresser",
+ "category": "patchouli:solo",
+ "icon": "minecraft:experience_bottle",
+ "read_by_default": true,
+ "sortnum": 2,
+ "pages": [
+  {
+   "type": "patchouli:text",
+   "text": "$(l)Devenir « Joueur »$() : bats les boss de plusieurs types de donjons. Un portail de Cartenon apparaît : finis le Temple et accepte le Système.$(br)$(l)Refuser est définitif.$()$(br2)5 attributs : Force, Agilité, Perception, Vitalité, Intelligence.$(br)Ton niveau du Système suit ton niveau d'Éveillé."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Chaque jour",
+   "text": "$(l)Quête du jour$() (livre de quêtes) : 20 monstres, un donjon ou 1 000 blocs. $(l)10 points$(), sans punition.$(br2)$(l)Niveau 40$() du Système : changement de métier, au donjon d'Igris.$(br2)$(l)Portails$() E à S dans le monde : ils ferment après 20 min environ."
+  }
+ ]
+}

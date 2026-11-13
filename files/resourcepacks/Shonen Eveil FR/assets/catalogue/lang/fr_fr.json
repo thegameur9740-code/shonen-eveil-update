@@ -1,0 +1,16 @@
+{
+  "fml.menu.mods.filter_updates": "N'afficher que les mods avec des mises à jour",
+  "catalogue.gui.internal_libraries": "Afficher les bibliothèques internes",
+  "catalogue.gui.no_selection": "Aucun mod sélectionné...",
+  "catalogue.gui.mod_list": "Mods",
+  "catalogue.gui.search": "Rechercher",
+  "catalogue.gui.config": "Configuration",
+  "catalogue.gui.open_mods_folder": "Ouvrir le dossier des mods",
+  "catalogue.gui.licenses": "Licence(s) : %s",
+  "catalogue.gui.authors": "Auteur(s) : %s",
+  "catalogue.gui.contributors": "Contributeur(s) : %s",
+  "catalogue.gui.credits": "Remerciements : %s",
+  "catalogue.gui.version": "Version : %s",
+  "catalogue.gui.update_available": "Mise à jour : %s",
+  "catalogue.gui.info": "Ce menu est fourni par Catalogue. Cliquez ici pour ouvrir la page CurseForge de ce mod !"
+}

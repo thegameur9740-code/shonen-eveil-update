@@ -1,0 +1,13 @@
+{
+ "name": "Les boss",
+ "category": "patchouli:examens",
+ "icon": "minecraft:wither_skeleton_skull",
+ "read_by_default": true,
+ "sortnum": 2,
+ "pages": [
+  {
+   "type": "patchouli:text",
+   "text": "Chaque grosse attaque est $(l)annoncée$() : un texte, une zone au sol.$(br)Lis, puis $(l)bouge$().$(br2)Barre $(l)rouge$() : trop fort pour toi. Reviens plus tard.$(br2)Pour compter dans une victoire : fais $(l)5 %$() de ses PV ou reste tout près."
+  }
+ ]
+}

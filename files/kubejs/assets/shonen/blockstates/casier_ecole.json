@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "shonen:block/casier_ecole"
+  },
+  "facing=east": {
+   "model": "shonen:block/casier_ecole",
+   "y": 90
+  },
+  "facing=south": {
+   "model": "shonen:block/casier_ecole",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "shonen:block/casier_ecole",
+   "y": 270
+  }
+ }
+}

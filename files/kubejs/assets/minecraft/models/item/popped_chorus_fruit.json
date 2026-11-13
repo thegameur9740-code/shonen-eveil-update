@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/popped_chorus_fruit"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 7029
+      },
+      "model": "shonen:item/souvenirs/sukuna"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7033
+      },
+      "model": "shonen:item/souvenirs/dagon"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7037
+      },
+      "model": "shonen:item/souvenirs/yuta"
+    }
+  ]
+}

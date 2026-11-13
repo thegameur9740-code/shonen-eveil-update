@@ -1,0 +1,13 @@
+{
+ "name": "La mort",
+ "category": "patchouli:bien_commencer",
+ "icon": "minecraft:skeleton_skull",
+ "read_by_default": true,
+ "sortnum": 4,
+ "pages": [
+  {
+   "type": "patchouli:text",
+   "text": "Tu gardes ton inventaire.$(br)Tu perds $(l)10 %$() de l'XP de ton niveau (rien avant le niveau 10, rien dans l'arène).$(br)Tu réapparais dans la cour.$(br)Un conseil s'affiche dans le chat.$(br2)Jusqu'au niveau 10, le $(l)bouclier du novice$() amortit les coups des monstres ordinaires."
+  }
+ ]
+}

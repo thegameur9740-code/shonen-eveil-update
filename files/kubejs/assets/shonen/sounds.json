@@ -1,0 +1,45 @@
+{
+  "boss.pain_discours": {
+    "subtitle": "subtitles.shonen.boss.pain_discours",
+    "sounds": [
+      {
+        "name": "shonen:boss/pain_discours",
+        "stream": true
+      }
+    ]
+  },
+  "boss.pain_shinra_tensei": {
+    "subtitle": "subtitles.shonen.boss.pain_shinra_tensei",
+    "sounds": [
+      {
+        "name": "shonen:boss/pain_shinra_tensei",
+        "stream": true
+      }
+    ]
+  },
+  "arbres.glisse": {
+    "sounds": [
+      {
+        "name": "shonen:arbres/glisse",
+        "volume": 0.6
+      }
+    ]
+  },
+  "arbres.tinte": {
+    "sounds": [
+      {
+        "name": "shonen:arbres/tinte",
+        "volume": 0.8
+      }
+    ]
+  },
+  "arbres.nappe": {
+    "sounds": [
+      {
+        "name": "shonen:arbres/nappe",
+        "stream": true,
+        "volume": 0.5
+      }
+    ]
+  }
+}

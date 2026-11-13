@@ -1,0 +1,20 @@
+{
+ "name": "Ta salle et ta lignée",
+ "category": "patchouli:bleach",
+ "icon": "minecraft:lodestone",
+ "read_by_default": true,
+ "sortnum": 3,
+ "pages": [
+  {
+   "type": "patchouli:text",
+   "text": "La $(l)boutique$() est à l'étage.$(br2)Tes examens : du Menos Grande à Yhwach.$(br2)$(l)Lignée$() : le $(l)Hueco Mundo$(), le désert des Hollows, jusqu'à $(l)Aizen$() puis $(l)Yhwach$().$(br2)Urahara : « La patience aussi est une arme. »"
+  },
+  {
+   "type": "patchouli:spotlight",
+   "item": "shonen:tenue_eveille_bleach_casque,shonen:tenue_eveille_bleach_plastron,shonen:tenue_eveille_bleach_jambieres,shonen:tenue_eveille_bleach_bottes",
+   "link_recipe": false,
+   "title": "La tenue de l'Éveillé",
+   "text": "Dans ton kit, aux couleurs de ton univers."
+  }
+ ]
+}

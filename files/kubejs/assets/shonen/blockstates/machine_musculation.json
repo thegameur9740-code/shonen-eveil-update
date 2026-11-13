@@ -1,0 +1,1696 @@
+{
+ "variants": {
+  "machine=0,part=0,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/squat_0"
+  },
+  "machine=0,part=0,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/squat_0",
+   "y": 180
+  },
+  "machine=0,part=0,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/squat_0"
+  },
+  "machine=0,part=0,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/squat_0",
+   "y": 180
+  },
+  "machine=0,part=1,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/squat_1"
+  },
+  "machine=0,part=1,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/squat_1",
+   "y": 180
+  },
+  "machine=0,part=1,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/squat_1"
+  },
+  "machine=0,part=1,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/squat_1",
+   "y": 180
+  },
+  "machine=0,part=2,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/squat_2"
+  },
+  "machine=0,part=2,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/squat_2",
+   "y": 180
+  },
+  "machine=0,part=2,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/squat_2"
+  },
+  "machine=0,part=2,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/squat_2",
+   "y": 180
+  },
+  "machine=0,part=3,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/squat_3"
+  },
+  "machine=0,part=3,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/squat_3",
+   "y": 180
+  },
+  "machine=0,part=3,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/squat_3"
+  },
+  "machine=0,part=3,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/squat_3",
+   "y": 180
+  },
+  "machine=0,part=4,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/squat_4"
+  },
+  "machine=0,part=4,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/squat_4",
+   "y": 180
+  },
+  "machine=0,part=4,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/squat_4_fixe"
+  },
+  "machine=0,part=4,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/squat_4_fixe",
+   "y": 180
+  },
+  "machine=0,part=5,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/squat_5"
+  },
+  "machine=0,part=5,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/squat_5",
+   "y": 180
+  },
+  "machine=0,part=5,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/squat_5_fixe"
+  },
+  "machine=0,part=5,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/squat_5_fixe",
+   "y": 180
+  },
+  "machine=0,part=6,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/squat_6"
+  },
+  "machine=0,part=6,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/squat_6",
+   "y": 180
+  },
+  "machine=0,part=6,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/squat_6_fixe"
+  },
+  "machine=0,part=6,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/squat_6_fixe",
+   "y": 180
+  },
+  "machine=0,part=7,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/squat_7"
+  },
+  "machine=0,part=7,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/squat_7",
+   "y": 180
+  },
+  "machine=0,part=7,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/squat_7_fixe"
+  },
+  "machine=0,part=7,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/squat_7_fixe",
+   "y": 180
+  },
+  "machine=0,part=8,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/squat_8"
+  },
+  "machine=0,part=8,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/squat_8",
+   "y": 180
+  },
+  "machine=0,part=8,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/squat_8"
+  },
+  "machine=0,part=8,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/squat_8",
+   "y": 180
+  },
+  "machine=0,part=9,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/squat_9"
+  },
+  "machine=0,part=9,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/squat_9",
+   "y": 180
+  },
+  "machine=0,part=9,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/squat_9"
+  },
+  "machine=0,part=9,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/squat_9",
+   "y": 180
+  },
+  "machine=0,part=10,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/squat_10"
+  },
+  "machine=0,part=10,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/squat_10",
+   "y": 180
+  },
+  "machine=0,part=10,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/squat_10"
+  },
+  "machine=0,part=10,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/squat_10",
+   "y": 180
+  },
+  "machine=0,part=11,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/squat_11"
+  },
+  "machine=0,part=11,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/squat_11",
+   "y": 180
+  },
+  "machine=0,part=11,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/squat_11"
+  },
+  "machine=0,part=11,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/squat_11",
+   "y": 180
+  },
+  "machine=0,part=12,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=0,part=12,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=0,part=12,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=0,part=12,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=0,part=13,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=0,part=13,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=0,part=13,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=0,part=13,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=0,part=14,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=0,part=14,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=0,part=14,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=0,part=14,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=0,part=15,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=0,part=15,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=0,part=15,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=0,part=15,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=1,part=0,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/presse_jambes_0"
+  },
+  "machine=1,part=0,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/presse_jambes_0",
+   "y": 180
+  },
+  "machine=1,part=0,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/presse_jambes_0_fixe"
+  },
+  "machine=1,part=0,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/presse_jambes_0_fixe",
+   "y": 180
+  },
+  "machine=1,part=1,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/presse_jambes_1"
+  },
+  "machine=1,part=1,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/presse_jambes_1",
+   "y": 180
+  },
+  "machine=1,part=1,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/presse_jambes_1_fixe"
+  },
+  "machine=1,part=1,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/presse_jambes_1_fixe",
+   "y": 180
+  },
+  "machine=1,part=2,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/presse_jambes_2"
+  },
+  "machine=1,part=2,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/presse_jambes_2",
+   "y": 180
+  },
+  "machine=1,part=2,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/presse_jambes_2"
+  },
+  "machine=1,part=2,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/presse_jambes_2",
+   "y": 180
+  },
+  "machine=1,part=3,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/presse_jambes_3"
+  },
+  "machine=1,part=3,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/presse_jambes_3",
+   "y": 180
+  },
+  "machine=1,part=3,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/presse_jambes_3"
+  },
+  "machine=1,part=3,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/presse_jambes_3",
+   "y": 180
+  },
+  "machine=1,part=4,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/presse_jambes_4"
+  },
+  "machine=1,part=4,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/presse_jambes_4",
+   "y": 180
+  },
+  "machine=1,part=4,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/presse_jambes_4_fixe"
+  },
+  "machine=1,part=4,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/presse_jambes_4_fixe",
+   "y": 180
+  },
+  "machine=1,part=5,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/presse_jambes_5"
+  },
+  "machine=1,part=5,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/presse_jambes_5",
+   "y": 180
+  },
+  "machine=1,part=5,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/presse_jambes_5_fixe"
+  },
+  "machine=1,part=5,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/presse_jambes_5_fixe",
+   "y": 180
+  },
+  "machine=1,part=6,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/presse_jambes_6"
+  },
+  "machine=1,part=6,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/presse_jambes_6",
+   "y": 180
+  },
+  "machine=1,part=6,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/presse_jambes_6"
+  },
+  "machine=1,part=6,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/presse_jambes_6",
+   "y": 180
+  },
+  "machine=1,part=7,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/presse_jambes_7"
+  },
+  "machine=1,part=7,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/presse_jambes_7",
+   "y": 180
+  },
+  "machine=1,part=7,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/presse_jambes_7"
+  },
+  "machine=1,part=7,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/presse_jambes_7",
+   "y": 180
+  },
+  "machine=1,part=8,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=1,part=8,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=1,part=8,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=1,part=8,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=1,part=9,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=1,part=9,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=1,part=9,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=1,part=9,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=1,part=10,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=1,part=10,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=1,part=10,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=1,part=10,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=1,part=11,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=1,part=11,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=1,part=11,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=1,part=11,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=1,part=12,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=1,part=12,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=1,part=12,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=1,part=12,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=1,part=13,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=1,part=13,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=1,part=13,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=1,part=13,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=1,part=14,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=1,part=14,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=1,part=14,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=1,part=14,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=1,part=15,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=1,part=15,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=1,part=15,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=1,part=15,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=2,part=0,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/mollets_0"
+  },
+  "machine=2,part=0,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/mollets_0",
+   "y": 180
+  },
+  "machine=2,part=0,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/mollets_0_fixe"
+  },
+  "machine=2,part=0,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/mollets_0_fixe",
+   "y": 180
+  },
+  "machine=2,part=1,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/mollets_1"
+  },
+  "machine=2,part=1,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/mollets_1",
+   "y": 180
+  },
+  "machine=2,part=1,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/mollets_1_fixe"
+  },
+  "machine=2,part=1,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/mollets_1_fixe",
+   "y": 180
+  },
+  "machine=2,part=2,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/mollets_2"
+  },
+  "machine=2,part=2,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/mollets_2",
+   "y": 180
+  },
+  "machine=2,part=2,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/mollets_2_fixe"
+  },
+  "machine=2,part=2,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/mollets_2_fixe",
+   "y": 180
+  },
+  "machine=2,part=3,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/mollets_3"
+  },
+  "machine=2,part=3,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/mollets_3",
+   "y": 180
+  },
+  "machine=2,part=3,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/mollets_3_fixe"
+  },
+  "machine=2,part=3,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/mollets_3_fixe",
+   "y": 180
+  },
+  "machine=2,part=4,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/mollets_4"
+  },
+  "machine=2,part=4,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/mollets_4",
+   "y": 180
+  },
+  "machine=2,part=4,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/mollets_4_fixe"
+  },
+  "machine=2,part=4,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/mollets_4_fixe",
+   "y": 180
+  },
+  "machine=2,part=5,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/mollets_5"
+  },
+  "machine=2,part=5,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/mollets_5",
+   "y": 180
+  },
+  "machine=2,part=5,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/mollets_5_fixe"
+  },
+  "machine=2,part=5,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/mollets_5_fixe",
+   "y": 180
+  },
+  "machine=2,part=6,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/mollets_6"
+  },
+  "machine=2,part=6,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/mollets_6",
+   "y": 180
+  },
+  "machine=2,part=6,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/mollets_6_fixe"
+  },
+  "machine=2,part=6,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/mollets_6_fixe",
+   "y": 180
+  },
+  "machine=2,part=7,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/mollets_7"
+  },
+  "machine=2,part=7,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/mollets_7",
+   "y": 180
+  },
+  "machine=2,part=7,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/mollets_7_fixe"
+  },
+  "machine=2,part=7,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/mollets_7_fixe",
+   "y": 180
+  },
+  "machine=2,part=8,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=2,part=8,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=2,part=8,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=2,part=8,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=2,part=9,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=2,part=9,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=2,part=9,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=2,part=9,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=2,part=10,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=2,part=10,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=2,part=10,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=2,part=10,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=2,part=11,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=2,part=11,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=2,part=11,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=2,part=11,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=2,part=12,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=2,part=12,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=2,part=12,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=2,part=12,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=2,part=13,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=2,part=13,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=2,part=13,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=2,part=13,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=2,part=14,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=2,part=14,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=2,part=14,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=2,part=14,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=2,part=15,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=2,part=15,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=2,part=15,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=2,part=15,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=3,part=0,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/developpe_couche_0"
+  },
+  "machine=3,part=0,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/developpe_couche_0",
+   "y": 180
+  },
+  "machine=3,part=0,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/developpe_couche_0"
+  },
+  "machine=3,part=0,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/developpe_couche_0",
+   "y": 180
+  },
+  "machine=3,part=1,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/developpe_couche_1"
+  },
+  "machine=3,part=1,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/developpe_couche_1",
+   "y": 180
+  },
+  "machine=3,part=1,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/developpe_couche_1"
+  },
+  "machine=3,part=1,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/developpe_couche_1",
+   "y": 180
+  },
+  "machine=3,part=2,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/developpe_couche_2"
+  },
+  "machine=3,part=2,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/developpe_couche_2",
+   "y": 180
+  },
+  "machine=3,part=2,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/developpe_couche_2"
+  },
+  "machine=3,part=2,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/developpe_couche_2",
+   "y": 180
+  },
+  "machine=3,part=3,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/developpe_couche_3"
+  },
+  "machine=3,part=3,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/developpe_couche_3",
+   "y": 180
+  },
+  "machine=3,part=3,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/developpe_couche_3"
+  },
+  "machine=3,part=3,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/developpe_couche_3",
+   "y": 180
+  },
+  "machine=3,part=4,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/developpe_couche_4"
+  },
+  "machine=3,part=4,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/developpe_couche_4",
+   "y": 180
+  },
+  "machine=3,part=4,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/developpe_couche_4"
+  },
+  "machine=3,part=4,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/developpe_couche_4",
+   "y": 180
+  },
+  "machine=3,part=5,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/developpe_couche_5"
+  },
+  "machine=3,part=5,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/developpe_couche_5",
+   "y": 180
+  },
+  "machine=3,part=5,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/developpe_couche_5"
+  },
+  "machine=3,part=5,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/developpe_couche_5",
+   "y": 180
+  },
+  "machine=3,part=6,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/developpe_couche_6"
+  },
+  "machine=3,part=6,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/developpe_couche_6",
+   "y": 180
+  },
+  "machine=3,part=6,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/developpe_couche_6"
+  },
+  "machine=3,part=6,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/developpe_couche_6",
+   "y": 180
+  },
+  "machine=3,part=7,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/developpe_couche_7"
+  },
+  "machine=3,part=7,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/developpe_couche_7",
+   "y": 180
+  },
+  "machine=3,part=7,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/developpe_couche_7"
+  },
+  "machine=3,part=7,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/developpe_couche_7",
+   "y": 180
+  },
+  "machine=3,part=8,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/developpe_couche_8"
+  },
+  "machine=3,part=8,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/developpe_couche_8",
+   "y": 180
+  },
+  "machine=3,part=8,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/developpe_couche_8_fixe"
+  },
+  "machine=3,part=8,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/developpe_couche_8_fixe",
+   "y": 180
+  },
+  "machine=3,part=9,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/developpe_couche_9"
+  },
+  "machine=3,part=9,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/developpe_couche_9",
+   "y": 180
+  },
+  "machine=3,part=9,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/developpe_couche_9_fixe"
+  },
+  "machine=3,part=9,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/developpe_couche_9_fixe",
+   "y": 180
+  },
+  "machine=3,part=10,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/developpe_couche_10"
+  },
+  "machine=3,part=10,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/developpe_couche_10",
+   "y": 180
+  },
+  "machine=3,part=10,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/developpe_couche_10"
+  },
+  "machine=3,part=10,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/developpe_couche_10",
+   "y": 180
+  },
+  "machine=3,part=11,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/developpe_couche_11"
+  },
+  "machine=3,part=11,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/developpe_couche_11",
+   "y": 180
+  },
+  "machine=3,part=11,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/developpe_couche_11"
+  },
+  "machine=3,part=11,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/developpe_couche_11",
+   "y": 180
+  },
+  "machine=3,part=12,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/developpe_couche_12"
+  },
+  "machine=3,part=12,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/developpe_couche_12",
+   "y": 180
+  },
+  "machine=3,part=12,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/developpe_couche_12_fixe"
+  },
+  "machine=3,part=12,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/developpe_couche_12_fixe",
+   "y": 180
+  },
+  "machine=3,part=13,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/developpe_couche_13"
+  },
+  "machine=3,part=13,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/developpe_couche_13",
+   "y": 180
+  },
+  "machine=3,part=13,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/developpe_couche_13_fixe"
+  },
+  "machine=3,part=13,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/developpe_couche_13_fixe",
+   "y": 180
+  },
+  "machine=3,part=14,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=3,part=14,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=3,part=14,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=3,part=14,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=3,part=15,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=3,part=15,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=3,part=15,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=3,part=15,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=4,part=0,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/curl_0"
+  },
+  "machine=4,part=0,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/curl_0",
+   "y": 180
+  },
+  "machine=4,part=0,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/curl_0"
+  },
+  "machine=4,part=0,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/curl_0",
+   "y": 180
+  },
+  "machine=4,part=1,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/curl_1"
+  },
+  "machine=4,part=1,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/curl_1",
+   "y": 180
+  },
+  "machine=4,part=1,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/curl_1"
+  },
+  "machine=4,part=1,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/curl_1",
+   "y": 180
+  },
+  "machine=4,part=2,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/curl_2"
+  },
+  "machine=4,part=2,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/curl_2",
+   "y": 180
+  },
+  "machine=4,part=2,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/curl_2"
+  },
+  "machine=4,part=2,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/curl_2",
+   "y": 180
+  },
+  "machine=4,part=3,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/curl_3"
+  },
+  "machine=4,part=3,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/curl_3",
+   "y": 180
+  },
+  "machine=4,part=3,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/curl_3"
+  },
+  "machine=4,part=3,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/curl_3",
+   "y": 180
+  },
+  "machine=4,part=4,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/curl_4"
+  },
+  "machine=4,part=4,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/curl_4",
+   "y": 180
+  },
+  "machine=4,part=4,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/curl_4"
+  },
+  "machine=4,part=4,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/curl_4",
+   "y": 180
+  },
+  "machine=4,part=5,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/curl_5"
+  },
+  "machine=4,part=5,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/curl_5",
+   "y": 180
+  },
+  "machine=4,part=5,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/curl_5"
+  },
+  "machine=4,part=5,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/curl_5",
+   "y": 180
+  },
+  "machine=4,part=6,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/curl_6"
+  },
+  "machine=4,part=6,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/curl_6",
+   "y": 180
+  },
+  "machine=4,part=6,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/curl_6_fixe"
+  },
+  "machine=4,part=6,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/curl_6_fixe",
+   "y": 180
+  },
+  "machine=4,part=7,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/curl_7"
+  },
+  "machine=4,part=7,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/curl_7",
+   "y": 180
+  },
+  "machine=4,part=7,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/curl_7_fixe"
+  },
+  "machine=4,part=7,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/curl_7_fixe",
+   "y": 180
+  },
+  "machine=4,part=8,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/curl_8"
+  },
+  "machine=4,part=8,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/curl_8",
+   "y": 180
+  },
+  "machine=4,part=8,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/curl_8_fixe"
+  },
+  "machine=4,part=8,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/curl_8_fixe",
+   "y": 180
+  },
+  "machine=4,part=9,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/curl_9"
+  },
+  "machine=4,part=9,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/curl_9",
+   "y": 180
+  },
+  "machine=4,part=9,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/curl_9_fixe"
+  },
+  "machine=4,part=9,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/curl_9_fixe",
+   "y": 180
+  },
+  "machine=4,part=10,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=4,part=10,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=4,part=10,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=4,part=10,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=4,part=11,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=4,part=11,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=4,part=11,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=4,part=11,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=4,part=12,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=4,part=12,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=4,part=12,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=4,part=12,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=4,part=13,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=4,part=13,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=4,part=13,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=4,part=13,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=4,part=14,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=4,part=14,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=4,part=14,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=4,part=14,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=4,part=15,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=4,part=15,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=4,part=15,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=4,part=15,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=5,part=0,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/tirage_0"
+  },
+  "machine=5,part=0,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/tirage_0",
+   "y": 180
+  },
+  "machine=5,part=0,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/tirage_0_fixe"
+  },
+  "machine=5,part=0,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/tirage_0_fixe",
+   "y": 180
+  },
+  "machine=5,part=1,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/tirage_1"
+  },
+  "machine=5,part=1,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/tirage_1",
+   "y": 180
+  },
+  "machine=5,part=1,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/tirage_1_fixe"
+  },
+  "machine=5,part=1,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/tirage_1_fixe",
+   "y": 180
+  },
+  "machine=5,part=2,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/tirage_2"
+  },
+  "machine=5,part=2,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/tirage_2",
+   "y": 180
+  },
+  "machine=5,part=2,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/tirage_2"
+  },
+  "machine=5,part=2,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/tirage_2",
+   "y": 180
+  },
+  "machine=5,part=3,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/tirage_3"
+  },
+  "machine=5,part=3,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/tirage_3",
+   "y": 180
+  },
+  "machine=5,part=3,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/tirage_3"
+  },
+  "machine=5,part=3,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/tirage_3",
+   "y": 180
+  },
+  "machine=5,part=4,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/tirage_4"
+  },
+  "machine=5,part=4,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/tirage_4",
+   "y": 180
+  },
+  "machine=5,part=4,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/tirage_4_fixe"
+  },
+  "machine=5,part=4,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/tirage_4_fixe",
+   "y": 180
+  },
+  "machine=5,part=5,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/tirage_5"
+  },
+  "machine=5,part=5,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/tirage_5",
+   "y": 180
+  },
+  "machine=5,part=5,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/tirage_5_fixe"
+  },
+  "machine=5,part=5,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/tirage_5_fixe",
+   "y": 180
+  },
+  "machine=5,part=6,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/tirage_6"
+  },
+  "machine=5,part=6,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/tirage_6",
+   "y": 180
+  },
+  "machine=5,part=6,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/tirage_6_fixe"
+  },
+  "machine=5,part=6,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/tirage_6_fixe",
+   "y": 180
+  },
+  "machine=5,part=7,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/tirage_7"
+  },
+  "machine=5,part=7,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/tirage_7",
+   "y": 180
+  },
+  "machine=5,part=7,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/tirage_7_fixe"
+  },
+  "machine=5,part=7,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/tirage_7_fixe",
+   "y": 180
+  },
+  "machine=5,part=8,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/tirage_8"
+  },
+  "machine=5,part=8,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/tirage_8",
+   "y": 180
+  },
+  "machine=5,part=8,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/tirage_8"
+  },
+  "machine=5,part=8,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/tirage_8",
+   "y": 180
+  },
+  "machine=5,part=9,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/tirage_9"
+  },
+  "machine=5,part=9,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/tirage_9",
+   "y": 180
+  },
+  "machine=5,part=9,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/tirage_9"
+  },
+  "machine=5,part=9,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/tirage_9",
+   "y": 180
+  },
+  "machine=5,part=10,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/tirage_10"
+  },
+  "machine=5,part=10,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/tirage_10",
+   "y": 180
+  },
+  "machine=5,part=10,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/tirage_10_fixe"
+  },
+  "machine=5,part=10,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/tirage_10_fixe",
+   "y": 180
+  },
+  "machine=5,part=11,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/tirage_11"
+  },
+  "machine=5,part=11,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/tirage_11",
+   "y": 180
+  },
+  "machine=5,part=11,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/tirage_11_fixe"
+  },
+  "machine=5,part=11,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/tirage_11_fixe",
+   "y": 180
+  },
+  "machine=5,part=12,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=5,part=12,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=5,part=12,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=5,part=12,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=5,part=13,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=5,part=13,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=5,part=13,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=5,part=13,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=5,part=14,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=5,part=14,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=5,part=14,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=5,part=14,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=5,part=15,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=5,part=15,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=5,part=15,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=5,part=15,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=6,part=0,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/tractions_0"
+  },
+  "machine=6,part=0,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/tractions_0",
+   "y": 180
+  },
+  "machine=6,part=0,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/tractions_0"
+  },
+  "machine=6,part=0,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/tractions_0",
+   "y": 180
+  },
+  "machine=6,part=1,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/tractions_1"
+  },
+  "machine=6,part=1,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/tractions_1",
+   "y": 180
+  },
+  "machine=6,part=1,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/tractions_1"
+  },
+  "machine=6,part=1,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/tractions_1",
+   "y": 180
+  },
+  "machine=6,part=2,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/tractions_2"
+  },
+  "machine=6,part=2,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/tractions_2",
+   "y": 180
+  },
+  "machine=6,part=2,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/tractions_2_fixe"
+  },
+  "machine=6,part=2,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/tractions_2_fixe",
+   "y": 180
+  },
+  "machine=6,part=3,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/tractions_3"
+  },
+  "machine=6,part=3,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/tractions_3",
+   "y": 180
+  },
+  "machine=6,part=3,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/tractions_3_fixe"
+  },
+  "machine=6,part=3,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/tractions_3_fixe",
+   "y": 180
+  },
+  "machine=6,part=4,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/tractions_4"
+  },
+  "machine=6,part=4,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/tractions_4",
+   "y": 180
+  },
+  "machine=6,part=4,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/tractions_4_fixe"
+  },
+  "machine=6,part=4,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/tractions_4_fixe",
+   "y": 180
+  },
+  "machine=6,part=5,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/tractions_5"
+  },
+  "machine=6,part=5,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/tractions_5",
+   "y": 180
+  },
+  "machine=6,part=5,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/tractions_5_fixe"
+  },
+  "machine=6,part=5,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/tractions_5_fixe",
+   "y": 180
+  },
+  "machine=6,part=6,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/tractions_6"
+  },
+  "machine=6,part=6,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/tractions_6",
+   "y": 180
+  },
+  "machine=6,part=6,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/tractions_6_fixe"
+  },
+  "machine=6,part=6,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/tractions_6_fixe",
+   "y": 180
+  },
+  "machine=6,part=7,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/tractions_7"
+  },
+  "machine=6,part=7,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/tractions_7",
+   "y": 180
+  },
+  "machine=6,part=7,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/tractions_7_fixe"
+  },
+  "machine=6,part=7,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/tractions_7_fixe",
+   "y": 180
+  },
+  "machine=6,part=8,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=6,part=8,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=6,part=8,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=6,part=8,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=6,part=9,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=6,part=9,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=6,part=9,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=6,part=9,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=6,part=10,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=6,part=10,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=6,part=10,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=6,part=10,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=6,part=11,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=6,part=11,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=6,part=11,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=6,part=11,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=6,part=12,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=6,part=12,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=6,part=12,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=6,part=12,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=6,part=13,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=6,part=13,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=6,part=13,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=6,part=13,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=6,part=14,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=6,part=14,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=6,part=14,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=6,part=14,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=6,part=15,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=6,part=15,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=6,part=15,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=6,part=15,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=7,part=0,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/rameur_0"
+  },
+  "machine=7,part=0,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/rameur_0",
+   "y": 180
+  },
+  "machine=7,part=0,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/rameur_0_fixe"
+  },
+  "machine=7,part=0,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/rameur_0_fixe",
+   "y": 180
+  },
+  "machine=7,part=1,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/rameur_1"
+  },
+  "machine=7,part=1,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/rameur_1",
+   "y": 180
+  },
+  "machine=7,part=1,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/rameur_1_fixe"
+  },
+  "machine=7,part=1,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/rameur_1_fixe",
+   "y": 180
+  },
+  "machine=7,part=2,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/rameur_2"
+  },
+  "machine=7,part=2,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/rameur_2",
+   "y": 180
+  },
+  "machine=7,part=2,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/rameur_2"
+  },
+  "machine=7,part=2,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/rameur_2",
+   "y": 180
+  },
+  "machine=7,part=3,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/rameur_3"
+  },
+  "machine=7,part=3,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/rameur_3",
+   "y": 180
+  },
+  "machine=7,part=3,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/rameur_3"
+  },
+  "machine=7,part=3,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/rameur_3",
+   "y": 180
+  },
+  "machine=7,part=4,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/rameur_4"
+  },
+  "machine=7,part=4,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/rameur_4",
+   "y": 180
+  },
+  "machine=7,part=4,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/rameur_4"
+  },
+  "machine=7,part=4,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/rameur_4",
+   "y": 180
+  },
+  "machine=7,part=5,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/rameur_5"
+  },
+  "machine=7,part=5,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/rameur_5",
+   "y": 180
+  },
+  "machine=7,part=5,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/rameur_5"
+  },
+  "machine=7,part=5,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/rameur_5",
+   "y": 180
+  },
+  "machine=7,part=6,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=7,part=6,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=7,part=6,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=7,part=6,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=7,part=7,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=7,part=7,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=7,part=7,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=7,part=7,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=7,part=8,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=7,part=8,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=7,part=8,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=7,part=8,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=7,part=9,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=7,part=9,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=7,part=9,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=7,part=9,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=7,part=10,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=7,part=10,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=7,part=10,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=7,part=10,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=7,part=11,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=7,part=11,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=7,part=11,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=7,part=11,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=7,part=12,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=7,part=12,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=7,part=12,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=7,part=12,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=7,part=13,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=7,part=13,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=7,part=13,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=7,part=13,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=7,part=14,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=7,part=14,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=7,part=14,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=7,part=14,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=7,part=15,repos=true,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=7,part=15,repos=true,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=7,part=15,repos=false,tourne=false": {
+   "model": "shonen:block/muscu/vide"
+  },
+  "machine=7,part=15,repos=false,tourne=true": {
+   "model": "shonen:block/muscu/vide"
+  }
+ }
+}

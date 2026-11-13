@@ -1,0 +1,100 @@
+
+[named_npc_encounters]
+	#Whether rare named NPC encounters and ninja rumors may appear naturally.
+	enabled = false
+	#Allow natural Jiraiya village visits. Does not remove existing or manually placed NPCs.
+	jiraiyaEnabled = false
+	#Allow natural Orochimaru night encounters. Does not remove existing or manually placed NPCs.
+	orochimaruEnabled = false
+	#Allow new Zabuza rumors and quest encounter spawns. Accepted leads wait while disabled; existing NPCs remain.
+	zabuzaEnabled = false
+	#Allow natural daytime Naruto encounters near village outskirts. Existing and manually placed NPCs remain when disabled.
+	narutoEnabled = false
+	#Allow natural nighttime Danzo encounters in forest clearings away from villages. Existing and manually placed NPCs remain when disabled.
+	danzoEnabled = false
+	#Minimum horizontal separation between new Jiraiya spawns and existing Jiraiya. 0 disables this distance rule; regional removal cooldowns still apply.
+	#Range: 0 ~ 4096
+	jiraiyaSpacingBlocks = 200
+	#Minimum horizontal separation between new Orochimaru spawns and existing Orochimaru. 0 disables this distance rule; regional removal cooldowns still apply.
+	#Range: 0 ~ 4096
+	orochimaruSpacingBlocks = 200
+	#Send a one-time chat cue to nearby players after a successful natural Jiraiya, Orochimaru, Naruto or Danzo spawn.
+	presenceMessagesEnabled = true
+	#Horizontal range in blocks of natural NPC presence messages.
+	#Range: 0 ~ 4096
+	presenceMessageRadius = 200
+	#Jiraiya's natural spawn message. Leave blank to silence only this NPC's cue.
+	jiraiyaPresenceMessage = "A warm, powerful presence is nearby..."
+	#Orochimaru's natural spawn message. Leave blank to silence only this NPC's cue.
+	orochimaruPresenceMessage = "An ominous presence is nearby..."
+	#Naruto's natural spawn message. Leave blank to silence only this NPC's cue.
+	narutoPresenceMessage = "An energetic shinobi is training nearby..."
+	#Danzo's natural spawn message. Leave blank to silence only this NPC's cue.
+	danzoPresenceMessage = "A watchful, unsettling presence is nearby..."
+	#Ticks between server encounter checks. 600 ticks is thirty seconds.
+	#Range: 20 ~ 24000
+	checkIntervalTicks = 600
+	#Chance per eligible player/check for Jiraiya's daytime village visit.
+	#Range: 0.0 ~ 1.0
+	jiraiyaSpawnChance = 0.25
+	#Chance per eligible player/check for Orochimaru at night in a wooded or swamp habitat.
+	#Range: 0.0 ~ 1.0
+	orochimaruSpawnChance = 0.175
+	#Chance per occupied eligible region/check for Naruto during the day. Players sharing a region do not add extra rolls.
+	#Range: 0.0 ~ 1.0
+	narutoSpawnChance = 0.1
+	#Chance per occupied eligible region/check for Danzo at night. Players sharing a region do not add extra rolls.
+	#Range: 0.0 ~ 1.0
+	danzoSpawnChance = 0.03
+	#Minimum horizontal distance from nearby players for natural Naruto encounters.
+	#Range: 24 ~ 128
+	narutoMinSpawnDistance = 64
+	#Maximum horizontal search distance from the selected player for Naruto. Only loaded terrain is searched.
+	#Range: 32 ~ 128
+	narutoMaxSpawnDistance = 96
+	#Minimum horizontal distance from nearby players for natural Danzo encounters.
+	#Range: 24 ~ 128
+	danzoMinSpawnDistance = 80
+	#Maximum horizontal search distance from the selected player for Danzo. Only loaded terrain is searched.
+	#Range: 32 ~ 128
+	danzoMaxSpawnDistance = 96
+	#Maximum world population before further natural Naruto encounters stop. Saved unloaded NPCs and manually placed Naruto count; manual spawns are never rejected.
+	#Range: 1 ~ 64
+	narutoMaxPopulation = 2
+	#Maximum world population before further natural Danzo encounters stop. Saved unloaded NPCs and manually placed Danzo count; manual spawns are never rejected.
+	#Range: 1 ~ 64
+	danzoMaxPopulation = 1
+	#Saved recovery after Naruto is removed before another Naruto may spawn in his region. 48000 ticks is forty minutes at 20 TPS.
+	#Range: 1200 ~ 1728000
+	narutoRegionCooldownTicks = 48000
+	#Saved recovery after Danzo is removed before another Danzo may spawn in his region. 48000 ticks is forty minutes at 20 TPS.
+	#Range: 1200 ~ 1728000
+	danzoRegionCooldownTicks = 48000
+	#Horizontal region size for Naruto and Danzo's shared-player rolls and same-kind regional reservations. Existing Jiraiya, Orochimaru and Zabuza region settings are separate.
+	#Range: 128 ~ 8192
+	narutoDanzoRegionSizeBlocks = 1024
+	#Maximum loaded-terrain candidate checks shared by all Naruto and Danzo natural encounter searches in one server check.
+	#Range: 1 ~ 256
+	narutoDanzoSearchBudget = 24
+	#Minimum horizontal distance from the selected player. Other nearby players are also checked.
+	#Range: 24 ~ 128
+	minSpawnDistance = 32
+	#Maximum horizontal distance from the selected player. Only loaded chunks may be used.
+	#Range: 32 ~ 128
+	maxSpawnDistance = 96
+	#Persisted wait before another encounter of the same kind in a region. 48000 ticks is two Minecraft days.
+	#Range: 1200 ~ 1728000
+	regionCooldownTicks = 48000
+	#Horizontal size of each saved encounter region in blocks.
+	#Range: 128 ~ 4096
+	regionSizeBlocks = 512
+	#Nearby Zabuza encounters reserve this radius as well as their region. Jiraiya and Orochimaru use their separate spacing settings.
+	#Range: 64 ~ 1024
+	nearbyKindRadius = 256
+	#Chance for an eligible ninja to carry a Zabuza encounter rumor. Increasing this also updates previously unsuccessful contacts.
+	#Range: 0.0 ~ 1.0
+	zabuzaRumorChance = 0.0
+	#Maximum loaded-area search radius for a rumor's river or ocean encounter.
+	#Range: 32 ~ 512
+	rumorSearchRadius = 128
+

@@ -1,0 +1,69 @@
+{
+  "size": "large",
+  "color": "#3B5BDB",
+  "waves": [
+    {
+      "entities": [
+        {
+          "entity": "jujutsucraft:cursed_spirit_grade_12",
+          "count": 1
+        },
+        {
+          "entity": "jujutsucraft:cursed_spirit_grade_14",
+          "count": 1
+        },
+        {
+          "entity": "jujutsucraft:cursed_spirit_grade_16",
+          "count": 1
+        },
+        {
+          "entity": "jujutsucraft:cursed_spirit_grade_18",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 2400,
+      "setup_time": 100
+    },
+    {
+      "entities": [
+        {
+          "entity": "jujutsucraft:jogo",
+          "count": 1
+        },
+        {
+          "entity": "jujutsucraft:hanami",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 3000,
+      "setup_time": 160
+    },
+    {
+      "entities": [
+        {
+          "entity": "jujutsucraft:gojo_satoru",
+          "desc": "shonen.examen.boss.gojo",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 18000,
+      "setup_time": 200
+    }
+  ],
+  "rewards": [
+    {
+      "type": "gateways:command",
+      "command": "grands_ennemis examen <summoner> gojo",
+      "desc": "shonen.examen.points.S+"
+    }
+  ],
+  "failures": [],
+  "rules": {
+    "spawn_range": 10,
+    "leash_range": 48,
+    "allow_discarding": true
+  }
+}

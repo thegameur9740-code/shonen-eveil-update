@@ -1,0 +1,65 @@
+
+[natural_ninja_spawning]
+	#Whether wild ninjas may spawn naturally.
+	enabled = false
+	#How often each dimension checks for ninja spawning.
+	#20 ticks = 1 second. Lower values increase spawn frequency.
+	#Range: 20 ~ 12000
+	checkIntervalTicks = 100
+	#Chance per eligible player during each spawn check.
+	#This can be increased without reducing vanilla hostile spawns.
+	#Range: 0.0 ~ 1.0
+	spawnChancePerPlayer = 0.5
+	#Independent ninja cap inside maxSpawnDistance of a player.
+	#These ninjas do not count against any vanilla mob category.
+	#Range: 0 ~ 100
+	maxWildNinjasNearPlayer = 6
+	#Position attempts made after a player passes the chance roll.
+	#Range: 1 ~ 32
+	attemptsPerPlayer = 12
+	#Minimum horizontal distance from the selected player.
+	#Range: 24 ~ 120
+	minSpawnDistance = 32
+	#Maximum horizontal distance from the selected player.
+	#Range: 32 ~ 128
+	maxSpawnDistance = 96
+
+	#Relative village weights for naturally spawned ninjas only, from 0 to 100 each.
+	#A village's chance is its weight divided by the sum of all village weights.
+	#These are not percentages: the total does not need to equal 100.
+	#For example, Leaf 80 and Sand 20 with all others 0 gives 80% Leaf and 20% Sand.
+	#Equal weights keep villages equally likely. A weight of 0 disables that village.
+	#If every weight is 0, no ninjas spawn naturally.
+	#Weights choose the village; the existing spawn chance, interval and caps still control spawn frequency.
+	[natural_ninja_spawning.village_weights]
+		#Relative natural spawn weight for leaf. Set to 0 to disable this village.
+		#Range: 0 ~ 100
+		leaf = 10
+		#Relative natural spawn weight for sand. Set to 0 to disable this village.
+		#Range: 0 ~ 100
+		sand = 10
+		#Relative natural spawn weight for mist. Set to 0 to disable this village.
+		#Range: 0 ~ 100
+		mist = 10
+		#Relative natural spawn weight for cloud. Set to 0 to disable this village.
+		#Range: 0 ~ 100
+		cloud = 10
+		#Relative natural spawn weight for rain. Set to 0 to disable this village.
+		#Range: 0 ~ 100
+		rain = 10
+		#Relative natural spawn weight for snow. Set to 0 to disable this village.
+		#Range: 0 ~ 100
+		snow = 10
+		#Relative natural spawn weight for stone. Set to 0 to disable this village.
+		#Range: 0 ~ 100
+		stone = 10
+		#Relative natural spawn weight for star. Set to 0 to disable this village.
+		#Range: 0 ~ 100
+		star = 10
+		#Relative natural spawn weight for waterfall. Set to 0 to disable this village.
+		#Range: 0 ~ 100
+		waterfall = 10
+		#Relative natural spawn weight for sound. Set to 0 to disable this village.
+		#Range: 0 ~ 100
+		sound = 10
+

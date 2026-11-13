@@ -1,0 +1,61 @@
+{
+  "size": "medium",
+  "color": "#C92A2A",
+  "waves": [
+    {
+      "entities": [
+        {
+          "entity": "jujutsucraft:cursed_spirit_grade_31",
+          "count": 3
+        },
+        {
+          "entity": "jujutsucraft:cursed_spirit_grade_34",
+          "count": 2
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 2400,
+      "setup_time": 100
+    },
+    {
+      "entities": [
+        {
+          "entity": "jujutsucraft:cursed_spirit_grade_21",
+          "count": 2
+        },
+        {
+          "entity": "jujutsucraft:cursed_spirit_grade_24",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 3000,
+      "setup_time": 160
+    },
+    {
+      "entities": [
+        {
+          "entity": "jujutsucraft:fushiguro_toji",
+          "desc": "shonen.examen.boss.toji",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 10800,
+      "setup_time": 200
+    }
+  ],
+  "rewards": [
+    {
+      "type": "gateways:command",
+      "command": "grands_ennemis examen <summoner> toji",
+      "desc": "shonen.examen.points.B"
+    }
+  ],
+  "failures": [],
+  "rules": {
+    "spawn_range": 10,
+    "leash_range": 48,
+    "allow_discarding": true
+  }
+}

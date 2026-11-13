@@ -1,0 +1,22 @@
+{
+ "name": "L'essentiel",
+ "category": "patchouli:dbz",
+ "icon": "minecraft:blaze_powder",
+ "read_by_default": true,
+ "sortnum": 0,
+ "pages": [
+  {
+   "type": "patchouli:image",
+   "images": [
+    "shonen:textures/livre/ill_dbz.png"
+   ],
+   "border": false,
+   "text": "Tortue Géniale : « Ho ho ho ! Voyons ce que tu as dans le ventre. »"
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Ce que tu es",
+   "text": "Ta $(l)race$() est définitive : Saiyan, Humain, Namek, Arcosien, Majin ou Bio-androïde.$(br)Tout passe par le $(l)ki$().$(br2)$(l)Commencer$() :$(li)charge ton ki : $(l)$(k:key.dragonminez.ki_charge)$() ;$(li)place tes $(l)TP$() : $(l)$(k:key.dragonminez.stats_menu)$() ;$(li)achète $(l)Ki Control$() chez un maître (3 000 TP) : sans lui, ni attaques de ki ni vol."
+  }
+ ]
+}

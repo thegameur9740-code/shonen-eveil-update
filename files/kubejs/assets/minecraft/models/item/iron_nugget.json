@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/iron_nugget"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 7073
+      },
+      "model": "shonen:item/souvenirs/nomu_usj"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7077
+      },
+      "model": "shonen:item/souvenirs/nomu_errant"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7081
+      },
+      "model": "shonen:item/souvenirs/re_destro"
+    }
+  ]
+}

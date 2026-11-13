@@ -1,0 +1,496 @@
+{
+	id: "0001ABAFDA6B7A43"
+	group: ""
+	order_index: 2
+	filename: "ecole"
+	title: "L'école et le monde"
+	icon: "minecraft:bell"
+	subtitle: [
+		"Les boutiques des salles et du Grand Hall, le marchand de reprise, puis les"
+		"pierres de voyage, les chunks d'équipe, les bases et les revanches."
+	]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 2.12d
+			y: 1.5d
+			width: 10.75d
+			height: 6.0d
+			rotation: 0.0d
+			image: "shonen:textures/quetes/bg_ecole.png"
+			color: 16777215
+			alpha: 235
+			order: -11
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 2.12d
+			y: 1.5d
+			width: 30.0d
+			height: 21.94d
+			rotation: 0.0d
+			image: "shonen:textures/quetes/plein_ecole.png"
+			color: 16777215
+			alpha: 255
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.75d
+			y: 0.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/writable_book.png"
+			color: 16777215
+			alpha: 255
+			order: 0
+			hover: [
+				"Les boutiques"
+			]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.75d
+			y: 3.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/writable_book.png"
+			color: 16777215
+			alpha: 255
+			order: 0
+			hover: [
+				"Voyager et s'installer"
+			]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			id: "000C5130B603AC08"
+			title: "La boutique de ta salle"
+			subtitle: "Niveau 3"
+			x: 0.0d
+			y: 0.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"ecole_la_boutique_de_ta_salle"
+			]
+			description: [
+				"Monte l'escalier de ta salle : à l'étage, la boutique de ton"
+				"univers. Chaque objet tourne sur son stand, avec son prix en"
+				"dessous."
+				""
+				"Tâche : aller à l'étage de la salle de son univers (emplacement)"
+				""
+				"Récompense : 42 XP, 10 Éclats"
+			]
+			tasks: [
+				{
+					id: "000718FA47044E78"
+					type: "custom"
+					title: "aller à l'étage de la salle de son univers (emplacement)"
+				}
+			]
+			rewards: [
+				{
+					id: "0004AAC3433CAD54"
+					type: "command"
+					title: "42 XP"
+					command: "/shonenquete recompense {p} ecole_la_boutique_de_ta_salle"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:bell"
+		}
+		{
+			id: "000E19378A28FA52"
+			title: "Premier achat"
+			subtitle: "Niveau 3"
+			x: 1.5d
+			y: 0.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"ecole_premier_achat"
+			]
+			description: [
+				"Choisis un stand, clic droit, puis confirme dans le chat. Ce"
+				"que tu achètes ici, tu ne le trouveras peut-être jamais"
+				"dehors."
+				""
+				"Tâche : acheter un article à un stand (script)"
+				""
+				"Récompense : 42 XP, 10 Éclats"
+			]
+			tasks: [
+				{
+					id: "00007D5180A3BC07"
+					type: "custom"
+					title: "acheter un article à un stand (script)"
+				}
+			]
+			rewards: [
+				{
+					id: "000514192D94D14F"
+					type: "command"
+					title: "42 XP"
+					command: "/shonenquete recompense {p} ecole_premier_achat"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:bell"
+			dependencies: [
+				"000C5130B603AC08"
+			]
+		}
+		{
+			id: "000CE475FE837B12"
+			title: "Le marchand de reprise"
+			subtitle: "Niveau 4"
+			x: 3.0d
+			y: 0.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"ecole_le_marchand_de_reprise"
+			]
+			description: [
+				"Ce que tu ramasses en chemin a de la valeur. Tiens un objet"
+				"de ton univers en main et propose-le au marchand du fond :"
+				"il le paie en Éclats."
+				""
+				"Tâche : vendre un objet au marchand de reprise de sa salle (script)"
+				""
+				"Récompense : 51 XP, 15 Éclats"
+			]
+			tasks: [
+				{
+					id: "000E3A2DD2CBEE4E"
+					type: "custom"
+					title: "vendre un objet au marchand de reprise de sa salle (script)"
+				}
+			]
+			rewards: [
+				{
+					id: "000BA0870E50D14B"
+					type: "command"
+					title: "51 XP"
+					command: "/shonenquete recompense {p} ecole_le_marchand_de_reprise"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:bell"
+			dependencies: [
+				"000E19378A28FA52"
+			]
+		}
+		{
+			id: "00035FF965096343"
+			title: "Le magasin d'Orin"
+			subtitle: "Niveau 4"
+			x: 4.5d
+			y: 0.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"ecole_le_magasin_d_orin"
+			]
+			description: [
+				"Au rez-de-chaussée du Grand Hall, les stands d'Orin vendent"
+				"ce que tout chasseur finit par chercher : armures, livres,"
+				"potions, plans de construction."
+				""
+				"Tâche : acheter un article à un stand du Grand Hall (script)"
+				""
+				"Récompense : 51 XP, 15 Éclats"
+			]
+			tasks: [
+				{
+					id: "00057D1C8C124CA8"
+					type: "custom"
+					title: "acheter un article à un stand du Grand Hall (script)"
+				}
+			]
+			rewards: [
+				{
+					id: "0006A138970E3978"
+					type: "command"
+					title: "51 XP"
+					command: "/shonenquete recompense {p} ecole_le_magasin_d_orin"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:bell"
+			dependencies: [
+				"000CE475FE837B12"
+			]
+		}
+		{
+			id: "000FA2EA84D969A6"
+			title: "Premier achat"
+			subtitle: "Niveau 5"
+			x: 6.0d
+			y: 0.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"ecole_le_change"
+			]
+			description: [
+				"Tes Éclats ne prennent plus de place : ils s'affichent en"
+				"haut à droite de l'écran. Dépense-les chez Orin, au Grand"
+				"Hall. Pour vendre, va voir le marchand de l'étage de ta"
+				"salle."
+				""
+				"Tâche : acheter un objet chez Orin (script)"
+				""
+				"Récompense : 61 XP, 15 Éclats"
+			]
+			tasks: [
+				{
+					id: "000D1AF31407370C"
+					type: "custom"
+					title: "acheter un objet chez Orin (script)"
+				}
+			]
+			rewards: [
+				{
+					id: "0009CFD44E5AB374"
+					type: "command"
+					title: "61 XP"
+					command: "/shonenquete recompense {p} ecole_le_change"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:bell"
+			dependencies: [
+				"00035FF965096343"
+			]
+		}
+		{
+			id: "000AAAE83CC9D139"
+			title: "Les pierres de voyage"
+			subtitle: "Niveau 8"
+			x: 0.0d
+			y: 3.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"ecole_les_pierres_de_voyage"
+			]
+			description: [
+				"La pierre gravée de la cour connaît chaque pierre que tu as"
+				"atteinte à pied. Paie le trajet en Éclats, reste immobile"
+				"cinq secondes, et tu y es."
+				""
+				"Tâche : voyager avec la pierre de la cour vers une pierre découverte (script)"
+				""
+				"Récompense : 88 XP, 20 Éclats"
+			]
+			tasks: [
+				{
+					id: "0007445C58C48A33"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "000480EF11032AE1"
+					type: "command"
+					title: "88 XP"
+					command: "/shonenquete recompense {p} ecole_les_pierres_de_voyage"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:bell"
+		}
+		{
+			id: "0006EFC0922EFCD2"
+			title: "Ta part du monde"
+			subtitle: "Niveau 12"
+			x: 1.5d
+			y: 3.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"ecole_ta_part_du_monde"
+			]
+			description: [
+				"Avec ton équipe, réclame un premier chunk : personne d'autre"
+				"n'y cassera un bloc, et aucune explosion ne l'abîmera."
+				""
+				"Tâche : réclamer un chunk avec son équipe FTB (script)"
+				""
+				"Récompense : 127 XP, 30 Éclats"
+			]
+			tasks: [
+				{
+					id: "000AD1A6F87E28FF"
+					type: "custom"
+					title: "réclamer un chunk avec son équipe FTB (script)"
+				}
+			]
+			rewards: [
+				{
+					id: "000DDB2E4D043509"
+					type: "command"
+					title: "127 XP"
+					command: "/shonenquete recompense {p} ecole_ta_part_du_monde"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:bell"
+			dependencies: [
+				"000AAAE83CC9D139"
+			]
+		}
+		{
+			id: "0001095D49193428"
+			title: "Une base à soi"
+			subtitle: "Niveau 15"
+			x: 3.0d
+			y: 3.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"ecole_une_base_a_soi"
+			]
+			description: [
+				"Au Grand Hall, Orin vend des plans de construction. Pose-en"
+				"un dans un chunk de ton équipe : la maison se lève d'un"
+				"coup."
+				""
+				"Tâche : poser un plan de construction dans un chunk de son équipe (script)"
+				""
+				"plans Prefab vendus au Grand Hall"
+				""
+				"Récompense : 155 XP, 35 Éclats"
+			]
+			tasks: [
+				{
+					id: "000E252C126C4303"
+					type: "custom"
+					title: "poser un plan de construction dans un chunk de son équipe (s"
+				}
+			]
+			rewards: [
+				{
+					id: "0009BA9D5AD93B24"
+					type: "command"
+					title: "155 XP"
+					command: "/shonenquete recompense {p} ecole_une_base_a_soi"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:bell"
+			dependencies: [
+				"0006EFC0922EFCD2"
+			]
+		}
+		{
+			id: "0007B732B570B31D"
+			title: "Le chemin du retour"
+			subtitle: "Niveau 18"
+			x: 4.5d
+			y: 3.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"ecole_le_chemin_du_retour"
+			]
+			description: [
+				"Une pierre de voyage d'équipe, posée dans ta base, te ramène"
+				"chez toi depuis n'importe quelle pierre découverte."
+				""
+				"Tâche : poser une pierre de voyage d'équipe dans un chunk de son équipe (script)"
+				""
+				"Récompense : 185 XP, 40 Éclats"
+			]
+			tasks: [
+				{
+					id: "0005CF20A9C6CE13"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "00006ACE4A98CBAA"
+					type: "command"
+					title: "185 XP"
+					command: "/shonenquete recompense {p} ecole_le_chemin_du_retour"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:bell"
+			dependencies: [
+				"0001095D49193428"
+			]
+		}
+		{
+			id: "0006F4AAD7BD70A2"
+			title: "Une revanche"
+			subtitle: "Niveau 20"
+			x: 6.0d
+			y: 3.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"ecole_une_revanche"
+			]
+			description: [
+				"Un boss déjà vaincu te manque ? L'autel des revanches de sa"
+				"salle le rappelle dans l'arène : pas d'XP, mais son butin,"
+				"et peut-être son objet unique."
+				""
+				"Tâche : refaire un boss à l'autel des revanches d'une salle (script)"
+				""
+				"Récompense : 205 XP, 45 Éclats"
+			]
+			tasks: [
+				{
+					id: "000ADCC6CA937770"
+					type: "custom"
+					title: "refaire un boss à l'autel des revanches d'une salle (script)"
+				}
+			]
+			rewards: [
+				{
+					id: "000B4B6C13B37910"
+					type: "command"
+					title: "205 XP"
+					command: "/shonenquete recompense {p} ecole_une_revanche"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:bell"
+			dependencies: [
+				"0007B732B570B31D"
+			]
+		}
+	]
+	quest_links: [ ]
+}

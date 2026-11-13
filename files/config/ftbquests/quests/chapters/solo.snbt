@@ -1,0 +1,1426 @@
+{
+	id: "00011800EDD6F9B3"
+	group: ""
+	order_index: 9
+	filename: "solo"
+	title: "Solo Leveling"
+	icon: "sololeveling:mana_crystal_e"
+	subtitle: [
+		"La salle de Solo Leveling (maître, guide), ses examens du rang C au boss final,"
+		"les paliers de la voie pour ceux qui ont l'univers, et la lignée d'histoire en 5"
+	]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 6.25d
+			y: 9.12d
+			width: 19.0d
+			height: 21.25d
+			rotation: 0.0d
+			image: "shonen:textures/quetes/bg_solo.png"
+			color: 16777215
+			alpha: 235
+			order: -11
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 6.25d
+			y: 9.12d
+			width: 30.0d
+			height: 21.94d
+			rotation: 0.0d
+			image: "shonen:textures/quetes/plein_solo.png"
+			color: 16777215
+			alpha: 255
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.75d
+			y: 0.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/writable_book.png"
+			color: 16777215
+			alpha: 255
+			order: 0
+			hover: [
+				"La salle"
+			]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.75d
+			y: 3.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/writable_book.png"
+			color: 16777215
+			alpha: 255
+			order: 0
+			hover: [
+				"Les examens de la salle"
+			]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.75d
+			y: 6.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/writable_book.png"
+			color: 16777215
+			alpha: 255
+			order: 0
+			hover: [
+				"La voie (si tu as cet univers)"
+			]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.75d
+			y: 9.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/writable_book.png"
+			color: 16777215
+			alpha: 255
+			order: 0
+			hover: [
+				"La lignée (histoire, ouverte à tous)"
+			]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			id: "0005B5F6E3566010"
+			title: "Le maître de Solo Leveling"
+			subtitle: "Niveau 3"
+			x: 0.0d
+			y: 0.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"solo_le_maitre_de_solo_leveling"
+			]
+			description: [
+				"Le maître de la salle Solo Leveling t'attend. Parle-lui : il"
+				"t'ouvre la lignée de son univers."
+				""
+				"Tâche : parler au maître de la salle (Go Gun-hee, le président de l'Association des chasseurs (corps générique, skin dans mes-skins))"
+				""
+				"Récompense : 42 XP, 10 Éclats"
+			]
+			tasks: [
+				{
+					id: "0003FBE521E6A915"
+					type: "custom"
+					title: "parler au maître de la salle (Go Gun-hee, le président de l'"
+				}
+			]
+			rewards: [
+				{
+					id: "000305CC57DB8DBB"
+					type: "command"
+					title: "42 XP"
+					command: "/shonenquete recompense {p} solo_le_maitre_de_solo_leveling"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "sololeveling:mana_crystal_e"
+		}
+		{
+			id: "00054412E2A31BDB"
+			title: "Guide : Solo Leveling"
+			subtitle: "Niveau 3"
+			x: 1.5d
+			y: 0.0d
+			shape: "circle"
+			size: 0.75d
+			tags: [
+				"solo_guide_solo_leveling"
+			]
+			description: [
+				"Système, classes, donjons, ombres : le monde des chasseurs"
+				"de portails. Son guide est dans le Livre de l'école :"
+				"comment progresser, où aller."
+				""
+				"Tâche : lire le guide de l'univers dans le Livre de l'école"
+				""
+				"Récompense : 42 XP"
+			]
+			tasks: [
+				{
+					id: "0000E064F1A46F47"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "000FEFD1640E90E7"
+					type: "command"
+					title: "42 XP"
+					command: "/shonenquete recompense {p} solo_guide_solo_leveling"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:book"
+			dependencies: [
+				"0005B5F6E3566010"
+			]
+		}
+		{
+			id: "000E597A21335E66"
+			title: "Examen C : Kasaka"
+			subtitle: "Niveau 15"
+			x: 0.0d
+			y: 3.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"solo_examen_c_igris"
+			]
+			description: [
+				"L'examen de rang C de la salle Solo Leveling. Si Solo"
+				"Leveling est un de tes univers, il ouvre aussi le palier C"
+				"de ses pouvoirs."
+				""
+				"Tâche : réussir l'examen C de la salle Solo Leveling"
+				""
+				"ouvre le palier C des pouvoirs de cet univers"
+				""
+				"Récompense : 155 XP, 70 Éclats"
+			]
+			tasks: [
+				{
+					id: "00033C38011F7E1F"
+					type: "custom"
+					title: "réussir l'examen C de la salle Solo Leveling"
+				}
+			]
+			rewards: [
+				{
+					id: "000B704F21E8671E"
+					type: "command"
+					title: "155 XP"
+					command: "/shonenquete recompense {p} solo_examen_c_igris"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "sololeveling:mana_crystal_e"
+		}
+		{
+			id: "00024018FC0315E7"
+			title: "Examen B : Igris"
+			subtitle: "Niveau 40"
+			x: 1.5d
+			y: 3.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"solo_examen_b_kasaka"
+			]
+			description: [
+				"L'examen de rang B de la salle Solo Leveling. Si Solo"
+				"Leveling est un de tes univers, il ouvre aussi le palier B"
+				"de ses pouvoirs."
+				""
+				"Tâche : réussir l'examen B de la salle Solo Leveling"
+				""
+				"ouvre le palier B des pouvoirs de cet univers"
+				""
+				"Récompense : 413 XP, 170 Éclats"
+			]
+			tasks: [
+				{
+					id: "000E709A7C9EBE10"
+					type: "custom"
+					title: "réussir l'examen B de la salle Solo Leveling"
+				}
+			]
+			rewards: [
+				{
+					id: "000D72E9BEFFD080"
+					type: "command"
+					title: "413 XP"
+					command: "/shonenquete recompense {p} solo_examen_b_kasaka"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "sololeveling:mana_crystal_e"
+			dependencies: [
+				"000E597A21335E66"
+			]
+		}
+		{
+			id: "000C763AB5337DCC"
+			title: "Examen A : Roi des Fourmis"
+			subtitle: "Niveau 70"
+			x: 3.0d
+			y: 3.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"solo_examen_a_roi_des_fourmis"
+			]
+			description: [
+				"L'examen de rang A de la salle Solo Leveling. Si Solo"
+				"Leveling est un de tes univers, il ouvre aussi le palier A"
+				"de ses pouvoirs."
+				""
+				"Tâche : réussir l'examen A de la salle Solo Leveling"
+				""
+				"ouvre le palier A des pouvoirs de cet univers"
+				""
+				"Récompense : 763 XP, 290 Éclats"
+			]
+			tasks: [
+				{
+					id: "000E046CF3A52C55"
+					type: "custom"
+					title: "réussir l'examen A de la salle Solo Leveling"
+				}
+			]
+			rewards: [
+				{
+					id: "000441F67D57E8DF"
+					type: "command"
+					title: "763 XP"
+					command: "/shonenquete recompense {p} solo_examen_a_roi_des_fourmis"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "sololeveling:mana_crystal_e"
+			dependencies: [
+				"00024018FC0315E7"
+			]
+		}
+		{
+			id: "0002D6BF53A13E19"
+			title: "Examen S : Baran"
+			subtitle: "Niveau 100"
+			x: 4.5d
+			y: 3.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"solo_examen_s_baran"
+			]
+			description: [
+				"L'examen de rang S de la salle Solo Leveling. Si Solo"
+				"Leveling est un de tes univers, il ouvre aussi le palier S"
+				"de ses pouvoirs."
+				""
+				"Tâche : réussir l'examen S de la salle Solo Leveling"
+				""
+				"ouvre le palier S des pouvoirs de cet univers"
+				""
+				"Récompense : 1155 XP, 410 Éclats"
+			]
+			tasks: [
+				{
+					id: "000C978ACF7FB6FD"
+					type: "custom"
+					title: "réussir l'examen S de la salle Solo Leveling"
+				}
+			]
+			rewards: [
+				{
+					id: "000E2C1DF8FB5F30"
+					type: "command"
+					title: "1155 XP"
+					command: "/shonenquete recompense {p} solo_examen_s_baran"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "sololeveling:mana_crystal_e"
+			dependencies: [
+				"000C763AB5337DCC"
+			]
+		}
+		{
+			id: "000A507A9FC3FD60"
+			title: "Examen S+ : Kamish (boss final)"
+			subtitle: "Niveau 130"
+			x: 6.0d
+			y: 3.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"solo_examen_s_plus_kamish_boss_final"
+			]
+			description: [
+				"Le boss final de la salle Solo Leveling. Tous les examens de"
+				"la salle d'abord ; ensuite, la légende."
+				""
+				"Tâche : réussir l'examen S+ de la salle Solo Leveling"
+				""
+				"boss final de la salle"
+				""
+				"Récompense : 1591 XP, 530 Éclats"
+			]
+			tasks: [
+				{
+					id: "000093FACE58635A"
+					type: "custom"
+					title: "réussir l'examen S+ de la salle Solo Leveling"
+				}
+			]
+			rewards: [
+				{
+					id: "000A18384269F8F2"
+					type: "command"
+					title: "1591 XP"
+					command: "/shonenquete recompense {p} solo_examen_s_plus_kamish_boss_final"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "sololeveling:mana_crystal_e"
+			dependencies: [
+				"0002D6BF53A13E19"
+			]
+		}
+		{
+			id: "000BF170CBE0DD99"
+			title: "La quête du jour du Système"
+			subtitle: "Niveau 1"
+			x: 0.0d
+			y: 6.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"solo_la_quete_du_jour_du_systeme"
+			]
+			description: [
+				"Le Système t'envoie sa quête du jour. Au choix : bats vingt"
+				"monstres de ta zone, termine un donjon de ton rang (son"
+				"boss) ou cours mille blocs. Récompense : 10 points de stats"
+				"à répartir (touche du Système)."
+				""
+				"Tâche : 20 monstres de ta zone, un donjon de ton rang ou 1 000 blocs"
+				""
+				"Remplace la quête du jour du mod (coupée : pas de punition si on l'oublie)."
+				""
+				"Récompense : 24 XP, 5 Éclats"
+				"Revient chaque jour."
+			]
+			tasks: [
+				{
+					id: "0001B4021A3A3C55"
+					type: "custom"
+					title: "20 monstres de ta zone, un donjon de ton rang ou 1 000 blocs"
+				}
+			]
+			rewards: [
+				{
+					id: "000D7C08A7D63A58"
+					type: "command"
+					title: "24 XP"
+					command: "/shonenquete recompense {p} solo_la_quete_du_jour_du_systeme"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:clock"
+			can_repeat: true
+			repeat_cooldown: 86400
+		}
+		{
+			id: "000BC8FA3C1D3AFF"
+			title: "Palier B de la voie : compétences de rang B de ta classe"
+			subtitle: "Niveau 40"
+			x: 1.5d
+			y: 6.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"solo_palier_b_de_la_voie_competences_de_rang_b_de_ta_"
+			]
+			description: [
+				"Ton univers grandit : compétences de rang B de ta classe."
+				"Réussis l'examen de ce rang dans cette salle pour l'ouvrir."
+				""
+				"Tâche : avoir réussi l'examen B de la salle Solo Leveling ET avoir l'univers dans sa voie"
+				""
+				"visible seulement pour ceux qui ont l'univers ; détail des formes : progression.md section 14"
+				""
+				"Récompense : 413 XP, 170 Éclats"
+			]
+			tasks: [
+				{
+					id: "0009A5AF7B0107EE"
+					type: "custom"
+					title: "avoir réussi l'examen B de la salle Solo Leveling ET avoir l"
+				}
+			]
+			rewards: [
+				{
+					id: "000099A5A706F5DE"
+					type: "command"
+					title: "413 XP"
+					command: "/shonenquete recompense {p} solo_palier_b_de_la_voie_competences_de_rang_b_de_ta_"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "sololeveling:mana_crystal_e"
+		}
+		{
+			id: "000CF6E527ABFB5A"
+			title: "Palier A de la voie : compétences de rang A et changement de métier"
+			subtitle: "Niveau 70"
+			x: 3.0d
+			y: 6.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"solo_palier_a_de_la_voie_competences_de_rang_a_et_cha"
+			]
+			description: [
+				"Ton univers grandit : compétences de rang A et changement de"
+				"métier. Réussis l'examen de ce rang dans cette salle pour"
+				"l'ouvrir."
+				""
+				"Tâche : avoir réussi l'examen A de la salle Solo Leveling ET avoir l'univers dans sa voie"
+				""
+				"visible seulement pour ceux qui ont l'univers ; détail des formes : progression.md section 14"
+				""
+				"Récompense : 763 XP, 290 Éclats"
+			]
+			tasks: [
+				{
+					id: "0005C5C7C532183C"
+					type: "custom"
+					title: "avoir réussi l'examen A de la salle Solo Leveling ET avoir l"
+				}
+			]
+			rewards: [
+				{
+					id: "000D294735A3D793"
+					type: "command"
+					title: "763 XP"
+					command: "/shonenquete recompense {p} solo_palier_a_de_la_voie_competences_de_rang_a_et_cha"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "sololeveling:mana_crystal_e"
+			dependencies: [
+				"000BC8FA3C1D3AFF"
+			]
+		}
+		{
+			id: "000E1BBC49B4BD71"
+			title: "Palier S de la voie : rang S : le sommet de ta classe"
+			subtitle: "Niveau 100"
+			x: 4.5d
+			y: 6.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"solo_palier_s_de_la_voie_rang_s_le_sommet_de_ta_class"
+			]
+			description: [
+				"Ton univers grandit : rang S : le sommet de ta classe."
+				"Réussis l'examen de ce rang dans cette salle pour l'ouvrir."
+				""
+				"Tâche : avoir réussi l'examen S de la salle Solo Leveling ET avoir l'univers dans sa voie"
+				""
+				"visible seulement pour ceux qui ont l'univers ; détail des formes : progression.md section 14"
+				""
+				"Récompense : 1155 XP, 410 Éclats"
+			]
+			tasks: [
+				{
+					id: "000F655D083F49E7"
+					type: "custom"
+					title: "avoir réussi l'examen S de la salle Solo Leveling ET avoir l"
+				}
+			]
+			rewards: [
+				{
+					id: "000150CD1C5A0F3D"
+					type: "command"
+					title: "1155 XP"
+					command: "/shonenquete recompense {p} solo_palier_s_de_la_voie_rang_s_le_sommet_de_ta_class"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "sololeveling:mana_crystal_e"
+			dependencies: [
+				"000CF6E527ABFB5A"
+			]
+		}
+		{
+			id: "00094872DC1046CD"
+			title: "Zone 1 — Trouver le portail de rang E"
+			subtitle: "Niveau 4"
+			x: 0.0d
+			y: 9.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"solo_zone_1_trouver_le_portail_de_rang_e"
+			]
+			description: [
+				"Un portail de rang E au pied d'un rocher, gardé par la"
+				"police : un donjon gobelin. Trouve le lieu."
+				""
+				"Tâche : tâche d'emplacement (lieu posé à la création du monde ; la Boussole de lignée y mène)"
+				""
+				"Récompense : 51 XP, 15 Éclats"
+			]
+			tasks: [
+				{
+					id: "00090792C017C377"
+					type: "custom"
+					title: "tâche d'emplacement (lieu posé à la création du monde ; la B"
+				}
+			]
+			rewards: [
+				{
+					id: "000E217F9C2E3743"
+					type: "command"
+					title: "51 XP"
+					command: "/shonenquete recompense {p} solo_zone_1_trouver_le_portail_de_rang_e"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "sololeveling:mana_crystal_e"
+		}
+		{
+			id: "00031B969C36409F"
+			title: "Zone 1 — Les sbires"
+			subtitle: "Niveau 6"
+			x: 0.0d
+			y: 11.25d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"solo_zone_1_les_sbires"
+			]
+			description: [
+				"Les gobelins du donjon."
+				""
+				"Tâche : tuer 15 gobelins (goblin_club, goblin_archer)"
+				""
+				"Récompense : 70 XP, 15 Éclats"
+			]
+			tasks: [
+				{
+					id: "000AB836F854F8E3"
+					type: "custom"
+					title: "tuer 15 gobelins (goblin_club, goblin_archer)"
+				}
+			]
+			rewards: [
+				{
+					id: "00048E25A4CCB8E6"
+					type: "command"
+					title: "70 XP"
+					command: "/shonenquete recompense {p} solo_zone_1_les_sbires"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "sololeveling:mana_crystal_e"
+			dependencies: [
+				"00094872DC1046CD"
+			]
+		}
+		{
+			id: "00013056D55ECA3B"
+			title: "Zone 1 — Nettoyer le terrain"
+			subtitle: "Niveau 9"
+			x: 0.0d
+			y: 13.5d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"solo_zone_1_nettoyer_le_terrain"
+			]
+			description: [
+				"Le donjon se remplit encore."
+				""
+				"Tâche : tuer 30 gobelins (goblin_club, goblin_archer) de plus"
+				""
+				"Récompense : 98 XP, 25 Éclats"
+			]
+			tasks: [
+				{
+					id: "000C4B65135999F2"
+					type: "custom"
+					title: "tuer 30 gobelins (goblin_club, goblin_archer) de plus"
+				}
+			]
+			rewards: [
+				{
+					id: "000D7228E6626337"
+					type: "command"
+					title: "98 XP"
+					command: "/shonenquete recompense {p} solo_zone_1_nettoyer_le_terrain"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "sololeveling:mana_crystal_e"
+			dependencies: [
+				"00031B969C36409F"
+			]
+		}
+		{
+			id: "000C066B751F8F38"
+			title: "Zone 1 — Roi gobelin"
+			subtitle: "Niveau 15"
+			x: 0.0d
+			y: 15.75d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"solo_zone_1_roi_gobelin"
+			]
+			description: [
+				"Le Roi gobelin."
+				""
+				"Tâche : vaincre Roi gobelin (coché par histoire.js pour les participants)"
+				""
+				"Récompense : 155 XP, 70 Éclats"
+			]
+			tasks: [
+				{
+					id: "000BE488CA282A81"
+					type: "custom"
+					title: "vaincre Roi gobelin (coché par histoire.js pour les particip"
+				}
+			]
+			rewards: [
+				{
+					id: "0004D534F9D6AA53"
+					type: "command"
+					title: "155 XP"
+					command: "/shonenquete recompense {p} solo_zone_1_roi_gobelin"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "sololeveling:instance_dungeon_key"
+			dependencies: [
+				"00013056D55ECA3B"
+			]
+		}
+		{
+			id: "0008B7C05C97D325"
+			title: "Zone 2 — Trouver la mine abandonnée"
+			subtitle: "Niveau 20"
+			x: 3.5d
+			y: 9.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"solo_zone_2_trouver_la_mine_abandonnee"
+			]
+			description: [
+				"Une mine abandonnée dont les galeries mènent à un donjon."
+				"Trouve le lieu."
+				""
+				"Tâche : tâche d'emplacement (lieu posé à la création du monde ; la Boussole de lignée y mène)"
+				""
+				"Récompense : 205 XP, 45 Éclats"
+			]
+			tasks: [
+				{
+					id: "0008A7F6D1E292C1"
+					type: "custom"
+					title: "tâche d'emplacement (lieu posé à la création du monde ; la B"
+				}
+			]
+			rewards: [
+				{
+					id: "000058310E1102E6"
+					type: "command"
+					title: "205 XP"
+					command: "/shonenquete recompense {p} solo_zone_2_trouver_la_mine_abandonnee"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "sololeveling:mana_crystal_e"
+			dependencies: [
+				"000C066B751F8F38"
+			]
+		}
+		{
+			id: "000E2DE6C5E012C5"
+			title: "Zone 2 — Les sbires"
+			subtitle: "Niveau 25"
+			x: 3.5d
+			y: 11.25d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"solo_zone_2_les_sbires"
+			]
+			description: [
+				"Gobelins et serpents."
+				""
+				"Tâche : tuer 15 gobelins et serpents"
+				""
+				"Récompense : 255 XP, 55 Éclats"
+			]
+			tasks: [
+				{
+					id: "000A1D1924F9D4BE"
+					type: "custom"
+					title: "tuer 15 gobelins et serpents"
+				}
+			]
+			rewards: [
+				{
+					id: "000DCC567B49B01D"
+					type: "command"
+					title: "255 XP"
+					command: "/shonenquete recompense {p} solo_zone_2_les_sbires"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "sololeveling:mana_crystal_e"
+			dependencies: [
+				"0008B7C05C97D325"
+			]
+		}
+		{
+			id: "000F5D25CB6780AE"
+			title: "Zone 2 — Nettoyer le terrain"
+			subtitle: "Niveau 30"
+			x: 3.5d
+			y: 13.5d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"solo_zone_2_nettoyer_le_terrain"
+			]
+			description: [
+				"Continue."
+				""
+				"Tâche : tuer 30 gobelins et serpents de plus"
+				""
+				"Récompense : 307 XP, 65 Éclats"
+			]
+			tasks: [
+				{
+					id: "000D0E82367977FF"
+					type: "custom"
+					title: "tuer 30 gobelins et serpents de plus"
+				}
+			]
+			rewards: [
+				{
+					id: "0006B1127E1678FC"
+					type: "command"
+					title: "307 XP"
+					command: "/shonenquete recompense {p} solo_zone_2_nettoyer_le_terrain"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "sololeveling:mana_crystal_e"
+			dependencies: [
+				"000E2DE6C5E012C5"
+			]
+		}
+		{
+			id: "000965C4D5ED4290"
+			title: "Zone 2 — Kasaka"
+			subtitle: "Niveau 40"
+			x: 3.5d
+			y: 15.75d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"solo_zone_2_kasaka"
+			]
+			description: [
+				"Kasaka, le serpent du donjon."
+				""
+				"Tâche : vaincre Kasaka (coché par histoire.js pour les participants)"
+				""
+				"Récompense : 413 XP, 170 Éclats"
+			]
+			tasks: [
+				{
+					id: "000059167CB16C79"
+					type: "custom"
+					title: "vaincre Kasaka (coché par histoire.js pour les participants)"
+				}
+			]
+			rewards: [
+				{
+					id: "0009F65C33EA949D"
+					type: "command"
+					title: "413 XP"
+					command: "/shonenquete recompense {p} solo_zone_2_kasaka"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "sololeveling:instance_dungeon_key"
+			dependencies: [
+				"000F5D25CB6780AE"
+			]
+		}
+		{
+			id: "0001F94EC3BC82E8"
+			title: "Zone 3 — Trouver le château sur la colline"
+			subtitle: "Niveau 48"
+			x: 7.0d
+			y: 9.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"solo_zone_3_trouver_le_chateau_sur_la_colline"
+			]
+			description: [
+				"Un petit château de pierre noire sur la colline, et un trône"
+				"vide. Trouve le lieu."
+				""
+				"Tâche : tâche d'emplacement (lieu posé à la création du monde ; la Boussole de lignée y mène)"
+				""
+				"Récompense : 502 XP, 100 Éclats"
+			]
+			tasks: [
+				{
+					id: "0009E8A0FEA6FB86"
+					type: "custom"
+					title: "tâche d'emplacement (lieu posé à la création du monde ; la B"
+				}
+			]
+			rewards: [
+				{
+					id: "000E5DB618E80230"
+					type: "command"
+					title: "502 XP"
+					command: "/shonenquete recompense {p} solo_zone_3_trouver_le_chateau_sur_la_colline"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "sololeveling:mana_crystal_e"
+			dependencies: [
+				"000965C4D5ED4290"
+			]
+		}
+		{
+			id: "0001E5FDF52486CA"
+			title: "Zone 3 — Les sbires"
+			subtitle: "Niveau 53"
+			x: 7.0d
+			y: 11.25d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"solo_zone_3_les_sbires"
+			]
+			description: [
+				"Les chevaliers morts-vivants."
+				""
+				"Tâche : tuer 15 orcs (orc, green_orc)"
+				""
+				"Récompense : 560 XP, 110 Éclats"
+			]
+			tasks: [
+				{
+					id: "00014148FAA72E23"
+					type: "custom"
+					title: "tuer 15 orcs (orc, green_orc)"
+				}
+			]
+			rewards: [
+				{
+					id: "000A658CC7FE64F8"
+					type: "command"
+					title: "560 XP"
+					command: "/shonenquete recompense {p} solo_zone_3_les_sbires"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "sololeveling:mana_crystal_e"
+			dependencies: [
+				"0001F94EC3BC82E8"
+			]
+		}
+		{
+			id: "000C7F7B1252A73A"
+			title: "Zone 3 — Nettoyer le terrain"
+			subtitle: "Niveau 59"
+			x: 7.0d
+			y: 13.5d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"solo_zone_3_nettoyer_le_terrain"
+			]
+			description: [
+				"Ils se relèvent."
+				""
+				"Tâche : tuer 30 orcs (orc, green_orc) de plus"
+				""
+				"Récompense : 629 XP, 125 Éclats"
+			]
+			tasks: [
+				{
+					id: "000772A7F6046C81"
+					type: "custom"
+					title: "tuer 30 orcs (orc, green_orc) de plus"
+				}
+			]
+			rewards: [
+				{
+					id: "000AD66949F3DD7B"
+					type: "command"
+					title: "629 XP"
+					command: "/shonenquete recompense {p} solo_zone_3_nettoyer_le_terrain"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "sololeveling:mana_crystal_e"
+			dependencies: [
+				"0001E5FDF52486CA"
+			]
+		}
+		{
+			id: "000388315A1EFC42"
+			title: "Zone 3 — Igris"
+			subtitle: "Niveau 70"
+			x: 7.0d
+			y: 15.75d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"solo_zone_3_igris"
+			]
+			description: [
+				"Igris le Rouge Sang."
+				""
+				"Tâche : vaincre Igris (histoire_igris) (coché par histoire.js pour les participants)"
+				""
+				"Récompense : 763 XP, 290 Éclats"
+			]
+			tasks: [
+				{
+					id: "000E5D7A2D17502F"
+					type: "custom"
+					title: "vaincre Igris (histoire_igris) (coché par histoire.js pour l"
+				}
+			]
+			rewards: [
+				{
+					id: "000EEDF107A05136"
+					type: "command"
+					title: "763 XP"
+					command: "/shonenquete recompense {p} solo_zone_3_igris"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "sololeveling:instance_dungeon_key"
+			dependencies: [
+				"000C7F7B1252A73A"
+			]
+		}
+		{
+			id: "0004427CCF7F941B"
+			title: "Zone 4 — Trouver la fourmilière"
+			subtitle: "Niveau 78"
+			x: 10.5d
+			y: 9.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"solo_zone_4_trouver_la_fourmiliere"
+			]
+			description: [
+				"Un dôme de terre géant : la fourmilière, et ses tunnels vers"
+				"le nid. Trouve le lieu."
+				""
+				"Tâche : tâche d'emplacement (lieu posé à la création du monde ; la Boussole de lignée y mène)"
+				""
+				"Récompense : 863 XP, 160 Éclats"
+			]
+			tasks: [
+				{
+					id: "000A1523947B48C5"
+					type: "custom"
+					title: "tâche d'emplacement (lieu posé à la création du monde ; la B"
+				}
+			]
+			rewards: [
+				{
+					id: "0003197346BDB03E"
+					type: "command"
+					title: "863 XP"
+					command: "/shonenquete recompense {p} solo_zone_4_trouver_la_fourmiliere"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "sololeveling:mana_crystal_e"
+			dependencies: [
+				"000388315A1EFC42"
+			]
+		}
+		{
+			id: "000AC1651737E318"
+			title: "Zone 4 — Les sbires"
+			subtitle: "Niveau 83"
+			x: 10.5d
+			y: 11.25d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"solo_zone_4_les_sbires"
+			]
+			description: [
+				"Les fourmis du nid."
+				""
+				"Tâche : tuer 15 fourmis du nid"
+				""
+				"Récompense : 927 XP, 170 Éclats"
+			]
+			tasks: [
+				{
+					id: "00029DF2B348E0DC"
+					type: "custom"
+					title: "tuer 15 fourmis du nid"
+				}
+			]
+			rewards: [
+				{
+					id: "0002B5699D51E0CE"
+					type: "command"
+					title: "927 XP"
+					command: "/shonenquete recompense {p} solo_zone_4_les_sbires"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "sololeveling:mana_crystal_e"
+			dependencies: [
+				"0004427CCF7F941B"
+			]
+		}
+		{
+			id: "000AE7DC6EFFA2DD"
+			title: "Zone 4 — Nettoyer le terrain"
+			subtitle: "Niveau 89"
+			x: 10.5d
+			y: 13.5d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"solo_zone_4_nettoyer_le_terrain"
+			]
+			description: [
+				"Le nid n'en finit pas."
+				""
+				"Tâche : tuer 30 fourmis du nid de plus"
+				""
+				"Récompense : 1006 XP, 185 Éclats"
+			]
+			tasks: [
+				{
+					id: "00034BBAC0F638E7"
+					type: "custom"
+					title: "tuer 30 fourmis du nid de plus"
+				}
+			]
+			rewards: [
+				{
+					id: "0000F27B0F804E98"
+					type: "command"
+					title: "1006 XP"
+					command: "/shonenquete recompense {p} solo_zone_4_nettoyer_le_terrain"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "sololeveling:mana_crystal_e"
+			dependencies: [
+				"000AC1651737E318"
+			]
+		}
+		{
+			id: "0001C7A8A5300219"
+			title: "Zone 4 — Roi des Fourmis"
+			subtitle: "Niveau 100"
+			x: 10.5d
+			y: 15.75d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"solo_zone_4_roi_des_fourmis"
+			]
+			description: [
+				"Le Roi des Fourmis. Il se régénère entièrement."
+				""
+				"Tâche : vaincre Roi des Fourmis (histoire_roi_fourmis) (coché par histoire.js pour les participants)"
+				""
+				"Récompense : 1155 XP, 410 Éclats"
+			]
+			tasks: [
+				{
+					id: "000B8D8993844004"
+					type: "custom"
+					title: "vaincre Roi des Fourmis (histoire_roi_fourmis) (coché par hi"
+				}
+			]
+			rewards: [
+				{
+					id: "000968C0AE971D94"
+					type: "command"
+					title: "1155 XP"
+					command: "/shonenquete recompense {p} solo_zone_4_roi_des_fourmis"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "sololeveling:instance_dungeon_key"
+			dependencies: [
+				"000AE7DC6EFFA2DD"
+			]
+		}
+		{
+			id: "0002EF9BAD6D2EB7"
+			title: "Zone 5 — Trouver la tour des démons"
+			subtitle: "Niveau 108"
+			x: 14.0d
+			y: 9.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"solo_zone_5_trouver_la_tour_des_demons"
+			]
+			description: [
+				"Une tour noire à étages, portes rouges : la tour des démons."
+				"Trouve le lieu."
+				""
+				"Tâche : tâche d'emplacement (lieu posé à la création du monde ; la Boussole de lignée y mène)"
+				""
+				"Récompense : 1267 XP, 220 Éclats"
+			]
+			tasks: [
+				{
+					id: "0003D40705C7BCCA"
+					type: "custom"
+					title: "tâche d'emplacement (lieu posé à la création du monde ; la B"
+				}
+			]
+			rewards: [
+				{
+					id: "000FCD2D58FDBE86"
+					type: "command"
+					title: "1267 XP"
+					command: "/shonenquete recompense {p} solo_zone_5_trouver_la_tour_des_demons"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "sololeveling:mana_crystal_e"
+			dependencies: [
+				"0001C7A8A5300219"
+			]
+		}
+		{
+			id: "0009B55A0833A372"
+			title: "Zone 5 — Les sbires"
+			subtitle: "Niveau 113"
+			x: 14.0d
+			y: 11.25d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"solo_zone_5_les_sbires"
+			]
+			description: [
+				"Les chevaliers démons."
+				""
+				"Tâche : tuer 15 démons et grands orcs (demon, high_orc)"
+				""
+				"Récompense : 1339 XP, 230 Éclats"
+			]
+			tasks: [
+				{
+					id: "000D313732B8A2CD"
+					type: "custom"
+					title: "tuer 15 démons et grands orcs (demon, high_orc)"
+				}
+			]
+			rewards: [
+				{
+					id: "0009B5F065756F9C"
+					type: "command"
+					title: "1339 XP"
+					command: "/shonenquete recompense {p} solo_zone_5_les_sbires"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "sololeveling:mana_crystal_e"
+			dependencies: [
+				"0002EF9BAD6D2EB7"
+			]
+		}
+		{
+			id: "000812EE543F232E"
+			title: "Zone 5 — Nettoyer le terrain"
+			subtitle: "Niveau 119"
+			x: 14.0d
+			y: 13.5d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"solo_zone_5_nettoyer_le_terrain"
+			]
+			description: [
+				"Les étages continuent."
+				""
+				"Tâche : tuer 30 démons et grands orcs (demon, high_orc) de plus"
+				""
+				"Récompense : 1426 XP, 245 Éclats"
+			]
+			tasks: [
+				{
+					id: "000B68ACDF3634AE"
+					type: "custom"
+					title: "tuer 30 démons et grands orcs (demon, high_orc) de plus"
+				}
+			]
+			rewards: [
+				{
+					id: "0001B54EEA6BC365"
+					type: "command"
+					title: "1426 XP"
+					command: "/shonenquete recompense {p} solo_zone_5_nettoyer_le_terrain"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "sololeveling:mana_crystal_e"
+			dependencies: [
+				"0009B55A0833A372"
+			]
+		}
+		{
+			id: "000310D9795924CA"
+			title: "Zone 5 — Le lieutenant : Baran"
+			subtitle: "Niveau 124"
+			x: 14.0d
+			y: 15.75d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"solo_zone_5_le_lieutenant_baran"
+			]
+			description: [
+				"Baran, le Roi des démons."
+				""
+				"Tâche : vaincre Baran"
+				""
+				"Récompense : 1500 XP, 510 Éclats"
+			]
+			tasks: [
+				{
+					id: "00034D0C7D92B087"
+					type: "custom"
+					title: "vaincre Baran"
+				}
+			]
+			rewards: [
+				{
+					id: "000EEC2FDF51EC51"
+					type: "command"
+					title: "1500 XP"
+					command: "/shonenquete recompense {p} solo_zone_5_le_lieutenant_baran"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "sololeveling:instance_dungeon_key"
+			dependencies: [
+				"000812EE543F232E"
+			]
+		}
+		{
+			id: "00049D9A657A1C11"
+			title: "Zone 5 — Kamish, l'Ancre"
+			subtitle: "Niveau 130"
+			x: 14.0d
+			y: 18.0d
+			shape: "star"
+			size: 1.5d
+			tags: [
+				"solo_zone_5_kamish_l_ancre"
+			]
+			description: [
+				"Kamish, le dragon. L'Ancre de Solo Leveling."
+				""
+				"Tâche : vaincre Kamish, l'Ancre (coché par histoire.js pour les participants)"
+				""
+				"Récompense : 1591 XP, 530 Éclats"
+			]
+			tasks: [
+				{
+					id: "00069E205C5A5170"
+					type: "custom"
+					title: "vaincre Kamish, l'Ancre (coché par histoire.js pour les part"
+				}
+			]
+			rewards: [
+				{
+					id: "000F2F4D0A04A3BC"
+					type: "command"
+					title: "1591 XP"
+					command: "/shonenquete recompense {p} solo_zone_5_kamish_l_ancre"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "sololeveling:instance_dungeon_key"
+			dependencies: [
+				"000310D9795924CA"
+			]
+		}
+	]
+	quest_links: [ ]
+}

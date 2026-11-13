@@ -1,0 +1,4600 @@
+{
+ "version": 1,
+ "arbres": [
+  {
+   "id": "chasseur",
+   "image": "chasseur",
+   "titre": "Chasseur",
+   "principale": "b",
+   "racine": {
+    "id": "racine",
+    "titre": "Chasseur éveillé",
+    "effet": "+3,2 PV max",
+    "cout": 1,
+    "x": 0.2441,
+    "y": 0.5
+   },
+   "comps": [
+    {
+     "id": "a",
+     "titre": "Endurance",
+     "court": "Endurance",
+     "exclut": null,
+     "etoiles": [
+      {
+       "titre": "Cœur robuste",
+       "x": 0.3107,
+       "y": 0.5707,
+       "rangs": [
+        {
+         "id": "a1",
+         "effet": "+3,2 PV max",
+         "cout": 1,
+         "min": 0
+        },
+        {
+         "id": "a2",
+         "effet": "+3,2 PV max",
+         "cout": 1,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Peau tannée",
+       "x": 0.3722,
+       "y": 0.626,
+       "rangs": [
+        {
+         "id": "a3",
+         "effet": "+0,5 armure",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "a4",
+         "effet": "+0,5 armure",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Second souffle",
+       "x": 0.4336,
+       "y": 0.6635,
+       "rangs": [
+        {
+         "id": "a5",
+         "effet": "+0,3 endurance (faim)",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "a6",
+         "effet": "+0,3 endurance (faim)",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Corps d'acier",
+       "x": 0.4951,
+       "y": 0.678,
+       "rangs": [
+        {
+         "id": "a7",
+         "effet": "+3,2 PV max",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "a8",
+         "effet": "+3,2 PV max",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Pied ferme",
+       "x": 0.5565,
+       "y": 0.6676,
+       "rangs": [
+        {
+         "id": "a9",
+         "effet": "+5 % résistance au recul",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "a10",
+         "effet": "+5 % résistance au recul",
+         "cout": 3,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Récupération",
+       "x": 0.618,
+       "y": 0.6336,
+       "rangs": [
+        {
+         "id": "a11",
+         "effet": "+8 % régénération naturelle",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "a12",
+         "effet": "+8 % régénération naturelle",
+         "cout": 3,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Titan d'endurance",
+       "x": 0.6794,
+       "y": 0.5809,
+       "rangs": [
+        {
+         "id": "a13",
+         "effet": "+4,8 PV max, +0,5 robustesse",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "a14",
+         "effet": "+4,8 PV max, +0,5 robustesse",
+         "cout": 4,
+         "min": 0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "titre": "Combat",
+     "court": "Combat",
+     "exclut": null,
+     "etoiles": [
+      {
+       "titre": "Poing aguerri",
+       "x": 0.3332,
+       "y": 0.5,
+       "rangs": [
+        {
+         "id": "b1",
+         "effet": "+0,3 dégâts d'attaque",
+         "cout": 1,
+         "min": 0
+        },
+        {
+         "id": "b2",
+         "effet": "+0,3 dégâts d'attaque",
+         "cout": 1,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Frappe précise",
+       "x": 0.4111,
+       "y": 0.5,
+       "rangs": [
+        {
+         "id": "b3",
+         "effet": "+1 % dégâts de mêlée",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "b4",
+         "effet": "+1 % dégâts de mêlée",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Réflexes de combat",
+       "x": 0.4891,
+       "y": 0.5,
+       "rangs": [
+        {
+         "id": "b5",
+         "effet": "+0,1 vitesse d'attaque",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "b6",
+         "effet": "+0,1 vitesse d'attaque",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Coup au but",
+       "x": 0.567,
+       "y": 0.5,
+       "rangs": [
+        {
+         "id": "b7",
+         "effet": "+2 % chance de coup critique",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "b8",
+         "effet": "+2 % chance de coup critique",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Garde de fer",
+       "x": 0.6449,
+       "y": 0.5,
+       "rangs": [
+        {
+         "id": "b9",
+         "effet": "+0,5 armure, +1 % réduction des dégâts subis",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "b10",
+         "effet": "+0,5 armure, +1 % réduction des dégâts subis",
+         "cout": 3,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Furie du Chasseur",
+       "x": 0.7229,
+       "y": 0.5,
+       "rangs": [
+        {
+         "id": "b11",
+         "effet": "+2 % dégâts de mêlée, +5 % dégâts critiques",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "b12",
+         "effet": "+2 % dégâts de mêlée, +5 % dégâts critiques",
+         "cout": 3,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Maître de guerre",
+       "x": 0.8008,
+       "y": 0.5,
+       "rangs": [
+        {
+         "id": "b13",
+         "effet": "+0,5 dégâts d'attaque, +2 % dégâts de mêlée, +0,02 vol de vie",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "b14",
+         "effet": "+0,5 dégâts d'attaque, +2 % dégâts de mêlée, +0,02 vol de vie",
+         "cout": 4,
+         "min": 0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "titre": "Exploration",
+     "court": "Exploration",
+     "exclut": null,
+     "etoiles": [
+      {
+       "titre": "Pas léger",
+       "x": 0.3107,
+       "y": 0.4293,
+       "rangs": [
+        {
+         "id": "c1",
+         "effet": "+3 % vitesse de déplacement",
+         "cout": 1,
+         "min": 0
+        },
+        {
+         "id": "c2",
+         "effet": "+3 % vitesse de déplacement",
+         "cout": 1,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Mineur acharné",
+       "x": 0.3845,
+       "y": 0.3649,
+       "rangs": [
+        {
+         "id": "c3",
+         "effet": "+5 % vitesse de minage (bon outil)",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "c4",
+         "effet": "+5 % vitesse de minage (bon outil)",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Chute amortie",
+       "x": 0.4582,
+       "y": 0.3278,
+       "rangs": [
+        {
+         "id": "c5",
+         "effet": "+1,5 blocs de chute annulés",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "c6",
+         "effet": "+1,5 blocs de chute annulés",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Sprinteur",
+       "x": 0.5319,
+       "y": 0.3252,
+       "rangs": [
+        {
+         "id": "c7",
+         "effet": "+4 % vitesse de sprint",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "c8",
+         "effet": "+4 % vitesse de sprint",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Bras long",
+       "x": 0.6057,
+       "y": 0.3579,
+       "rangs": [
+        {
+         "id": "c9",
+         "effet": "+0,5 portée de bloc, +0,3 portée d'attaque",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "c10",
+         "effet": "+0,5 portée de bloc, +0,3 portée d'attaque",
+         "cout": 3,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Favori du destin",
+       "x": 0.6794,
+       "y": 0.4191,
+       "rangs": [
+        {
+         "id": "c11",
+         "effet": "+0,5 chance, +0,1 fortune",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "c12",
+         "effet": "+0,5 chance, +0,1 fortune",
+         "cout": 4,
+         "min": 0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "d",
+     "titre": "Survivant",
+     "court": "Survivant",
+     "exclut": null,
+     "etoiles": [
+      {
+       "titre": "Instinct de survie",
+       "x": 0.3107,
+       "y": 0.6371,
+       "rangs": [
+        {
+         "id": "d1",
+         "effet": "+5 % régénération naturelle",
+         "cout": 1,
+         "min": 0
+        },
+        {
+         "id": "d2",
+         "effet": "+5 % régénération naturelle",
+         "cout": 1,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Pansements",
+       "x": 0.4029,
+       "y": 0.7854,
+       "rangs": [
+        {
+         "id": "d3",
+         "effet": "+5 % soins reçus",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "d4",
+         "effet": "+5 % soins reçus",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Estomac de fer",
+       "x": 0.4951,
+       "y": 0.8449,
+       "rangs": [
+        {
+         "id": "d5",
+         "effet": "+10 % vitesse de consommation",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "d6",
+         "effet": "+10 % vitesse de consommation",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Dernier souffle",
+       "x": 0.5873,
+       "y": 0.7971,
+       "rangs": [
+        {
+         "id": "d7",
+         "effet": "+1 % réduction des dégâts subis",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "d8",
+         "effet": "+1 % réduction des dégâts subis",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Increvable",
+       "x": 0.6794,
+       "y": 0.6567,
+       "rangs": [
+        {
+         "id": "d9",
+         "effet": "+3,2 PV max, +0,5 robustesse",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "d10",
+         "effet": "+3,2 PV max, +0,5 robustesse",
+         "cout": 4,
+         "min": 0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e",
+     "titre": "Fortuné",
+     "court": "Fortuné",
+     "exclut": null,
+     "etoiles": [
+      {
+       "titre": "Œil du chercheur",
+       "x": 0.3107,
+       "y": 0.3629,
+       "rangs": [
+        {
+         "id": "e1",
+         "effet": "+0,5 chance",
+         "cout": 1,
+         "min": 0
+        },
+        {
+         "id": "e2",
+         "effet": "+0,5 chance",
+         "cout": 1,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Prospecteur",
+       "x": 0.4029,
+       "y": 0.2146,
+       "rangs": [
+        {
+         "id": "e3",
+         "effet": "+0,1 fortune",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "e4",
+         "effet": "+0,1 fortune",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Élève assidu",
+       "x": 0.4951,
+       "y": 0.1551,
+       "rangs": [
+        {
+         "id": "e5",
+         "effet": "+3 % expérience gagnée",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "e6",
+         "effet": "+3 % expérience gagnée",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Pillard",
+       "x": 0.5873,
+       "y": 0.2029,
+       "rangs": [
+        {
+         "id": "e7",
+         "effet": "+5 % vitesse de minage (bon outil), +5 % vitesse de cassage",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "e8",
+         "effet": "+5 % vitesse de minage (bon outil), +5 % vitesse de cassage",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Né sous une bonne étoile",
+       "x": 0.6794,
+       "y": 0.3433,
+       "rangs": [
+        {
+         "id": "e9",
+         "effet": "+0,5 chance, +3 % expérience gagnée",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "e10",
+         "effet": "+0,5 chance, +3 % expérience gagnée",
+         "cout": 4,
+         "min": 0
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "univers_onepiece",
+   "image": "onepiece",
+   "titre": "One Piece",
+   "principale": "a",
+   "racine": {
+    "id": "racine",
+    "titre": "Esprit pirate",
+    "effet": "+2,5 PV max, +0,5 chance",
+    "cout": 1,
+    "x": 0.5,
+    "y": 0.7812
+   },
+   "comps": [
+    {
+     "id": "a",
+     "titre": "Fruit du démon",
+     "court": "Fruit du démon",
+     "exclut": null,
+     "etoiles": [
+      {
+       "titre": "Fruit apprivoisé",
+       "x": 0.5,
+       "y": 0.6828,
+       "rangs": [
+        {
+         "id": "a1",
+         "effet": "+1 % dégâts magiques",
+         "cout": 1,
+         "min": 0
+        },
+        {
+         "id": "a2",
+         "effet": "+1 % dégâts magiques",
+         "cout": 1,
+         "min": 0
+        },
+        {
+         "id": "a3",
+         "effet": "+1 % dégâts magiques",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "a4",
+         "effet": "+1 % dégâts magiques",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Endurance du fruit",
+       "x": 0.5,
+       "y": 0.5795,
+       "rangs": [
+        {
+         "id": "a5",
+         "effet": "+0,6 PV max, +1 % dégâts magiques",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "a6",
+         "effet": "+0,6 PV max, +1 % dégâts magiques",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "a7",
+         "effet": "+0,6 PV max, +1 % dégâts magiques",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "a8",
+         "effet": "+0,6 PV max, +1 % dégâts magiques",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Pouvoir étendu",
+       "x": 0.5,
+       "y": 0.4761,
+       "rangs": [
+        {
+         "id": "a9",
+         "effet": "+1 % dégâts magiques, +0,1 portée d'attaque",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "a10",
+         "effet": "+1 % dégâts magiques, +0,1 portée d'attaque",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "a11",
+         "effet": "+1 % dégâts magiques, +0,1 portée d'attaque",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "a12",
+         "effet": "+1 % dégâts magiques, +0,1 portée d'attaque",
+         "cout": 3,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Maîtrise du fruit",
+       "x": 0.5,
+       "y": 0.3727,
+       "rangs": [
+        {
+         "id": "a13",
+         "effet": "+1 % dégâts magiques, +1 % chance de coup critique",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "a14",
+         "effet": "+1 % dégâts magiques, +1 % chance de coup critique",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "a15",
+         "effet": "+1 % dégâts magiques, +1 % chance de coup critique",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "a16",
+         "effet": "+1 % dégâts magiques, +1 % chance de coup critique",
+         "cout": 3,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Fruit indomptable",
+       "x": 0.5,
+       "y": 0.2694,
+       "rangs": [
+        {
+         "id": "a17",
+         "effet": "+1 % dégâts magiques, +1 % réduction des dégâts subis",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "a18",
+         "effet": "+1 % dégâts magiques, +1 % réduction des dégâts subis",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "a19",
+         "effet": "+1 % dégâts magiques, +1 % réduction des dégâts subis",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "a20",
+         "effet": "+1 % dégâts magiques, +1 % réduction des dégâts subis",
+         "cout": 4,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Éveil du fruit",
+       "x": 0.5,
+       "y": 0.166,
+       "rangs": [
+        {
+         "id": "a21",
+         "effet": "+2 % dégâts magiques, +1,3 PV max",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "a22",
+         "effet": "+2 % dégâts magiques, +1,3 PV max",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "a23",
+         "effet": "+2 % dégâts magiques, +1,3 PV max",
+         "cout": 5,
+         "min": 0
+        },
+        {
+         "id": "a24",
+         "effet": "+2 % dégâts magiques, +1,3 PV max",
+         "cout": 5,
+         "min": 0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "titre": "Style de combat",
+     "court": "Style de combat",
+     "exclut": null,
+     "etoiles": [
+      {
+       "titre": "Lame ou poing",
+       "x": 0.6026,
+       "y": 0.7077,
+       "rangs": [
+        {
+         "id": "b1",
+         "effet": "+1 % dégâts de mêlée",
+         "cout": 1,
+         "min": 0
+        },
+        {
+         "id": "b2",
+         "effet": "+1 % dégâts de mêlée",
+         "cout": 1,
+         "min": 0
+        },
+        {
+         "id": "b3",
+         "effet": "+1 % dégâts de mêlée",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "b4",
+         "effet": "+1 % dégâts de mêlée",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Coup sec",
+       "x": 0.696,
+       "y": 0.6262,
+       "rangs": [
+        {
+         "id": "b5",
+         "effet": "+0,1 vitesse d'attaque",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "b6",
+         "effet": "+0,1 vitesse d'attaque",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "b7",
+         "effet": "+0,1 vitesse d'attaque",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "b8",
+         "effet": "+0,1 vitesse d'attaque",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Œil du tireur",
+       "x": 0.7499,
+       "y": 0.5447,
+       "rangs": [
+        {
+         "id": "b9",
+         "effet": "+3 % dégâts à distance, +1 % dégâts de flèche",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "b10",
+         "effet": "+3 % dégâts à distance, +1 % dégâts de flèche",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "b11",
+         "effet": "+3 % dégâts à distance, +1 % dégâts de flèche",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "b12",
+         "effet": "+3 % dégâts à distance, +1 % dégâts de flèche",
+         "cout": 3,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Lames jumelles",
+       "x": 0.7535,
+       "y": 0.4631,
+       "rangs": [
+        {
+         "id": "b13",
+         "effet": "+3 % dégâts d'épée, +1 % chance de coup critique",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "b14",
+         "effet": "+3 % dégâts d'épée, +1 % chance de coup critique",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "b15",
+         "effet": "+3 % dégâts d'épée, +1 % chance de coup critique",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "b16",
+         "effet": "+3 % dégâts d'épée, +1 % chance de coup critique",
+         "cout": 3,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Technique secrète",
+       "x": 0.7061,
+       "y": 0.3816,
+       "rangs": [
+        {
+         "id": "b17",
+         "effet": "+4 % dégâts critiques, +1 % dégâts de mêlée",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "b18",
+         "effet": "+4 % dégâts critiques, +1 % dégâts de mêlée",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "b19",
+         "effet": "+4 % dégâts critiques, +1 % dégâts de mêlée",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "b20",
+         "effet": "+4 % dégâts critiques, +1 % dégâts de mêlée",
+         "cout": 4,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Légende du combat",
+       "x": 0.6173,
+       "y": 0.3001,
+       "rangs": [
+        {
+         "id": "b21",
+         "effet": "+2 % dégâts de mêlée, +3 % dégâts d'épée, +1,3 PV max",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "b22",
+         "effet": "+2 % dégâts de mêlée, +3 % dégâts d'épée, +1,3 PV max",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "b23",
+         "effet": "+2 % dégâts de mêlée, +3 % dégâts d'épée, +1,3 PV max",
+         "cout": 5,
+         "min": 0
+        },
+        {
+         "id": "b24",
+         "effet": "+2 % dégâts de mêlée, +3 % dégâts d'épée, +1,3 PV max",
+         "cout": 5,
+         "min": 0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "titre": "Haki",
+     "court": "Haki",
+     "exclut": null,
+     "etoiles": [
+      {
+       "titre": "Haki de l'observation",
+       "x": 0.3974,
+       "y": 0.7077,
+       "rangs": [
+        {
+         "id": "c1",
+         "effet": "+1 % chance d'esquive",
+         "cout": 1,
+         "min": 0
+        },
+        {
+         "id": "c2",
+         "effet": "+1 % chance d'esquive",
+         "cout": 1,
+         "min": 0
+        },
+        {
+         "id": "c3",
+         "effet": "+1 % chance d'esquive",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "c4",
+         "effet": "+1 % chance d'esquive",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Haki de l'armement",
+       "x": 0.2863,
+       "y": 0.6058,
+       "rangs": [
+        {
+         "id": "c5",
+         "effet": "+0,3 armure, +1 % dégâts de mêlée",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "c6",
+         "effet": "+0,3 armure, +1 % dégâts de mêlée",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "c7",
+         "effet": "+0,3 armure, +1 % dégâts de mêlée",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "c8",
+         "effet": "+0,3 armure, +1 % dégâts de mêlée",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Pied marin",
+       "x": 0.2417,
+       "y": 0.5039,
+       "rangs": [
+        {
+         "id": "c9",
+         "effet": "+2 % résistance au recul, +1 % vitesse de déplacement",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "c10",
+         "effet": "+2 % résistance au recul, +1 % vitesse de déplacement",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "c11",
+         "effet": "+2 % résistance au recul, +1 % vitesse de déplacement",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "c12",
+         "effet": "+2 % résistance au recul, +1 % vitesse de déplacement",
+         "cout": 3,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Haki avancé",
+       "x": 0.2776,
+       "y": 0.402,
+       "rangs": [
+        {
+         "id": "c13",
+         "effet": "+0,3 armure ennemie ignorée, +1 % chance d'esquive",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "c14",
+         "effet": "+0,3 armure ennemie ignorée, +1 % chance d'esquive",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "c15",
+         "effet": "+0,3 armure ennemie ignorée, +1 % chance d'esquive",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "c16",
+         "effet": "+0,3 armure ennemie ignorée, +1 % chance d'esquive",
+         "cout": 3,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Volonté du roi",
+       "x": 0.3827,
+       "y": 0.3001,
+       "rangs": [
+        {
+         "id": "c17",
+         "effet": "+1,3 PV max, +1 % réduction des dégâts subis",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "c18",
+         "effet": "+1,3 PV max, +1 % réduction des dégâts subis",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "c19",
+         "effet": "+1,3 PV max, +1 % réduction des dégâts subis",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "c20",
+         "effet": "+1,3 PV max, +1 % réduction des dégâts subis",
+         "cout": 4,
+         "min": 0
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "univers_jjk",
+   "image": "jjk",
+   "titre": "Jujutsu Kaisen",
+   "principale": "a",
+   "racine": {
+    "id": "racine",
+    "titre": "Énergie occulte",
+    "effet": "+3 % dégâts magiques, +2,2 PV max",
+    "cout": 1,
+    "x": 0.5,
+    "y": 0.8203
+   },
+   "comps": [
+    {
+     "id": "a",
+     "titre": "Technique innée",
+     "court": "Technique innée",
+     "exclut": null,
+     "etoiles": [
+      {
+       "titre": "Flux maîtrisé",
+       "x": 0.5,
+       "y": 0.7172,
+       "rangs": [
+        {
+         "id": "a1",
+         "effet": "+1 % dégâts magiques",
+         "cout": 1,
+         "min": 0
+        },
+        {
+         "id": "a2",
+         "effet": "+1 % dégâts magiques",
+         "cout": 1,
+         "min": 0
+        },
+        {
+         "id": "a3",
+         "effet": "+1 % dégâts magiques",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "a4",
+         "effet": "+1 % dégâts magiques",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Sorts précis",
+       "x": 0.5,
+       "y": 0.6089,
+       "rangs": [
+        {
+         "id": "a5",
+         "effet": "+1 % dégâts magiques, +1 % chance de coup critique",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "a6",
+         "effet": "+1 % dégâts magiques, +1 % chance de coup critique",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "a7",
+         "effet": "+1 % dégâts magiques, +1 % chance de coup critique",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "a8",
+         "effet": "+1 % dégâts magiques, +1 % chance de coup critique",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Technique inversée",
+       "x": 0.5,
+       "y": 0.5006,
+       "rangs": [
+        {
+         "id": "a9",
+         "effet": "+3 % soins reçus, +3 % régénération naturelle",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "a10",
+         "effet": "+3 % soins reçus, +3 % régénération naturelle",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "a11",
+         "effet": "+3 % soins reçus, +3 % régénération naturelle",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "a12",
+         "effet": "+3 % soins reçus, +3 % régénération naturelle",
+         "cout": 3,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Portée du territoire",
+       "x": 0.5,
+       "y": 0.3923,
+       "rangs": [
+        {
+         "id": "a13",
+         "effet": "+1 % dégâts magiques, +0,1 portée d'attaque",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "a14",
+         "effet": "+1 % dégâts magiques, +0,1 portée d'attaque",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "a15",
+         "effet": "+1 % dégâts magiques, +0,1 portée d'attaque",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "a16",
+         "effet": "+1 % dégâts magiques, +0,1 portée d'attaque",
+         "cout": 3,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Éclair noir",
+       "x": 0.5,
+       "y": 0.2841,
+       "rangs": [
+        {
+         "id": "a17",
+         "effet": "+4 % dégâts critiques, +1 % dégâts magiques",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "a18",
+         "effet": "+4 % dégâts critiques, +1 % dégâts magiques",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "a19",
+         "effet": "+4 % dégâts critiques, +1 % dégâts magiques",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "a20",
+         "effet": "+4 % dégâts critiques, +1 % dégâts magiques",
+         "cout": 4,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Extension du territoire",
+       "x": 0.5,
+       "y": 0.1758,
+       "rangs": [
+        {
+         "id": "a21",
+         "effet": "+2 % dégâts magiques, +1,1 PV max",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "a22",
+         "effet": "+2 % dégâts magiques, +1,1 PV max",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "a23",
+         "effet": "+2 % dégâts magiques, +1,1 PV max",
+         "cout": 5,
+         "min": 0
+        },
+        {
+         "id": "a24",
+         "effet": "+2 % dégâts magiques, +1,1 PV max",
+         "cout": 5,
+         "min": 0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "titre": "Corps maudit",
+     "court": "Corps maudit",
+     "exclut": null,
+     "etoiles": [
+      {
+       "titre": "Muscles chargés",
+       "x": 0.6024,
+       "y": 0.7432,
+       "rangs": [
+        {
+         "id": "b1",
+         "effet": "+2 % dégâts de mêlée",
+         "cout": 1,
+         "min": 0
+        },
+        {
+         "id": "b2",
+         "effet": "+2 % dégâts de mêlée",
+         "cout": 1,
+         "min": 0
+        },
+        {
+         "id": "b3",
+         "effet": "+2 % dégâts de mêlée",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "b4",
+         "effet": "+2 % dégâts de mêlée",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Poing lesté",
+       "x": 0.6955,
+       "y": 0.6578,
+       "rangs": [
+        {
+         "id": "b5",
+         "effet": "+0,3 dégâts d'attaque",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "b6",
+         "effet": "+0,3 dégâts d'attaque",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "b7",
+         "effet": "+0,3 dégâts d'attaque",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "b8",
+         "effet": "+0,3 dégâts d'attaque",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Peau dure",
+       "x": 0.7493,
+       "y": 0.5725,
+       "rangs": [
+        {
+         "id": "b9",
+         "effet": "+0,3 armure, +0,6 PV max",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "b10",
+         "effet": "+0,3 armure, +0,6 PV max",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "b11",
+         "effet": "+0,3 armure, +0,6 PV max",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "b12",
+         "effet": "+0,3 armure, +0,6 PV max",
+         "cout": 3,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Arme maudite",
+       "x": 0.7529,
+       "y": 0.4871,
+       "rangs": [
+        {
+         "id": "b13",
+         "effet": "+3 % dégâts d'épée, +1 % dégâts de mêlée",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "b14",
+         "effet": "+3 % dégâts d'épée, +1 % dégâts de mêlée",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "b15",
+         "effet": "+3 % dégâts d'épée, +1 % dégâts de mêlée",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "b16",
+         "effet": "+3 % dégâts d'épée, +1 % dégâts de mêlée",
+         "cout": 3,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Éclair noir",
+       "x": 0.7057,
+       "y": 0.4017,
+       "rangs": [
+        {
+         "id": "b17",
+         "effet": "+4 % dégâts critiques, +1 % chance de coup critique",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "b18",
+         "effet": "+4 % dégâts critiques, +1 % chance de coup critique",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "b19",
+         "effet": "+4 % dégâts critiques, +1 % chance de coup critique",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "b20",
+         "effet": "+4 % dégâts critiques, +1 % chance de coup critique",
+         "cout": 4,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Corps céleste",
+       "x": 0.617,
+       "y": 0.3163,
+       "rangs": [
+        {
+         "id": "b21",
+         "effet": "+3 % dégâts de mêlée, +1,1 PV max, +0,01 vol de vie",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "b22",
+         "effet": "+3 % dégâts de mêlée, +1,1 PV max, +0,01 vol de vie",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "b23",
+         "effet": "+3 % dégâts de mêlée, +1,1 PV max, +0,01 vol de vie",
+         "cout": 5,
+         "min": 0
+        },
+        {
+         "id": "b24",
+         "effet": "+3 % dégâts de mêlée, +1,1 PV max, +0,01 vol de vie",
+         "cout": 5,
+         "min": 0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "titre": "Sorcier",
+     "court": "Sorcier",
+     "exclut": null,
+     "etoiles": [
+      {
+       "titre": "Vigilance",
+       "x": 0.3976,
+       "y": 0.7432,
+       "rangs": [
+        {
+         "id": "c1",
+         "effet": "+1 % réduction des dégâts magiques subis",
+         "cout": 1,
+         "min": 0
+        },
+        {
+         "id": "c2",
+         "effet": "+1 % réduction des dégâts magiques subis",
+         "cout": 1,
+         "min": 0
+        },
+        {
+         "id": "c3",
+         "effet": "+1 % réduction des dégâts magiques subis",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "c4",
+         "effet": "+1 % réduction des dégâts magiques subis",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Territoire simple",
+       "x": 0.2868,
+       "y": 0.6365,
+       "rangs": [
+        {
+         "id": "c5",
+         "effet": "+1 % réduction des dégâts subis",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "c6",
+         "effet": "+1 % réduction des dégâts subis",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "c7",
+         "effet": "+1 % réduction des dégâts subis",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "c8",
+         "effet": "+1 % réduction des dégâts subis",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Endurance du sorcier",
+       "x": 0.2423,
+       "y": 0.5298,
+       "rangs": [
+        {
+         "id": "c9",
+         "effet": "+0,1 endurance (faim), +0,6 PV max",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "c10",
+         "effet": "+0,1 endurance (faim), +0,6 PV max",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "c11",
+         "effet": "+0,1 endurance (faim), +0,6 PV max",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "c12",
+         "effet": "+0,1 endurance (faim), +0,6 PV max",
+         "cout": 3,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Sang-froid",
+       "x": 0.2781,
+       "y": 0.423,
+       "rangs": [
+        {
+         "id": "c13",
+         "effet": "+1 % vitesse de déplacement, +1 % chance d'esquive",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "c14",
+         "effet": "+1 % vitesse de déplacement, +1 % chance d'esquive",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "c15",
+         "effet": "+1 % vitesse de déplacement, +1 % chance d'esquive",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "c16",
+         "effet": "+1 % vitesse de déplacement, +1 % chance d'esquive",
+         "cout": 3,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Grade spécial",
+       "x": 0.383,
+       "y": 0.3163,
+       "rangs": [
+        {
+         "id": "c17",
+         "effet": "+1,1 PV max, +1 % réduction des dégâts subis",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "c18",
+         "effet": "+1,1 PV max, +1 % réduction des dégâts subis",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "c19",
+         "effet": "+1,1 PV max, +1 % réduction des dégâts subis",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "c20",
+         "effet": "+1,1 PV max, +1 % réduction des dégâts subis",
+         "cout": 4,
+         "min": 0
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "univers_bleach",
+   "image": "bleach",
+   "titre": "Bleach",
+   "principale": "a",
+   "racine": {
+    "id": "racine",
+    "titre": "Pression spirituelle",
+    "effet": "+2,5 PV max, +3 % réduction des dégâts magiques subis",
+    "cout": 1,
+    "x": 0.3027,
+    "y": 0.7666
+   },
+   "comps": [
+    {
+     "id": "a",
+     "titre": "Zanpakuto",
+     "court": "Zanpakutō",
+     "exclut": null,
+     "etoiles": [
+      {
+       "titre": "Lame éveillée",
+       "x": 0.3793,
+       "y": 0.6783,
+       "rangs": [
+        {
+         "id": "a1",
+         "effet": "+1 % dégâts d'épée",
+         "cout": 1,
+         "min": 0
+        },
+        {
+         "id": "a2",
+         "effet": "+1 % dégâts d'épée",
+         "cout": 1,
+         "min": 0
+        },
+        {
+         "id": "a3",
+         "effet": "+1 % dégâts d'épée",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "a4",
+         "effet": "+1 % dégâts d'épée",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Kendo",
+       "x": 0.4597,
+       "y": 0.5856,
+       "rangs": [
+        {
+         "id": "a5",
+         "effet": "+0,1 vitesse d'attaque",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "a6",
+         "effet": "+0,1 vitesse d'attaque",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "a7",
+         "effet": "+0,1 vitesse d'attaque",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "a8",
+         "effet": "+0,1 vitesse d'attaque",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Coupe nette",
+       "x": 0.5401,
+       "y": 0.4929,
+       "rangs": [
+        {
+         "id": "a9",
+         "effet": "+1 % chance de coup critique, +1 % dégâts d'épée",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "a10",
+         "effet": "+1 % chance de coup critique, +1 % dégâts d'épée",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "a11",
+         "effet": "+1 % chance de coup critique, +1 % dégâts d'épée",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "a12",
+         "effet": "+1 % chance de coup critique, +1 % dégâts d'épée",
+         "cout": 3,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Dialogue avec l'âme",
+       "x": 0.6205,
+       "y": 0.4002,
+       "rangs": [
+        {
+         "id": "a13",
+         "effet": "+1 % dégâts d'épée, +0,6 PV max",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "a14",
+         "effet": "+1 % dégâts d'épée, +0,6 PV max",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "a15",
+         "effet": "+1 % dégâts d'épée, +0,6 PV max",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "a16",
+         "effet": "+1 % dégâts d'épée, +0,6 PV max",
+         "cout": 3,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Shikai maîtrisé",
+       "x": 0.7009,
+       "y": 0.3075,
+       "rangs": [
+        {
+         "id": "a17",
+         "effet": "+1 % dégâts d'épée, +4 % dégâts critiques",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "a18",
+         "effet": "+1 % dégâts d'épée, +4 % dégâts critiques",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "a19",
+         "effet": "+1 % dégâts d'épée, +4 % dégâts critiques",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "a20",
+         "effet": "+1 % dégâts d'épée, +4 % dégâts critiques",
+         "cout": 4,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Bankai",
+       "x": 0.7812,
+       "y": 0.2148,
+       "rangs": [
+        {
+         "id": "a21",
+         "effet": "+2 % dégâts d'épée, +1,3 PV max",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "a22",
+         "effet": "+2 % dégâts d'épée, +1,3 PV max",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "a23",
+         "effet": "+2 % dégâts d'épée, +1,3 PV max",
+         "cout": 5,
+         "min": 0
+        },
+        {
+         "id": "a24",
+         "effet": "+2 % dégâts d'épée, +1,3 PV max",
+         "cout": 5,
+         "min": 0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "titre": "Kidō et reishi",
+     "court": "Kidō",
+     "exclut": null,
+     "etoiles": [
+      {
+       "titre": "Incantation",
+       "x": 0.4389,
+       "y": 0.769,
+       "rangs": [
+        {
+         "id": "b1",
+         "effet": "+1 % dégâts magiques",
+         "cout": 1,
+         "min": 0
+        },
+        {
+         "id": "b2",
+         "effet": "+1 % dégâts magiques",
+         "cout": 1,
+         "min": 0
+        },
+        {
+         "id": "b3",
+         "effet": "+1 % dégâts magiques",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "b4",
+         "effet": "+1 % dégâts magiques",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Arc de reishi",
+       "x": 0.574,
+       "y": 0.7582,
+       "rangs": [
+        {
+         "id": "b5",
+         "effet": "+2 % dégâts à distance, +3 % vitesse des flèches",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "b6",
+         "effet": "+2 % dégâts à distance, +3 % vitesse des flèches",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "b7",
+         "effet": "+2 % dégâts à distance, +3 % vitesse des flèches",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "b8",
+         "effet": "+2 % dégâts à distance, +3 % vitesse des flèches",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Barrière",
+       "x": 0.6788,
+       "y": 0.721,
+       "rangs": [
+        {
+         "id": "b9",
+         "effet": "+1 % réduction des dégâts subis, +1 % réduction des dégâts magiques subis",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "b10",
+         "effet": "+1 % réduction des dégâts subis, +1 % réduction des dégâts magiques subis",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "b11",
+         "effet": "+1 % réduction des dégâts subis, +1 % réduction des dégâts magiques subis",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "b12",
+         "effet": "+1 % réduction des dégâts subis, +1 % réduction des dégâts magiques subis",
+         "cout": 3,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Cero chargé",
+       "x": 0.745,
+       "y": 0.6503,
+       "rangs": [
+        {
+         "id": "b13",
+         "effet": "+1 % dégâts magiques, +2 % dégâts à distance",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "b14",
+         "effet": "+1 % dégâts magiques, +2 % dégâts à distance",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "b15",
+         "effet": "+1 % dégâts magiques, +2 % dégâts à distance",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "b16",
+         "effet": "+1 % dégâts magiques, +2 % dégâts à distance",
+         "cout": 3,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Incantation abrégée",
+       "x": 0.772,
+       "y": 0.5457,
+       "rangs": [
+        {
+         "id": "b17",
+         "effet": "+1 % dégâts magiques, +1 % chance de coup critique",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "b18",
+         "effet": "+1 % dégâts magiques, +1 % chance de coup critique",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "b19",
+         "effet": "+1 % dégâts magiques, +1 % chance de coup critique",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "b20",
+         "effet": "+1 % dégâts magiques, +1 % chance de coup critique",
+         "cout": 4,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Kidō interdit",
+       "x": 0.7671,
+       "y": 0.4133,
+       "rangs": [
+        {
+         "id": "b21",
+         "effet": "+2 % dégâts magiques, +2 % dégâts à distance, +1,3 PV max",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "b22",
+         "effet": "+2 % dégâts magiques, +2 % dégâts à distance, +1,3 PV max",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "b23",
+         "effet": "+2 % dégâts magiques, +2 % dégâts à distance, +1,3 PV max",
+         "cout": 5,
+         "min": 0
+        },
+        {
+         "id": "b24",
+         "effet": "+2 % dégâts magiques, +2 % dégâts à distance, +1,3 PV max",
+         "cout": 5,
+         "min": 0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "titre": "Âme",
+     "court": "Âme",
+     "exclut": null,
+     "etoiles": [
+      {
+       "titre": "Pas éclair",
+       "x": 0.2811,
+       "y": 0.6322,
+       "rangs": [
+        {
+         "id": "c1",
+         "effet": "+1 % vitesse de déplacement",
+         "cout": 1,
+         "min": 0
+        },
+        {
+         "id": "c2",
+         "effet": "+1 % vitesse de déplacement",
+         "cout": 1,
+         "min": 0
+        },
+        {
+         "id": "c3",
+         "effet": "+1 % vitesse de déplacement",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "c4",
+         "effet": "+1 % vitesse de déplacement",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Méditation",
+       "x": 0.2749,
+       "y": 0.4668,
+       "rangs": [
+        {
+         "id": "c5",
+         "effet": "+3 % régénération naturelle",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "c6",
+         "effet": "+3 % régénération naturelle",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "c7",
+         "effet": "+3 % régénération naturelle",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "c8",
+         "effet": "+3 % régénération naturelle",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Hakuda",
+       "x": 0.3199,
+       "y": 0.3457,
+       "rangs": [
+        {
+         "id": "c9",
+         "effet": "+3 % dégâts de mêlée, +0,1 dégâts d'attaque",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "c10",
+         "effet": "+3 % dégâts de mêlée, +0,1 dégâts d'attaque",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "c11",
+         "effet": "+3 % dégâts de mêlée, +0,1 dégâts d'attaque",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "c12",
+         "effet": "+3 % dégâts de mêlée, +0,1 dégâts d'attaque",
+         "cout": 3,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Corps spirituel",
+       "x": 0.4267,
+       "y": 0.2782,
+       "rangs": [
+        {
+         "id": "c13",
+         "effet": "+1,3 PV max",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "c14",
+         "effet": "+1,3 PV max",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "c15",
+         "effet": "+1,3 PV max",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "c16",
+         "effet": "+1,3 PV max",
+         "cout": 3,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Pression écrasante",
+       "x": 0.5868,
+       "y": 0.2569,
+       "rangs": [
+        {
+         "id": "c17",
+         "effet": "+1 % réduction des dégâts subis, +2 % résistance au recul",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "c18",
+         "effet": "+1 % réduction des dégâts subis, +2 % résistance au recul",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "c19",
+         "effet": "+1 % réduction des dégâts subis, +2 % résistance au recul",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "c20",
+         "effet": "+1 % réduction des dégâts subis, +2 % résistance au recul",
+         "cout": 4,
+         "min": 0
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "univers_dbz",
+   "image": "dbz",
+   "titre": "Dragon Ball",
+   "principale": "a",
+   "racine": {
+    "id": "racine",
+    "titre": "Ki",
+    "effet": "+2,5 PV max, +0,5 dégâts d'attaque",
+    "cout": 1,
+    "x": 0.293,
+    "y": 0.8008
+   },
+   "comps": [
+    {
+     "id": "a",
+     "titre": "Ki",
+     "court": "Ki",
+     "exclut": null,
+     "etoiles": [
+      {
+       "titre": "Boule d'énergie",
+       "x": 0.3586,
+       "y": 0.7039,
+       "rangs": [
+        {
+         "id": "a1",
+         "effet": "+1 % dégâts magiques",
+         "cout": 1,
+         "min": 0
+        },
+        {
+         "id": "a2",
+         "effet": "+1 % dégâts magiques",
+         "cout": 1,
+         "min": 0
+        },
+        {
+         "id": "a3",
+         "effet": "+1 % dégâts magiques",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "a4",
+         "effet": "+1 % dégâts magiques",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Contrôle du ki",
+       "x": 0.4275,
+       "y": 0.6022,
+       "rangs": [
+        {
+         "id": "a5",
+         "effet": "+1 % dégâts magiques, +0,1 endurance (faim)",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "a6",
+         "effet": "+1 % dégâts magiques, +0,1 endurance (faim)",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "a7",
+         "effet": "+1 % dégâts magiques, +0,1 endurance (faim)",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "a8",
+         "effet": "+1 % dégâts magiques, +0,1 endurance (faim)",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Rayon perçant",
+       "x": 0.4964,
+       "y": 0.5005,
+       "rangs": [
+        {
+         "id": "a9",
+         "effet": "+1 % dégâts magiques, +0,3 armure ennemie ignorée",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "a10",
+         "effet": "+1 % dégâts magiques, +0,3 armure ennemie ignorée",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "a11",
+         "effet": "+1 % dégâts magiques, +0,3 armure ennemie ignorée",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "a12",
+         "effet": "+1 % dégâts magiques, +0,3 armure ennemie ignorée",
+         "cout": 3,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Charge éclair",
+       "x": 0.5653,
+       "y": 0.3987,
+       "rangs": [
+        {
+         "id": "a13",
+         "effet": "+1 % dégâts magiques, +1 % chance de coup critique",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "a14",
+         "effet": "+1 % dégâts magiques, +1 % chance de coup critique",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "a15",
+         "effet": "+1 % dégâts magiques, +1 % chance de coup critique",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "a16",
+         "effet": "+1 % dégâts magiques, +1 % chance de coup critique",
+         "cout": 3,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Vague déferlante",
+       "x": 0.6342,
+       "y": 0.297,
+       "rangs": [
+        {
+         "id": "a17",
+         "effet": "+1 % dégâts magiques, +4 % dégâts critiques",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "a18",
+         "effet": "+1 % dégâts magiques, +4 % dégâts critiques",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "a19",
+         "effet": "+1 % dégâts magiques, +4 % dégâts critiques",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "a20",
+         "effet": "+1 % dégâts magiques, +4 % dégâts critiques",
+         "cout": 4,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Puissance divine",
+       "x": 0.7031,
+       "y": 0.1953,
+       "rangs": [
+        {
+         "id": "a21",
+         "effet": "+2 % dégâts magiques, +1,3 PV max",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "a22",
+         "effet": "+2 % dégâts magiques, +1,3 PV max",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "a23",
+         "effet": "+2 % dégâts magiques, +1,3 PV max",
+         "cout": 5,
+         "min": 0
+        },
+        {
+         "id": "a24",
+         "effet": "+2 % dégâts magiques, +1,3 PV max",
+         "cout": 5,
+         "min": 0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "titre": "Arts martiaux",
+     "court": "Arts martiaux",
+     "exclut": null,
+     "etoiles": [
+      {
+       "titre": "Kata",
+       "x": 0.4286,
+       "y": 0.787,
+       "rangs": [
+        {
+         "id": "b1",
+         "effet": "+2 % dégâts de mêlée",
+         "cout": 1,
+         "min": 0
+        },
+        {
+         "id": "b2",
+         "effet": "+2 % dégâts de mêlée",
+         "cout": 1,
+         "min": 0
+        },
+        {
+         "id": "b3",
+         "effet": "+2 % dégâts de mêlée",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "b4",
+         "effet": "+2 % dégâts de mêlée",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Enchaînement",
+       "x": 0.5617,
+       "y": 0.7601,
+       "rangs": [
+        {
+         "id": "b5",
+         "effet": "+0,1 vitesse d'attaque",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "b6",
+         "effet": "+0,1 vitesse d'attaque",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "b7",
+         "effet": "+0,1 vitesse d'attaque",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "b8",
+         "effet": "+0,1 vitesse d'attaque",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Poing lourd",
+       "x": 0.6615,
+       "y": 0.7107,
+       "rangs": [
+        {
+         "id": "b9",
+         "effet": "+0,3 dégâts d'attaque, +0,1 puissance de recul",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "b10",
+         "effet": "+0,3 dégâts d'attaque, +0,1 puissance de recul",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "b11",
+         "effet": "+0,3 dégâts d'attaque, +0,1 puissance de recul",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "b12",
+         "effet": "+0,3 dégâts d'attaque, +0,1 puissance de recul",
+         "cout": 3,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Image rémanente",
+       "x": 0.7189,
+       "y": 0.6326,
+       "rangs": [
+        {
+         "id": "b13",
+         "effet": "+1 % chance d'esquive, +1 % dégâts de mêlée",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "b14",
+         "effet": "+1 % chance d'esquive, +1 % dégâts de mêlée",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "b15",
+         "effet": "+1 % chance d'esquive, +1 % dégâts de mêlée",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "b16",
+         "effet": "+1 % chance d'esquive, +1 % dégâts de mêlée",
+         "cout": 3,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Coup critique",
+       "x": 0.7333,
+       "y": 0.5253,
+       "rangs": [
+        {
+         "id": "b17",
+         "effet": "+4 % dégâts critiques, +1 % chance de coup critique",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "b18",
+         "effet": "+4 % dégâts critiques, +1 % chance de coup critique",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "b19",
+         "effet": "+4 % dégâts critiques, +1 % chance de coup critique",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "b20",
+         "effet": "+4 % dégâts critiques, +1 % chance de coup critique",
+         "cout": 4,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Instinct",
+       "x": 0.7127,
+       "y": 0.3943,
+       "rangs": [
+        {
+         "id": "b21",
+         "effet": "+3 % dégâts de mêlée, +1 % chance d'esquive, +1,3 PV max",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "b22",
+         "effet": "+3 % dégâts de mêlée, +1 % chance d'esquive, +1,3 PV max",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "b23",
+         "effet": "+3 % dégâts de mêlée, +1 % chance d'esquive, +1,3 PV max",
+         "cout": 5,
+         "min": 0
+        },
+        {
+         "id": "b24",
+         "effet": "+3 % dégâts de mêlée, +1 % chance d'esquive, +1,3 PV max",
+         "cout": 5,
+         "min": 0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "titre": "Corps de guerrier",
+     "court": "Corps de guerrier",
+     "exclut": null,
+     "etoiles": [
+      {
+       "titre": "Entraînement lesté",
+       "x": 0.2555,
+       "y": 0.6697,
+       "rangs": [
+        {
+         "id": "c1",
+         "effet": "+0,6 PV max",
+         "cout": 1,
+         "min": 0
+        },
+        {
+         "id": "c2",
+         "effet": "+0,6 PV max",
+         "cout": 1,
+         "min": 0
+        },
+        {
+         "id": "c3",
+         "effet": "+0,6 PV max",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "c4",
+         "effet": "+0,6 PV max",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Vol maîtrisé",
+       "x": 0.2297,
+       "y": 0.506,
+       "rangs": [
+        {
+         "id": "c5",
+         "effet": "+0,8 blocs de chute annulés, +3 % hauteur de saut",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "c6",
+         "effet": "+0,8 blocs de chute annulés, +3 % hauteur de saut",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "c7",
+         "effet": "+0,8 blocs de chute annulés, +3 % hauteur de saut",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "c8",
+         "effet": "+0,8 blocs de chute annulés, +3 % hauteur de saut",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Haricot magique",
+       "x": 0.26,
+       "y": 0.3803,
+       "rangs": [
+        {
+         "id": "c9",
+         "effet": "+4 % régénération naturelle",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "c10",
+         "effet": "+4 % régénération naturelle",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "c11",
+         "effet": "+4 % régénération naturelle",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "c12",
+         "effet": "+4 % régénération naturelle",
+         "cout": 3,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Corps de saiyan",
+       "x": 0.3582,
+       "y": 0.3005,
+       "rangs": [
+        {
+         "id": "c13",
+         "effet": "+1,3 PV max, +0,3 robustesse",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "c14",
+         "effet": "+1,3 PV max, +0,3 robustesse",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "c15",
+         "effet": "+1,3 PV max, +0,3 robustesse",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "c16",
+         "effet": "+1,3 PV max, +0,3 robustesse",
+         "cout": 3,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Salle de l'esprit et du temps",
+       "x": 0.5148,
+       "y": 0.2603,
+       "rangs": [
+        {
+         "id": "c17",
+         "effet": "+1 % réduction des dégâts subis, +1 % expérience gagnée",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "c18",
+         "effet": "+1 % réduction des dégâts subis, +1 % expérience gagnée",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "c19",
+         "effet": "+1 % réduction des dégâts subis, +1 % expérience gagnée",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "c20",
+         "effet": "+1 % réduction des dégâts subis, +1 % expérience gagnée",
+         "cout": 4,
+         "min": 0
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "univers_sololeveling",
+   "image": "solo",
+   "titre": "Solo Leveling",
+   "principale": "a",
+   "racine": {
+    "id": "racine",
+    "titre": "Le Joueur",
+    "effet": "+2,5 PV max, +3 % expérience gagnée",
+    "cout": 1,
+    "x": 0.5,
+    "y": 0.791
+   },
+   "comps": [
+    {
+     "id": "a",
+     "titre": "Lame de l'ombre",
+     "court": "Lame de l'ombre",
+     "exclut": null,
+     "etoiles": [
+      {
+       "titre": "Dague rapide",
+       "x": 0.5,
+       "y": 0.6863,
+       "rangs": [
+        {
+         "id": "a1",
+         "effet": "+2 % dégâts de mêlée",
+         "cout": 1,
+         "min": 0
+        },
+        {
+         "id": "a2",
+         "effet": "+2 % dégâts de mêlée",
+         "cout": 1,
+         "min": 0
+        },
+        {
+         "id": "a3",
+         "effet": "+2 % dégâts de mêlée",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "a4",
+         "effet": "+2 % dégâts de mêlée",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Pas furtif",
+       "x": 0.5,
+       "y": 0.5764,
+       "rangs": [
+        {
+         "id": "a5",
+         "effet": "+0,1 discrétion, +1 % vitesse de déplacement",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "a6",
+         "effet": "+0,1 discrétion, +1 % vitesse de déplacement",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "a7",
+         "effet": "+0,1 discrétion, +1 % vitesse de déplacement",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "a8",
+         "effet": "+0,1 discrétion, +1 % vitesse de déplacement",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Point vital",
+       "x": 0.5,
+       "y": 0.4665,
+       "rangs": [
+        {
+         "id": "a9",
+         "effet": "+1 % chance de coup critique, +2 % dégâts critiques",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "a10",
+         "effet": "+1 % chance de coup critique, +2 % dégâts critiques",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "a11",
+         "effet": "+1 % chance de coup critique, +2 % dégâts critiques",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "a12",
+         "effet": "+1 % chance de coup critique, +2 % dégâts critiques",
+         "cout": 3,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Danse des lames",
+       "x": 0.5,
+       "y": 0.3566,
+       "rangs": [
+        {
+         "id": "a13",
+         "effet": "+0,1 vitesse d'attaque, +1 % dégâts de mêlée",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "a14",
+         "effet": "+0,1 vitesse d'attaque, +1 % dégâts de mêlée",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "a15",
+         "effet": "+0,1 vitesse d'attaque, +1 % dégâts de mêlée",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "a16",
+         "effet": "+0,1 vitesse d'attaque, +1 % dégâts de mêlée",
+         "cout": 3,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Meurtre furtif",
+       "x": 0.5,
+       "y": 0.2466,
+       "rangs": [
+        {
+         "id": "a17",
+         "effet": "+4 % dégâts critiques, +1 % chance d'esquive",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "a18",
+         "effet": "+4 % dégâts critiques, +1 % chance d'esquive",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "a19",
+         "effet": "+4 % dégâts critiques, +1 % chance d'esquive",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "a20",
+         "effet": "+4 % dégâts critiques, +1 % chance d'esquive",
+         "cout": 4,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Monarque des ombres",
+       "x": 0.5,
+       "y": 0.1367,
+       "rangs": [
+        {
+         "id": "a21",
+         "effet": "+3 % dégâts de mêlée, +0,01 vol de vie, +1,3 PV max",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "a22",
+         "effet": "+3 % dégâts de mêlée, +0,01 vol de vie, +1,3 PV max",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "a23",
+         "effet": "+3 % dégâts de mêlée, +0,01 vol de vie, +1,3 PV max",
+         "cout": 5,
+         "min": 0
+        },
+        {
+         "id": "a24",
+         "effet": "+3 % dégâts de mêlée, +0,01 vol de vie, +1,3 PV max",
+         "cout": 5,
+         "min": 0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "titre": "Arcanes",
+     "court": "Arcanes",
+     "exclut": null,
+     "etoiles": [
+      {
+       "titre": "Mana",
+       "x": 0.5935,
+       "y": 0.7128,
+       "rangs": [
+        {
+         "id": "b1",
+         "effet": "+1 % dégâts magiques",
+         "cout": 1,
+         "min": 0
+        },
+        {
+         "id": "b2",
+         "effet": "+1 % dégâts magiques",
+         "cout": 1,
+         "min": 0
+        },
+        {
+         "id": "b3",
+         "effet": "+1 % dégâts magiques",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "b4",
+         "effet": "+1 % dégâts magiques",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Tir chargé",
+       "x": 0.6786,
+       "y": 0.6261,
+       "rangs": [
+        {
+         "id": "b5",
+         "effet": "+2 % dégâts à distance, +3 % vitesse de tension de l'arc",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "b6",
+         "effet": "+2 % dégâts à distance, +3 % vitesse de tension de l'arc",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "b7",
+         "effet": "+2 % dégâts à distance, +3 % vitesse de tension de l'arc",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "b8",
+         "effet": "+2 % dégâts à distance, +3 % vitesse de tension de l'arc",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Soin",
+       "x": 0.7278,
+       "y": 0.5394,
+       "rangs": [
+        {
+         "id": "b9",
+         "effet": "+3 % soins reçus, +3 % régénération naturelle",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "b10",
+         "effet": "+3 % soins reçus, +3 % régénération naturelle",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "b11",
+         "effet": "+3 % soins reçus, +3 % régénération naturelle",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "b12",
+         "effet": "+3 % soins reçus, +3 % régénération naturelle",
+         "cout": 3,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Barrière de mana",
+       "x": 0.7311,
+       "y": 0.4527,
+       "rangs": [
+        {
+         "id": "b13",
+         "effet": "+1 % réduction des dégâts magiques subis, +1 % réduction des dégâts subis",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "b14",
+         "effet": "+1 % réduction des dégâts magiques subis, +1 % réduction des dégâts subis",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "b15",
+         "effet": "+1 % réduction des dégâts magiques subis, +1 % réduction des dégâts subis",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "b16",
+         "effet": "+1 % réduction des dégâts magiques subis, +1 % réduction des dégâts subis",
+         "cout": 3,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Sort de zone",
+       "x": 0.6879,
+       "y": 0.366,
+       "rangs": [
+        {
+         "id": "b17",
+         "effet": "+2 % dégâts magiques, +2 % dégâts à distance",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "b18",
+         "effet": "+2 % dégâts magiques, +2 % dégâts à distance",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "b19",
+         "effet": "+2 % dégâts magiques, +2 % dégâts à distance",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "b20",
+         "effet": "+2 % dégâts magiques, +2 % dégâts à distance",
+         "cout": 4,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Archimage",
+       "x": 0.6069,
+       "y": 0.2794,
+       "rangs": [
+        {
+         "id": "b21",
+         "effet": "+3 % dégâts magiques, +2 % dégâts à distance, +1,3 PV max",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "b22",
+         "effet": "+3 % dégâts magiques, +2 % dégâts à distance, +1,3 PV max",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "b23",
+         "effet": "+3 % dégâts magiques, +2 % dégâts à distance, +1,3 PV max",
+         "cout": 5,
+         "min": 0
+        },
+        {
+         "id": "b24",
+         "effet": "+3 % dégâts magiques, +2 % dégâts à distance, +1,3 PV max",
+         "cout": 5,
+         "min": 0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "titre": "Le Système",
+     "court": "Le Système",
+     "exclut": null,
+     "etoiles": [
+      {
+       "titre": "Quête quotidienne",
+       "x": 0.4065,
+       "y": 0.7128,
+       "rangs": [
+        {
+         "id": "c1",
+         "effet": "+0,1 endurance (faim), +0,6 PV max",
+         "cout": 1,
+         "min": 0
+        },
+        {
+         "id": "c2",
+         "effet": "+0,1 endurance (faim), +0,6 PV max",
+         "cout": 1,
+         "min": 0
+        },
+        {
+         "id": "c3",
+         "effet": "+0,1 endurance (faim), +0,6 PV max",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "c4",
+         "effet": "+0,1 endurance (faim), +0,6 PV max",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Statistiques",
+       "x": 0.3052,
+       "y": 0.6044,
+       "rangs": [
+        {
+         "id": "c5",
+         "effet": "+0,1 dégâts d'attaque, +1 % vitesse de déplacement",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "c6",
+         "effet": "+0,1 dégâts d'attaque, +1 % vitesse de déplacement",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "c7",
+         "effet": "+0,1 dégâts d'attaque, +1 % vitesse de déplacement",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "c8",
+         "effet": "+0,1 dégâts d'attaque, +1 % vitesse de déplacement",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Résistance au poison",
+       "x": 0.2646,
+       "y": 0.4961,
+       "rangs": [
+        {
+         "id": "c9",
+         "effet": "+1 % réduction des dégâts magiques subis",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "c10",
+         "effet": "+1 % réduction des dégâts magiques subis",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "c11",
+         "effet": "+1 % réduction des dégâts magiques subis",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "c12",
+         "effet": "+1 % réduction des dégâts magiques subis",
+         "cout": 3,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Butin de donjon",
+       "x": 0.2973,
+       "y": 0.3877,
+       "rangs": [
+        {
+         "id": "c13",
+         "effet": "+0,3 chance, +0,1 fortune",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "c14",
+         "effet": "+0,3 chance, +0,1 fortune",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "c15",
+         "effet": "+0,3 chance, +0,1 fortune",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "c16",
+         "effet": "+0,3 chance, +0,1 fortune",
+         "cout": 3,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Rang S",
+       "x": 0.3931,
+       "y": 0.2794,
+       "rangs": [
+        {
+         "id": "c17",
+         "effet": "+1,3 PV max, +1 % réduction des dégâts subis",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "c18",
+         "effet": "+1,3 PV max, +1 % réduction des dégâts subis",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "c19",
+         "effet": "+1,3 PV max, +1 % réduction des dégâts subis",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "c20",
+         "effet": "+1,3 PV max, +1 % réduction des dégâts subis",
+         "cout": 4,
+         "min": 0
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "univers_naruto",
+   "image": "naruto",
+   "titre": "Naruto",
+   "principale": "a",
+   "racine": {
+    "id": "racine",
+    "titre": "Chakra",
+    "effet": "+2,5 PV max, +0,5 endurance (faim)",
+    "cout": 1,
+    "x": 0.5,
+    "y": 0.5
+   },
+   "comps": [
+    {
+     "id": "a",
+     "titre": "Ninjutsu",
+     "court": "Ninjutsu",
+     "exclut": null,
+     "etoiles": [
+      {
+       "titre": "Mudras",
+       "x": 0.5,
+       "y": 0.4484,
+       "rangs": [
+        {
+         "id": "a1",
+         "effet": "+1 % dégâts magiques",
+         "cout": 1,
+         "min": 0
+        },
+        {
+         "id": "a2",
+         "effet": "+1 % dégâts magiques",
+         "cout": 1,
+         "min": 0
+        },
+        {
+         "id": "a3",
+         "effet": "+1 % dégâts magiques",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "a4",
+         "effet": "+1 % dégâts magiques",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Nature du chakra",
+       "x": 0.5,
+       "y": 0.3943,
+       "rangs": [
+        {
+         "id": "a5",
+         "effet": "+1 % dégâts magiques, +0,1 dégâts de feu",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "a6",
+         "effet": "+1 % dégâts magiques, +0,1 dégâts de feu",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "a7",
+         "effet": "+1 % dégâts magiques, +0,1 dégâts de feu",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "a8",
+         "effet": "+1 % dégâts magiques, +0,1 dégâts de feu",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Clone",
+       "x": 0.5,
+       "y": 0.3402,
+       "rangs": [
+        {
+         "id": "a9",
+         "effet": "+1 % chance d'esquive",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "a10",
+         "effet": "+1 % chance d'esquive",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "a11",
+         "effet": "+1 % chance d'esquive",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "a12",
+         "effet": "+1 % chance d'esquive",
+         "cout": 3,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Technique de rang A",
+       "x": 0.5,
+       "y": 0.286,
+       "rangs": [
+        {
+         "id": "a13",
+         "effet": "+1 % dégâts magiques, +1 % chance de coup critique",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "a14",
+         "effet": "+1 % dégâts magiques, +1 % chance de coup critique",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "a15",
+         "effet": "+1 % dégâts magiques, +1 % chance de coup critique",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "a16",
+         "effet": "+1 % dégâts magiques, +1 % chance de coup critique",
+         "cout": 3,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Technique interdite",
+       "x": 0.5,
+       "y": 0.2319,
+       "rangs": [
+        {
+         "id": "a17",
+         "effet": "+1 % dégâts magiques, +4 % dégâts critiques",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "a18",
+         "effet": "+1 % dégâts magiques, +4 % dégâts critiques",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "a19",
+         "effet": "+1 % dégâts magiques, +4 % dégâts critiques",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "a20",
+         "effet": "+1 % dégâts magiques, +4 % dégâts critiques",
+         "cout": 4,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Mode Ermite",
+       "x": 0.5,
+       "y": 0.1777,
+       "rangs": [
+        {
+         "id": "a21",
+         "effet": "+2 % dégâts magiques, +1,3 PV max, +3 % régénération naturelle",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "a22",
+         "effet": "+2 % dégâts magiques, +1,3 PV max, +3 % régénération naturelle",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "a23",
+         "effet": "+2 % dégâts magiques, +1,3 PV max, +3 % régénération naturelle",
+         "cout": 5,
+         "min": 0
+        },
+        {
+         "id": "a24",
+         "effet": "+2 % dégâts magiques, +1,3 PV max, +3 % régénération naturelle",
+         "cout": 5,
+         "min": 0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "titre": "Taijutsu et Kenjutsu",
+     "court": "Taijutsu",
+     "exclut": null,
+     "etoiles": [
+      {
+       "titre": "Coups de pied",
+       "x": 0.596,
+       "y": 0.4615,
+       "rangs": [
+        {
+         "id": "b1",
+         "effet": "+1 % dégâts de mêlée",
+         "cout": 1,
+         "min": 0
+        },
+        {
+         "id": "b2",
+         "effet": "+1 % dégâts de mêlée",
+         "cout": 1,
+         "min": 0
+        },
+        {
+         "id": "b3",
+         "effet": "+1 % dégâts de mêlée",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "b4",
+         "effet": "+1 % dégâts de mêlée",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Poids aux chevilles",
+       "x": 0.6833,
+       "y": 0.4188,
+       "rangs": [
+        {
+         "id": "b5",
+         "effet": "+1 % vitesse de déplacement, +0,02 vitesse d'attaque",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "b6",
+         "effet": "+1 % vitesse de déplacement, +0,02 vitesse d'attaque",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "b7",
+         "effet": "+1 % vitesse de déplacement, +0,02 vitesse d'attaque",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "b8",
+         "effet": "+1 % vitesse de déplacement, +0,02 vitesse d'attaque",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Lame ninja",
+       "x": 0.7337,
+       "y": 0.3761,
+       "rangs": [
+        {
+         "id": "b9",
+         "effet": "+3 % dégâts d'épée",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "b10",
+         "effet": "+3 % dégâts d'épée",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "b11",
+         "effet": "+3 % dégâts d'épée",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "b12",
+         "effet": "+3 % dégâts d'épée",
+         "cout": 3,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Lotus",
+       "x": 0.7371,
+       "y": 0.3334,
+       "rangs": [
+        {
+         "id": "b13",
+         "effet": "+2 % dégâts de mêlée, +0,1 puissance de recul",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "b14",
+         "effet": "+2 % dégâts de mêlée, +0,1 puissance de recul",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "b15",
+         "effet": "+2 % dégâts de mêlée, +0,1 puissance de recul",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "b16",
+         "effet": "+2 % dégâts de mêlée, +0,1 puissance de recul",
+         "cout": 3,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Portes du chakra",
+       "x": 0.6928,
+       "y": 0.2907,
+       "rangs": [
+        {
+         "id": "b17",
+         "effet": "+2 % dégâts de mêlée, +4 % dégâts critiques",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "b18",
+         "effet": "+2 % dégâts de mêlée, +4 % dégâts critiques",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "b19",
+         "effet": "+2 % dégâts de mêlée, +4 % dégâts critiques",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "b20",
+         "effet": "+2 % dégâts de mêlée, +4 % dégâts critiques",
+         "cout": 4,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Maître ninja",
+       "x": 0.6097,
+       "y": 0.248,
+       "rangs": [
+        {
+         "id": "b21",
+         "effet": "+2 % dégâts de mêlée, +3 % dégâts d'épée, +1,3 PV max",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "b22",
+         "effet": "+2 % dégâts de mêlée, +3 % dégâts d'épée, +1,3 PV max",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "b23",
+         "effet": "+2 % dégâts de mêlée, +3 % dégâts d'épée, +1,3 PV max",
+         "cout": 5,
+         "min": 0
+        },
+        {
+         "id": "b24",
+         "effet": "+2 % dégâts de mêlée, +3 % dégâts d'épée, +1,3 PV max",
+         "cout": 5,
+         "min": 0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "titre": "Shinobi",
+     "court": "Shinobi",
+     "exclut": null,
+     "etoiles": [
+      {
+       "titre": "Marche sur les murs",
+       "x": 0.404,
+       "y": 0.4615,
+       "rangs": [
+        {
+         "id": "c1",
+         "effet": "+0,1 hauteur de pas, +3 % hauteur de saut",
+         "cout": 1,
+         "min": 0
+        },
+        {
+         "id": "c2",
+         "effet": "+0,1 hauteur de pas, +3 % hauteur de saut",
+         "cout": 1,
+         "min": 0
+        },
+        {
+         "id": "c3",
+         "effet": "+0,1 hauteur de pas, +3 % hauteur de saut",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "c4",
+         "effet": "+0,1 hauteur de pas, +3 % hauteur de saut",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Course ninja",
+       "x": 0.3001,
+       "y": 0.4081,
+       "rangs": [
+        {
+         "id": "c5",
+         "effet": "+2 % vitesse de sprint",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "c6",
+         "effet": "+2 % vitesse de sprint",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "c7",
+         "effet": "+2 % vitesse de sprint",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "c8",
+         "effet": "+2 % vitesse de sprint",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Discrétion",
+       "x": 0.2584,
+       "y": 0.3547,
+       "rangs": [
+        {
+         "id": "c9",
+         "effet": "+0,1 discrétion, +0,8 blocs de chute annulés",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "c10",
+         "effet": "+0,1 discrétion, +0,8 blocs de chute annulés",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "c11",
+         "effet": "+0,1 discrétion, +0,8 blocs de chute annulés",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "c12",
+         "effet": "+0,1 discrétion, +0,8 blocs de chute annulés",
+         "cout": 3,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Chakra profond",
+       "x": 0.292,
+       "y": 0.3014,
+       "rangs": [
+        {
+         "id": "c13",
+         "effet": "+3 % régénération naturelle, +0,6 PV max",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "c14",
+         "effet": "+3 % régénération naturelle, +0,6 PV max",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "c15",
+         "effet": "+3 % régénération naturelle, +0,6 PV max",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "c16",
+         "effet": "+3 % régénération naturelle, +0,6 PV max",
+         "cout": 3,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Volonté du feu",
+       "x": 0.3903,
+       "y": 0.248,
+       "rangs": [
+        {
+         "id": "c17",
+         "effet": "+1,3 PV max, +1 % réduction des dégâts subis",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "c18",
+         "effet": "+1,3 PV max, +1 % réduction des dégâts subis",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "c19",
+         "effet": "+1,3 PV max, +1 % réduction des dégâts subis",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "c20",
+         "effet": "+1,3 PV max, +1 % réduction des dégâts subis",
+         "cout": 4,
+         "min": 0
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "univers_mha",
+   "image": "mha",
+   "titre": "My Hero Academia",
+   "principale": "a",
+   "racine": {
+    "id": "racine",
+    "titre": "Alter",
+    "effet": "+2 PV max, +0,5 dégâts d'attaque",
+    "cout": 1,
+    "x": 0.5,
+    "y": 0.8008
+   },
+   "comps": [
+    {
+     "id": "a",
+     "titre": "Alter offensif",
+     "court": "Alter offensif",
+     "exclut": null,
+     "etoiles": [
+      {
+       "titre": "Contrôle",
+       "x": 0.5044,
+       "y": 0.718,
+       "rangs": [
+        {
+         "id": "a1",
+         "effet": "+1 % dégâts magiques",
+         "cout": 1,
+         "min": 0
+        },
+        {
+         "id": "a2",
+         "effet": "+1 % dégâts magiques",
+         "cout": 1,
+         "min": 0
+        },
+        {
+         "id": "a3",
+         "effet": "+1 % dégâts magiques",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "a4",
+         "effet": "+1 % dégâts magiques",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Portée",
+       "x": 0.509,
+       "y": 0.631,
+       "rangs": [
+        {
+         "id": "a5",
+         "effet": "+1 % dégâts magiques, +0,1 portée d'attaque",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "a6",
+         "effet": "+1 % dégâts magiques, +0,1 portée d'attaque",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "a7",
+         "effet": "+1 % dégâts magiques, +0,1 portée d'attaque",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "a8",
+         "effet": "+1 % dégâts magiques, +0,1 portée d'attaque",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Super-coup",
+       "x": 0.5136,
+       "y": 0.5441,
+       "rangs": [
+        {
+         "id": "a9",
+         "effet": "+1 % dégâts magiques, +2 % dégâts critiques",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "a10",
+         "effet": "+1 % dégâts magiques, +2 % dégâts critiques",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "a11",
+         "effet": "+1 % dégâts magiques, +2 % dégâts critiques",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "a12",
+         "effet": "+1 % dégâts magiques, +2 % dégâts critiques",
+         "cout": 3,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Limite repoussée",
+       "x": 0.5182,
+       "y": 0.4571,
+       "rangs": [
+        {
+         "id": "a13",
+         "effet": "+1 % dégâts magiques, +0,5 PV max",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "a14",
+         "effet": "+1 % dégâts magiques, +0,5 PV max",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "a15",
+         "effet": "+1 % dégâts magiques, +0,5 PV max",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "a16",
+         "effet": "+1 % dégâts magiques, +0,5 PV max",
+         "cout": 3,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Éveil de l'Alter",
+       "x": 0.5228,
+       "y": 0.3702,
+       "rangs": [
+        {
+         "id": "a17",
+         "effet": "+1 % dégâts magiques, +1 % chance de coup critique",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "a18",
+         "effet": "+1 % dégâts magiques, +1 % chance de coup critique",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "a19",
+         "effet": "+1 % dégâts magiques, +1 % chance de coup critique",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "a20",
+         "effet": "+1 % dégâts magiques, +1 % chance de coup critique",
+         "cout": 4,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Pleine puissance",
+       "x": 0.5273,
+       "y": 0.2832,
+       "rangs": [
+        {
+         "id": "a21",
+         "effet": "+2 % dégâts magiques, +1 PV max",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "a22",
+         "effet": "+2 % dégâts magiques, +1 PV max",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "a23",
+         "effet": "+2 % dégâts magiques, +1 PV max",
+         "cout": 5,
+         "min": 0
+        },
+        {
+         "id": "a24",
+         "effet": "+2 % dégâts magiques, +1 PV max",
+         "cout": 5,
+         "min": 0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "titre": "Corps de héros",
+     "court": "Corps de héros",
+     "exclut": null,
+     "etoiles": [
+      {
+       "titre": "Entraînement de héros",
+       "x": 0.5896,
+       "y": 0.7434,
+       "rangs": [
+        {
+         "id": "b1",
+         "effet": "+2 % dégâts de mêlée",
+         "cout": 1,
+         "min": 0
+        },
+        {
+         "id": "b2",
+         "effet": "+2 % dégâts de mêlée",
+         "cout": 1,
+         "min": 0
+        },
+        {
+         "id": "b3",
+         "effet": "+2 % dégâts de mêlée",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "b4",
+         "effet": "+2 % dégâts de mêlée",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Costume renforcé",
+       "x": 0.6717,
+       "y": 0.679,
+       "rangs": [
+        {
+         "id": "b5",
+         "effet": "+0,3 armure, +0,5 PV max",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "b6",
+         "effet": "+0,3 armure, +0,5 PV max",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "b7",
+         "effet": "+0,3 armure, +0,5 PV max",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "b8",
+         "effet": "+0,3 armure, +0,5 PV max",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Style de combat",
+       "x": 0.7207,
+       "y": 0.6128,
+       "rangs": [
+        {
+         "id": "b9",
+         "effet": "+3 % dégâts d'épée, +1 % dégâts de mêlée",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "b10",
+         "effet": "+3 % dégâts d'épée, +1 % dégâts de mêlée",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "b11",
+         "effet": "+3 % dégâts d'épée, +1 % dégâts de mêlée",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "b12",
+         "effet": "+3 % dégâts d'épée, +1 % dégâts de mêlée",
+         "cout": 3,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Smash",
+       "x": 0.7274,
+       "y": 0.5444,
+       "rangs": [
+        {
+         "id": "b13",
+         "effet": "+0,3 dégâts d'attaque, +0,1 puissance de recul",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "b14",
+         "effet": "+0,3 dégâts d'attaque, +0,1 puissance de recul",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "b15",
+         "effet": "+0,3 dégâts d'attaque, +0,1 puissance de recul",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "b16",
+         "effet": "+0,3 dégâts d'attaque, +0,1 puissance de recul",
+         "cout": 3,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Rapidité",
+       "x": 0.6912,
+       "y": 0.4738,
+       "rangs": [
+        {
+         "id": "b17",
+         "effet": "+1 % vitesse de déplacement, +1 % chance d'esquive",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "b18",
+         "effet": "+1 % vitesse de déplacement, +1 % chance d'esquive",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "b19",
+         "effet": "+1 % vitesse de déplacement, +1 % chance d'esquive",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "b20",
+         "effet": "+1 % vitesse de déplacement, +1 % chance d'esquive",
+         "cout": 4,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Symbole",
+       "x": 0.6201,
+       "y": 0.4012,
+       "rangs": [
+        {
+         "id": "b21",
+         "effet": "+3 % dégâts de mêlée, +1 PV max, +2 % résistance au recul",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "b22",
+         "effet": "+3 % dégâts de mêlée, +1 PV max, +2 % résistance au recul",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "b23",
+         "effet": "+3 % dégâts de mêlée, +1 PV max, +2 % résistance au recul",
+         "cout": 5,
+         "min": 0
+        },
+        {
+         "id": "b24",
+         "effet": "+3 % dégâts de mêlée, +1 PV max, +2 % résistance au recul",
+         "cout": 5,
+         "min": 0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "titre": "Plus Ultra",
+     "court": "Plus Ultra",
+     "exclut": null,
+     "etoiles": [
+      {
+       "titre": "Sauvetage",
+       "x": 0.4169,
+       "y": 0.7343,
+       "rangs": [
+        {
+         "id": "c1",
+         "effet": "+0,5 PV max",
+         "cout": 1,
+         "min": 0
+        },
+        {
+         "id": "c2",
+         "effet": "+0,5 PV max",
+         "cout": 1,
+         "min": 0
+        },
+        {
+         "id": "c3",
+         "effet": "+0,5 PV max",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "c4",
+         "effet": "+0,5 PV max",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Instinct de héros",
+       "x": 0.328,
+       "y": 0.6437,
+       "rangs": [
+        {
+         "id": "c5",
+         "effet": "+1 % chance d'esquive",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "c6",
+         "effet": "+1 % chance d'esquive",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "c7",
+         "effet": "+1 % chance d'esquive",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "c8",
+         "effet": "+1 % chance d'esquive",
+         "cout": 2,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Récupération",
+       "x": 0.2951,
+       "y": 0.556,
+       "rangs": [
+        {
+         "id": "c9",
+         "effet": "+4 % régénération naturelle",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "c10",
+         "effet": "+4 % régénération naturelle",
+         "cout": 2,
+         "min": 0
+        },
+        {
+         "id": "c11",
+         "effet": "+4 % régénération naturelle",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "c12",
+         "effet": "+4 % régénération naturelle",
+         "cout": 3,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Ne jamais reculer",
+       "x": 0.3297,
+       "y": 0.4719,
+       "rangs": [
+        {
+         "id": "c13",
+         "effet": "+2 % résistance au recul, +1 % réduction des dégâts subis",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "c14",
+         "effet": "+2 % résistance au recul, +1 % réduction des dégâts subis",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "c15",
+         "effet": "+2 % résistance au recul, +1 % réduction des dégâts subis",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "c16",
+         "effet": "+2 % résistance au recul, +1 % réduction des dégâts subis",
+         "cout": 3,
+         "min": 0
+        }
+       ]
+      },
+      {
+       "titre": "Plus Ultra",
+       "x": 0.4227,
+       "y": 0.3908,
+       "rangs": [
+        {
+         "id": "c17",
+         "effet": "+1 PV max, +1 % réduction des dégâts subis",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "c18",
+         "effet": "+1 PV max, +1 % réduction des dégâts subis",
+         "cout": 3,
+         "min": 0
+        },
+        {
+         "id": "c19",
+         "effet": "+1 PV max, +1 % réduction des dégâts subis",
+         "cout": 4,
+         "min": 0
+        },
+        {
+         "id": "c20",
+         "effet": "+1 PV max, +1 % réduction des dégâts subis",
+         "cout": 4,
+         "min": 0
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

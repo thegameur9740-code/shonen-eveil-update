@@ -1,0 +1,13 @@
+{
+ "name": "Les maîtres",
+ "category": "patchouli:ecole",
+ "icon": "minecraft:lectern",
+ "read_by_default": true,
+ "sortnum": 1,
+ "pages": [
+  {
+   "type": "patchouli:text",
+   "text": "Clic droit sur le maître de ta salle :$(li)[Ce monde]$(li)[Commencer]$(li)[Devenir plus fort]$(li)[Où aller]$(li)[Et maintenant ?] : ta prochaine étape.$(br2)Yaga, Rayleigh, Urahara, Tortue Géniale, Go Gun-hee, Jiraya, All Might."
+  }
+ ]
+}

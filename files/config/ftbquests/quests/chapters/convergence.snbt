@@ -1,0 +1,417 @@
+{
+	id: "00065D8F8DE32CCD"
+	group: ""
+	order_index: 14
+	filename: "convergence"
+	title: "La Convergence"
+	icon: "minecraft:end_crystal"
+	subtitle: [
+		"Le récit commun : les 7 Sceaux des Ancres ouvrent le combat final contre le Cœur"
+		"de la Convergence."
+	]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 5.81d
+			y: 1.38d
+			width: 14.38d
+			height: 6.75d
+			rotation: 0.0d
+			image: "shonen:textures/quetes/bg_convergence.png"
+			color: 16777215
+			alpha: 235
+			order: -11
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 5.81d
+			y: 1.38d
+			width: 30.0d
+			height: 21.94d
+			rotation: 0.0d
+			image: "shonen:textures/quetes/plein_convergence.png"
+			color: 16777215
+			alpha: 255
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			id: "00078698F5D7AD78"
+			title: "La Convergence"
+			subtitle: "Niveau 15"
+			x: 0.0d
+			y: 0.0d
+			shape: "circle"
+			size: 0.75d
+			tags: [
+				"convergence_la_convergence"
+			]
+			description: [
+				"Ton premier examen réussi, l'école te confie la vérité :"
+				"sept Ancres tiennent le monde ouvert. Il faudra les vaincre"
+				"toutes."
+				""
+				"Tâche : lire le récit (après le palier C)"
+				""
+				"Récompense : 155 XP"
+			]
+			tasks: [
+				{
+					id: "00048932FA160393"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "000589FE1985DAE2"
+					type: "command"
+					title: "155 XP"
+					command: "/shonenquete recompense {p} convergence_la_convergence"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:book"
+		}
+		{
+			id: "0008D6C4328889D6"
+			title: "Le Sceau de Jujutsu Kaisen"
+			subtitle: "Niveau 130"
+			x: 2.75d
+			y: 0.0d
+			shape: "star"
+			size: 2.0d
+			tags: [
+				"convergence_le_sceau_de_jujutsu_kaisen"
+			]
+			description: [
+				"Referme la fissure de Jujutsu Kaisen : bats son Ancre au"
+				"bout de sa lignée. Le Sceau est partagé par ton équipe."
+				""
+				"Tâche : avoir le Sceau de Jujutsu Kaisen (fin de sa lignée)"
+				""
+				"Récompense : 1591 XP, 265 Éclats"
+			]
+			tasks: [
+				{
+					id: "000C0F4C08DB91F7"
+					type: "custom"
+					title: "avoir le Sceau de Jujutsu Kaisen (fin de sa lignée)"
+				}
+			]
+			rewards: [
+				{
+					id: "000179AC82521CCB"
+					type: "command"
+					title: "1591 XP"
+					command: "/shonenquete recompense {p} convergence_le_sceau_de_jujutsu_kaisen"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "jujutsucraft:sukuna_finger"
+			dependencies: [
+				"00078698F5D7AD78"
+			]
+		}
+		{
+			id: "000AD17F86348144"
+			title: "Le Sceau de One Piece"
+			subtitle: "Niveau 130"
+			x: 5.5d
+			y: 0.0d
+			shape: "star"
+			size: 2.0d
+			tags: [
+				"convergence_le_sceau_de_one_piece"
+			]
+			description: [
+				"Referme la fissure de One Piece : bats son Ancre au bout de"
+				"sa lignée. Le Sceau est partagé par ton équipe."
+				""
+				"Tâche : avoir le Sceau de One Piece (fin de sa lignée)"
+				""
+				"Récompense : 1591 XP, 265 Éclats"
+			]
+			tasks: [
+				{
+					id: "00030253678D24C4"
+					type: "custom"
+					title: "avoir le Sceau de One Piece (fin de sa lignée)"
+				}
+			]
+			rewards: [
+				{
+					id: "000317031B99A995"
+					type: "command"
+					title: "1591 XP"
+					command: "/shonenquete recompense {p} convergence_le_sceau_de_one_piece"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minepiece:pirate_flag"
+			dependencies: [
+				"0008D6C4328889D6"
+			]
+		}
+		{
+			id: "000941A6897E72B0"
+			title: "Le Sceau de Bleach"
+			subtitle: "Niveau 130"
+			x: 8.25d
+			y: 0.0d
+			shape: "star"
+			size: 2.0d
+			tags: [
+				"convergence_le_sceau_de_bleach"
+			]
+			description: [
+				"Referme la fissure de Bleach : bats son Ancre au bout de sa"
+				"lignée. Le Sceau est partagé par ton équipe."
+				""
+				"Tâche : avoir le Sceau de Bleach (fin de sa lignée)"
+				""
+				"Récompense : 1591 XP, 265 Éclats"
+			]
+			tasks: [
+				{
+					id: "0003D60FCC55FE97"
+					type: "custom"
+					title: "avoir le Sceau de Bleach (fin de sa lignée)"
+				}
+			]
+			rewards: [
+				{
+					id: "00063C6765F4516A"
+					type: "command"
+					title: "1591 XP"
+					command: "/shonenquete recompense {p} convergence_le_sceau_de_bleach"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "bleachreborn:hollow_mask"
+			dependencies: [
+				"000AD17F86348144"
+			]
+		}
+		{
+			id: "0009D38910A3699D"
+			title: "Le Sceau de Dragon Ball"
+			subtitle: "Niveau 130"
+			x: 11.0d
+			y: 0.0d
+			shape: "star"
+			size: 2.0d
+			tags: [
+				"convergence_le_sceau_de_dragon_ball"
+			]
+			description: [
+				"Referme la fissure de Dragon Ball : bats son Ancre au bout"
+				"de sa lignée. Le Sceau est partagé par ton équipe."
+				""
+				"Tâche : avoir le Sceau de Dragon Ball (fin de sa lignée)"
+				""
+				"Récompense : 1591 XP, 265 Éclats"
+			]
+			tasks: [
+				{
+					id: "00079AE7F9321AEB"
+					type: "custom"
+					title: "avoir le Sceau de Dragon Ball (fin de sa lignée)"
+				}
+			]
+			rewards: [
+				{
+					id: "000E9F61A8FD1A1A"
+					type: "command"
+					title: "1591 XP"
+					command: "/shonenquete recompense {p} convergence_le_sceau_de_dragon_ball"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "dragonminez:dball4"
+			dependencies: [
+				"000941A6897E72B0"
+			]
+		}
+		{
+			id: "0008AB278B1DABF9"
+			title: "Le Sceau de Solo Leveling"
+			subtitle: "Niveau 130"
+			x: 11.0d
+			y: 2.75d
+			shape: "star"
+			size: 2.0d
+			tags: [
+				"convergence_le_sceau_de_solo_leveling"
+			]
+			description: [
+				"Referme la fissure de Solo Leveling : bats son Ancre au bout"
+				"de sa lignée. Le Sceau est partagé par ton équipe."
+				""
+				"Tâche : avoir le Sceau de Solo Leveling (fin de sa lignée)"
+				""
+				"Récompense : 1591 XP, 265 Éclats"
+			]
+			tasks: [
+				{
+					id: "0009EA869F1C6C2F"
+					type: "custom"
+					title: "avoir le Sceau de Solo Leveling (fin de sa lignée)"
+				}
+			]
+			rewards: [
+				{
+					id: "0004CB462612AB9C"
+					type: "command"
+					title: "1591 XP"
+					command: "/shonenquete recompense {p} convergence_le_sceau_de_solo_leveling"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "sololeveling:mana_crystal_e"
+			dependencies: [
+				"0009D38910A3699D"
+			]
+		}
+		{
+			id: "0005099BD9B4FB13"
+			title: "Le Sceau de Naruto"
+			subtitle: "Niveau 130"
+			x: 8.25d
+			y: 2.75d
+			shape: "star"
+			size: 2.0d
+			tags: [
+				"convergence_le_sceau_de_naruto"
+			]
+			description: [
+				"Referme la fissure de Naruto : bats son Ancre au bout de sa"
+				"lignée. Le Sceau est partagé par ton équipe."
+				""
+				"Tâche : avoir le Sceau de Naruto (fin de sa lignée)"
+				""
+				"Récompense : 1591 XP, 265 Éclats"
+			]
+			tasks: [
+				{
+					id: "0000EF2A1BEFB386"
+					type: "custom"
+					title: "avoir le Sceau de Naruto (fin de sa lignée)"
+				}
+			]
+			rewards: [
+				{
+					id: "00070BD48B7EFF98"
+					type: "command"
+					title: "1591 XP"
+					command: "/shonenquete recompense {p} convergence_le_sceau_de_naruto"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "ninshuorigins:rasengan"
+			dependencies: [
+				"0008AB278B1DABF9"
+			]
+		}
+		{
+			id: "000F6581F3855300"
+			title: "Le Sceau de My Hero Academia"
+			subtitle: "Niveau 130"
+			x: 5.5d
+			y: 2.75d
+			shape: "star"
+			size: 2.0d
+			tags: [
+				"convergence_le_sceau_de_my_hero_academia"
+			]
+			description: [
+				"Referme la fissure de My Hero Academia : bats son Ancre au"
+				"bout de sa lignée. Le Sceau est partagé par ton équipe."
+				""
+				"Tâche : avoir le Sceau de My Hero Academia (fin de sa lignée)"
+				""
+				"Récompense : 1591 XP, 265 Éclats"
+			]
+			tasks: [
+				{
+					id: "0009AEDC5AD6AA13"
+					type: "custom"
+					title: "avoir le Sceau de My Hero Academia (fin de sa lignée)"
+				}
+			]
+			rewards: [
+				{
+					id: "0001DB2BA4F7F11E"
+					type: "command"
+					title: "1591 XP"
+					command: "/shonenquete recompense {p} convergence_le_sceau_de_my_hero_academia"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "quirksunchained:all_might_head_helmet"
+			dependencies: [
+				"0005099BD9B4FB13"
+			]
+		}
+		{
+			id: "000DDE4E3D1077B3"
+			title: "Le Cœur de la Convergence"
+			subtitle: "Niveau 150"
+			x: 2.75d
+			y: 2.75d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"convergence_le_cur_de_la_convergence"
+			]
+			description: [
+				"Les sept Sceaux brillent ensemble. Sous l'école, le Cœur de"
+				"la Convergence se nourrit encore des Ancres. Tout le"
+				"serveur, une dernière fois. Chaque vainqueur reçoit l'Écho"
+				"de la Convergence : de quoi tout revivre, en plus dur."
+				""
+				"Tâche : vaincre le Cœur de la Convergence (combat final, tout le serveur, ~30 min)"
+				""
+				"Récompense : 1905 XP, 610 Éclats"
+			]
+			tasks: [
+				{
+					id: "0008C6285DFA33D9"
+					type: "custom"
+					title: "vaincre le Cœur de la Convergence (combat final, tout le ser"
+				}
+			]
+			rewards: [
+				{
+					id: "000AE470AD8E4D14"
+					type: "command"
+					title: "1905 XP"
+					command: "/shonenquete recompense {p} convergence_le_cur_de_la_convergence"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:end_crystal"
+			dependencies: [
+				"000F6581F3855300"
+			]
+		}
+	]
+	quest_links: [ ]
+}

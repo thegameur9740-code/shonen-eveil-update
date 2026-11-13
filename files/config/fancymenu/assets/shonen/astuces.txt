@@ -1,0 +1,43 @@
+Lis l'avertissement d'une attaque de boss, puis bouge : rien ne tombe sans prévenir.
+Une barre de boss rouge veut dire : trop fort pour toi, reviens plus tard.
+/ecole te ramène à l'école ; le Talisman du retour te renvoie d'où tu venais.
+Tu gardes toujours ton inventaire, mais mourir coûte 10 % de l'XP de ton niveau.
+Plus tu t'éloignes de l'école, plus les monstres sont forts. /danger te dit où tu es.
+Aux niveaux 15, 40, 70, 100 et 130, ton niveau se bloque : passe un examen du rang pour continuer.
+K ouvre tes arbres de compétences : un point par niveau dans chaque arbre.
+/touches montre tes touches ; /touches auto les remet comme au départ.
+Ton 2e univers s'ouvre à ton premier examen de rang A réussi.
+Le maître de chaque salle répond à [Et maintenant ?] : il te dit quoi faire ensuite.
+La boutique de chaque univers est à l'étage de sa salle ; Orin, au Grand Hall, vend tout le reste.
+À l'autel des revanches, tu refais un boss déjà battu dans le monde. Pas d'XP, mais du butin.
+Le mode cauchemar triple le prix de la revanche, double les Éclats et le butin.
+Ta Boussole de lignée montre ta prochaine étape. Clic droit : lignée suivante. Maj + clic droit : choisir.
+Le boss d'une zone de lignée n'apparaît que si ton équipe a battu celui de la zone d'avant.
+Dans une équipe FTB, vos attaques ne se blessent pas et vos quêtes avancent ensemble.
+Le coffre d'équipe du Grand Hall est le même pour tous les membres de ton équipe.
+Les contrats du jour sont le revenu régulier : reviens chaque jour.
+Sans le Haki de l'armement, tes coups traversent un Logia comme Crocodile ou Akainu.
+Le Haki est ouvert à tous : parle à Rayleigh dans la salle One Piece.
+Seuls les pouvoirs d'anime blessent vraiment les fléaux de Jujutsu Kaisen.
+Un Shinigami donne d'abord un nom à son Zanpakuto.
+Tes points d'épée viennent avec tes niveaux : 500 au niveau 40. Choisis ta voie de Shikai chez Urahara (gratuit la 1re fois).
+En Dragon Ball, charge ton ki avant de voler : le vol coûte du ki.
+Les transformations de Dragon Ball s'ouvrent aux niveaux 40, 70, 100 et 130.
+L'or du Système de Solo Leveling se change en Éclats chez le marchand de reprise de sa salle.
+Ton clan Naruto ne te plaît pas ? Le marchand de la salle Naruto le relance, mais tout ton côté Naruto recommence.
+Ton fruit du démon ne te plaît pas ? Le marchand de la salle One Piece en tire un autre.
+Ne saute pas dans l'eau avec un fruit du démon.
+Ton Alter grandit en combattant, jusqu'à ton niveau d'Éveillé.
+Au rang A, le maître d'armes de la salle My Hero Academia t'apprend un style de combat.
+Chaque boss a un butin unique : 10 % de chance, 25 % en cauchemar.
+Les Sceaux se gagnent en battant l'Ancre au bout de chaque lignée. Il en faut 7.
+L'école est indestructible : aucun boss ne peut la raser.
+Les postes d'entraînement du terrain, au sud-est de l'école, ont des mannequins pour essayer tes techniques sans danger.
+Le marchand de reprise de chaque salle rachète les objets de son univers : ce que tu farmes devient des Éclats.
+Un objet en rouge sur un stand ? Réussis l'examen de ce rang dans la salle pour l'acheter.
+Avant de sortir, fais l'entraînement de la Fosse d'endurance : tu ne peux pas y mourir.
+Jusqu'au niveau 10, le bouclier du novice amortit les coups des monstres.
+Réclame des chunks avec ton équipe : personne d'autre ne pourra y casser tes blocs.
+Les plans de construction du Grand Hall posent une maison entière dans les chunks de ton équipe.
+La pierre de voyage d'équipe te ramène à ta base depuis n'importe quelle pierre découverte.
+Shikai : niveau 40, puis médite 60 secondes sans bouger dans le lieu de ton élément (Feu : Nether, Glace : neige). Le Bankai vient au niveau 100.

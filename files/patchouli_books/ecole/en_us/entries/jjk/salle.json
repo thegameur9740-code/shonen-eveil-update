@@ -1,0 +1,20 @@
+{
+ "name": "Ta salle et ta lignée",
+ "category": "patchouli:jjk",
+ "icon": "minecraft:lodestone",
+ "read_by_default": true,
+ "sortnum": 3,
+ "pages": [
+  {
+   "type": "patchouli:text",
+   "text": "À l'étage, la $(l)boutique$() : sabres, bâtons, uniforme.$(br)Le $(l)marchand de reprise$() rachète les objets occultes.$(br2)Tes examens : du rang C au boss final.$(br2)La $(l)lignée$() mène au $(l)quartier maudit$(), jusqu'à $(l)Sukuna$()."
+  },
+  {
+   "type": "patchouli:spotlight",
+   "item": "shonen:tenue_eveille_jjk_casque,shonen:tenue_eveille_jjk_plastron,shonen:tenue_eveille_jjk_jambieres,shonen:tenue_eveille_jjk_bottes",
+   "link_recipe": false,
+   "title": "La tenue de l'Éveillé",
+   "text": "Dans ton kit, aux couleurs de ton univers."
+  }
+ ]
+}

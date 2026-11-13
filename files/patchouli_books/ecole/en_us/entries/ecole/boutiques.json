@@ -1,0 +1,27 @@
+{
+ "name": "Les boutiques",
+ "category": "patchouli:ecole",
+ "icon": "minecraft:chest",
+ "read_by_default": true,
+ "sortnum": 10,
+ "pages": [
+  {
+   "type": "patchouli:image",
+   "images": [
+    "shonen:textures/livre/ill_boutique.png"
+   ],
+   "border": false,
+   "text": "Un objet en rouge attend l'examen de son rang dans la salle."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Où acheter",
+   "text": "Tes Éclats s'affichent en haut à droite. Pour vendre : le marchand de l'étage de ta salle.$(br2)$(l)Boutique d'univers$() : à l'étage de sa salle.$(br)$(l)Grande boutique d'Orin$() (Grand Hall) : les vendeuses vendent blocs, minerais, nourriture, déco, modules de sacs, et rachètent ton butin.$(br)$(l)Orin$(), à l'entrée : objets rares, potions, plans, changer d'univers."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Ton sac à dos",
+   "text": "Tu reçois un $(l)sac à dos en cuivre$() avec ton kit.$(br2)Ton sac à dos s'améliore à la boutique : tiens-le en main, fais clic droit sur $(l)Orin$() et achète le tier suivant.$(br2)Il garde tout son contenu.$(br2)Fer 400, or 800, diamant 1 500, netherite 3 000 Éclats."
+  }
+ ]
+}

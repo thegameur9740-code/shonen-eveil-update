@@ -1,0 +1,6 @@
+{
+ "parent": "minecraft:item/generated",
+ "textures": {
+  "layer0": "shonen:item/insigne/examen_thomas_andre"
+ }
+}

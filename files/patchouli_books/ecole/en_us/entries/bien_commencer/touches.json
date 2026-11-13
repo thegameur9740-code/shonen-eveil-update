@@ -1,0 +1,17 @@
+{
+ "name": "Tes touches",
+ "category": "patchouli:bien_commencer",
+ "icon": "minecraft:stone_button",
+ "read_by_default": true,
+ "sortnum": 3,
+ "pages": [
+  {
+   "type": "patchouli:text",
+   "text": "1er univers : $(l)W R X C V$() et $(l)F6 à F12$().$(br)2e univers : $(l)Ctrl$() + les mêmes.$(br2)$(l)/touches$() : les voir.$(br)$(l)/touches auto$() : les remettre.$(br2)Le chapitre de ton univers affiche tes vraies touches."
+  },
+  {
+   "type": "patchouli:text",
+   "text": "$(l)Clic molette$() sur un ennemi : tu le $(l)verrouilles$(). Ta vue le suit.$(br)$(l)Molette$() : cible suivante.$(br)$(l)Clic molette$() encore : tu relâches.$(br2)Ça s'arrête si la cible meurt ou s'éloigne."
+  }
+ ]
+}

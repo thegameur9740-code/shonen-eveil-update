@@ -1,0 +1,29 @@
+{
+ "name": "L'école",
+ "category": "patchouli:ecole",
+ "icon": "minecraft:bricks",
+ "read_by_default": true,
+ "sortnum": 0,
+ "pages": [
+  {
+   "type": "patchouli:image",
+   "images": [
+    "shonen:textures/livre/ill_ecole.png"
+   ],
+   "border": false,
+   "text": "Le seul sol stable. Rien ne s'y casse, aucun boss ne peut la raser."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Le plan",
+   "text": "Au centre : la cour, le $(l)Grand Hall$(), la pagode, l'$(l)Autel des Sceaux$().$(br2)$(l)7 salles$(), une par univers : un maître, des socles d'examen, un autel des revanches, un pupitre avec ce livre.$(br)À l'étage : la boutique.$(br)Dessous : l'arène.$(br2)$(l)/ecole$() t'y ramène de partout."
+  },
+  {
+   "type": "patchouli:entity",
+   "entity": "minecraft:wandering_trader",
+   "scale": 0.9,
+   "name": "Orin",
+   "text": "Au Grand Hall : potions, blocs, plans de construction, sacs à dos."
+  }
+ ]
+}

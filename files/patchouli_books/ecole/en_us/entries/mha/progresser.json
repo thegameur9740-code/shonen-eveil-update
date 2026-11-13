@@ -1,0 +1,13 @@
+{
+ "name": "Progresser",
+ "category": "patchouli:mha",
+ "icon": "minecraft:experience_bottle",
+ "read_by_default": true,
+ "sortnum": 2,
+ "pages": [
+  {
+   "type": "patchouli:text",
+   "text": "Ton Alter monte du niveau $(l)1 à 100$() en combattant, jusqu'à ton niveau d'Éveillé.$(br2)Ses attaques s'ouvrent par niveau : place-les dans tes $(l)deux barres$() ($(l)$(k:key.quirksunchained.m)$()).$(br2)Au $(l)rang A$(), le maître d'armes de la salle t'apprend un style d'épée."
+  }
+ ]
+}

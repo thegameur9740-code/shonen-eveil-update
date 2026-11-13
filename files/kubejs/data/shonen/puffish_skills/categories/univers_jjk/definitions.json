@@ -1,0 +1,2375 @@
+{
+  "racine": {
+    "title": "Énergie occulte",
+    "description": "Une énergie née des émotions négatives circule en toi. Effet : +2,78 % dégâts magiques, +2,22 PV max.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:amethyst_shard"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0278,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 2.22,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a1": {
+    "title": "Flux maîtrisé I",
+    "description": "Ton énergie ne fuit plus de partout. Effet : +0,87 % dégâts magiques.",
+    "extra_description": "Branche « Technique innée ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glow_ink_sac"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0087,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "arbre_univers_jjk_technique_innee"
+        }
+      }
+    ]
+  },
+  "a2": {
+    "title": "Flux maîtrisé II",
+    "description": "Ton énergie ne fuit plus de partout. Effet : +0,87 % dégâts magiques.",
+    "extra_description": "Branche « Technique innée ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glow_ink_sac"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0087,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "a3": {
+    "title": "Flux maîtrisé III",
+    "description": "Ton énergie ne fuit plus de partout. Effet : +0,87 % dégâts magiques.",
+    "extra_description": "Branche « Technique innée ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glow_ink_sac"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0087,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "a4": {
+    "title": "Flux maîtrisé IV",
+    "description": "Ton énergie ne fuit plus de partout. Effet : +0,87 % dégâts magiques.",
+    "extra_description": "Branche « Technique innée ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glow_ink_sac"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0087,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "a5": {
+    "title": "Sorts précis I",
+    "description": "Ta technique frappe là où tu le veux. Effet : +0,87 % dégâts magiques, +1 % chance de coup critique.",
+    "extra_description": "Branche « Technique innée ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ender_eye"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0087,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a6": {
+    "title": "Sorts précis II",
+    "description": "Ta technique frappe là où tu le veux. Effet : +0,87 % dégâts magiques, +1 % chance de coup critique.",
+    "extra_description": "Branche « Technique innée ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ender_eye"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0087,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a7": {
+    "title": "Sorts précis III",
+    "description": "Ta technique frappe là où tu le veux. Effet : +0,87 % dégâts magiques, +1 % chance de coup critique.",
+    "extra_description": "Branche « Technique innée ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ender_eye"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0087,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a8": {
+    "title": "Sorts précis IV",
+    "description": "Ta technique frappe là où tu le veux. Effet : +0,87 % dégâts magiques, +1 % chance de coup critique.",
+    "extra_description": "Branche « Technique innée ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ender_eye"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0087,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a9": {
+    "title": "Technique inversée I",
+    "description": "Tu retournes l'énergie pour te soigner. Effet : +2,5 % soins reçus, +2,5 % régénération naturelle.",
+    "extra_description": "Branche « Technique innée ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glistering_melon_slice"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:healing",
+          "value": 0.025,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.025,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "a10": {
+    "title": "Technique inversée II",
+    "description": "Tu retournes l'énergie pour te soigner. Effet : +2,5 % soins reçus, +2,5 % régénération naturelle.",
+    "extra_description": "Branche « Technique innée ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glistering_melon_slice"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:healing",
+          "value": 0.025,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.025,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "a11": {
+    "title": "Technique inversée III",
+    "description": "Tu retournes l'énergie pour te soigner. Effet : +2,5 % soins reçus, +2,5 % régénération naturelle.",
+    "extra_description": "Branche « Technique innée ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glistering_melon_slice"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:healing",
+          "value": 0.025,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.025,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "a12": {
+    "title": "Technique inversée IV",
+    "description": "Tu retournes l'énergie pour te soigner. Effet : +2,5 % soins reçus, +2,5 % régénération naturelle.",
+    "extra_description": "Branche « Technique innée ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glistering_melon_slice"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:healing",
+          "value": 0.025,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.025,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "a13": {
+    "title": "Portée du territoire I",
+    "description": "Ton emprise s'étend autour de toi. Effet : +1,04 % dégâts magiques, +0,12 portée d'attaque.",
+    "extra_description": "Branche « Technique innée ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:end_crystal"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0104,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "forge:entity_reach",
+          "value": 0.12,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a14": {
+    "title": "Portée du territoire II",
+    "description": "Ton emprise s'étend autour de toi. Effet : +1,04 % dégâts magiques, +0,12 portée d'attaque.",
+    "extra_description": "Branche « Technique innée ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:end_crystal"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0104,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "forge:entity_reach",
+          "value": 0.12,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a15": {
+    "title": "Portée du territoire III",
+    "description": "Ton emprise s'étend autour de toi. Effet : +1,04 % dégâts magiques, +0,12 portée d'attaque.",
+    "extra_description": "Branche « Technique innée ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:end_crystal"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0104,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "forge:entity_reach",
+          "value": 0.12,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a16": {
+    "title": "Portée du territoire IV",
+    "description": "Ton emprise s'étend autour de toi. Effet : +1,04 % dégâts magiques, +0,12 portée d'attaque.",
+    "extra_description": "Branche « Technique innée ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:end_crystal"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0104,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "forge:entity_reach",
+          "value": 0.12,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a17": {
+    "title": "Éclair noir I",
+    "description": "L'énergie et le coup ne font plus qu'un, à l'instant parfait. Effet : +4 % dégâts critiques, +1,04 % dégâts magiques.",
+    "extra_description": "Branche « Technique innée ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:black_dye"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_damage",
+          "value": 0.04,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0104,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "a18": {
+    "title": "Éclair noir II",
+    "description": "L'énergie et le coup ne font plus qu'un, à l'instant parfait. Effet : +4 % dégâts critiques, +1,04 % dégâts magiques.",
+    "extra_description": "Branche « Technique innée ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:black_dye"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_damage",
+          "value": 0.04,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0104,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "a19": {
+    "title": "Éclair noir III",
+    "description": "L'énergie et le coup ne font plus qu'un, à l'instant parfait. Effet : +4 % dégâts critiques, +1,04 % dégâts magiques.",
+    "extra_description": "Branche « Technique innée ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:black_dye"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_damage",
+          "value": 0.04,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0104,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "a20": {
+    "title": "Éclair noir IV",
+    "description": "L'énergie et le coup ne font plus qu'un, à l'instant parfait. Effet : +4 % dégâts critiques, +1,04 % dégâts magiques.",
+    "extra_description": "Branche « Technique innée ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:black_dye"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_damage",
+          "value": 0.04,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0104,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "a21": {
+    "title": "Extension du territoire I",
+    "description": "Dans ton domaine, tes sorts ne ratent jamais. Effet : +1,74 % dégâts magiques, +1,11 PV max.",
+    "extra_description": "Branche « Technique innée ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0174,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1.11,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a22": {
+    "title": "Extension du territoire II",
+    "description": "Dans ton domaine, tes sorts ne ratent jamais. Effet : +1,74 % dégâts magiques, +1,11 PV max.",
+    "extra_description": "Branche « Technique innée ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0174,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1.11,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a23": {
+    "title": "Extension du territoire III",
+    "description": "Dans ton domaine, tes sorts ne ratent jamais. Effet : +1,74 % dégâts magiques, +1,11 PV max.",
+    "extra_description": "Branche « Technique innée ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 5,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0174,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1.11,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "a24": {
+    "title": "Extension du territoire IV",
+    "description": "Dans ton domaine, tes sorts ne ratent jamais. Effet : +1,74 % dégâts magiques, +1,11 PV max.",
+    "extra_description": "Branche « Technique innée ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 5,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.0174,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1.11,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b1": {
+    "title": "Muscles chargés I",
+    "description": "L'énergie gonfle tes coups. Effet : +1,64 % dégâts de mêlée.",
+    "extra_description": "Branche « Corps maudit ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0164,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "arbre_univers_jjk_corps_maudit"
+        }
+      }
+    ]
+  },
+  "b2": {
+    "title": "Muscles chargés II",
+    "description": "L'énergie gonfle tes coups. Effet : +1,64 % dégâts de mêlée.",
+    "extra_description": "Branche « Corps maudit ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0164,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b3": {
+    "title": "Muscles chargés III",
+    "description": "L'énergie gonfle tes coups. Effet : +1,64 % dégâts de mêlée.",
+    "extra_description": "Branche « Corps maudit ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0164,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b4": {
+    "title": "Muscles chargés IV",
+    "description": "L'énergie gonfle tes coups. Effet : +1,64 % dégâts de mêlée.",
+    "extra_description": "Branche « Corps maudit ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0164,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b5": {
+    "title": "Poing lesté I",
+    "description": "Chaque coup porte le poids d'une malédiction. Effet : +0,25 dégâts d'attaque.",
+    "extra_description": "Branche « Corps maudit ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:coal"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_damage",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b6": {
+    "title": "Poing lesté II",
+    "description": "Chaque coup porte le poids d'une malédiction. Effet : +0,25 dégâts d'attaque.",
+    "extra_description": "Branche « Corps maudit ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:coal"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_damage",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b7": {
+    "title": "Poing lesté III",
+    "description": "Chaque coup porte le poids d'une malédiction. Effet : +0,25 dégâts d'attaque.",
+    "extra_description": "Branche « Corps maudit ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:coal"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_damage",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b8": {
+    "title": "Poing lesté IV",
+    "description": "Chaque coup porte le poids d'une malédiction. Effet : +0,25 dégâts d'attaque.",
+    "extra_description": "Branche « Corps maudit ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:coal"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_damage",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b9": {
+    "title": "Peau dure I",
+    "description": "Les coups des fléaux te marquent moins. Effet : +0,25 armure, +0,56 PV max.",
+    "extra_description": "Branche « Corps maudit ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_chestplate"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.armor",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 0.56,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b10": {
+    "title": "Peau dure II",
+    "description": "Les coups des fléaux te marquent moins. Effet : +0,25 armure, +0,56 PV max.",
+    "extra_description": "Branche « Corps maudit ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_chestplate"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.armor",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 0.56,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b11": {
+    "title": "Peau dure III",
+    "description": "Les coups des fléaux te marquent moins. Effet : +0,25 armure, +0,56 PV max.",
+    "extra_description": "Branche « Corps maudit ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_chestplate"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.armor",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 0.56,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b12": {
+    "title": "Peau dure IV",
+    "description": "Les coups des fléaux te marquent moins. Effet : +0,25 armure, +0,56 PV max.",
+    "extra_description": "Branche « Corps maudit ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_chestplate"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.armor",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 0.56,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b13": {
+    "title": "Arme maudite I",
+    "description": "Ton arme boit ton énergie et frappe plus fort. Effet : +3 % dégâts d'épée, +1,32 % dégâts de mêlée.",
+    "extra_description": "Branche « Corps maudit ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:sword_damage",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0132,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b14": {
+    "title": "Arme maudite II",
+    "description": "Ton arme boit ton énergie et frappe plus fort. Effet : +3 % dégâts d'épée, +1,32 % dégâts de mêlée.",
+    "extra_description": "Branche « Corps maudit ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:sword_damage",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0132,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b15": {
+    "title": "Arme maudite III",
+    "description": "Ton arme boit ton énergie et frappe plus fort. Effet : +3 % dégâts d'épée, +1,32 % dégâts de mêlée.",
+    "extra_description": "Branche « Corps maudit ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:sword_damage",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0132,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b16": {
+    "title": "Arme maudite IV",
+    "description": "Ton arme boit ton énergie et frappe plus fort. Effet : +3 % dégâts d'épée, +1,32 % dégâts de mêlée.",
+    "extra_description": "Branche « Corps maudit ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:sword_damage",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0132,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "b17": {
+    "title": "Éclair noir I",
+    "description": "L'énergie et le coup ne font plus qu'un, à l'instant parfait. Effet : +4 % dégâts critiques, +1 % chance de coup critique.",
+    "extra_description": "Branche « Corps maudit ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:black_dye"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_damage",
+          "value": 0.04,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b18": {
+    "title": "Éclair noir II",
+    "description": "L'énergie et le coup ne font plus qu'un, à l'instant parfait. Effet : +4 % dégâts critiques, +1 % chance de coup critique.",
+    "extra_description": "Branche « Corps maudit ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:black_dye"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_damage",
+          "value": 0.04,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b19": {
+    "title": "Éclair noir III",
+    "description": "L'énergie et le coup ne font plus qu'un, à l'instant parfait. Effet : +4 % dégâts critiques, +1 % chance de coup critique.",
+    "extra_description": "Branche « Corps maudit ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:black_dye"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_damage",
+          "value": 0.04,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b20": {
+    "title": "Éclair noir IV",
+    "description": "L'énergie et le coup ne font plus qu'un, à l'instant parfait. Effet : +4 % dégâts critiques, +1 % chance de coup critique.",
+    "extra_description": "Branche « Corps maudit ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:black_dye"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_damage",
+          "value": 0.04,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b21": {
+    "title": "Corps céleste I",
+    "description": "Ton corps seul vaut toutes les techniques. Effet : +3,29 % dégâts de mêlée, +1,11 PV max, +0,01 vol de vie.",
+    "extra_description": "Branche « Corps maudit ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wither_skeleton_skull"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0329,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1.11,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:life_steal",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b22": {
+    "title": "Corps céleste II",
+    "description": "Ton corps seul vaut toutes les techniques. Effet : +3,29 % dégâts de mêlée, +1,11 PV max, +0,01 vol de vie.",
+    "extra_description": "Branche « Corps maudit ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wither_skeleton_skull"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0329,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1.11,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:life_steal",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b23": {
+    "title": "Corps céleste III",
+    "description": "Ton corps seul vaut toutes les techniques. Effet : +3,29 % dégâts de mêlée, +1,11 PV max, +0,01 vol de vie.",
+    "extra_description": "Branche « Corps maudit ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wither_skeleton_skull"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 5,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0329,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1.11,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:life_steal",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "b24": {
+    "title": "Corps céleste IV",
+    "description": "Ton corps seul vaut toutes les techniques. Effet : +3,29 % dégâts de mêlée, +1,11 PV max, +0,01 vol de vie.",
+    "extra_description": "Branche « Corps maudit ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wither_skeleton_skull"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 5,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.0329,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1.11,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:life_steal",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "c1": {
+    "title": "Vigilance I",
+    "description": "Tu sens la présence des fléaux. Effet : +1 % réduction des dégâts magiques subis.",
+    "extra_description": "Branche « Sorcier ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:spyglass"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_resistance",
+          "value": 0.01,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "arbre_univers_jjk_sorcier"
+        }
+      }
+    ]
+  },
+  "c2": {
+    "title": "Vigilance II",
+    "description": "Tu sens la présence des fléaux. Effet : +1 % réduction des dégâts magiques subis.",
+    "extra_description": "Branche « Sorcier ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:spyglass"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_resistance",
+          "value": 0.01,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c3": {
+    "title": "Vigilance III",
+    "description": "Tu sens la présence des fléaux. Effet : +1 % réduction des dégâts magiques subis.",
+    "extra_description": "Branche « Sorcier ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:spyglass"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_resistance",
+          "value": 0.01,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c4": {
+    "title": "Vigilance IV",
+    "description": "Tu sens la présence des fléaux. Effet : +1 % réduction des dégâts magiques subis.",
+    "extra_description": "Branche « Sorcier ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:spyglass"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_resistance",
+          "value": 0.01,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c5": {
+    "title": "Territoire simple I",
+    "description": "Une petite bulle qui te protège. Effet : +0,4 % réduction des dégâts subis.",
+    "extra_description": "Branche « Sorcier ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:shield"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:resistance",
+          "value": 0.004,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c6": {
+    "title": "Territoire simple II",
+    "description": "Une petite bulle qui te protège. Effet : +0,4 % réduction des dégâts subis.",
+    "extra_description": "Branche « Sorcier ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:shield"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:resistance",
+          "value": 0.004,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c7": {
+    "title": "Territoire simple III",
+    "description": "Une petite bulle qui te protège. Effet : +0,4 % réduction des dégâts subis.",
+    "extra_description": "Branche « Sorcier ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:shield"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:resistance",
+          "value": 0.004,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c8": {
+    "title": "Territoire simple IV",
+    "description": "Une petite bulle qui te protège. Effet : +0,4 % réduction des dégâts subis.",
+    "extra_description": "Branche « Sorcier ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:shield"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:resistance",
+          "value": 0.004,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c9": {
+    "title": "Endurance du sorcier I",
+    "description": "Les missions durent longtemps. Effet : +0,12 endurance (faim), +0,56 PV max.",
+    "extra_description": "Branche « Sorcier ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:cooked_beef"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:stamina",
+          "value": 0.12,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 0.56,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "c10": {
+    "title": "Endurance du sorcier II",
+    "description": "Les missions durent longtemps. Effet : +0,12 endurance (faim), +0,56 PV max.",
+    "extra_description": "Branche « Sorcier ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:cooked_beef"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:stamina",
+          "value": 0.12,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 0.56,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "c11": {
+    "title": "Endurance du sorcier III",
+    "description": "Les missions durent longtemps. Effet : +0,12 endurance (faim), +0,56 PV max.",
+    "extra_description": "Branche « Sorcier ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:cooked_beef"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:stamina",
+          "value": 0.12,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 0.56,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "c12": {
+    "title": "Endurance du sorcier IV",
+    "description": "Les missions durent longtemps. Effet : +0,12 endurance (faim), +0,56 PV max.",
+    "extra_description": "Branche « Sorcier ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:cooked_beef"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:stamina",
+          "value": 0.12,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 0.56,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "c13": {
+    "title": "Sang-froid I",
+    "description": "La peur ne te ralentit plus. Effet : +1 % vitesse de déplacement, +1 % chance d'esquive.",
+    "extra_description": "Branche « Sorcier ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:feather"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.movement_speed",
+          "value": 0.01,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:dodge_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "c14": {
+    "title": "Sang-froid II",
+    "description": "La peur ne te ralentit plus. Effet : +1 % vitesse de déplacement, +1 % chance d'esquive.",
+    "extra_description": "Branche « Sorcier ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:feather"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.movement_speed",
+          "value": 0.01,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:dodge_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "c15": {
+    "title": "Sang-froid III",
+    "description": "La peur ne te ralentit plus. Effet : +1 % vitesse de déplacement, +1 % chance d'esquive.",
+    "extra_description": "Branche « Sorcier ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:feather"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.movement_speed",
+          "value": 0.01,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:dodge_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "c16": {
+    "title": "Sang-froid IV",
+    "description": "La peur ne te ralentit plus. Effet : +1 % vitesse de déplacement, +1 % chance d'esquive.",
+    "extra_description": "Branche « Sorcier ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:feather"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.movement_speed",
+          "value": 0.01,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:dodge_chance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "c17": {
+    "title": "Grade spécial I",
+    "description": "Tu tiens tête aux pires fléaux. Effet : +1,11 PV max, +0,6 % réduction des dégâts subis.",
+    "extra_description": "Branche « Sorcier ». Rang 1 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_ingot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1.11,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:resistance",
+          "value": 0.006,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c18": {
+    "title": "Grade spécial II",
+    "description": "Tu tiens tête aux pires fléaux. Effet : +1,11 PV max, +0,6 % réduction des dégâts subis.",
+    "extra_description": "Branche « Sorcier ». Rang 2 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_ingot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1.11,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:resistance",
+          "value": 0.006,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c19": {
+    "title": "Grade spécial III",
+    "description": "Tu tiens tête aux pires fléaux. Effet : +1,11 PV max, +0,6 % réduction des dégâts subis.",
+    "extra_description": "Branche « Sorcier ». Rang 3 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_ingot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1.11,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:resistance",
+          "value": 0.006,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "c20": {
+    "title": "Grade spécial IV",
+    "description": "Tu tiens tête aux pires fléaux. Effet : +1,11 PV max, +0,6 % réduction des dégâts subis.",
+    "extra_description": "Branche « Sorcier ». Rang 4 sur 4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_ingot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1.11,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:resistance",
+          "value": 0.006,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  }
+}

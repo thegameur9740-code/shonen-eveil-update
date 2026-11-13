@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/nautilus_shell"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 7010
+      },
+      "model": "shonen:item/souvenirs/akainu"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7014
+      },
+      "model": "shonen:item/souvenirs/arlong"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7018
+      },
+      "model": "shonen:item/souvenirs/queen"
+    }
+  ]
+}

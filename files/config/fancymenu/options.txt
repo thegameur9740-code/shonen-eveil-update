@@ -1,0 +1,13 @@
+##[window]
+
+S:custom_window_title = 'Shonen Éveil';
+
+
+##[customization]
+
+B:show_customization_overlay = 'false';
+
+
+##[tutorial]
+
+B:show_welcome_screen = 'false';

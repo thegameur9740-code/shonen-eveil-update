@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/clay_ball"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 7042
+      },
+      "model": "shonen:item/souvenirs/isobu"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7046
+      },
+      "model": "shonen:item/souvenirs/chomei"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7050
+      },
+      "model": "shonen:item/souvenirs/danzo"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7054
+      },
+      "model": "shonen:item/souvenirs/madara"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7058
+      },
+      "model": "shonen:item/souvenirs/obito"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7062
+      },
+      "model": "shonen:item/souvenirs/konan"
+    }
+  ]
+}

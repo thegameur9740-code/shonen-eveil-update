@@ -1,0 +1,14 @@
+{
+  "title": "Arbre du Chasseur",
+  "description": "Ton entraînement de Chasseur, ouvert à tous les éveillés : endurance, combat et exploration. Pour finir : Survivant et Fortuné.",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "minecraft:iron_sword"
+    }
+  },
+  "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+  "unlocked_by_default": false,
+  "starting_points": 0,
+  "exclusive_root": false
+}

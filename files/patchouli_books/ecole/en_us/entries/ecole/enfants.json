@@ -1,0 +1,29 @@
+{
+ "name": "Les enfants",
+ "category": "patchouli:ecole",
+ "icon": "minecraft:cake",
+ "read_by_default": true,
+ "sortnum": 7,
+ "pages": [
+  {
+   "type": "patchouli:text",
+   "title": "Une bonne nouvelle",
+   "text": "Il faut être $(l)marié$() depuis 1 jour, avoir sa femme $(l)à la maison$(), et moins de 2 enfants.$(br2)Passe une nuit dans le $(l)lit double$() : au réveil, un message annonce une bonne nouvelle."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "La naissance",
+   "text": "Trois jours plus tard, le bébé naît.$(br)Le 1er est un garçon, le 2e une fille. Ils ressemblent à leur mère.$(br2)2 enfants au plus."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Ils grandissent",
+   "text": "Bébé 2 jours, enfant 3, adolescent 3, puis adulte : en jours $(l)réels$(), même serveur éteint.$(br2)Ils vivent près de ta $(l)pierre de foyer$() et dorment dans un lit simple.$(br)Au retour d'une absence, ils te rapportent parfois une petite trouvaille."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Leur prénom",
+   "text": "Clic droit sur un enfant : parler, câlin, petit cadeau (enfant et adolescent).$(br2)Prénom, une seule fois :$(br)$(l)/enfants prenom$() 1 ou 2, puis le prénom (2 à 16 lettres)."
+  }
+ ]
+}

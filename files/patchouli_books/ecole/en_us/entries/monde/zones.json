@@ -1,0 +1,34 @@
+{
+ "name": "Les zones de danger",
+ "category": "patchouli:monde",
+ "icon": "minecraft:red_banner",
+ "read_by_default": true,
+ "sortnum": 0,
+ "pages": [
+  {
+   "type": "patchouli:image",
+   "images": [
+    "shonen:textures/livre/ill_monde.png"
+   ],
+   "border": false,
+   "text": "Plus tu t'éloignes de l'école, plus c'est dur."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "5 zones",
+   "text": "Zone 1 jusqu'à 2 000 blocs de l'école.$(br)Zone 2 : 5 000. Zone 3 : 9 000. Zone 4 : 14 000.$(br)Zone 5 : au-delà.$(br2)Le niveau des monstres dépend de la zone, pas de toi.$(br)$(l)/danger$() : ta zone.$(br2)Les $(l)fléaux$() ne craignent que les pouvoirs d'anime."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Sur ta carte",
+   "text": "Sur la $(l)mini-carte$() et la grande carte, deux points orange $(l)Limite de zone$() : le début de la zone suivante, et celui de ta zone actuelle (rien en zone 1).$(br2)Ils suivent tes déplacements.$(br)$(l)/limites off$() : les cacher. $(l)/limites on$() : les remettre."
+  },
+  {
+   "type": "patchouli:entity",
+   "entity": "minecraft:zombie",
+   "scale": 0.9,
+   "name": "Un monstre des abords",
+   "text": "Son niveau dépend de la zone."
+  }
+ ]
+}

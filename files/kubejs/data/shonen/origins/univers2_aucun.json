@@ -1,0 +1,11 @@
+{
+  "name": "Pas encore de 2e univers",
+  "description": "Ton 2e univers s'éveillera à ta première réussite d'un examen de rang A.",
+  "icon": {
+    "item": "minecraft:clock"
+  },
+  "impact": 0,
+  "order": 99,
+  "unchoosable": true,
+  "powers": []
+}

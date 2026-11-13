@@ -1,0 +1,13 @@
+{
+ "name": "Les rangs",
+ "category": "patchouli:examens",
+ "icon": "minecraft:emerald",
+ "read_by_default": true,
+ "sortnum": 1,
+ "pages": [
+  {
+   "type": "patchouli:text",
+   "text": "Dans chaque salle :$(li)$(l)C$() : niveau 15.$(li)$(l)B, A, S$() : niveau 40, 70, 100 + l'examen d'avant de la même salle.$(li)$(l)Boss final$() : niveau 130 + tous les examens de la salle.$(br2)Les pouvoirs d'un univers s'ouvrent avec les examens de $(l)sa$() salle.$(br)Ton premier $(l)A$() t'ouvre un 2e univers."
+  }
+ ]
+}

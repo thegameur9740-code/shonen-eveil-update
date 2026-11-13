@@ -1,0 +1,13 @@
+{
+ "name": "Tes touches",
+ "category": "patchouli:naruto",
+ "icon": "minecraft:stone_button",
+ "read_by_default": true,
+ "sortnum": 1,
+ "pages": [
+  {
+   "type": "patchouli:text",
+   "text": "$(l)$(k:key.ninshuorigins.use_jutsu)$() utiliser le jutsu$(br)$(l)$(k:key.ninshuorigins.next_jutsu)$() jutsu suivant$(br)$(l)$(k:key.ninshuorigins.prev_jutsu)$() jutsu précédent$(br)$(l)$(k:key.ninshuorigins.charge_chakra)$() chakra$(br)$(l)$(k:key.ninshuorigins.subuse_jutsu)$() permutation$(br)$(l)$(k:key.ninshuorigins.mainmenu)$() menu ninja$(br)$(l)$(k:key.ninshu.toggle_taijutsu)$() taijutsu$(br)$(l)$(k:key.ninshuorigins.taijutsu_block)$() parade$(br2)Pas de touche : pas à toi."
+  }
+ ]
+}

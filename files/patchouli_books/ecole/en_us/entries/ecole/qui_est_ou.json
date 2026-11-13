@@ -1,0 +1,49 @@
+{
+ "name": "Qui est où, et quand",
+ "category": "patchouli:ecole",
+ "icon": "minecraft:clock",
+ "read_by_default": true,
+ "sortnum": 3,
+ "pages": [
+  {
+   "type": "patchouli:text",
+   "title": "Chacun sa journée",
+   "text": "Les 28 élèves n'ont pas tous la même journée.$(br2)Chaque jour du monde, chacun tire ses lieux : cour, parvis, bancs, kiosque, pique-nique, jardin zen.$(br2)Les amis vont par 2 ou 3 et partent à quelques secondes d'écart."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "La journée type",
+   "text": "$(l)Matin$() : entraînement, au poste de leur univers.$(br)$(l)Midi$() : repas à la cantine.$(br)$(l)Après-midi$() : tableau, parvis, cour ; un élève par salle proche travaille chez lui.$(br)$(l)Soir$() : cantine, bar ou bancs. Certains soirs, un petit groupe d'amis (6 au plus) va à l'onsen, au bord du bassin, puis rentre.$(br)$(l)Nuit$() : dortoir, dans la chambrée de leur univers."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Au totem",
+   "text": "À l'entraînement, ils frappent le totem de leur univers : poings, pieds ou armes, par séries, puis ils soufflent.$(br2)Si tu t'entraînes au totem, ils te laissent la place."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Petites habitudes",
+   "text": "Ils lisent sur un banc, balaient la cour, discutent face à face.$(br2)Le soir, ils s'assoient au bord du lit avant de s'allonger. Au matin, ils se lèvent doucement."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Fêtes et bar",
+   "text": "$(l)Festival$() : une partie des élèves vient sur la place, les autres dorment déjà.$(br2)$(l)Bar$() : ouvert jour et nuit. Les soirs sans festival, une douzaine d'élèves y passent la soirée : fléchettes, verres, discussions.$(br2)Clic droit sur un élève : il te parle, même endormi."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Maîtres et vendeuses",
+   "text": "$(l)Maîtres$() : 8 h à 22 h, dans leur salle.$(br)$(l)Comptoirs$() et $(l)Maison des métiers$() : 7 h à 22 h.$(br)$(l)Orin$(), le $(l)bar$() et l'$(l)infirmerie$() : jour et nuit, sans fermer."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Les autres postes",
+   "text": "$(l)Infirmerie$() : 4 infirmières de garde le jour, 2 la nuit.$(br)$(l)Onsen$() : certains soirs, de 22 h à 1 h, des élèves s'y baignent.$(br2)$(l)Daigo$(), à la forge : 8 h à 19 h.$(br)$(l)Cuisine$() : 6 h à 21 h.$(br)$(l)Sanctuaire$() : 9 h à 19 h.$(br)$(l)Rédaction$() : 8 h à 20 h."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Et la nuit ?",
+   "text": "Maîtres, comptoirs et ateliers (sauf Orin) fermés : « C'est fermé, reviens au matin », avec l'heure d'ouverture. Les maîtres quittent leur salle.$(br2)Ouverts toute la nuit : $(l)Orin$(), le $(l)bar$(), l'$(l)infirmerie$(), ton lit, tes coffres et ce guide. Les examens et les Grands Ennemis ne dépendent pas des horaires."
+  }
+ ]
+}

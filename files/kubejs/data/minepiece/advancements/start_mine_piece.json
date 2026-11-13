@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "minepiece:clothes_luffy_helmet"
+    },
+    "title": {
+      "translate": "advancements.start_mine_piece.title"
+    },
+    "description": {
+      "translate": "advancements.start_mine_piece.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "start_mine_piece_0": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

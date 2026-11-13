@@ -1,0 +1,1555 @@
+{
+	id: "0001198C4E1CE55D"
+	group: ""
+	order_index: 10
+	filename: "mha"
+	title: "My Hero Academia"
+	icon: "quirksunchained:all_might_head_helmet"
+	subtitle: [
+		"La salle de My Hero Academia (maître, guide), ses examens du rang C au boss"
+		"final, les paliers de la voie pour ceux qui ont l'univers, et la lignée"
+	]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 6.25d
+			y: 9.88d
+			width: 19.0d
+			height: 22.75d
+			rotation: 0.0d
+			image: "shonen:textures/quetes/bg_mha.png"
+			color: 16777215
+			alpha: 235
+			order: -11
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 6.25d
+			y: 9.88d
+			width: 30.0d
+			height: 21.94d
+			rotation: 0.0d
+			image: "shonen:textures/quetes/plein_mha.png"
+			color: 16777215
+			alpha: 255
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.75d
+			y: 0.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/writable_book.png"
+			color: 16777215
+			alpha: 255
+			order: 0
+			hover: [
+				"La salle"
+			]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.75d
+			y: 3.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/writable_book.png"
+			color: 16777215
+			alpha: 255
+			order: 0
+			hover: [
+				"Les examens de la salle"
+			]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.75d
+			y: 7.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/writable_book.png"
+			color: 16777215
+			alpha: 255
+			order: 0
+			hover: [
+				"La voie (si tu as cet univers)"
+			]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.75d
+			y: 10.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/writable_book.png"
+			color: 16777215
+			alpha: 255
+			order: 0
+			hover: [
+				"La lignée (histoire, ouverte à tous)"
+			]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			id: "00016ACA8CC9FD1A"
+			title: "Le maître de My Hero Academia"
+			subtitle: "Niveau 3"
+			x: 0.0d
+			y: 0.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"mha_le_maitre_de_my_hero_academia"
+			]
+			description: [
+				"Le maître de la salle My Hero Academia t'attend. Parle-lui :"
+				"il t'ouvre la lignée de son univers."
+				""
+				"Tâche : parler au maître de la salle (All Might, le Symbole de la paix (corps de joueur, skin dans mes-skins))"
+				""
+				"Récompense : 42 XP, 10 Éclats"
+			]
+			tasks: [
+				{
+					id: "000232144E2D09C4"
+					type: "custom"
+					title: "parler au maître de la salle (All Might, le Symbole de la pa"
+				}
+			]
+			rewards: [
+				{
+					id: "0002C2F13C387792"
+					type: "command"
+					title: "42 XP"
+					command: "/shonenquete recompense {p} mha_le_maitre_de_my_hero_academia"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "quirksunchained:all_might_head_helmet"
+		}
+		{
+			id: "00034AC347FD4D5C"
+			title: "Guide : My Hero Academia"
+			subtitle: "Niveau 3"
+			x: 1.5d
+			y: 0.0d
+			shape: "circle"
+			size: 0.75d
+			tags: [
+				"mha_guide_my_hero_academia"
+			]
+			description: [
+				"Alters, héros et vilains : le monde où chacun naît avec un"
+				"pouvoir, et où la Ligue des vilains veut tout faire tomber."
+				"Son guide est dans le Livre de l'école : comment progresser,"
+				"où aller."
+				""
+				"Tâche : lire le guide de l'univers dans le Livre de l'école"
+				""
+				"Récompense : 42 XP"
+			]
+			tasks: [
+				{
+					id: "0008D9A24DCF546E"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "00039680808DA42A"
+					type: "command"
+					title: "42 XP"
+					command: "/shonenquete recompense {p} mha_guide_my_hero_academia"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:book"
+			dependencies: [
+				"00016ACA8CC9FD1A"
+			]
+		}
+		{
+			id: "0001BC88D960FB57"
+			title: "Examen C : Moonfish"
+			subtitle: "Niveau 15"
+			x: 0.0d
+			y: 3.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"mha_examen_c_moonfish"
+			]
+			description: [
+				"L'examen de rang C de la salle My Hero Academia. Si My Hero"
+				"Academia est un de tes univers, il ouvre aussi le palier C"
+				"de ses pouvoirs."
+				""
+				"Tâche : réussir l'examen C de la salle My Hero Academia"
+				""
+				"ouvre le palier C des pouvoirs de cet univers"
+				""
+				"Récompense : 155 XP, 70 Éclats"
+			]
+			tasks: [
+				{
+					id: "000DB6EF625915C5"
+					type: "custom"
+					title: "réussir l'examen C de la salle My Hero Academia"
+				}
+			]
+			rewards: [
+				{
+					id: "000496AC09406627"
+					type: "command"
+					title: "155 XP"
+					command: "/shonenquete recompense {p} mha_examen_c_moonfish"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "quirksunchained:all_might_head_helmet"
+		}
+		{
+			id: "0002846E49F7B164"
+			title: "Examen B : Stain"
+			subtitle: "Niveau 40"
+			x: 1.5d
+			y: 3.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"mha_examen_b_stain"
+			]
+			description: [
+				"L'examen de rang B de la salle My Hero Academia. Si My Hero"
+				"Academia est un de tes univers, il ouvre aussi le palier B"
+				"de ses pouvoirs."
+				""
+				"Tâche : réussir l'examen B de la salle My Hero Academia"
+				""
+				"ouvre le palier B des pouvoirs de cet univers"
+				""
+				"Récompense : 413 XP, 170 Éclats"
+			]
+			tasks: [
+				{
+					id: "000FF25646441330"
+					type: "custom"
+					title: "réussir l'examen B de la salle My Hero Academia"
+				}
+			]
+			rewards: [
+				{
+					id: "000F7A0E22C247D5"
+					type: "command"
+					title: "413 XP"
+					command: "/shonenquete recompense {p} mha_examen_b_stain"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "quirksunchained:all_might_head_helmet"
+			dependencies: [
+				"0001BC88D960FB57"
+			]
+		}
+		{
+			id: "0006BF604A9103DE"
+			title: "Examen A : Muscular"
+			subtitle: "Niveau 70"
+			x: 3.0d
+			y: 3.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"mha_examen_a_muscular"
+			]
+			description: [
+				"L'examen de rang A de la salle My Hero Academia. Si My Hero"
+				"Academia est un de tes univers, il ouvre aussi le palier A"
+				"de ses pouvoirs."
+				""
+				"Tâche : réussir l'examen A de la salle My Hero Academia"
+				""
+				"ouvre le palier A des pouvoirs de cet univers"
+				""
+				"Récompense : 763 XP, 290 Éclats"
+			]
+			tasks: [
+				{
+					id: "00040AB0FE6CB572"
+					type: "custom"
+					title: "réussir l'examen A de la salle My Hero Academia"
+				}
+			]
+			rewards: [
+				{
+					id: "000036AF35150554"
+					type: "command"
+					title: "763 XP"
+					command: "/shonenquete recompense {p} mha_examen_a_muscular"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "quirksunchained:all_might_head_helmet"
+			dependencies: [
+				"0002846E49F7B164"
+			]
+		}
+		{
+			id: "000D19C609F41864"
+			title: "Examen A : le Nomu de l'USJ"
+			subtitle: "Niveau 70"
+			x: 4.5d
+			y: 3.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"mha_examen_a_le_nomu_de_l_usj"
+			]
+			description: [
+				"L'examen de rang A de la salle My Hero Academia. Si My Hero"
+				"Academia est un de tes univers, il ouvre aussi le palier A"
+				"de ses pouvoirs."
+				""
+				"Tâche : réussir l'examen A de la salle My Hero Academia"
+				""
+				"ouvre le palier A des pouvoirs de cet univers"
+				""
+				"Récompense : 763 XP, 290 Éclats"
+			]
+			tasks: [
+				{
+					id: "000B42BDA630EC5F"
+					type: "custom"
+					title: "réussir l'examen A de la salle My Hero Academia"
+				}
+			]
+			rewards: [
+				{
+					id: "000D5BE0ED56893D"
+					type: "command"
+					title: "763 XP"
+					command: "/shonenquete recompense {p} mha_examen_a_le_nomu_de_l_usj"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "quirksunchained:all_might_head_helmet"
+			dependencies: [
+				"0006BF604A9103DE"
+			]
+		}
+		{
+			id: "000A54B8455BA75B"
+			title: "Examen S : Overhaul"
+			subtitle: "Niveau 100"
+			x: 6.0d
+			y: 3.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"mha_examen_s_overhaul"
+			]
+			description: [
+				"L'examen de rang S de la salle My Hero Academia. Si My Hero"
+				"Academia est un de tes univers, il ouvre aussi le palier S"
+				"de ses pouvoirs."
+				""
+				"Tâche : réussir l'examen S de la salle My Hero Academia"
+				""
+				"ouvre le palier S des pouvoirs de cet univers"
+				""
+				"Récompense : 1155 XP, 410 Éclats"
+			]
+			tasks: [
+				{
+					id: "000A3AA8DBECC55F"
+					type: "custom"
+					title: "réussir l'examen S de la salle My Hero Academia"
+				}
+			]
+			rewards: [
+				{
+					id: "0005B1DBC25082B5"
+					type: "command"
+					title: "1155 XP"
+					command: "/shonenquete recompense {p} mha_examen_s_overhaul"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "quirksunchained:all_might_head_helmet"
+			dependencies: [
+				"000D19C609F41864"
+			]
+		}
+		{
+			id: "00035BB3FDD35CE5"
+			title: "Examen S : Dabi"
+			subtitle: "Niveau 100"
+			x: 6.0d
+			y: 4.5d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"mha_examen_s_dabi"
+			]
+			description: [
+				"L'examen de rang S de la salle My Hero Academia. Si My Hero"
+				"Academia est un de tes univers, il ouvre aussi le palier S"
+				"de ses pouvoirs."
+				""
+				"Tâche : réussir l'examen S de la salle My Hero Academia"
+				""
+				"ouvre le palier S des pouvoirs de cet univers"
+				""
+				"Récompense : 1155 XP, 410 Éclats"
+			]
+			tasks: [
+				{
+					id: "000EC2A3E7DF8E5D"
+					type: "custom"
+					title: "réussir l'examen S de la salle My Hero Academia"
+				}
+			]
+			rewards: [
+				{
+					id: "0006176443ECD94B"
+					type: "command"
+					title: "1155 XP"
+					command: "/shonenquete recompense {p} mha_examen_s_dabi"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "quirksunchained:all_might_head_helmet"
+			dependencies: [
+				"000A54B8455BA75B"
+			]
+		}
+		{
+			id: "000CA6981E14488D"
+			title: "Examen S+ : All For One (boss final)"
+			subtitle: "Niveau 130"
+			x: 4.5d
+			y: 4.5d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"mha_examen_s_plus_all_for_one_boss_final"
+			]
+			description: [
+				"Le boss final de la salle My Hero Academia. Tous les examens"
+				"de la salle d'abord ; ensuite, la légende."
+				""
+				"Tâche : réussir l'examen S+ de la salle My Hero Academia"
+				""
+				"boss final de la salle"
+				""
+				"Récompense : 1591 XP, 530 Éclats"
+			]
+			tasks: [
+				{
+					id: "000C1013A8C0496E"
+					type: "custom"
+					title: "réussir l'examen S+ de la salle My Hero Academia"
+				}
+			]
+			rewards: [
+				{
+					id: "00056C8F07FBC012"
+					type: "command"
+					title: "1591 XP"
+					command: "/shonenquete recompense {p} mha_examen_s_plus_all_for_one_boss_final"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "quirksunchained:all_might_head_helmet"
+			dependencies: [
+				"00035BB3FDD35CE5"
+			]
+		}
+		{
+			id: "000507535C397EF5"
+			title: "Palier B de la voie : Alter renforcé"
+			subtitle: "Niveau 40"
+			x: 0.0d
+			y: 7.5d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"mha_palier_b_de_la_voie_alter_renforce"
+			]
+			description: [
+				"Ton univers grandit : Alter renforcé (niveau du mod)."
+				"Réussis l'examen de ce rang dans cette salle pour l'ouvrir."
+				""
+				"Tâche : avoir réussi l'examen B de la salle My Hero Academia ET avoir l'univers dans sa voie"
+				""
+				"visible seulement pour ceux qui ont l'univers ; détail des formes : progression.md section 14"
+				""
+				"Récompense : 413 XP, 170 Éclats"
+			]
+			tasks: [
+				{
+					id: "000C9B043D806286"
+					type: "custom"
+					title: "avoir réussi l'examen B de la salle My Hero Academia ET avoi"
+				}
+			]
+			rewards: [
+				{
+					id: "00090250A892C085"
+					type: "command"
+					title: "413 XP"
+					command: "/shonenquete recompense {p} mha_palier_b_de_la_voie_alter_renforce"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "quirksunchained:all_might_head_helmet"
+		}
+		{
+			id: "00005E9400C4C4D2"
+			title: "Palier A de la voie : Alter avancé et style de combat du maître d'armes"
+			subtitle: "Niveau 70"
+			x: 1.5d
+			y: 7.5d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"mha_palier_a_de_la_voie_alter_avance_et_style_de_com"
+			]
+			description: [
+				"Ton univers grandit : Alter avancé et style de combat du"
+				"maître d'armes. Réussis l'examen de ce rang dans cette salle"
+				"pour l'ouvrir."
+				""
+				"Tâche : avoir réussi l'examen A de la salle My Hero Academia ET avoir l'univers dans sa voie"
+				""
+				"visible seulement pour ceux qui ont l'univers ; détail des formes : progression.md section 14"
+				""
+				"Récompense : 763 XP, 290 Éclats"
+			]
+			tasks: [
+				{
+					id: "0001ABA14147F8A0"
+					type: "custom"
+					title: "avoir réussi l'examen A de la salle My Hero Academia ET avoi"
+				}
+			]
+			rewards: [
+				{
+					id: "000C0EECCBBDE245"
+					type: "command"
+					title: "763 XP"
+					command: "/shonenquete recompense {p} mha_palier_a_de_la_voie_alter_avance_et_style_de_com"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "quirksunchained:all_might_head_helmet"
+			dependencies: [
+				"000507535C397EF5"
+			]
+		}
+		{
+			id: "000D1930AB9F4F73"
+			title: "Palier S de la voie : Plus Ultra : l'Alter à pleine puissance"
+			subtitle: "Niveau 100"
+			x: 3.0d
+			y: 7.5d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"mha_palier_s_de_la_voie_plus_ultra_l_alter_a_pleine_"
+			]
+			description: [
+				"Ton univers grandit : Plus Ultra : l'Alter à pleine"
+				"puissance. Réussis l'examen de ce rang dans cette salle pour"
+				"l'ouvrir."
+				""
+				"Tâche : avoir réussi l'examen S de la salle My Hero Academia ET avoir l'univers dans sa voie"
+				""
+				"visible seulement pour ceux qui ont l'univers ; détail des formes : progression.md section 14"
+				""
+				"Récompense : 1155 XP, 410 Éclats"
+			]
+			tasks: [
+				{
+					id: "00034F3A5809E099"
+					type: "custom"
+					title: "avoir réussi l'examen S de la salle My Hero Academia ET avoi"
+				}
+			]
+			rewards: [
+				{
+					id: "000F930B97F4027A"
+					type: "command"
+					title: "1155 XP"
+					command: "/shonenquete recompense {p} mha_palier_s_de_la_voie_plus_ultra_l_alter_a_pleine_"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "quirksunchained:all_might_head_helmet"
+			dependencies: [
+				"00005E9400C4C4D2"
+			]
+		}
+		{
+			id: "0007A1701C0FC48A"
+			title: "Zone 1 — Trouver les ruelles"
+			subtitle: "Niveau 4"
+			x: 0.0d
+			y: 10.5d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"mha_zone_1_trouver_les_ruelles"
+			]
+			description: [
+				"Des ruelles étroites entre de petits immeubles, où un vilain"
+				"a lâché ses créatures. Trouve le lieu."
+				""
+				"Tâche : tâche d'emplacement (lieu posé à la création du monde ; la Boussole de lignée y mène)"
+				""
+				"Récompense : 51 XP, 15 Éclats"
+			]
+			tasks: [
+				{
+					id: "000745B222641E41"
+					type: "custom"
+					title: "tâche d'emplacement (lieu posé à la création du monde ; la B"
+				}
+			]
+			rewards: [
+				{
+					id: "00042849D739462F"
+					type: "command"
+					title: "51 XP"
+					command: "/shonenquete recompense {p} mha_zone_1_trouver_les_ruelles"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "quirksunchained:all_might_head_helmet"
+		}
+		{
+			id: "000F659151444B0D"
+			title: "Zone 1 — Les sbires"
+			subtitle: "Niveau 6"
+			x: 0.0d
+			y: 12.75d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"mha_zone_1_les_sbires"
+			]
+			description: [
+				"Des voyous testent leur Alter sur les passants."
+				""
+				"Tâche : tuer 15 voyous à Alter (monstres du mod)"
+				""
+				"Récompense : 70 XP, 15 Éclats"
+			]
+			tasks: [
+				{
+					id: "0002552B505949A4"
+					type: "custom"
+					title: "tuer 15 voyous à Alter (monstres du mod)"
+				}
+			]
+			rewards: [
+				{
+					id: "00086FAD0AB83294"
+					type: "command"
+					title: "70 XP"
+					command: "/shonenquete recompense {p} mha_zone_1_les_sbires"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "quirksunchained:all_might_head_helmet"
+			dependencies: [
+				"0007A1701C0FC48A"
+			]
+		}
+		{
+			id: "000BAAA7335168F4"
+			title: "Zone 1 — Nettoyer le terrain"
+			subtitle: "Niveau 9"
+			x: 0.0d
+			y: 15.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"mha_zone_1_nettoyer_le_terrain"
+			]
+			description: [
+				"Il en reste dans chaque ruelle."
+				""
+				"Tâche : tuer 30 voyous à Alter (monstres du mod) de plus"
+				""
+				"Récompense : 98 XP, 25 Éclats"
+			]
+			tasks: [
+				{
+					id: "0004528AE4693813"
+					type: "custom"
+					title: "tuer 30 voyous à Alter (monstres du mod) de plus"
+				}
+			]
+			rewards: [
+				{
+					id: "000DC0B882C298B5"
+					type: "command"
+					title: "98 XP"
+					command: "/shonenquete recompense {p} mha_zone_1_nettoyer_le_terrain"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "quirksunchained:all_might_head_helmet"
+			dependencies: [
+				"000F659151444B0D"
+			]
+		}
+		{
+			id: "000F98C0032AEE8C"
+			title: "Zone 1 — Un Nomu errant"
+			subtitle: "Niveau 15"
+			x: 0.0d
+			y: 17.25d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"mha_zone_1_un_nomu_errant"
+			]
+			description: [
+				"Un Nomu errant : un corps sans âme, fabriqué pour se battre."
+				""
+				"Tâche : vaincre un Nomu errant (histoire_nomu) (coché par histoire.js pour les participants)"
+				""
+				"à créer : boss de zone 1 MHA"
+				""
+				"Récompense : 155 XP, 70 Éclats"
+			]
+			tasks: [
+				{
+					id: "000C3EAD4FD3B10B"
+					type: "custom"
+					title: "vaincre un Nomu errant (histoire_nomu) (coché par histoire.j"
+				}
+			]
+			rewards: [
+				{
+					id: "000132CC1E4800F6"
+					type: "command"
+					title: "155 XP"
+					command: "/shonenquete recompense {p} mha_zone_1_un_nomu_errant"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "quirksunchained:allfor_one_essence"
+			dependencies: [
+				"000BAAA7335168F4"
+			]
+		}
+		{
+			id: "0006D1F2DAE7069B"
+			title: "Zone 2 — Trouver le centre commercial"
+			subtitle: "Niveau 20"
+			x: 3.5d
+			y: 10.5d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"mha_zone_2_trouver_le_centre_commercial"
+			]
+			description: [
+				"Un centre commercial vitré sur deux étages. Trouve le lieu."
+				""
+				"Tâche : tâche d'emplacement (lieu posé à la création du monde ; la Boussole de lignée y mène)"
+				""
+				"Récompense : 205 XP, 45 Éclats"
+			]
+			tasks: [
+				{
+					id: "0000022F9E3A4477"
+					type: "custom"
+					title: "tâche d'emplacement (lieu posé à la création du monde ; la B"
+				}
+			]
+			rewards: [
+				{
+					id: "000C7064968E9B01"
+					type: "command"
+					title: "205 XP"
+					command: "/shonenquete recompense {p} mha_zone_2_trouver_le_centre_commercial"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "quirksunchained:all_might_head_helmet"
+			dependencies: [
+				"000F98C0032AEE8C"
+			]
+		}
+		{
+			id: "000309D860CC368C"
+			title: "Zone 2 — Les sbires"
+			subtitle: "Niveau 25"
+			x: 3.5d
+			y: 12.75d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"mha_zone_2_les_sbires"
+			]
+			description: [
+				"Des voyous de la Ligue des vilains."
+				""
+				"Tâche : tuer 15 voyous de la Ligue"
+				""
+				"Récompense : 255 XP, 55 Éclats"
+			]
+			tasks: [
+				{
+					id: "000123A0A5F6566D"
+					type: "custom"
+					title: "tuer 15 voyous de la Ligue"
+				}
+			]
+			rewards: [
+				{
+					id: "000B5F1E265D117C"
+					type: "command"
+					title: "255 XP"
+					command: "/shonenquete recompense {p} mha_zone_2_les_sbires"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "quirksunchained:all_might_head_helmet"
+			dependencies: [
+				"0006D1F2DAE7069B"
+			]
+		}
+		{
+			id: "00042C52AD714043"
+			title: "Zone 2 — Nettoyer le terrain"
+			subtitle: "Niveau 30"
+			x: 3.5d
+			y: 15.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"mha_zone_2_nettoyer_le_terrain"
+			]
+			description: [
+				"Ils se cachent dans les boutiques."
+				""
+				"Tâche : tuer 30 voyous de la Ligue de plus"
+				""
+				"Récompense : 307 XP, 65 Éclats"
+			]
+			tasks: [
+				{
+					id: "000BF6DD18426002"
+					type: "custom"
+					title: "tuer 30 voyous de la Ligue de plus"
+				}
+			]
+			rewards: [
+				{
+					id: "000D5EA2A04F3DE4"
+					type: "command"
+					title: "307 XP"
+					command: "/shonenquete recompense {p} mha_zone_2_nettoyer_le_terrain"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "quirksunchained:all_might_head_helmet"
+			dependencies: [
+				"000309D860CC368C"
+			]
+		}
+		{
+			id: "000AA394447831CE"
+			title: "Zone 2 — Himiko Toga"
+			subtitle: "Niveau 40"
+			x: 3.5d
+			y: 17.25d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"mha_zone_2_himiko_toga"
+			]
+			description: [
+				"Himiko Toga. Elle sourit, elle a un couteau, et elle peut"
+				"prendre ton visage."
+				""
+				"Tâche : vaincre Himiko Toga (toga) (coché par histoire.js pour les participants)"
+				""
+				"Récompense : 413 XP, 170 Éclats"
+			]
+			tasks: [
+				{
+					id: "000584821DE9FBE1"
+					type: "custom"
+					title: "vaincre Himiko Toga (toga) (coché par histoire.js pour les p"
+				}
+			]
+			rewards: [
+				{
+					id: "000E71045FD9B14D"
+					type: "command"
+					title: "413 XP"
+					command: "/shonenquete recompense {p} mha_zone_2_himiko_toga"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "quirksunchained:allfor_one_essence"
+			dependencies: [
+				"00042C52AD714043"
+			]
+		}
+		{
+			id: "0007C193093A22ED"
+			title: "Zone 3 — Trouver le camp d'entraînement"
+			subtitle: "Niveau 48"
+			x: 7.0d
+			y: 10.5d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"mha_zone_3_trouver_le_camp_d_entrainement"
+			]
+			description: [
+				"Un camp d'entraînement dans la forêt, attaqué de nuit."
+				"Trouve le lieu."
+				""
+				"Tâche : tâche d'emplacement (lieu posé à la création du monde ; la Boussole de lignée y mène)"
+				""
+				"Récompense : 502 XP, 100 Éclats"
+			]
+			tasks: [
+				{
+					id: "000A3E8A5350B50A"
+					type: "custom"
+					title: "tâche d'emplacement (lieu posé à la création du monde ; la B"
+				}
+			]
+			rewards: [
+				{
+					id: "000ED791A81EDE58"
+					type: "command"
+					title: "502 XP"
+					command: "/shonenquete recompense {p} mha_zone_3_trouver_le_camp_d_entrainement"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "quirksunchained:all_might_head_helmet"
+			dependencies: [
+				"000AA394447831CE"
+			]
+		}
+		{
+			id: "000CCB2ABB25EA8B"
+			title: "Zone 3 — Les sbires"
+			subtitle: "Niveau 53"
+			x: 7.0d
+			y: 12.75d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"mha_zone_3_les_sbires"
+			]
+			description: [
+				"Des Nomu de base."
+				""
+				"Tâche : tuer 15 Nomu de base"
+				""
+				"Récompense : 560 XP, 110 Éclats"
+			]
+			tasks: [
+				{
+					id: "0007F8D9FAB00E77"
+					type: "custom"
+					title: "tuer 15 Nomu de base"
+				}
+			]
+			rewards: [
+				{
+					id: "00092803486D108F"
+					type: "command"
+					title: "560 XP"
+					command: "/shonenquete recompense {p} mha_zone_3_les_sbires"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "quirksunchained:all_might_head_helmet"
+			dependencies: [
+				"0007C193093A22ED"
+			]
+		}
+		{
+			id: "000529EA29306B0E"
+			title: "Zone 3 — Nettoyer le terrain"
+			subtitle: "Niveau 59"
+			x: 7.0d
+			y: 15.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"mha_zone_3_nettoyer_le_terrain"
+			]
+			description: [
+				"La forêt brûle encore."
+				""
+				"Tâche : tuer 30 Nomu de base de plus"
+				""
+				"Récompense : 629 XP, 125 Éclats"
+			]
+			tasks: [
+				{
+					id: "0009EBCD50489433"
+					type: "custom"
+					title: "tuer 30 Nomu de base de plus"
+				}
+			]
+			rewards: [
+				{
+					id: "000EB57879484F32"
+					type: "command"
+					title: "629 XP"
+					command: "/shonenquete recompense {p} mha_zone_3_nettoyer_le_terrain"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "quirksunchained:all_might_head_helmet"
+			dependencies: [
+				"000CCB2ABB25EA8B"
+			]
+		}
+		{
+			id: "000367FD42FE3636"
+			title: "Zone 3 — Le lieutenant : Mr. Compress"
+			subtitle: "Niveau 64"
+			x: 7.0d
+			y: 17.25d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"mha_zone_3_le_lieutenant_mr_compress"
+			]
+			description: [
+				"Mr. Compress, le magicien qui enferme ses victimes dans des"
+				"billes."
+				""
+				"Tâche : vaincre Mr. Compress"
+				""
+				"Récompense : 689 XP, 270 Éclats"
+			]
+			tasks: [
+				{
+					id: "0002066CD4B8DAB8"
+					type: "custom"
+					title: "vaincre Mr. Compress"
+				}
+			]
+			rewards: [
+				{
+					id: "000FEA8B7B0A2B8F"
+					type: "command"
+					title: "689 XP"
+					command: "/shonenquete recompense {p} mha_zone_3_le_lieutenant_mr_compress"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "quirksunchained:allfor_one_essence"
+			dependencies: [
+				"000529EA29306B0E"
+			]
+		}
+		{
+			id: "0004FED3906EB424"
+			title: "Zone 3 — Twice et ses doubles"
+			subtitle: "Niveau 70"
+			x: 7.0d
+			y: 19.5d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"mha_zone_3_twice_et_ses_doubles"
+			]
+			description: [
+				"Twice et ses doubles. Lequel est le vrai ?"
+				""
+				"Tâche : vaincre Twice et ses doubles (twice) (coché par histoire.js pour les participants)"
+				""
+				"Récompense : 763 XP, 290 Éclats"
+			]
+			tasks: [
+				{
+					id: "0005FD6964B5C782"
+					type: "custom"
+					title: "vaincre Twice et ses doubles (twice) (coché par histoire.js "
+				}
+			]
+			rewards: [
+				{
+					id: "000F7DA53582A363"
+					type: "command"
+					title: "763 XP"
+					command: "/shonenquete recompense {p} mha_zone_3_twice_et_ses_doubles"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "quirksunchained:allfor_one_essence"
+			dependencies: [
+				"000367FD42FE3636"
+			]
+		}
+		{
+			id: "000061AC6D2C9D59"
+			title: "Zone 4 — Trouver la ville en ruine"
+			subtitle: "Niveau 78"
+			x: 10.5d
+			y: 10.5d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"mha_zone_4_trouver_la_ville_en_ruine"
+			]
+			description: [
+				"Une ville en ruine, des immeubles coupés en deux : le géant"
+				"est passé par là. Trouve le lieu."
+				""
+				"Tâche : tâche d'emplacement (lieu posé à la création du monde ; la Boussole de lignée y mène)"
+				""
+				"Récompense : 863 XP, 160 Éclats"
+			]
+			tasks: [
+				{
+					id: "00031F923BB599D1"
+					type: "custom"
+					title: "tâche d'emplacement (lieu posé à la création du monde ; la B"
+				}
+			]
+			rewards: [
+				{
+					id: "0002EA78F282E2A1"
+					type: "command"
+					title: "863 XP"
+					command: "/shonenquete recompense {p} mha_zone_4_trouver_la_ville_en_ruine"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "quirksunchained:all_might_head_helmet"
+			dependencies: [
+				"0004FED3906EB424"
+			]
+		}
+		{
+			id: "0001648C1A6F616B"
+			title: "Zone 4 — Les sbires"
+			subtitle: "Niveau 83"
+			x: 10.5d
+			y: 12.75d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"mha_zone_4_les_sbires"
+			]
+			description: [
+				"Les soldats du Front."
+				""
+				"Tâche : tuer 15 soldats du Front de libération"
+				""
+				"Récompense : 927 XP, 170 Éclats"
+			]
+			tasks: [
+				{
+					id: "000ACB74E8CCBD68"
+					type: "custom"
+					title: "tuer 15 soldats du Front de libération"
+				}
+			]
+			rewards: [
+				{
+					id: "000038FFDEABB075"
+					type: "command"
+					title: "927 XP"
+					command: "/shonenquete recompense {p} mha_zone_4_les_sbires"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "quirksunchained:all_might_head_helmet"
+			dependencies: [
+				"000061AC6D2C9D59"
+			]
+		}
+		{
+			id: "0006DC961E42E0EC"
+			title: "Zone 4 — Nettoyer le terrain"
+			subtitle: "Niveau 89"
+			x: 10.5d
+			y: 15.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"mha_zone_4_nettoyer_le_terrain"
+			]
+			description: [
+				"Toute la ville est armée."
+				""
+				"Tâche : tuer 30 soldats du Front de libération de plus"
+				""
+				"Récompense : 1006 XP, 185 Éclats"
+			]
+			tasks: [
+				{
+					id: "000DCED429E85079"
+					type: "custom"
+					title: "tuer 30 soldats du Front de libération de plus"
+				}
+			]
+			rewards: [
+				{
+					id: "000BF98DA69F9B54"
+					type: "command"
+					title: "1006 XP"
+					command: "/shonenquete recompense {p} mha_zone_4_nettoyer_le_terrain"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "quirksunchained:all_might_head_helmet"
+			dependencies: [
+				"0001648C1A6F616B"
+			]
+		}
+		{
+			id: "00063D213B90826D"
+			title: "Zone 4 — Le lieutenant : Re-Destro"
+			subtitle: "Niveau 94"
+			x: 10.5d
+			y: 17.25d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"mha_zone_4_le_lieutenant_re_destro"
+			]
+			description: [
+				"Re-Destro : plus il souffre, plus il frappe fort."
+				""
+				"Tâche : vaincre Re-Destro (re_destro)"
+				""
+				"Récompense : 1073 XP, 390 Éclats"
+			]
+			tasks: [
+				{
+					id: "000B7DDFA10BCD0F"
+					type: "custom"
+					title: "vaincre Re-Destro (re_destro)"
+				}
+			]
+			rewards: [
+				{
+					id: "0001325CBBDBE729"
+					type: "command"
+					title: "1073 XP"
+					command: "/shonenquete recompense {p} mha_zone_4_le_lieutenant_re_destro"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "quirksunchained:allfor_one_essence"
+			dependencies: [
+				"0006DC961E42E0EC"
+			]
+		}
+		{
+			id: "00001C63F97535C2"
+			title: "Zone 4 — Gigantomachia"
+			subtitle: "Niveau 100"
+			x: 10.5d
+			y: 19.5d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"mha_zone_4_gigantomachia"
+			]
+			description: [
+				"Gigantomachia, le géant qui ne dort jamais."
+				""
+				"Tâche : vaincre Gigantomachia (gigantomachia) (coché par histoire.js pour les participants)"
+				""
+				"Récompense : 1155 XP, 410 Éclats"
+			]
+			tasks: [
+				{
+					id: "00053D84771471D3"
+					type: "custom"
+					title: "vaincre Gigantomachia (gigantomachia) (coché par histoire.js"
+				}
+			]
+			rewards: [
+				{
+					id: "000454CE02A70D1E"
+					type: "command"
+					title: "1155 XP"
+					command: "/shonenquete recompense {p} mha_zone_4_gigantomachia"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "quirksunchained:allfor_one_essence"
+			dependencies: [
+				"00063D213B90826D"
+			]
+		}
+		{
+			id: "00082AFB1078A8F7"
+			title: "Zone 5 — Trouver l'hôpital"
+			subtitle: "Niveau 108"
+			x: 14.0d
+			y: 10.5d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"mha_zone_5_trouver_l_hopital"
+			]
+			description: [
+				"Un hôpital blanc, et sous lui le laboratoire où le docteur"
+				"fabrique ses Nomu. Trouve le lieu."
+				""
+				"Tâche : tâche d'emplacement (lieu posé à la création du monde ; la Boussole de lignée y mène)"
+				""
+				"Récompense : 1267 XP, 220 Éclats"
+			]
+			tasks: [
+				{
+					id: "0008EC5AAC8CC557"
+					type: "custom"
+					title: "tâche d'emplacement (lieu posé à la création du monde ; la B"
+				}
+			]
+			rewards: [
+				{
+					id: "000DFC5C6CB029A3"
+					type: "command"
+					title: "1267 XP"
+					command: "/shonenquete recompense {p} mha_zone_5_trouver_l_hopital"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "quirksunchained:all_might_head_helmet"
+			dependencies: [
+				"00001C63F97535C2"
+			]
+		}
+		{
+			id: "000630B648CDC021"
+			title: "Zone 5 — Les sbires"
+			subtitle: "Niveau 113"
+			x: 14.0d
+			y: 12.75d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"mha_zone_5_les_sbires"
+			]
+			description: [
+				"Des Nomu de haut niveau."
+				""
+				"Tâche : tuer 15 Nomu de haut niveau"
+				""
+				"Récompense : 1339 XP, 230 Éclats"
+			]
+			tasks: [
+				{
+					id: "00002096359E4189"
+					type: "custom"
+					title: "tuer 15 Nomu de haut niveau"
+				}
+			]
+			rewards: [
+				{
+					id: "0000BB17373B0CC2"
+					type: "command"
+					title: "1339 XP"
+					command: "/shonenquete recompense {p} mha_zone_5_les_sbires"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "quirksunchained:all_might_head_helmet"
+			dependencies: [
+				"00082AFB1078A8F7"
+			]
+		}
+		{
+			id: "000D976DFD56421A"
+			title: "Zone 5 — Nettoyer le terrain"
+			subtitle: "Niveau 119"
+			x: 14.0d
+			y: 15.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"mha_zone_5_nettoyer_le_terrain"
+			]
+			description: [
+				"Les cuves s'ouvrent encore."
+				""
+				"Tâche : tuer 30 Nomu de haut niveau de plus"
+				""
+				"Récompense : 1426 XP, 245 Éclats"
+			]
+			tasks: [
+				{
+					id: "000D8EACD185E7CF"
+					type: "custom"
+					title: "tuer 30 Nomu de haut niveau de plus"
+				}
+			]
+			rewards: [
+				{
+					id: "000563EC8940552E"
+					type: "command"
+					title: "1426 XP"
+					command: "/shonenquete recompense {p} mha_zone_5_nettoyer_le_terrain"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "quirksunchained:all_might_head_helmet"
+			dependencies: [
+				"000630B648CDC021"
+			]
+		}
+		{
+			id: "000535C70A064471"
+			title: "Zone 5 — Le lieutenant : Dabi"
+			subtitle: "Niveau 124"
+			x: 14.0d
+			y: 17.25d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"mha_zone_5_le_lieutenant_dabi"
+			]
+			description: [
+				"Dabi et ses flammes bleues."
+				""
+				"Tâche : vaincre Dabi"
+				""
+				"Récompense : 1500 XP, 510 Éclats"
+			]
+			tasks: [
+				{
+					id: "0007090C69EF272F"
+					type: "custom"
+					title: "vaincre Dabi"
+				}
+			]
+			rewards: [
+				{
+					id: "000249539CC52CE6"
+					type: "command"
+					title: "1500 XP"
+					command: "/shonenquete recompense {p} mha_zone_5_le_lieutenant_dabi"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "quirksunchained:allfor_one_essence"
+			dependencies: [
+				"000D976DFD56421A"
+			]
+		}
+		{
+			id: "0007D081DA2B8D72"
+			title: "Zone 5 — Tomura Shigaraki, l'Ancre"
+			subtitle: "Niveau 130"
+			x: 14.0d
+			y: 19.5d
+			shape: "star"
+			size: 1.5d
+			tags: [
+				"mha_zone_5_tomura_shigaraki_l_ancre"
+			]
+			description: [
+				"Tomura Shigaraki. Tout ce qu'il touche tombe en poussière."
+				"L'Ancre de My Hero Academia."
+				""
+				"Tâche : vaincre Tomura Shigaraki, l'Ancre (shigaraki) (coché par histoire.js pour les participants)"
+				""
+				"Récompense : 1591 XP, 530 Éclats"
+			]
+			tasks: [
+				{
+					id: "000A3CE85A490C65"
+					type: "custom"
+					title: "vaincre Tomura Shigaraki, l'Ancre (shigaraki) (coché par his"
+				}
+			]
+			rewards: [
+				{
+					id: "000E89A7CC823994"
+					type: "command"
+					title: "1591 XP"
+					command: "/shonenquete recompense {p} mha_zone_5_tomura_shigaraki_l_ancre"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "quirksunchained:allfor_one_essence"
+			dependencies: [
+				"000535C70A064471"
+			]
+		}
+	]
+	quest_links: [ ]
+}

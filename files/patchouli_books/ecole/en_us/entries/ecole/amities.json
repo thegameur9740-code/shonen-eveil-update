@@ -1,0 +1,29 @@
+{
+ "name": "Amitié et compagnons",
+ "category": "patchouli:ecole",
+ "icon": "minecraft:heart_of_the_sea",
+ "read_by_default": true,
+ "sortnum": 5,
+ "pages": [
+  {
+   "type": "patchouli:text",
+   "title": "Devenir ami",
+   "text": "Clic droit sur un élève : $(l)Parler$() (une fois par jour).$(br)$(l)Offrir$() un objet qu'il aime (3 cadeaux par jour).$(br2)Son amitié monte de 0 à 100. Tu la vois dans $(l)Mes relations$() (/relations).$(br2)20 : Connaissance.$(br)40 : $(l)Ami$()."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Ses goûts",
+   "text": "Chacun a ses goûts.$(br)Un objet aimé : +5.$(br)Un objet quelconque : +2.$(br)Un objet détesté : -3.$(br2)Une sortie (la fête, le bar) : +8.$(br)Un combat ensemble : +3.$(br2)Chaque gain a sa limite par jour : on ne force pas une amitié."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Le recruter",
+   "text": "À 40 d'amitié : $(l)Recruter comme compagnon$().$(br)Il te suit, se bat, et lance la capacité de son univers toutes les 8 secondes.$(br2)2 compagnons au plus.$(br)Ordres : $(l)Suis-moi$(), $(l)Reste ici$(), $(l)Rentre à l'école$().$(br)Un clic droit sur lui : équipement, renvoi."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Ce qu'il vaut",
+   "text": "Son niveau : le tien moins 5.$(br)Il monte tout seul avec toi.$(br2)Contre un Grand Ennemi, ses coups comptent moitié.$(br)Aux examens, il attend à la porte.$(br2)Tombé au combat, il rentre se reposer 10 minutes."
+  }
+ ]
+}

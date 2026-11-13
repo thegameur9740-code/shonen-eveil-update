@@ -1,0 +1,20 @@
+{
+ "name": "Ta salle et ta lignée",
+ "category": "patchouli:onepiece",
+ "icon": "minecraft:lodestone",
+ "read_by_default": true,
+ "sortnum": 3,
+ "pages": [
+  {
+   "type": "patchouli:text",
+   "text": "Ton fruit ne te plaît pas ? Le $(l)marchand$() de la boutique en tire un autre contre des Éclats. Le prix monte à chaque fois.$(br)À l'étage : sabres, armes à feu, uniforme de la Marine.$(br2)$(l)Lignée$() : vers la mer la plus proche. Buggy, Arlong, Crocodile, Katakuri, puis Wano et Kaido."
+  },
+  {
+   "type": "patchouli:spotlight",
+   "item": "shonen:tenue_eveille_onepiece_casque,shonen:tenue_eveille_onepiece_plastron,shonen:tenue_eveille_onepiece_jambieres,shonen:tenue_eveille_onepiece_bottes",
+   "link_recipe": false,
+   "title": "La tenue de l'Éveillé",
+   "text": "Dans ton kit, aux couleurs de ton univers."
+  }
+ ]
+}

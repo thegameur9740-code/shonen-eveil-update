@@ -1,0 +1,77 @@
+{
+ "textures": {
+  "face": "shonen:block/casier_ecole_face",
+  "cote": "shonen:block/casier_ecole_cote",
+  "particle": "shonen:block/casier_ecole_cote"
+ },
+ "elements": [
+  {
+   "from": [
+    1,
+    0,
+    4
+   ],
+   "to": [
+    15,
+    16,
+    16
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ],
+     "texture": "#face"
+    },
+    "south": {
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ],
+     "texture": "#cote"
+    },
+    "east": {
+     "uv": [
+      0,
+      0,
+      12,
+      16
+     ],
+     "texture": "#cote"
+    },
+    "west": {
+     "uv": [
+      4,
+      0,
+      16,
+      16
+     ],
+     "texture": "#cote"
+    },
+    "up": {
+     "uv": [
+      0,
+      0,
+      14,
+      12
+     ],
+     "texture": "#cote"
+    },
+    "down": {
+     "uv": [
+      0,
+      4,
+      14,
+      16
+     ],
+     "texture": "#cote"
+    }
+   }
+  }
+ ]
+}

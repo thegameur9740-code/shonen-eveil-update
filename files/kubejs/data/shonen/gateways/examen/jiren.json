@@ -1,0 +1,58 @@
+{
+  "size": "large",
+  "color": "#9C36B5",
+  "waves": [
+    {
+      "entities": [
+        {
+          "entity": "dragonminez:saga_friezasoldier03",
+          "count": 4
+        },
+        {
+          "entity": "dragonminez:saga_cell_jr",
+          "count": 2
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 2400,
+      "setup_time": 100
+    },
+    {
+      "entities": [
+        {
+          "entity": "dragonminez:saga_cell_jr",
+          "count": 6
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 3000,
+      "setup_time": 160
+    },
+    {
+      "entities": [
+        {
+          "entity": "shonencore:corps_jiren",
+          "desc": "shonen.examen.boss.jiren",
+          "nbt": "{Tags:[\"shonen_ge_jiren\"]}",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 18000,
+      "setup_time": 200
+    }
+  ],
+  "rewards": [
+    {
+      "type": "gateways:command",
+      "command": "grands_ennemis examen <summoner> jiren",
+      "desc": "shonen.examen.points.S+"
+    }
+  ],
+  "failures": [],
+  "rules": {
+    "spawn_range": 10,
+    "leash_range": 48,
+    "allow_discarding": true
+  }
+}

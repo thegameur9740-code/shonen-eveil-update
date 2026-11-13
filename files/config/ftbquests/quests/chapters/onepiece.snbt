@@ -1,0 +1,1606 @@
+{
+	id: "000073C8053DCEE5"
+	group: ""
+	order_index: 6
+	filename: "onepiece"
+	title: "One Piece"
+	icon: "minepiece:pirate_flag"
+	subtitle: [
+		"La salle de One Piece (maître, guide), ses examens du rang C au boss final, les"
+		"paliers de la voie pour ceux qui ont l'univers, et la lignée d'histoire en 5"
+	]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 6.25d
+			y: 11.0d
+			width: 19.0d
+			height: 25.0d
+			rotation: 0.0d
+			image: "shonen:textures/quetes/bg_onepiece.png"
+			color: 16777215
+			alpha: 235
+			order: -11
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 6.25d
+			y: 11.0d
+			width: 30.0d
+			height: 21.94d
+			rotation: 0.0d
+			image: "shonen:textures/quetes/plein_onepiece.png"
+			color: 16777215
+			alpha: 255
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.75d
+			y: 0.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/writable_book.png"
+			color: 16777215
+			alpha: 255
+			order: 0
+			hover: [
+				"La salle"
+			]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.75d
+			y: 3.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/writable_book.png"
+			color: 16777215
+			alpha: 255
+			order: 0
+			hover: [
+				"Les examens de la salle"
+			]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.75d
+			y: 6.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/writable_book.png"
+			color: 16777215
+			alpha: 255
+			order: 0
+			hover: [
+				"Le Haki (ouvert à tous)"
+			]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.75d
+			y: 9.75d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/writable_book.png"
+			color: 16777215
+			alpha: 255
+			order: 0
+			hover: [
+				"La voie (si tu as cet univers)"
+			]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.75d
+			y: 12.75d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/writable_book.png"
+			color: 16777215
+			alpha: 255
+			order: 0
+			hover: [
+				"La lignée (histoire, ouverte à tous)"
+			]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			id: "0000B1C51FDA91BF"
+			title: "Le maître de One Piece"
+			subtitle: "Niveau 3"
+			x: 0.0d
+			y: 0.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"onepiece_le_maitre_de_one_piece"
+			]
+			description: [
+				"Le maître de la salle One Piece t'attend. Parle-lui : il"
+				"t'ouvre la lignée de son univers."
+				""
+				"Tâche : parler au maître de la salle (Rayleigh (corps générique de MinePiece, nom à nous, skin dans mes-skins))"
+				""
+				"Récompense : 42 XP, 10 Éclats"
+			]
+			tasks: [
+				{
+					id: "000D782ACCC1B148"
+					type: "custom"
+					title: "parler au maître de la salle (Rayleigh (corps générique de M"
+				}
+			]
+			rewards: [
+				{
+					id: "00038F9D239FA015"
+					type: "command"
+					title: "42 XP"
+					command: "/shonenquete recompense {p} onepiece_le_maitre_de_one_piece"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minepiece:pirate_flag"
+		}
+		{
+			id: "0004F5EF4E7A1CB5"
+			title: "Guide : One Piece"
+			subtitle: "Niveau 3"
+			x: 1.5d
+			y: 0.0d
+			shape: "circle"
+			size: 0.75d
+			tags: [
+				"onepiece_guide_one_piece"
+			]
+			description: [
+				"Fruits du démon, Haki, sabres, primes : le monde des pirates"
+				"et de la Marine. Son guide est dans le Livre de l'école :"
+				"comment progresser, où aller."
+				""
+				"Tâche : lire le guide de l'univers dans le Livre de l'école"
+				""
+				"Récompense : 42 XP"
+			]
+			tasks: [
+				{
+					id: "000331FD090FACC1"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "00040262F89FC807"
+					type: "command"
+					title: "42 XP"
+					command: "/shonenquete recompense {p} onepiece_guide_one_piece"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:book"
+			dependencies: [
+				"0000B1C51FDA91BF"
+			]
+		}
+		{
+			id: "0006FC0542B82F28"
+			title: "Examen C : Buggy"
+			subtitle: "Niveau 15"
+			x: 0.0d
+			y: 3.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"onepiece_examen_c_buggy"
+			]
+			description: [
+				"L'examen de rang C de la salle One Piece. Si One Piece est"
+				"un de tes univers, il ouvre aussi le palier C de ses"
+				"pouvoirs."
+				""
+				"Tâche : réussir l'examen C de la salle One Piece"
+				""
+				"ouvre le palier C des pouvoirs de cet univers"
+				""
+				"Récompense : 155 XP, 70 Éclats"
+			]
+			tasks: [
+				{
+					id: "000D6A93B8FB37DF"
+					type: "custom"
+					title: "réussir l'examen C de la salle One Piece"
+				}
+			]
+			rewards: [
+				{
+					id: "0009BE02B77171B7"
+					type: "command"
+					title: "155 XP"
+					command: "/shonenquete recompense {p} onepiece_examen_c_buggy"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minepiece:pirate_flag"
+		}
+		{
+			id: "0004509994C10CE7"
+			title: "Examen B : Akainu"
+			subtitle: "Niveau 40"
+			x: 1.5d
+			y: 3.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"onepiece_examen_b_akainu"
+			]
+			description: [
+				"L'examen de rang B de la salle One Piece. Si One Piece est"
+				"un de tes univers, il ouvre aussi le palier B de ses"
+				"pouvoirs."
+				""
+				"Tâche : réussir l'examen B de la salle One Piece"
+				""
+				"ouvre le palier B des pouvoirs de cet univers"
+				""
+				"Récompense : 413 XP, 170 Éclats"
+			]
+			tasks: [
+				{
+					id: "0006505319C13999"
+					type: "custom"
+					title: "réussir l'examen B de la salle One Piece"
+				}
+			]
+			rewards: [
+				{
+					id: "0001066FAF69F573"
+					type: "command"
+					title: "413 XP"
+					command: "/shonenquete recompense {p} onepiece_examen_b_akainu"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minepiece:pirate_flag"
+			dependencies: [
+				"0006FC0542B82F28"
+			]
+		}
+		{
+			id: "00033DAC90DB9020"
+			title: "Examen A : Crocodile"
+			subtitle: "Niveau 70"
+			x: 3.0d
+			y: 3.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"onepiece_examen_a_crocodile"
+			]
+			description: [
+				"L'examen de rang A de la salle One Piece. Si One Piece est"
+				"un de tes univers, il ouvre aussi le palier A de ses"
+				"pouvoirs."
+				""
+				"Tâche : réussir l'examen A de la salle One Piece"
+				""
+				"ouvre le palier A des pouvoirs de cet univers"
+				""
+				"Récompense : 763 XP, 290 Éclats"
+			]
+			tasks: [
+				{
+					id: "000FD7617DC03CF0"
+					type: "custom"
+					title: "réussir l'examen A de la salle One Piece"
+				}
+			]
+			rewards: [
+				{
+					id: "000D8AA4E9D35A6C"
+					type: "command"
+					title: "763 XP"
+					command: "/shonenquete recompense {p} onepiece_examen_a_crocodile"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minepiece:pirate_flag"
+			dependencies: [
+				"0004509994C10CE7"
+			]
+		}
+		{
+			id: "00098295EAEEA015"
+			title: "Examen S : Kaido"
+			subtitle: "Niveau 100"
+			x: 4.5d
+			y: 3.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"onepiece_examen_s_kaido"
+			]
+			description: [
+				"L'examen de rang S de la salle One Piece. Si One Piece est"
+				"un de tes univers, il ouvre aussi le palier S de ses"
+				"pouvoirs."
+				""
+				"Tâche : réussir l'examen S de la salle One Piece"
+				""
+				"ouvre le palier S des pouvoirs de cet univers"
+				""
+				"Récompense : 1155 XP, 410 Éclats"
+			]
+			tasks: [
+				{
+					id: "000F01E3F3FC320D"
+					type: "custom"
+					title: "réussir l'examen S de la salle One Piece"
+				}
+			]
+			rewards: [
+				{
+					id: "000E675BFA91DB52"
+					type: "command"
+					title: "1155 XP"
+					command: "/shonenquete recompense {p} onepiece_examen_s_kaido"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minepiece:pirate_flag"
+			dependencies: [
+				"00033DAC90DB9020"
+			]
+		}
+		{
+			id: "0004E9AF74205D1E"
+			title: "Examen S+ : Kaido aux 3 formes (boss final)"
+			subtitle: "Niveau 130"
+			x: 6.0d
+			y: 3.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"onepiece_examen_s_plus_kaido_aux_3_formes_boss_final"
+			]
+			description: [
+				"Le boss final de la salle One Piece. Tous les examens de la"
+				"salle d'abord ; ensuite, la légende."
+				""
+				"Tâche : réussir l'examen S+ de la salle One Piece"
+				""
+				"boss final de la salle"
+				""
+				"Récompense : 1591 XP, 530 Éclats"
+			]
+			tasks: [
+				{
+					id: "00062E635370BAFC"
+					type: "custom"
+					title: "réussir l'examen S+ de la salle One Piece"
+				}
+			]
+			rewards: [
+				{
+					id: "0002134D00B6433B"
+					type: "command"
+					title: "1591 XP"
+					command: "/shonenquete recompense {p} onepiece_examen_s_plus_kaido_aux_3_formes_boss_final"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minepiece:pirate_flag"
+			dependencies: [
+				"00098295EAEEA015"
+			]
+		}
+		{
+			id: "000F13955F17C3DC"
+			title: "Le maître du Haki"
+			subtitle: "Niveau 40"
+			x: 0.0d
+			y: 6.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"onepiece_le_maitre_du_haki"
+			]
+			description: [
+				"Rayleigh t'attend dans la salle One Piece. « Le Haki"
+				"n'appartient pas aux pirates. Il appartient à ceux qui le"
+				"veulent assez fort. »"
+				""
+				"Tâche : parler à Rayleigh, le maître du Haki (salle One Piece)"
+				""
+				"ouverte à tous les joueurs, quelle que soit la voie"
+				""
+				"Récompense : 413 XP, 85 Éclats"
+			]
+			tasks: [
+				{
+					id: "000B24319C26DA42"
+					type: "custom"
+					title: "parler à Rayleigh, le maître du Haki (salle One Piece)"
+				}
+			]
+			rewards: [
+				{
+					id: "0005A664FB4CB19B"
+					type: "command"
+					title: "413 XP"
+					command: "/shonenquete recompense {p} onepiece_le_maitre_du_haki"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minepiece:pirate_flag"
+		}
+		{
+			id: "0007E3CC9E656F7E"
+			title: "Le Haki de l'observation"
+			subtitle: "Niveau 42"
+			x: 2.25d
+			y: 6.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"onepiece_le_haki_de_l_observation"
+			]
+			description: [
+				"« Ferme les yeux et écoute. » Reste trois minutes immobile"
+				"au dojo."
+				""
+				"Tâche : méditer 3 min sans bouger au dojo (statistique « temps accroupi » ou script)"
+				""
+				"Récompense : 435 XP, 90 Éclats"
+			]
+			tasks: [
+				{
+					id: "0005F997546974B0"
+					type: "custom"
+					title: "méditer 3 min sans bouger au dojo (statistique « temps accro"
+				}
+			]
+			rewards: [
+				{
+					id: "0003F188EF64C2B4"
+					type: "command"
+					title: "435 XP"
+					command: "/shonenquete recompense {p} onepiece_le_haki_de_l_observation"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minepiece:pirate_flag"
+			dependencies: [
+				"000F13955F17C3DC"
+			]
+		}
+		{
+			id: "00046DAEC51C02C2"
+			title: "Le Haki de l'armement"
+			subtitle: "Niveau 45"
+			x: 4.5d
+			y: 6.0d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"onepiece_le_haki_de_l_armement"
+			]
+			description: [
+				"« Ta volonté doit devenir une armure. » Bats vingt-cinq"
+				"marines ou pirates."
+				""
+				"Tâche : vaincre 25 marines ou pirates de MinePiece"
+				""
+				"Récompense : 469 XP, 190 Éclats"
+			]
+			tasks: [
+				{
+					id: "0006C78883F51939"
+					type: "custom"
+					title: "vaincre 25 marines ou pirates de MinePiece"
+				}
+			]
+			rewards: [
+				{
+					id: "00013C16166C88E2"
+					type: "command"
+					title: "469 XP"
+					command: "/shonenquete recompense {p} onepiece_le_haki_de_l_armement"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minepiece:clothes_luffy_helmet"
+			dependencies: [
+				"0007E3CC9E656F7E"
+			]
+		}
+		{
+			id: "000F3214E2A86068"
+			title: "L'épreuve du maître"
+			subtitle: "Niveau 50"
+			x: 6.75d
+			y: 6.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"onepiece_l_epreuve_du_maitre"
+			]
+			description: [
+				"Tiens soixante secondes face aux attaques de Rayleigh dans"
+				"l'arène One Piece. Ensuite, plus aucun Logia ne pourra"
+				"t'échapper : avec le Haki, tu touches enfin Akainu et"
+				"Crocodile."
+				""
+				"Tâche : survivre 60 s à l'épreuve du maître dans l'arène One Piece (il lance des attaques annoncées)"
+				""
+				"Récompense : 525 XP, 105 Éclats"
+			]
+			tasks: [
+				{
+					id: "00026F22E6CB6ACE"
+					type: "custom"
+					title: "survivre 60 s à l'épreuve du maître dans l'arène One Piece ("
+				}
+			]
+			rewards: [
+				{
+					id: "000A8E0DEB684689"
+					type: "command"
+					title: "525 XP"
+					command: "/shonenquete recompense {p} onepiece_l_epreuve_du_maitre"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minepiece:pirate_flag"
+			dependencies: [
+				"00046DAEC51C02C2"
+			]
+		}
+		{
+			id: "00052827F2C2D671"
+			title: "Palier B de la voie : Haki de l'armement et de l'observation"
+			subtitle: "Niveau 40"
+			x: 0.0d
+			y: 9.75d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"onepiece_palier_b_de_la_voie_haki_de_l_armement_et_de_l_o"
+			]
+			description: [
+				"Ton univers grandit : Haki de l'armement et de"
+				"l'observation. Réussis l'examen de ce rang dans cette salle"
+				"pour l'ouvrir."
+				""
+				"Tâche : avoir réussi l'examen B de la salle One Piece ET avoir l'univers dans sa voie"
+				""
+				"visible seulement pour ceux qui ont l'univers ; détail des formes : progression.md section 14"
+				""
+				"Récompense : 413 XP, 170 Éclats"
+			]
+			tasks: [
+				{
+					id: "000ADC8F9A77A04D"
+					type: "custom"
+					title: "avoir réussi l'examen B de la salle One Piece ET avoir l'uni"
+				}
+			]
+			rewards: [
+				{
+					id: "0002B348F27E8A65"
+					type: "command"
+					title: "413 XP"
+					command: "/shonenquete recompense {p} onepiece_palier_b_de_la_voie_haki_de_l_armement_et_de_l_o"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minepiece:pirate_flag"
+		}
+		{
+			id: "0006E5A74737E915"
+			title: "Palier A de la voie : techniques avancées du fruit ou du style"
+			subtitle: "Niveau 70"
+			x: 1.5d
+			y: 9.75d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"onepiece_palier_a_de_la_voie_techniques_avancees_du_fruit"
+			]
+			description: [
+				"Ton univers grandit : techniques avancées du fruit ou du"
+				"style. Réussis l'examen de ce rang dans cette salle pour"
+				"l'ouvrir."
+				""
+				"Tâche : avoir réussi l'examen A de la salle One Piece ET avoir l'univers dans sa voie"
+				""
+				"visible seulement pour ceux qui ont l'univers ; détail des formes : progression.md section 14"
+				""
+				"Récompense : 763 XP, 290 Éclats"
+			]
+			tasks: [
+				{
+					id: "0002B2228496C2E5"
+					type: "custom"
+					title: "avoir réussi l'examen A de la salle One Piece ET avoir l'uni"
+				}
+			]
+			rewards: [
+				{
+					id: "0008B6ABB181D2CE"
+					type: "command"
+					title: "763 XP"
+					command: "/shonenquete recompense {p} onepiece_palier_a_de_la_voie_techniques_avancees_du_fruit"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minepiece:pirate_flag"
+			dependencies: [
+				"00052827F2C2D671"
+			]
+		}
+		{
+			id: "0000334CCD90C468"
+			title: "Palier S de la voie : éveil du fruit ou maîtrise du style"
+			subtitle: "Niveau 100"
+			x: 3.0d
+			y: 9.75d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"onepiece_palier_s_de_la_voie_eveil_du_fruit_ou_maitrise_d"
+			]
+			description: [
+				"Ton univers grandit : éveil du fruit ou maîtrise du style."
+				"Réussis l'examen de ce rang dans cette salle pour l'ouvrir."
+				""
+				"Tâche : avoir réussi l'examen S de la salle One Piece ET avoir l'univers dans sa voie"
+				""
+				"visible seulement pour ceux qui ont l'univers ; détail des formes : progression.md section 14"
+				""
+				"Récompense : 1155 XP, 410 Éclats"
+			]
+			tasks: [
+				{
+					id: "0001CA972B7991A7"
+					type: "custom"
+					title: "avoir réussi l'examen S de la salle One Piece ET avoir l'uni"
+				}
+			]
+			rewards: [
+				{
+					id: "000300EF3639A1B4"
+					type: "command"
+					title: "1155 XP"
+					command: "/shonenquete recompense {p} onepiece_palier_s_de_la_voie_eveil_du_fruit_ou_maitrise_d"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minepiece:pirate_flag"
+			dependencies: [
+				"0006E5A74737E915"
+			]
+		}
+		{
+			id: "00004CFEF9BD3A04"
+			title: "Zone 1 — Trouver le port de Fuchsia"
+			subtitle: "Niveau 4"
+			x: 0.0d
+			y: 12.75d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"onepiece_zone_1_trouver_le_port_de_fuchsia"
+			]
+			description: [
+				"Le port de Fuchsia, un petit port de pêche tombé du ciel"
+				"avec ses habitants. Trouve le lieu."
+				""
+				"Tâche : tâche d'emplacement (lieu posé à la création du monde ; la Boussole de lignée y mène)"
+				""
+				"Récompense : 51 XP, 15 Éclats"
+			]
+			tasks: [
+				{
+					id: "000EF94C40250DBC"
+					type: "custom"
+					title: "tâche d'emplacement (lieu posé à la création du monde ; la B"
+				}
+			]
+			rewards: [
+				{
+					id: "00000608F107D816"
+					type: "command"
+					title: "51 XP"
+					command: "/shonenquete recompense {p} onepiece_zone_1_trouver_le_port_de_fuchsia"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minepiece:pirate_flag"
+		}
+		{
+			id: "0002822C55F66DD4"
+			title: "Zone 1 — Les sbires"
+			subtitle: "Niveau 6"
+			x: 0.0d
+			y: 15.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"onepiece_zone_1_les_sbires"
+			]
+			description: [
+				"Les pirates de Buggy pillent le village."
+				""
+				"Tâche : tuer 15 pirates de Buggy (pirates du mod)"
+				""
+				"Récompense : 70 XP, 15 Éclats"
+			]
+			tasks: [
+				{
+					id: "0003874A27E34F78"
+					type: "custom"
+					title: "tuer 15 pirates de Buggy (pirates du mod)"
+				}
+			]
+			rewards: [
+				{
+					id: "0000D0A81E867929"
+					type: "command"
+					title: "70 XP"
+					command: "/shonenquete recompense {p} onepiece_zone_1_les_sbires"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minepiece:pirate_flag"
+			dependencies: [
+				"00004CFEF9BD3A04"
+			]
+		}
+		{
+			id: "000E62C405755828"
+			title: "Zone 1 — Nettoyer le terrain"
+			subtitle: "Niveau 9"
+			x: 0.0d
+			y: 17.25d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"onepiece_zone_1_nettoyer_le_terrain"
+			]
+			description: [
+				"Chasse les derniers pirates."
+				""
+				"Tâche : tuer 30 pirates de Buggy (pirates du mod) de plus"
+				""
+				"Récompense : 98 XP, 25 Éclats"
+			]
+			tasks: [
+				{
+					id: "0008CC210DD69BD5"
+					type: "custom"
+					title: "tuer 30 pirates de Buggy (pirates du mod) de plus"
+				}
+			]
+			rewards: [
+				{
+					id: "000981A9F4D8F63E"
+					type: "command"
+					title: "98 XP"
+					command: "/shonenquete recompense {p} onepiece_zone_1_nettoyer_le_terrain"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minepiece:pirate_flag"
+			dependencies: [
+				"0002822C55F66DD4"
+			]
+		}
+		{
+			id: "000593B21A196DC3"
+			title: "Zone 1 — Le lieutenant : Alvida"
+			subtitle: "Niveau 12"
+			x: 0.0d
+			y: 19.5d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"onepiece_zone_1_le_lieutenant_alvida"
+			]
+			description: [
+				"Alvida et sa massue."
+				""
+				"Tâche : vaincre Alvida"
+				""
+				"Récompense : 127 XP, 60 Éclats"
+			]
+			tasks: [
+				{
+					id: "000748F495FF8159"
+					type: "custom"
+					title: "vaincre Alvida"
+				}
+			]
+			rewards: [
+				{
+					id: "000118F240CBCADC"
+					type: "command"
+					title: "127 XP"
+					command: "/shonenquete recompense {p} onepiece_zone_1_le_lieutenant_alvida"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minepiece:clothes_luffy_helmet"
+			dependencies: [
+				"000E62C405755828"
+			]
+		}
+		{
+			id: "00028D9A20B8A688"
+			title: "Zone 1 — Buggy"
+			subtitle: "Niveau 15"
+			x: 0.0d
+			y: 21.75d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"onepiece_zone_1_buggy"
+			]
+			description: [
+				"Buggy le Clown. Les coups tranchants ne lui font rien."
+				""
+				"Tâche : vaincre Buggy (coché par histoire.js pour les participants)"
+				""
+				"Récompense : 155 XP, 70 Éclats"
+			]
+			tasks: [
+				{
+					id: "00067C529C4025E8"
+					type: "custom"
+					title: "vaincre Buggy (coché par histoire.js pour les participants)"
+				}
+			]
+			rewards: [
+				{
+					id: "000473C0B3B14218"
+					type: "command"
+					title: "155 XP"
+					command: "/shonenquete recompense {p} onepiece_zone_1_buggy"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minepiece:clothes_luffy_helmet"
+			dependencies: [
+				"000593B21A196DC3"
+			]
+		}
+		{
+			id: "0000564FAC148126"
+			title: "Zone 2 — Trouver le parc de la crique"
+			subtitle: "Niveau 20"
+			x: 3.5d
+			y: 12.75d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"onepiece_zone_2_trouver_le_parc_de_la_crique"
+			]
+			description: [
+				"Un parc de pirates sur pilotis, au fond d'une crique : la"
+				"forteresse des hommes-poissons. Trouve le lieu."
+				""
+				"Tâche : tâche d'emplacement (lieu posé à la création du monde ; la Boussole de lignée y mène)"
+				""
+				"Récompense : 205 XP, 45 Éclats"
+			]
+			tasks: [
+				{
+					id: "0002F9ABFFD83BC9"
+					type: "custom"
+					title: "tâche d'emplacement (lieu posé à la création du monde ; la B"
+				}
+			]
+			rewards: [
+				{
+					id: "0002F1C882E68834"
+					type: "command"
+					title: "205 XP"
+					command: "/shonenquete recompense {p} onepiece_zone_2_trouver_le_parc_de_la_crique"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minepiece:pirate_flag"
+			dependencies: [
+				"00028D9A20B8A688"
+			]
+		}
+		{
+			id: "000807B6BF029510"
+			title: "Zone 2 — Les sbires"
+			subtitle: "Niveau 25"
+			x: 3.5d
+			y: 15.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"onepiece_zone_2_les_sbires"
+			]
+			description: [
+				"Les hommes-poissons tiennent le port."
+				""
+				"Tâche : tuer 15 hommes-poissons (pirates du mod)"
+				""
+				"Récompense : 255 XP, 55 Éclats"
+			]
+			tasks: [
+				{
+					id: "000EADC5C509972B"
+					type: "custom"
+					title: "tuer 15 hommes-poissons (pirates du mod)"
+				}
+			]
+			rewards: [
+				{
+					id: "0002F0D0937EA5E1"
+					type: "command"
+					title: "255 XP"
+					command: "/shonenquete recompense {p} onepiece_zone_2_les_sbires"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minepiece:pirate_flag"
+			dependencies: [
+				"0000564FAC148126"
+			]
+		}
+		{
+			id: "000402D9C34614B7"
+			title: "Zone 2 — Nettoyer le terrain"
+			subtitle: "Niveau 30"
+			x: 3.5d
+			y: 17.25d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"onepiece_zone_2_nettoyer_le_terrain"
+			]
+			description: [
+				"Ils sont encore nombreux."
+				""
+				"Tâche : tuer 30 hommes-poissons (pirates du mod) de plus"
+				""
+				"Récompense : 307 XP, 65 Éclats"
+			]
+			tasks: [
+				{
+					id: "0004B483D435078E"
+					type: "custom"
+					title: "tuer 30 hommes-poissons (pirates du mod) de plus"
+				}
+			]
+			rewards: [
+				{
+					id: "000F14A7A8CBC3AA"
+					type: "command"
+					title: "307 XP"
+					command: "/shonenquete recompense {p} onepiece_zone_2_nettoyer_le_terrain"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minepiece:pirate_flag"
+			dependencies: [
+				"000807B6BF029510"
+			]
+		}
+		{
+			id: "00020C51DB0EDFD0"
+			title: "Zone 2 — Arlong"
+			subtitle: "Niveau 40"
+			x: 3.5d
+			y: 19.5d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"onepiece_zone_2_arlong"
+			]
+			description: [
+				"Arlong, la scie."
+				""
+				"Tâche : vaincre Arlong (coché par histoire.js pour les participants)"
+				""
+				"Récompense : 413 XP, 170 Éclats"
+			]
+			tasks: [
+				{
+					id: "00034DB59818FE03"
+					type: "custom"
+					title: "vaincre Arlong (coché par histoire.js pour les participants)"
+				}
+			]
+			rewards: [
+				{
+					id: "0001D7CFC0F4F391"
+					type: "command"
+					title: "413 XP"
+					command: "/shonenquete recompense {p} onepiece_zone_2_arlong"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minepiece:clothes_luffy_helmet"
+			dependencies: [
+				"000402D9C34614B7"
+			]
+		}
+		{
+			id: "000E121DB14BB96B"
+			title: "Zone 3 — Trouver l'oasis du désert"
+			subtitle: "Niveau 48"
+			x: 7.0d
+			y: 12.75d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"onepiece_zone_3_trouver_l_oasis_du_desert"
+			]
+			description: [
+				"Une oasis près de la côte et un palais à coupole, au milieu"
+				"d'un désert qui boit les hommes. Trouve le lieu."
+				""
+				"Tâche : tâche d'emplacement (lieu posé à la création du monde ; la Boussole de lignée y mène)"
+				""
+				"Récompense : 502 XP, 100 Éclats"
+			]
+			tasks: [
+				{
+					id: "000B4AD57146F4FE"
+					type: "custom"
+					title: "tâche d'emplacement (lieu posé à la création du monde ; la B"
+				}
+			]
+			rewards: [
+				{
+					id: "000DDDBBFB936B38"
+					type: "command"
+					title: "502 XP"
+					command: "/shonenquete recompense {p} onepiece_zone_3_trouver_l_oasis_du_desert"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minepiece:pirate_flag"
+			dependencies: [
+				"00020C51DB0EDFD0"
+			]
+		}
+		{
+			id: "0004F5FB17D80902"
+			title: "Zone 3 — Les sbires"
+			subtitle: "Niveau 53"
+			x: 7.0d
+			y: 15.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"onepiece_zone_3_les_sbires"
+			]
+			description: [
+				"Les agents de Baroque Works."
+				""
+				"Tâche : tuer 15 Baroque Works (pirates du mod)"
+				""
+				"Récompense : 560 XP, 110 Éclats"
+			]
+			tasks: [
+				{
+					id: "0009D0E490F375F4"
+					type: "custom"
+					title: "tuer 15 Baroque Works (pirates du mod)"
+				}
+			]
+			rewards: [
+				{
+					id: "0008063EE108C9F4"
+					type: "command"
+					title: "560 XP"
+					command: "/shonenquete recompense {p} onepiece_zone_3_les_sbires"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minepiece:pirate_flag"
+			dependencies: [
+				"000E121DB14BB96B"
+			]
+		}
+		{
+			id: "0003A18802935713"
+			title: "Zone 3 — Nettoyer le terrain"
+			subtitle: "Niveau 59"
+			x: 7.0d
+			y: 17.25d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"onepiece_zone_3_nettoyer_le_terrain"
+			]
+			description: [
+				"Le désert en cache d'autres."
+				""
+				"Tâche : tuer 30 Baroque Works (pirates du mod) de plus"
+				""
+				"Récompense : 629 XP, 125 Éclats"
+			]
+			tasks: [
+				{
+					id: "0005FAB5DB9AED8A"
+					type: "custom"
+					title: "tuer 30 Baroque Works (pirates du mod) de plus"
+				}
+			]
+			rewards: [
+				{
+					id: "00007E1440D62BFF"
+					type: "command"
+					title: "629 XP"
+					command: "/shonenquete recompense {p} onepiece_zone_3_nettoyer_le_terrain"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minepiece:pirate_flag"
+			dependencies: [
+				"0004F5FB17D80902"
+			]
+		}
+		{
+			id: "000FB052EAA62890"
+			title: "Zone 3 — Crocodile"
+			subtitle: "Niveau 70"
+			x: 7.0d
+			y: 19.5d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"onepiece_zone_3_crocodile"
+			]
+			description: [
+				"Crocodile, le Roi du désert. Sans le Haki, tes coups passent"
+				"à travers."
+				""
+				"Tâche : vaincre Crocodile (coché par histoire.js pour les participants)"
+				""
+				"Récompense : 763 XP, 290 Éclats"
+			]
+			tasks: [
+				{
+					id: "000BF0018B2ACF39"
+					type: "custom"
+					title: "vaincre Crocodile (coché par histoire.js pour les participan"
+				}
+			]
+			rewards: [
+				{
+					id: "000242D904D4D40D"
+					type: "command"
+					title: "763 XP"
+					command: "/shonenquete recompense {p} onepiece_zone_3_crocodile"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minepiece:clothes_luffy_helmet"
+			dependencies: [
+				"0003A18802935713"
+			]
+		}
+		{
+			id: "000424F1C690CD43"
+			title: "Zone 4 — Trouver l'île des gâteaux"
+			subtitle: "Niveau 78"
+			x: 10.5d
+			y: 12.75d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"onepiece_zone_4_trouver_l_ile_des_gateaux"
+			]
+			description: [
+				"Une île-forteresse blanche et rose, sucrée et dangereuse."
+				"Trouve le lieu."
+				""
+				"Tâche : tâche d'emplacement (lieu posé à la création du monde ; la Boussole de lignée y mène)"
+				""
+				"Récompense : 863 XP, 160 Éclats"
+			]
+			tasks: [
+				{
+					id: "0006CC196EDDD962"
+					type: "custom"
+					title: "tâche d'emplacement (lieu posé à la création du monde ; la B"
+				}
+			]
+			rewards: [
+				{
+					id: "000D73A203EABAFC"
+					type: "command"
+					title: "863 XP"
+					command: "/shonenquete recompense {p} onepiece_zone_4_trouver_l_ile_des_gateaux"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minepiece:pirate_flag"
+			dependencies: [
+				"000FB052EAA62890"
+			]
+		}
+		{
+			id: "000935FA6D8CF88C"
+			title: "Zone 4 — Les sbires"
+			subtitle: "Niveau 83"
+			x: 10.5d
+			y: 15.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"onepiece_zone_4_les_sbires"
+			]
+			description: [
+				"Les pirates de Big Mom."
+				""
+				"Tâche : tuer 15 pirates de Big Mom (pirates du mod)"
+				""
+				"Récompense : 927 XP, 170 Éclats"
+			]
+			tasks: [
+				{
+					id: "00027F3FA1E478D5"
+					type: "custom"
+					title: "tuer 15 pirates de Big Mom (pirates du mod)"
+				}
+			]
+			rewards: [
+				{
+					id: "00013695F6697EBF"
+					type: "command"
+					title: "927 XP"
+					command: "/shonenquete recompense {p} onepiece_zone_4_les_sbires"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minepiece:pirate_flag"
+			dependencies: [
+				"000424F1C690CD43"
+			]
+		}
+		{
+			id: "000A3B94872B4E48"
+			title: "Zone 4 — Nettoyer le terrain"
+			subtitle: "Niveau 89"
+			x: 10.5d
+			y: 17.25d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"onepiece_zone_4_nettoyer_le_terrain"
+			]
+			description: [
+				"Il en reste encore."
+				""
+				"Tâche : tuer 30 pirates de Big Mom (pirates du mod) de plus"
+				""
+				"Récompense : 1006 XP, 185 Éclats"
+			]
+			tasks: [
+				{
+					id: "000D96345C908B39"
+					type: "custom"
+					title: "tuer 30 pirates de Big Mom (pirates du mod) de plus"
+				}
+			]
+			rewards: [
+				{
+					id: "0002FA1F4489E0B2"
+					type: "command"
+					title: "1006 XP"
+					command: "/shonenquete recompense {p} onepiece_zone_4_nettoyer_le_terrain"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minepiece:pirate_flag"
+			dependencies: [
+				"000935FA6D8CF88C"
+			]
+		}
+		{
+			id: "00036B4558078034"
+			title: "Zone 4 — Katakuri"
+			subtitle: "Niveau 100"
+			x: 10.5d
+			y: 19.5d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"onepiece_zone_4_katakuri"
+			]
+			description: [
+				"Charlotte Katakuri. Il voit l'avenir."
+				""
+				"Tâche : vaincre Katakuri (coché par histoire.js pour les participants)"
+				""
+				"Récompense : 1155 XP, 410 Éclats"
+			]
+			tasks: [
+				{
+					id: "000B1957D6CD55E7"
+					type: "custom"
+					title: "vaincre Katakuri (coché par histoire.js pour les participant"
+				}
+			]
+			rewards: [
+				{
+					id: "00007C285550AD69"
+					type: "command"
+					title: "1155 XP"
+					command: "/shonenquete recompense {p} onepiece_zone_4_katakuri"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minepiece:clothes_luffy_helmet"
+			dependencies: [
+				"000A3B94872B4E48"
+			]
+		}
+		{
+			id: "000957DFCA31EB68"
+			title: "Zone 5 — Trouver la forteresse du dragon"
+			subtitle: "Niveau 108"
+			x: 14.0d
+			y: 12.75d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"onepiece_zone_5_trouver_la_forteresse_du_dragon"
+			]
+			description: [
+				"Une île aux falaises noires, une pagode au sommet : la"
+				"forteresse du dragon. Trouve le lieu."
+				""
+				"Tâche : tâche d'emplacement (lieu posé à la création du monde ; la Boussole de lignée y mène)"
+				""
+				"Récompense : 1267 XP, 220 Éclats"
+			]
+			tasks: [
+				{
+					id: "0000A27DE0564BE6"
+					type: "custom"
+					title: "tâche d'emplacement (lieu posé à la création du monde ; la B"
+				}
+			]
+			rewards: [
+				{
+					id: "000F86628D2EF54D"
+					type: "command"
+					title: "1267 XP"
+					command: "/shonenquete recompense {p} onepiece_zone_5_trouver_la_forteresse_du_dragon"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minepiece:pirate_flag"
+			dependencies: [
+				"00036B4558078034"
+			]
+		}
+		{
+			id: "000852F29EEE8EBD"
+			title: "Zone 5 — Les sbires"
+			subtitle: "Niveau 113"
+			x: 14.0d
+			y: 15.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"onepiece_zone_5_les_sbires"
+			]
+			description: [
+				"Les pirates des Cent Bêtes."
+				""
+				"Tâche : tuer 15 pirates des Cent Bêtes"
+				""
+				"Récompense : 1339 XP, 230 Éclats"
+			]
+			tasks: [
+				{
+					id: "000AC253E7E972EE"
+					type: "custom"
+					title: "tuer 15 pirates des Cent Bêtes"
+				}
+			]
+			rewards: [
+				{
+					id: "0006A4DF163EEF54"
+					type: "command"
+					title: "1339 XP"
+					command: "/shonenquete recompense {p} onepiece_zone_5_les_sbires"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minepiece:pirate_flag"
+			dependencies: [
+				"000957DFCA31EB68"
+			]
+		}
+		{
+			id: "00008B142C5A9578"
+			title: "Zone 5 — Nettoyer le terrain"
+			subtitle: "Niveau 119"
+			x: 14.0d
+			y: 17.25d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"onepiece_zone_5_nettoyer_le_terrain"
+			]
+			description: [
+				"L'île en est pleine."
+				""
+				"Tâche : tuer 30 pirates des Cent Bêtes de plus"
+				""
+				"Récompense : 1426 XP, 245 Éclats"
+			]
+			tasks: [
+				{
+					id: "000A5FDFC5B623A7"
+					type: "custom"
+					title: "tuer 30 pirates des Cent Bêtes de plus"
+				}
+			]
+			rewards: [
+				{
+					id: "000E8E2A5329BC30"
+					type: "command"
+					title: "1426 XP"
+					command: "/shonenquete recompense {p} onepiece_zone_5_nettoyer_le_terrain"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minepiece:pirate_flag"
+			dependencies: [
+				"000852F29EEE8EBD"
+			]
+		}
+		{
+			id: "000D22547D3B38A2"
+			title: "Zone 5 — Le lieutenant : King, Queen, Jack"
+			subtitle: "Niveau 124"
+			x: 14.0d
+			y: 19.5d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"onepiece_zone_5_le_lieutenant_king_queen_jack"
+			]
+			description: [
+				"King, Queen et Jack, les Trois Désastres."
+				""
+				"Tâche : vaincre King, Queen, Jack"
+				""
+				"Récompense : 1500 XP, 510 Éclats"
+			]
+			tasks: [
+				{
+					id: "000CD03FA7A6169B"
+					type: "custom"
+					title: "vaincre King, Queen, Jack"
+				}
+			]
+			rewards: [
+				{
+					id: "0008CAB55B5A07DB"
+					type: "command"
+					title: "1500 XP"
+					command: "/shonenquete recompense {p} onepiece_zone_5_le_lieutenant_king_queen_jack"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minepiece:clothes_luffy_helmet"
+			dependencies: [
+				"00008B142C5A9578"
+			]
+		}
+		{
+			id: "0004356EB5324317"
+			title: "Zone 5 — Kaido, l'Ancre"
+			subtitle: "Niveau 130"
+			x: 14.0d
+			y: 21.75d
+			shape: "star"
+			size: 1.5d
+			tags: [
+				"onepiece_zone_5_kaido_l_ancre"
+			]
+			description: [
+				"Kaido, Empereur des mers. L'Ancre de One Piece."
+				""
+				"Tâche : vaincre Kaido, l'Ancre (histoire_kaido) (coché par histoire.js pour les participants)"
+				""
+				"Récompense : 1591 XP, 530 Éclats"
+			]
+			tasks: [
+				{
+					id: "00088FF5804EBB0F"
+					type: "custom"
+					title: "vaincre Kaido, l'Ancre (histoire_kaido) (coché par histoire."
+				}
+			]
+			rewards: [
+				{
+					id: "000255D2AD7F58E6"
+					type: "command"
+					title: "1591 XP"
+					command: "/shonenquete recompense {p} onepiece_zone_5_kaido_l_ancre"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minepiece:clothes_luffy_helmet"
+			dependencies: [
+				"000D22547D3B38A2"
+			]
+		}
+	]
+	quest_links: [ ]
+}

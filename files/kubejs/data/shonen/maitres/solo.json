@@ -1,0 +1,22 @@
+{
+ "univers": "solo",
+ "nom": "Go Gun-hee",
+ "role": "le président de l'Association des chasseurs",
+ "corps": "shonencore:corps_maitre_solo",
+ "salut": {
+  "tien": "Un chasseur éveillé. Le Système t'a choisi : montre-moi que tu le mérites.",
+  "autre": "Les portails s'ouvrent pour tout le monde. Mieux vaut savoir ce qu'il y a derrière."
+ },
+ "sujets": {
+  "monde": "Le Système te donne des niveaux, des statistiques et une classe : assassin, mage, combattant, tank, soigneur ou archer. Derrière les portails, des donjons et leurs boss.",
+  "commencer": "Ouvre la fenêtre du Système pour voir tes statistiques et y placer tes points. La boutique du Système se paie en or ; le marchand de reprise, à l'étage, change l'or en Éclats.",
+  "fort": "Fais les donjons, monte ta classe. Au niveau 40 du Système, la quête de changement de métier s'ouvre (Système, Quêtes) : elle mène au donjon d'Igris ; bats-le, vaincs ses chevaliers, et ta nouvelle classe t'attend. Les changeurs de classe ne sont pas en vente : ta classe est ta voie.",
+  "aller": "Lignée de Solo Leveling : les donjons, du roi gobelin à Igris, au Roi des Fourmis, puis Kamish. Mes examens commencent avec Kasaka. Ta Boussole de lignée, réglée sur Solo Leveling (clic droit), te montre ta prochaine étape."
+ },
+ "encouragements": [
+  "Le Système récompense ceux qui ne lâchent rien.",
+  "Chaque donjon fini te rapproche du sommet.",
+  "Un chasseur prudent est un chasseur vivant."
+ ],
+ "a_verifier": []
+}

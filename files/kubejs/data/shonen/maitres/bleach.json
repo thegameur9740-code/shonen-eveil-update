@@ -1,0 +1,22 @@
+{
+ "univers": "bleach",
+ "nom": "Kisuke Urahara",
+ "role": "le marchand",
+ "corps": "shonencore:corps_maitre_bleach",
+ "salut": {
+  "tien": "Bienvenue, bienvenue ! Un client ? Non, un élève. C'est encore mieux.",
+  "autre": "Les âmes de tous les mondes sont les bienvenues chez moi."
+ },
+ "sujets": {
+  "monde": "Quatre façons d'être : Shinigami avec son Zanpakuto, Quincy avec son arc de reishi, Hollow qui dévore pour évoluer, ou Fullbringer. Tout repose sur ta pression spirituelle : plus elle est haute, plus tu es fort.",
+  "commencer": "Un Shinigami donne d'abord un nom à son sabre. Pas éclair, kidō et cero ont chacun leur touche, regarde /touches. La méditation fait monter ta pression spirituelle, essaie-la au calme.",
+  "fort": "Shinigami : tes points d'épée viennent avec tes niveaux, 500 au niveau 40, et les Hollows en donnent en plus. Ta voie, choisis-la chez moi : [Choisir ma voie], gratuit la première fois, 300 Éclats pour changer. Ou place tes points toi-même : Maj + clic droit sur ton sabre nommé. Le Shikai s'éveille au niveau 40 : médite 60 secondes sans bouger dans le lieu de ton élément (Feu : le Nether, Glace : la neige, Eau : l'océan...), puis touche H. Le Bankai vient au niveau 100. Hollow : tu évolues (Menos, Adjuchas, Vasto Lorde, puis Arrancar). Le masque de Vizard se gagne : un Shinigami qui a son Shikai apprend la Voie du Vizard, chasse des milliers de Hollows, puis touche le Hōgyoku.",
+  "aller": "Lignée de Bleach : du Hueco Mundo jusqu'à Aizen, puis Yhwach. Mes examens : du Menos Grande à Yhwach. Ta Boussole de lignée, réglée sur Bleach (clic droit), te montre ta prochaine étape."
+ },
+ "encouragements": [
+  "Un client fidèle, voilà ce que j’aime ! Reviens quand tu veux.",
+  "La force, c’est bien. Savoir quand l’utiliser, c’est mieux.",
+  "Mon magasin est ouvert jour et nuit. Enfin, presque."
+ ],
+ "a_verifier": []
+}

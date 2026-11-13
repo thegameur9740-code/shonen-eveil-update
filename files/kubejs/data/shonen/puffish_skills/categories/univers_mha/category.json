@@ -1,0 +1,14 @@
+{
+  "title": "Arbre de My Hero Academia",
+  "description": "Ton Alter. Tous les chemins sont ouverts : Alter offensif, Corps de héros et Plus Ultra.",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "minecraft:firework_rocket"
+    }
+  },
+  "background": "minecraft:textures/gui/advancements/backgrounds/end.png",
+  "unlocked_by_default": false,
+  "starting_points": 0,
+  "exclusive_root": false
+}

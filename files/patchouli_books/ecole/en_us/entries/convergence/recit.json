@@ -1,0 +1,21 @@
+{
+ "name": "La Convergence",
+ "category": "patchouli:convergence",
+ "icon": "minecraft:ender_pearl",
+ "read_by_default": true,
+ "sortnum": 0,
+ "pages": [
+  {
+   "type": "patchouli:image",
+   "images": [
+    "shonen:textures/livre/ill_eveil.png"
+   ],
+   "border": false,
+   "text": "Un jour, le ciel s'est fendu."
+  },
+  {
+   "type": "patchouli:text",
+   "text": "Sept mondes sont tombés dans le nôtre.$(br2)Certains se sont réveillés avec une flamme qui n'était pas la leur : les $(l)Éveillés$().$(br2)L'école est le seul sol stable."
+  }
+ ]
+}

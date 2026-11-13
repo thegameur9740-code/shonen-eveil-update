@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/prize_pottery_sherd"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 7004
+      },
+      "model": "shonen:item/souvenirs/raditz"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7008
+      },
+      "model": "shonen:item/souvenirs/buu"
+    }
+  ]
+}

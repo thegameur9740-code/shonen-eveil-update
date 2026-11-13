@@ -1,0 +1,14 @@
+{
+  "title": "Arbre de Jujutsu Kaisen",
+  "description": "Ton énergie occulte. Tous les chemins sont ouverts : Technique innée, Corps maudit et Énergie occulte.",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "background": "minecraft:textures/gui/advancements/backgrounds/end.png",
+  "unlocked_by_default": false,
+  "starting_points": 0,
+  "exclusive_root": false
+}

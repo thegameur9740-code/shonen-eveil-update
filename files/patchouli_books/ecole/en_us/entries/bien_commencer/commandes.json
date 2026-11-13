@@ -1,0 +1,17 @@
+{
+ "name": "Les commandes",
+ "category": "patchouli:bien_commencer",
+ "icon": "minecraft:paper",
+ "read_by_default": true,
+ "sortnum": 6,
+ "pages": [
+  {
+   "type": "patchouli:text",
+   "text": "$(l)/ecole$() retour à la cour$(br)$(l)/guide$() le guide doré$(br)$(l)/touches$() tes touches$(br)$(l)/danger$() ta zone$(br)$(l)/entrainement$() la Fosse$(br)$(l)/boussole$() ta boussole$(br)$(l)/evenement$() l'événement en cours$(br)$(l)/voyage$() les pierres de voyage$(br)$(l)/territoire$() vos chunks$(br)$(l)/astuces off$() ou $(l)on$()$(br)$(l)/classe$() (Solo Leveling)"
+  },
+  {
+   "type": "patchouli:text",
+   "text": "$(l)/relations$() tes amitiés$(br)$(l)/gazette$() le journal$(br)$(l)/calendrier$() les saisons$(br)$(l)/titre$() tes titres$(br)$(l)/souvenirs$() tes boss$(br)$(l)/limites$() zones sur la carte$(br)$(l)/portails$() (Solo Leveling)$(br)$(l)/foyer$() ta maison$(br)$(l)/eclats$() tes Éclats"
+  }
+ ]
+}

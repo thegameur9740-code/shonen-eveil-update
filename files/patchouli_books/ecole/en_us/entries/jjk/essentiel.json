@@ -1,0 +1,22 @@
+{
+ "name": "L'essentiel",
+ "category": "patchouli:jjk",
+ "icon": "minecraft:ender_eye",
+ "read_by_default": true,
+ "sortnum": 0,
+ "pages": [
+  {
+   "type": "patchouli:image",
+   "images": [
+    "shonen:textures/livre/ill_jjk.png"
+   ],
+   "border": false,
+   "text": "Yaga : « Ici, on apprend à rester en vie. »"
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Ce que tu es",
+   "text": "$(l)Exorciste$(), $(l)utilisateur de malédictions$() ou $(l)fléau$(), avec une $(l)technique$() innée.$(br)Tu te bats avec ton $(l)énergie occulte$().$(br)Les fléaux ne craignent que les pouvoirs d'anime.$(br2)$(l)Commencer$() :$(li)choisis une technique : $(l)$(k:key.jujutsucraft.key_change_technique)$() ;$(li)lance-la : $(l)$(k:key.jujutsucraft.key_start_technique)$() ;$(li)essaie-la au $(l)dojo$()."
+  }
+ ]
+}

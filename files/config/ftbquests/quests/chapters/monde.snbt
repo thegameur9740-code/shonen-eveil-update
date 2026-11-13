@@ -1,0 +1,556 @@
+{
+	id: "00004B12EC893182"
+	group: ""
+	order_index: 12
+	filename: "monde"
+	title: "Boss du monde"
+	icon: "minecraft:wither_skeleton_skull"
+	subtitle: [
+		"Les boss hors lignées : rencontres de zone 3 et 4, boss secrets de zone 5 et le"
+		"raid du Dix-Queues."
+	]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 5.62d
+			y: 1.12d
+			width: 14.75d
+			height: 5.75d
+			rotation: 0.0d
+			image: "shonen:textures/quetes/bg_monde.png"
+			color: 16777215
+			alpha: 235
+			order: -11
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 5.62d
+			y: 1.12d
+			width: 30.0d
+			height: 21.94d
+			rotation: 0.0d
+			image: "shonen:textures/quetes/plein_monde.png"
+			color: 16777215
+			alpha: 255
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			id: "000F7453D45D61C2"
+			title: "Kisame, le monstre sans queue"
+			subtitle: "Niveau 60"
+			x: 0.0d
+			y: 0.0d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"monde_kisame_le_monstre_sans_queue"
+			]
+			description: [
+				"On a vu un homme-requin près de la côte, dans les terres"
+				"hostiles. Sa lame dévore l'énergie de ceux qu'elle touche."
+				"Son repaire, une crique sombre, est quelque part autour de"
+				"la Racine de Danzo."
+				""
+				"Tâche : vaincre Kisame (zone 3)"
+				""
+				"Récompense : 641 XP, 250 Éclats"
+			]
+			tasks: [
+				{
+					id: "000E69B7745F8F31"
+					type: "custom"
+					title: "vaincre Kisame (zone 3)"
+				}
+			]
+			rewards: [
+				{
+					id: "0007DF3E7592F747"
+					type: "command"
+					title: "641 XP"
+					command: "/shonenquete recompense {p} monde_kisame_le_monstre_sans_queue"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:wither_skeleton_skull"
+		}
+		{
+			id: "000A84EED7CB6BCD"
+			title: "Deidara, l'artiste explosif"
+			subtitle: "Niveau 62"
+			x: 2.25d
+			y: 0.0d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"monde_deidara_l_artiste_explosif"
+			]
+			description: [
+				"Des explosions secouent les falaises de la zone 3. « L'art,"
+				"c'est une explosion ! » crie quelqu'un, très haut. Cherche"
+				"les falaises autour de la Racine de Danzo."
+				""
+				"Tâche : vaincre Deidara (zone 3)"
+				""
+				"Récompense : 665 XP, 260 Éclats"
+			]
+			tasks: [
+				{
+					id: "00027ECE03A8D5EB"
+					type: "custom"
+					title: "vaincre Deidara (zone 3)"
+				}
+			]
+			rewards: [
+				{
+					id: "0003B89791930D62"
+					type: "command"
+					title: "665 XP"
+					command: "/shonenquete recompense {p} monde_deidara_l_artiste_explosif"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:wither_skeleton_skull"
+			dependencies: [
+				"000F7453D45D61C2"
+			]
+		}
+		{
+			id: "000E36FEBD1508E8"
+			title: "Sasori, le marionnettiste"
+			subtitle: "Niveau 64"
+			x: 4.5d
+			y: 0.0d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"monde_sasori_le_marionnettiste"
+			]
+			description: [
+				"Dans le désert de la zone 3, des marionnettes empoisonnées"
+				"gardent un homme qui ne vieillit pas. Son atelier est caché"
+				"dans une grotte, autour de la Racine de Danzo."
+				""
+				"Tâche : vaincre Sasori (zone 3)"
+				""
+				"Récompense : 689 XP, 270 Éclats"
+			]
+			tasks: [
+				{
+					id: "00009C2BD07D27EC"
+					type: "custom"
+					title: "vaincre Sasori (zone 3)"
+				}
+			]
+			rewards: [
+				{
+					id: "000F6E69F79285E3"
+					type: "command"
+					title: "689 XP"
+					command: "/shonenquete recompense {p} monde_sasori_le_marionnettiste"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:wither_skeleton_skull"
+			dependencies: [
+				"000A84EED7CB6BCD"
+			]
+		}
+		{
+			id: "0006B7513895C5C0"
+			title: "Konan, l'ange de papier"
+			subtitle: "Niveau 66"
+			x: 6.75d
+			y: 0.0d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"monde_konan_l_ange_de_papier"
+			]
+			description: [
+				"Une tour sous la pluie, des ailes de papier : l'ange de"
+				"l'Akatsuki garde la zone 3, non loin de la Racine de Danzo."
+				"Quatre déserteurs, dit-on."
+				""
+				"Tâche : vaincre Konan (zone 3)"
+				""
+				"Récompense : 713 XP, 270 Éclats"
+			]
+			tasks: [
+				{
+					id: "000768D6A563A71A"
+					type: "custom"
+					title: "vaincre Konan (zone 3)"
+				}
+			]
+			rewards: [
+				{
+					id: "0007694E3C5C5A50"
+					type: "command"
+					title: "713 XP"
+					command: "/shonenquete recompense {p} monde_konan_l_ange_de_papier"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:wither_skeleton_skull"
+			dependencies: [
+				"000E36FEBD1508E8"
+			]
+		}
+		{
+			id: "0008EA1AD754BE18"
+			title: "Broly, le Saiyan légendaire"
+			subtitle: "Niveau 95"
+			x: 9.0d
+			y: 0.0d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"monde_broly_le_saiyan_legendaire"
+			]
+			description: [
+				"Un Saiyan s'est réveillé dans la zone 4. Il est calme. Pour"
+				"l'instant. On parle d'un plateau gelé, fendu de cratères."
+				""
+				"Tâche : vaincre Broly d'histoire (zone 4)"
+				""
+				"Récompense : 1087 XP, 390 Éclats"
+			]
+			tasks: [
+				{
+					id: "0003CA5EAB25F496"
+					type: "custom"
+					title: "vaincre Broly d'histoire (zone 4)"
+				}
+			]
+			rewards: [
+				{
+					id: "0008C260E3E3BE38"
+					type: "command"
+					title: "1087 XP"
+					command: "/shonenquete recompense {p} monde_broly_le_saiyan_legendaire"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:wither_skeleton_skull"
+			dependencies: [
+				"0006B7513895C5C0"
+			]
+		}
+		{
+			id: "000122E266B1C21C"
+			title: "Yuta et Rika"
+			subtitle: "Niveau 95"
+			x: 11.25d
+			y: 0.0d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"monde_yuta_et_rika"
+			]
+			description: [
+				"Un sorcier et la fléau qui l'aime rôdent sur le terrain du"
+				"Jeu d'extermination."
+				""
+				"Tâche : vaincre Yuta (zone 4)"
+				""
+				"Récompense : 1087 XP, 390 Éclats"
+			]
+			tasks: [
+				{
+					id: "0005EF0DCC31FF6D"
+					type: "custom"
+					title: "vaincre Yuta (zone 4)"
+				}
+			]
+			rewards: [
+				{
+					id: "000E985196BDFA8C"
+					type: "command"
+					title: "1087 XP"
+					command: "/shonenquete recompense {p} monde_yuta_et_rika"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:wither_skeleton_skull"
+			dependencies: [
+				"0008EA1AD754BE18"
+			]
+		}
+		{
+			id: "000035BB35E5DA1A"
+			title: "Le jackpot de Hakari"
+			subtitle: "Niveau 98"
+			x: 11.25d
+			y: 2.25d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"monde_le_jackpot_de_hakari"
+			]
+			description: [
+				"Une salle de jeu clandestine dans la zone 4. Son patron mise"
+				"tout, et il gagne souvent. L'entrée est sous terre : écoute"
+				"la musique."
+				""
+				"Tâche : vaincre Hakari (zone 4)"
+				""
+				"Récompense : 1127 XP, 400 Éclats"
+			]
+			tasks: [
+				{
+					id: "000327A438CD8C00"
+					type: "custom"
+					title: "vaincre Hakari (zone 4)"
+				}
+			]
+			rewards: [
+				{
+					id: "000448C19E226962"
+					type: "command"
+					title: "1127 XP"
+					command: "/shonenquete recompense {p} monde_le_jackpot_de_hakari"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:wither_skeleton_skull"
+			dependencies: [
+				"000122E266B1C21C"
+			]
+		}
+		{
+			id: "0004AB807CE37F4D"
+			title: "Le fantôme des Uchiwa"
+			subtitle: "Niveau 135"
+			x: 9.0d
+			y: 2.25d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"monde_le_fantome_des_uchiwa"
+			]
+			description: [
+				"Après la chute de l'Ancre de Naruto, un homme qu'on croyait"
+				"mort marche dans la zone 5. Le ciel s'assombrit sous ses"
+				"météores. Règle ta Boussole de lignée sur Naruto : elle te"
+				"mène à la Vallée brisée."
+				""
+				"Tâche : vaincre Madara (zone 5, après l'Ancre de Naruto)"
+				""
+				"boss secret"
+				""
+				"Récompense : 1667 XP, 550 Éclats"
+			]
+			tasks: [
+				{
+					id: "000783DFA5C1BFAD"
+					type: "custom"
+					title: "vaincre Madara (zone 5, après l'Ancre de Naruto)"
+				}
+			]
+			rewards: [
+				{
+					id: "000899A9E18DC840"
+					type: "command"
+					title: "1667 XP"
+					command: "/shonenquete recompense {p} monde_le_fantome_des_uchiwa"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:wither_skeleton_skull"
+			dependencies: [
+				"000035BB35E5DA1A"
+			]
+		}
+		{
+			id: "0005DF6C0A3688B6"
+			title: "La déesse lapine"
+			subtitle: "Niveau 140"
+			x: 6.75d
+			y: 2.25d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"monde_la_deesse_lapine"
+			]
+			description: [
+				"Madara n'était qu'un pion. La mère du chakra s'éveille. Un"
+				"pilier de lumière s'élève de la Vallée brisée : il mène à"
+				"l'Autel de la lune."
+				""
+				"Tâche : vaincre Kaguya (après Madara)"
+				""
+				"boss secret"
+				""
+				"Récompense : 1745 XP, 570 Éclats"
+			]
+			tasks: [
+				{
+					id: "00003D6DC2FAC2A9"
+					type: "custom"
+					title: "vaincre Kaguya (après Madara)"
+				}
+			]
+			rewards: [
+				{
+					id: "00035C786825151F"
+					type: "command"
+					title: "1745 XP"
+					command: "/shonenquete recompense {p} monde_la_deesse_lapine"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:wither_skeleton_skull"
+			dependencies: [
+				"0004AB807CE37F4D"
+			]
+		}
+		{
+			id: "000AD9D711AA1B60"
+			title: "Le prisonnier de Muken"
+			subtitle: "Niveau 145"
+			x: 4.5d
+			y: 2.25d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"monde_le_prisonnier_de_muken"
+			]
+			description: [
+				"Au fond d'une prison oubliée, un homme attaché, les yeux"
+				"bandés, sourit. Il n'aurait jamais dû être libéré. Celui qui"
+				"le bat reçoit l'Œil de la Renaissance."
+				""
+				"Tâche : vaincre Aizen scellé (après l'Ancre de Bleach)"
+				""
+				"boss secret, le plus dur du jeu"
+				""
+				"Récompense : 1825 XP, 590 Éclats"
+			]
+			tasks: [
+				{
+					id: "0005BE17F047050A"
+					type: "custom"
+					title: "vaincre Aizen scellé (après l'Ancre de Bleach)"
+				}
+			]
+			rewards: [
+				{
+					id: "0000E4F46AD62EA6"
+					type: "command"
+					title: "1825 XP"
+					command: "/shonenquete recompense {p} monde_le_prisonnier_de_muken"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:wither_skeleton_skull"
+			dependencies: [
+				"0005DF6C0A3688B6"
+			]
+		}
+		{
+			id: "000EA88157F4A908"
+			title: "Le Dix-Queues"
+			subtitle: "Niveau 140"
+			x: 2.25d
+			y: 2.25d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"monde_le_dix_queues"
+			]
+			description: [
+				"La bête originelle s'est réveillée dans la zone 5. Un autel"
+				"attend sur le lieu d'Obito : il faut être au moins deux pour"
+				"l'éveiller. Rassemble tout le serveur."
+				""
+				"Tâche : vaincre le Dix-Queues en raid (zone 5), à plusieurs"
+				""
+				"Récompense : 1745 XP, 570 Éclats"
+			]
+			tasks: [
+				{
+					id: "0005663C7E7DF181"
+					type: "custom"
+					title: "vaincre le Dix-Queues en raid (zone 5), à plusieurs"
+				}
+			]
+			rewards: [
+				{
+					id: "0002D9BE8ED3CBA3"
+					type: "command"
+					title: "1745 XP"
+					command: "/shonenquete recompense {p} monde_le_dix_queues"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:wither_skeleton_skull"
+			dependencies: [
+				"000AD9D711AA1B60"
+			]
+		}
+		{
+			id: "00036E6591416704"
+			title: "Le Nomu de haut niveau"
+			subtitle: "Niveau 96"
+			x: 0.0d
+			y: 2.25d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"monde_le_nomu_de_haut_niveau"
+			]
+			description: [
+				"Un Nomu qui pense, qui vole et qui se régénère rôde"
+				"au-dessus de la zone 4. Il a été fait pour tuer des héros."
+				"Passé le niveau 80, c'est lui qui te trouvera."
+				""
+				"Tâche : vaincre Hood, le Nomu de haut niveau (zone 4)"
+				""
+				"Récompense : 1100 XP, 390 Éclats"
+			]
+			tasks: [
+				{
+					id: "0003FD84C281B6A6"
+					type: "custom"
+					title: "vaincre Hood, le Nomu de haut niveau (zone 4)"
+				}
+			]
+			rewards: [
+				{
+					id: "0005C8BAA063B806"
+					type: "command"
+					title: "1100 XP"
+					command: "/shonenquete recompense {p} monde_le_nomu_de_haut_niveau"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:wither_skeleton_skull"
+			dependencies: [
+				"000EA88157F4A908"
+			]
+		}
+	]
+	quest_links: [ ]
+}

@@ -1,0 +1,62 @@
+{
+  "size": "medium",
+  "color": "#E9ECEF",
+  "waves": [
+    {
+      "entities": [
+        {
+          "entity": "bleachreborn:hollow_wolf",
+          "count": 3
+        },
+        {
+          "entity": "bleachreborn:hollow_hound",
+          "count": 2
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 2400,
+      "setup_time": 100
+    },
+    {
+      "entities": [
+        {
+          "entity": "bleachreborn:hollow_hound",
+          "count": 2
+        },
+        {
+          "entity": "bleachreborn:hollow_stalker",
+          "count": 2
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 3000,
+      "setup_time": 160
+    },
+    {
+      "entities": [
+        {
+          "entity": "bleachreborn:grimmjow",
+          "desc": "shonen.examen.boss.grimmjow",
+          "nbt": "{Tags:[\"shonen_ge_grimmjow\"]}",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 10800,
+      "setup_time": 200
+    }
+  ],
+  "rewards": [
+    {
+      "type": "gateways:command",
+      "command": "grands_ennemis examen <summoner> grimmjow",
+      "desc": "shonen.examen.points.B"
+    }
+  ],
+  "failures": [],
+  "rules": {
+    "spawn_range": 10,
+    "leash_range": 48,
+    "allow_discarding": true
+  }
+}

@@ -1,0 +1,22 @@
+{
+ "univers": "jjk",
+ "nom": "Masamichi Yaga",
+ "role": "le directeur de l'école",
+ "corps": "jujutsucraft:yaga_masamichi",
+ "salut": {
+  "tien": "Alors, c'est toi, le nouveau. Ici, on n'apprend pas à être fort : on apprend à rester en vie. Assieds-toi, je vais t'expliquer.",
+  "autre": "Tu n'es pas des nôtres, mais les fléaux ne font pas la différence. Écoute quand même."
+ },
+ "sujets": {
+  "monde": "Les fléaux naissent des émotions négatives des humains. Seuls les pouvoirs d'anime peuvent les blesser : c'est la Résonance. Un sorcier se bat avec son énergie occulte et sa technique innée, celle avec laquelle il est né.",
+  "commencer": "À l'Éveil, tu as choisi ce que tu es : exorciste, utilisateur de malédictions ou fléau, puis ta technique. Une touche change de technique, une autre la lance. Tape /touches pour les voir, et va les essayer au dojo.",
+  "fort": "Chaque combat fait grandir ton énergie occulte. La technique inversée s'éveille au bord de la mort. À force d'utiliser ta technique, tu obtiendras le territoire simple, puis, bien plus tard, l'extension du territoire. Tes points d'arbre, avec K, renforcent ta voie.",
+  "aller": "Lignée de Jujutsu Kaisen : le quartier maudit, jusqu'à Sukuna. Mes examens : du rang C au boss final, ici. Ta Boussole de lignée, réglée sur Jujutsu Kaisen (clic droit), te montre ta prochaine étape."
+ },
+ "encouragements": [
+  "Reste en vie, c’est la première règle. La deuxième aussi.",
+  "Une technique qu’on comprend vaut deux techniques qu’on subit.",
+  "Les fléaux ne dorment jamais. Toi, si : repose-toi, puis reviens plus fort."
+ ],
+ "a_verifier": []
+}

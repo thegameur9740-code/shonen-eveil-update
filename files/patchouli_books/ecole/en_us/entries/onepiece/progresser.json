@@ -1,0 +1,18 @@
+{
+ "name": "Progresser",
+ "category": "patchouli:onepiece",
+ "icon": "minecraft:experience_bottle",
+ "read_by_default": true,
+ "sortnum": 2,
+ "pages": [
+  {
+   "type": "patchouli:text",
+   "text": "Bats des ennemis : ta $(l)prime$() monte.$(br)Elle donne stats, énergie et Haki ; tes coups s'ouvrent par paliers de prime.$(br2)$(l)Fruits$() : dans les coffres au trésor lâchés par les monstres (plus sur les forts).$(br)Tu peux avoir un style $(l)et$() un fruit."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Le Haki",
+   "text": "Trois Haki :$(li)$(l)armement$() : enchaîne les coups physiques. Sans lui, tes coups traversent un Logia ;$(li)$(l)observation$() : garde souvent ;$(li)$(l)des rois$() : bats des ennemis forts.$(br2)$(l)Attention$() : $(l)/pvp$() remet ta prime et ton fruit à 0."
+  }
+ ]
+}

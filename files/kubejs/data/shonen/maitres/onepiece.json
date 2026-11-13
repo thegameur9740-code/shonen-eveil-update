@@ -1,0 +1,22 @@
+{
+ "univers": "onepiece",
+ "nom": "Silvers Rayleigh",
+ "role": "le vieux pirate",
+ "corps": "minepiece:silvers_rayleigh_old",
+ "salut": {
+  "tien": "Ha ! Un jeune qui rêve du large. J'aime ça. Prends un verre, je te raconte.",
+  "autre": "Pas besoin d'être pirate pour écouter un vieil homme."
+ },
+ "sujets": {
+  "monde": "Ici, on se bat avec un style (sabre, poings, tir, ou les techniques d'un grand nom) ou avec un fruit du démon. Le Haki, lui, est à tout le monde : l'observation, l'armement, et pour quelques-uns, celui des rois. Ta prime dit ta puissance, elle n'achète rien.",
+  "commencer": "Tu choisis une technique, puis tu la lances ; une autre touche passe des techniques de base à celles du fruit. Un fruit au hasard, c'est le jeu : le marchand de la boutique, à l'étage, le relance contre des Éclats. Et ne saute jamais dans l'eau avec un fruit, tu coulerais.",
+  "fort": "Ta prime monte en battant des ennemis, et elle élargit tes techniques. Fais les quêtes du Haki : sans l'armement, tu ne toucheras jamais un Logia, comme Crocodile ou Akainu.",
+  "aller": "Lignée de One Piece : vers la mer la plus proche, Buggy, Arlong, Crocodile, Katakuri, puis Kaido. Mes examens commencent avec Buggy. Ta Boussole de lignée, réglée sur One Piece (clic droit), te montre ta prochaine étape."
+ },
+ "encouragements": [
+  "La mer est grande. Prends ton temps, mais ne t’arrête jamais.",
+  "Un bon équipage vaut tous les trésors.",
+  "Ha ! Tu me rappelles quelqu’un. Continue comme ça."
+ ],
+ "a_verifier": []
+}

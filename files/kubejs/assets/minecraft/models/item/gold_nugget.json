@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/gold_nugget"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 7001
+      },
+      "model": "shonen:item/souvenirs/freezer"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7005
+      },
+      "model": "shonen:item/souvenirs/nappa"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7009
+      },
+      "model": "shonen:item/souvenirs/jiren"
+    }
+  ]
+}

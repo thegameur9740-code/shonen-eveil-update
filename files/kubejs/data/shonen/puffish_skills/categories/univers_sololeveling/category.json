@@ -1,0 +1,14 @@
+{
+  "title": "Arbre de Solo Leveling",
+  "description": "Le Système. Tous les chemins sont ouverts : Lame de l'ombre, Arcanes et Système.",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "minecraft:enchanted_book"
+    }
+  },
+  "background": "minecraft:textures/gui/advancements/backgrounds/end.png",
+  "unlocked_by_default": false,
+  "starting_points": 0,
+  "exclusive_root": false
+}

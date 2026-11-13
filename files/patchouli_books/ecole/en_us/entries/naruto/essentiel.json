@@ -1,0 +1,22 @@
+{
+ "name": "L'essentiel",
+ "category": "patchouli:naruto",
+ "icon": "minecraft:paper",
+ "read_by_default": true,
+ "sortnum": 0,
+ "pages": [
+  {
+   "type": "patchouli:image",
+   "images": [
+    "shonen:textures/livre/ill_naruto.png"
+   ],
+   "border": false,
+   "text": "Jiraya : « Un ninja ne renonce jamais. »"
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Ce que tu es",
+   "text": "Un $(l)clan$() et des $(l)natures$() (feu, eau, vent, foudre, terre).$(br)$(l)Deux clics droits sur un clan le suppriment.$()$(br)Jiraya t'offre 30 points de jutsu.$(br2)$(l)Commencer$() :$(li)ouvre le menu ninja : $(l)$(k:key.ninshuorigins.mainmenu)$() ;$(li)apprends 1 ou 2 jutsus ;$(li)charge ton chakra : $(l)$(k:key.ninshuorigins.charge_chakra)$()."
+  }
+ ]
+}

@@ -1,0 +1,118 @@
+{
+ "textures": {
+  "caoutchouc": "shonen:block/muscu_caoutchouc",
+  "fer": "shonen:block/muscu_fer",
+  "particle": "shonen:block/muscu_fer"
+ },
+ "elements": [
+  {
+   "from": [
+    3.04,
+    0,
+    10.04
+   ],
+   "to": [
+    5.96,
+    5.960000000000001,
+    13.96
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      10.04,
+      10.04,
+      12.96,
+      16
+     ],
+     "texture": "#fer"
+    },
+    "south": {
+     "uv": [
+      3.04,
+      10.04,
+      5.96,
+      16
+     ],
+     "texture": "#fer"
+    },
+    "west": {
+     "uv": [
+      10.04,
+      10.04,
+      13.96,
+      16
+     ],
+     "texture": "#fer"
+    },
+    "east": {
+     "uv": [
+      2.039999999999999,
+      10.04,
+      5.960000000000001,
+      16
+     ],
+     "texture": "#fer"
+    },
+    "up": {
+     "uv": [
+      3.04,
+      10.04,
+      5.96,
+      13.96
+     ],
+     "texture": "#fer"
+    }
+   }
+  },
+  {
+   "from": [
+    10.08,
+    0,
+    3.08
+   ],
+   "to": [
+    16,
+    9.920000000000002,
+    7.92
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      0,
+      6.079999999999998,
+      5.92,
+      16
+     ],
+     "texture": "#caoutchouc"
+    },
+    "south": {
+     "uv": [
+      10.08,
+      6.079999999999998,
+      16,
+      16
+     ],
+     "texture": "#caoutchouc"
+    },
+    "west": {
+     "uv": [
+      3.08,
+      6.079999999999998,
+      7.92,
+      16
+     ],
+     "texture": "#caoutchouc"
+    },
+    "up": {
+     "uv": [
+      10.08,
+      3.08,
+      16,
+      7.92
+     ],
+     "texture": "#caoutchouc"
+    }
+   }
+  }
+ ]
+}

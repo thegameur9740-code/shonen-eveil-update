@@ -1,0 +1,12 @@
+{
+  "name": "My Hero Academia",
+  "description": "Héros et Alters (Quirks Unchained).\nTon Alter est tiré au hasard.\nC'est ton 2e univers : ses touches sont sur Ctrl.",
+  "icon": {
+    "item": "quirksunchained:air_cannon_essence"
+  },
+  "impact": 2,
+  "order": 7,
+  "powers": [
+    "shonen:univers2_mha"
+  ]
+}

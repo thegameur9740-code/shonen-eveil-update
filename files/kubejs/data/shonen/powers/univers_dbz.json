@@ -1,0 +1,41 @@
+{
+  "type": "apoli:multiple",
+  "hidden": true,
+  "eveil": {
+    "type": "origins:action_on_callback",
+    "entity_action_gained": {
+      "type": "apoli:and",
+      "actions": [
+        {
+          "type": "apoli:execute_command",
+          "command": "tag @s add univers1_dbz"
+        },
+        {
+          "type": "apoli:execute_command",
+          "command": "tag @s add univers_dbz"
+        },
+        {
+          "type": "apoli:execute_command",
+          "command": "eveil maj"
+        }
+      ]
+    },
+    "entity_action_lost": {
+      "type": "apoli:and",
+      "actions": [
+        {
+          "type": "apoli:execute_command",
+          "command": "tag @s remove univers1_dbz"
+        },
+        {
+          "type": "apoli:execute_command",
+          "command": "tag @s remove univers_dbz"
+        },
+        {
+          "type": "apoli:execute_command",
+          "command": "eveil maj"
+        }
+      ]
+    }
+  }
+}

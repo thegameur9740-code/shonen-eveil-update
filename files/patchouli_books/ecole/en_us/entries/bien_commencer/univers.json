@@ -1,0 +1,13 @@
+{
+ "name": "Ton univers",
+ "category": "patchouli:bien_commencer",
+ "icon": "minecraft:ender_eye",
+ "read_by_default": true,
+ "sortnum": 1,
+ "pages": [
+  {
+   "type": "patchouli:text",
+   "text": "À l'Éveil, tu choisis un des $(l)7 univers$(), puis ce que tu y es : style, technique, faction, race, classe, clan ou Alter.$(br2)Ton $(l)2e univers$() s'ouvre à ton premier examen de $(l)rang A$() réussi.$(br2)Chaque univers a son chapitre dans ce livre."
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "textures": {
+  "fer": "shonen:block/muscu_fer",
+  "particle": "shonen:block/muscu_fer"
+ },
+ "elements": [
+  {
+   "from": [
+    6.18,
+    0,
+    8.18
+   ],
+   "to": [
+    8.82,
+    5.82,
+    10.82
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      7.18,
+      10.18,
+      9.82,
+      16
+     ],
+     "texture": "#fer"
+    },
+    "south": {
+     "uv": [
+      6.18,
+      10.18,
+      8.82,
+      16
+     ],
+     "texture": "#fer"
+    },
+    "west": {
+     "uv": [
+      8.18,
+      10.18,
+      10.82,
+      16
+     ],
+     "texture": "#fer"
+    },
+    "east": {
+     "uv": [
+      5.18,
+      10.18,
+      7.82,
+      16
+     ],
+     "texture": "#fer"
+    },
+    "up": {
+     "uv": [
+      6.18,
+      8.18,
+      8.82,
+      10.82
+     ],
+     "texture": "#fer"
+    }
+   }
+  }
+ ]
+}

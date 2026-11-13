@@ -1,0 +1,18 @@
+{
+ "name": "Progresser",
+ "category": "patchouli:naruto",
+ "icon": "minecraft:experience_bottle",
+ "read_by_default": true,
+ "sortnum": 2,
+ "pages": [
+  {
+   "type": "patchouli:text",
+   "text": "Bats ninjas et monstres : points de $(l)stat$() ou de $(l)jutsu$().$(br)$(l)Jutsus$() : apprends-les avec tes JP dans le menu ninja ($(l)$(k:key.ninshuorigins.mainmenu)$()) : bonne nature ou bon clan.$(br2)$(l)Taijutsu et kenjutsu$() : monte-les au mannequin et aux poids (ça coûte des ryo).$(br)$(l)Combat$() : léger, lourd, haut, bas, garde."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Plus loin",
+   "text": "Certains jutsus s'apprennent chez des PNJ du mod : Rasengan chez Jiraiya, Chidori chez Kakashi.$(br)$(l)Mode ermite$() : quête de Jiraiya, puis l'invocation Gama.$(br2)Un $(l)démon à queues$() vaincu peut faire de toi son $(l)jinchûriki$() : $(l)$(k:key.ninshuorigins.activate_chakramode)$() pour le manteau."
+  }
+ ]
+}

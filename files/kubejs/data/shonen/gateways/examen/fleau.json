@@ -1,0 +1,62 @@
+{
+  "size": "small",
+  "color": "#C92A2A",
+  "waves": [
+    {
+      "entities": [
+        {
+          "entity": "jujutsucraft:cursed_spirit_grade_31",
+          "count": 2
+        },
+        {
+          "entity": "jujutsucraft:cursed_spirit_grade_34",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 2400,
+      "setup_time": 100
+    },
+    {
+      "entities": [
+        {
+          "entity": "jujutsucraft:cursed_spirit_grade_31",
+          "count": 2
+        },
+        {
+          "entity": "jujutsucraft:cursed_spirit_grade_34",
+          "count": 2
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 3000,
+      "setup_time": 160
+    },
+    {
+      "entities": [
+        {
+          "entity": "jujutsucraft:cursed_spirit_grade_14",
+          "desc": "shonen.examen.boss.fleau",
+          "nbt": "{Tags:[\"shonen_ge_fleau\"]}",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 9600,
+      "setup_time": 200
+    }
+  ],
+  "rewards": [
+    {
+      "type": "gateways:command",
+      "command": "grands_ennemis examen <summoner> fleau",
+      "desc": "shonen.examen.points.C"
+    }
+  ],
+  "failures": [],
+  "rules": {
+    "spawn_range": 10,
+    "leash_range": 48,
+    "allow_discarding": true
+  }
+}

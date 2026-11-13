@@ -1,0 +1,58 @@
+{
+ "textures": {
+  "cuir": "shonen:block/muscu_cuir",
+  "particle": "shonen:block/muscu_fer"
+ },
+ "elements": [
+  {
+   "from": [
+    10.2,
+    0,
+    12.2
+   ],
+   "to": [
+    16,
+    7.800000000000001,
+    15.8
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      0,
+      8.2,
+      5.800000000000001,
+      16
+     ],
+     "texture": "#cuir"
+    },
+    "south": {
+     "uv": [
+      10.2,
+      8.2,
+      16,
+      16
+     ],
+     "texture": "#cuir"
+    },
+    "west": {
+     "uv": [
+      12.2,
+      8.2,
+      15.8,
+      16
+     ],
+     "texture": "#cuir"
+    },
+    "up": {
+     "uv": [
+      10.2,
+      12.2,
+      16,
+      15.8
+     ],
+     "texture": "#cuir"
+    }
+   }
+  }
+ ]
+}

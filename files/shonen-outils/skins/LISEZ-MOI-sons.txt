@@ -1,0 +1,24 @@
+MES SONS - Shonen Éveil
+=======================
+
+Ce dossier sert à remplacer certains sons du pack par les TIENS, sur TON jeu seulement.
+Rien de ce dossier n'est envoyé au serveur ni aux autres joueurs, et rien n'entre dans le pack.
+
+Comment faire
+-------------
+1. Mets ici un fichier son dont le nom est la clé du son, par exemple :
+   pain_shinra_tensei.ogg
+   Le mieux : un fichier .ogg. Il est copié tel quel, SANS ffmpeg (c'est le cas des sons du kit privé).
+   Un autre format (mp3, wav, flac, m4a, opus) marche seulement si ffmpeg est installé sur le PC.
+2. Relance la mise à jour du pack, jeu fermé (comme pour mes-skins et mes-musiques).
+   Le son est converti (volume réglé) et mis dans le pack de ressources « Shonen Mes Skins », activé tout seul.
+3. Pour revenir au son de base : supprime (ou renomme) le fichier, puis relance la mise à jour.
+
+IMPORTANT : l'attaque du boss est réglée sur le son de base. Coupe ton fichier pour que le moment fort
+tombe au bon temps depuis le début du fichier (indiqué ci-dessous), sinon le son et l'attaque seront décalés.
+
+Sons possibles (nom du fichier -> son, moment de l'impact) :
+{SONS}
+
+Un .ogg n'a pas besoin de ffmpeg. Un mp3, wav, flac, m4a ou opus a besoin de ffmpeg pour être converti ;
+sans lui, ce son n'est pas installé et le son de base reste (la mise à jour l'écrit : « Sons perso : N installe(s) »).

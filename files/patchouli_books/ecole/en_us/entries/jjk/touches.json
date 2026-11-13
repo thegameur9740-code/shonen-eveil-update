@@ -1,0 +1,13 @@
+{
+ "name": "Tes touches",
+ "category": "patchouli:jjk",
+ "icon": "minecraft:stone_button",
+ "read_by_default": true,
+ "sortnum": 1,
+ "pages": [
+  {
+   "type": "patchouli:text",
+   "text": "$(l)$(k:key.jujutsucraft.key_start_technique)$() utiliser$(br)$(l)$(k:key.jujutsucraft.key_change_technique)$() changer de technique$(br)$(l)$(k:key.jujutsucraft.key_use_main_skill)$() technique principale$(br)$(l)$(k:key.jujutsucraft.key_reverse_cursed_technique)$() technique inversée$(br)$(l)$(k:key.jujutsucraft.key_simple_domain)$() territoire simple$(br)$(l)$(k:key.jujutsucraft.key_domain_amplification)$() amplification$(br2)Pas de touche : cet univers n'est pas à toi."
+  }
+ ]
+}

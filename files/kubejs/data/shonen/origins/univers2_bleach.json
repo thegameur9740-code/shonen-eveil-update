@@ -1,0 +1,12 @@
+{
+  "name": "Bleach",
+  "description": "Shinigami, Quincy, Hollow ou Fullbringer (Bleach Reborn).\nTu choisis ensuite ta faction.\nC'est ton 2e univers : ses touches sont sur Ctrl.",
+  "icon": {
+    "item": "bleachreborn:asauchi"
+  },
+  "impact": 2,
+  "order": 3,
+  "powers": [
+    "shonen:univers2_bleach"
+  ]
+}

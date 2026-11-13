@@ -1,0 +1,11 @@
+{
+  "configVersion": "2.2.1",
+  "style": "compact",
+  "layout": {
+    "compact": {
+      "compact_health": {
+        "visible": false
+      }
+    }
+  }
+}

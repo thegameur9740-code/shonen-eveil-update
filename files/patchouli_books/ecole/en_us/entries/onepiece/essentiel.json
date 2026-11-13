@@ -1,0 +1,22 @@
+{
+ "name": "L'essentiel",
+ "category": "patchouli:onepiece",
+ "icon": "minecraft:compass",
+ "read_by_default": true,
+ "sortnum": 0,
+ "pages": [
+  {
+   "type": "patchouli:image",
+   "images": [
+    "shonen:textures/livre/ill_onepiece.png"
+   ],
+   "border": false,
+   "text": "Rayleigh : « Un jeune qui rêve du large. J'aime ça. »"
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Ce que tu es",
+   "text": "Un $(l)style$() (sabre, poings, tir, ou une race) ou un $(l)fruit du démon$().$(br)Ta $(l)prime$() dit ta puissance.$(br2)$(l)Commencer$() :$(li)active le $(l)mode combat$() : $(l)$(k:key.minepiece.key_battle_mode)$() ;$(li)clic : un coup ; clics rapides : une rafale ; maintenir : coup chargé ;$(li)avec un fruit, $(l)jamais dans l'eau$() : tu coules."
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "name": "L'infirmerie",
+ "category": "patchouli:ecole",
+ "icon": "minecraft:white_bed",
+ "read_by_default": true,
+ "sortnum": 12,
+ "pages": [
+  {
+   "type": "patchouli:text",
+   "title": "Les infirmières",
+   "text": "L'aile infirmerie est au sud, près de la tour-dortoir.$(br2)7 infirmières, une par univers : $(l)4 de garde$() le jour (ça tourne), $(l)2 la nuit$() : l'infirmerie ne ferme jamais.$(br2)Elles soignent, rien d'autre : pas de cadeau, pas de sortie, pas de recrutement."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Se faire soigner",
+   "text": "Clic droit sur une infirmière de garde :$(br)$(l)Me soigner$() : tes PV reviennent, gratuitement. Si tu étais blessé, elle te glisse son $(l)objet de soin$() (un par jour réel).$(br)$(l)Mon compagnon$() : qui est au lit, et pour combien de temps.$(br2)L'objet de soin (clic droit) rend 6 PV, avec un délai de 30 secondes. On ne l'achète pas."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Un compagnon tombé",
+   "text": "Tombé au combat, il ne meurt pas : une infirmière le couche dans un lit de soin pour $(l)10 minutes réelles$(). Tu ne peux pas le recruter avant.$(br2)Tu peux $(l)payer$() pour le remettre debout tout de suite : $(l)20 Éclats par minute restante$(), 200 au plus. Attendre ne coûte rien."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Les lits de l'infirmerie",
+   "text": "8 lits : 4 joueurs et leurs 2 compagnons. S'il n'y a plus de lit, il se repose quand même et prend le premier qui se libère."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Les lits de soin",
+   "text": "Les 8 lits blancs de l'infirmerie sont réservés aux soins : on n'y dort pas, et on n'y règle pas son point de réapparition.$(br2)Pour dormir, il y a les 4 lits des joueurs en haut de la tour-dortoir (5 niveaux), ou ton propre lit."
+  }
+ ]
+}

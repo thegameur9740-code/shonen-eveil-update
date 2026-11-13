@@ -1,0 +1,14 @@
+{
+  "title": "Arbre de Bleach",
+  "description": "La force de ton âme. Tous les chemins sont ouverts : Zanpakuto, Kidō et reishi, Pression spirituelle.",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "minecraft:bone"
+    }
+  },
+  "background": "minecraft:textures/gui/advancements/backgrounds/end.png",
+  "unlocked_by_default": false,
+  "starting_points": 0,
+  "exclusive_root": false
+}

@@ -1,0 +1,22 @@
+{
+ "name": "L'essentiel",
+ "category": "patchouli:mha",
+ "icon": "minecraft:shield",
+ "read_by_default": true,
+ "sortnum": 0,
+ "pages": [
+  {
+   "type": "patchouli:image",
+   "images": [
+    "shonen:textures/livre/ill_mha.png"
+   ],
+   "border": false,
+   "text": "All Might : « N'aie pas peur ! Un héros est là. »"
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Ce que tu es",
+   "text": "Ton $(l)Alter$() est tiré au hasard.$(br)One For All et All For One ne se tirent jamais.$(br)La mort ne te le prend pas.$(br2)$(l)Commencer$() :$(li)la $(l)carte du joueur$() montre ton Alter et son niveau ;$(li)essaie-le au $(l)dojo$() : certains font plus de dégâts qu'on ne croit."
+  }
+ ]
+}

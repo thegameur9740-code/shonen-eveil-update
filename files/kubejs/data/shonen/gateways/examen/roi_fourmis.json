@@ -1,0 +1,57 @@
+{
+  "size": "large",
+  "color": "#3B5BDB",
+  "waves": [
+    {
+      "entities": [
+        {
+          "entity": "sololeveling:red_ants",
+          "count": 5
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 2400,
+      "setup_time": 100
+    },
+    {
+      "entities": [
+        {
+          "entity": "sololeveling:red_ants",
+          "count": 8
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 3000,
+      "setup_time": 160
+    },
+    {
+      "entities": [
+        {
+          "entity": "sololeveling:beru_boss",
+          "desc": "shonen.examen.boss.roi_fourmis",
+          "count": 1
+        },
+        {
+          "entity": "sololeveling:red_ants",
+          "count": 2
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 12000,
+      "setup_time": 200
+    }
+  ],
+  "rewards": [
+    {
+      "type": "gateways:command",
+      "command": "grands_ennemis examen <summoner> roi_fourmis",
+      "desc": "shonen.examen.points.A"
+    }
+  ],
+  "failures": [],
+  "rules": {
+    "spawn_range": 10,
+    "leash_range": 48,
+    "allow_discarding": true
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "My Hero Academia",
+  "description": "Héros et Alters (Quirks Unchained).\nTon Alter est tiré au hasard.",
+  "icon": {
+    "item": "quirksunchained:air_cannon_essence"
+  },
+  "impact": 2,
+  "order": 7,
+  "powers": [
+    "shonen:univers_mha"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+ "name": "L'équipe",
+ "category": "patchouli:bien_commencer",
+ "icon": "minecraft:white_banner",
+ "read_by_default": true,
+ "sortnum": 5,
+ "pages": [
+  {
+   "type": "patchouli:image",
+   "images": [
+    "shonen:textures/livre/ill_equipe.png"
+   ],
+   "border": false,
+   "text": "Une équipe FTB : pas de coups entre vous, quêtes partagées."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Votre base",
+   "text": "Coffre d'équipe au Grand Hall.$(br2)$(l)/territoire$() : réclamez vos chunks. Personne d'autre n'y casse rien.$(br2)Les $(l)plans d'Orin$() posent une maison dans vos chunks.$(br)La $(l)pierre de voyage d'équipe$() vous ramène à la base."
+  }
+ ]
+}

@@ -1,0 +1,1420 @@
+{
+	id: "0002D6CE19001E5F"
+	group: ""
+	order_index: 7
+	filename: "bleach"
+	title: "Bleach"
+	icon: "bleachreborn:hollow_mask"
+	subtitle: [
+		"La salle de Bleach (maître, guide), ses examens du rang C au boss final, les"
+		"paliers de la voie pour ceux qui ont l'univers, et la lignée d'histoire en 5"
+	]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 6.25d
+			y: 9.12d
+			width: 19.0d
+			height: 21.25d
+			rotation: 0.0d
+			image: "shonen:textures/quetes/bg_bleach.png"
+			color: 16777215
+			alpha: 235
+			order: -11
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 6.25d
+			y: 9.12d
+			width: 30.0d
+			height: 21.94d
+			rotation: 0.0d
+			image: "shonen:textures/quetes/plein_bleach.png"
+			color: 16777215
+			alpha: 255
+			order: -10
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.75d
+			y: 0.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/writable_book.png"
+			color: 16777215
+			alpha: 255
+			order: 0
+			hover: [
+				"La salle"
+			]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.75d
+			y: 3.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/writable_book.png"
+			color: 16777215
+			alpha: 255
+			order: 0
+			hover: [
+				"Les examens de la salle"
+			]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.75d
+			y: 6.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/writable_book.png"
+			color: 16777215
+			alpha: 255
+			order: 0
+			hover: [
+				"La voie (si tu as cet univers)"
+			]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.75d
+			y: 9.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/writable_book.png"
+			color: 16777215
+			alpha: 255
+			order: 0
+			hover: [
+				"La lignée (histoire, ouverte à tous)"
+			]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			id: "000AB03BD2E21C61"
+			title: "Le maître de Bleach"
+			subtitle: "Niveau 3"
+			x: 0.0d
+			y: 0.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"bleach_le_maitre_de_bleach"
+			]
+			description: [
+				"Le maître de la salle Bleach t'attend. Parle-lui : il"
+				"t'ouvre la lignée de son univers."
+				""
+				"Tâche : parler au maître de la salle (Urahara Kisuke, l'homme au chapeau vert (corps générique, nom à nous, skin dans mes-skins))"
+				""
+				"Récompense : 42 XP, 10 Éclats"
+			]
+			tasks: [
+				{
+					id: "000A61CC24D05495"
+					type: "custom"
+					title: "parler au maître de la salle (Urahara Kisuke, l'homme au cha"
+				}
+			]
+			rewards: [
+				{
+					id: "0006ABB5D80A4551"
+					type: "command"
+					title: "42 XP"
+					command: "/shonenquete recompense {p} bleach_le_maitre_de_bleach"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "bleachreborn:hollow_mask"
+		}
+		{
+			id: "0000A276CE7791BC"
+			title: "Guide : Bleach"
+			subtitle: "Niveau 3"
+			x: 1.5d
+			y: 0.0d
+			shape: "circle"
+			size: 0.75d
+			tags: [
+				"bleach_guide_bleach"
+			]
+			description: [
+				"Reiatsu, Zanpakuto, Shikai et Bankai, masques de Hollow : le"
+				"monde des Shinigami et des Quincy. Son guide est dans le"
+				"Livre de l'école : comment progresser, où aller."
+				""
+				"Tâche : lire le guide de l'univers dans le Livre de l'école"
+				""
+				"Récompense : 42 XP"
+			]
+			tasks: [
+				{
+					id: "000E249B91EE3DB7"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "000756FD0499C3E1"
+					type: "command"
+					title: "42 XP"
+					command: "/shonenquete recompense {p} bleach_guide_bleach"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "minecraft:book"
+			dependencies: [
+				"000AB03BD2E21C61"
+			]
+		}
+		{
+			id: "000EAC9F7E15EE6B"
+			title: "Examen C : Menos Grande"
+			subtitle: "Niveau 15"
+			x: 0.0d
+			y: 3.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"bleach_examen_c_menos_grande"
+			]
+			description: [
+				"L'examen de rang C de la salle Bleach. Si Bleach est un de"
+				"tes univers, il ouvre aussi le palier C de ses pouvoirs."
+				""
+				"Tâche : réussir l'examen C de la salle Bleach"
+				""
+				"ouvre le palier C des pouvoirs de cet univers"
+				""
+				"Récompense : 155 XP, 70 Éclats"
+			]
+			tasks: [
+				{
+					id: "000898DB809F150A"
+					type: "custom"
+					title: "réussir l'examen C de la salle Bleach"
+				}
+			]
+			rewards: [
+				{
+					id: "000D6B8F529FFC1A"
+					type: "command"
+					title: "155 XP"
+					command: "/shonenquete recompense {p} bleach_examen_c_menos_grande"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "bleachreborn:hollow_mask"
+		}
+		{
+			id: "00023B143E18C998"
+			title: "Examen B : Grimmjow"
+			subtitle: "Niveau 40"
+			x: 1.5d
+			y: 3.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"bleach_examen_b_grimmjow"
+			]
+			description: [
+				"L'examen de rang B de la salle Bleach. Si Bleach est un de"
+				"tes univers, il ouvre aussi le palier B de ses pouvoirs."
+				""
+				"Tâche : réussir l'examen B de la salle Bleach"
+				""
+				"ouvre le palier B des pouvoirs de cet univers"
+				""
+				"Récompense : 413 XP, 170 Éclats"
+			]
+			tasks: [
+				{
+					id: "000BE1038C55E10C"
+					type: "custom"
+					title: "réussir l'examen B de la salle Bleach"
+				}
+			]
+			rewards: [
+				{
+					id: "0003E2422AAC1AE3"
+					type: "command"
+					title: "413 XP"
+					command: "/shonenquete recompense {p} bleach_examen_b_grimmjow"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "bleachreborn:hollow_mask"
+			dependencies: [
+				"000EAC9F7E15EE6B"
+			]
+		}
+		{
+			id: "0004E0441731CAA9"
+			title: "Examen A : Aizen"
+			subtitle: "Niveau 70"
+			x: 3.0d
+			y: 3.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"bleach_examen_a_aizen"
+			]
+			description: [
+				"L'examen de rang A de la salle Bleach. Si Bleach est un de"
+				"tes univers, il ouvre aussi le palier A de ses pouvoirs."
+				""
+				"Tâche : réussir l'examen A de la salle Bleach"
+				""
+				"ouvre le palier A des pouvoirs de cet univers"
+				""
+				"Récompense : 763 XP, 290 Éclats"
+			]
+			tasks: [
+				{
+					id: "000B7D9CD147F916"
+					type: "custom"
+					title: "réussir l'examen A de la salle Bleach"
+				}
+			]
+			rewards: [
+				{
+					id: "000477C9C620C893"
+					type: "command"
+					title: "763 XP"
+					command: "/shonenquete recompense {p} bleach_examen_a_aizen"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "bleachreborn:hollow_mask"
+			dependencies: [
+				"00023B143E18C998"
+			]
+		}
+		{
+			id: "00036598A560EFAB"
+			title: "Examen S : Yhwach"
+			subtitle: "Niveau 100"
+			x: 4.5d
+			y: 3.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"bleach_examen_s_yhwach"
+			]
+			description: [
+				"L'examen de rang S de la salle Bleach. Si Bleach est un de"
+				"tes univers, il ouvre aussi le palier S de ses pouvoirs."
+				""
+				"Tâche : réussir l'examen S de la salle Bleach"
+				""
+				"ouvre le palier S des pouvoirs de cet univers"
+				""
+				"Récompense : 1155 XP, 410 Éclats"
+			]
+			tasks: [
+				{
+					id: "000DDCDBBFAED0D4"
+					type: "custom"
+					title: "réussir l'examen S de la salle Bleach"
+				}
+			]
+			rewards: [
+				{
+					id: "00060A4032C5ECD5"
+					type: "command"
+					title: "1155 XP"
+					command: "/shonenquete recompense {p} bleach_examen_s_yhwach"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "bleachreborn:hollow_mask"
+			dependencies: [
+				"0004E0441731CAA9"
+			]
+		}
+		{
+			id: "0003BDFC0B36C9B3"
+			title: "Examen S+ : Yhwach « The Almighty » (boss final)"
+			subtitle: "Niveau 130"
+			x: 6.0d
+			y: 3.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"bleach_examen_s_plus_yhwach_the_almighty_boss_final"
+			]
+			description: [
+				"Le boss final de la salle Bleach. Tous les examens de la"
+				"salle d'abord ; ensuite, la légende."
+				""
+				"Tâche : réussir l'examen S+ de la salle Bleach"
+				""
+				"boss final de la salle"
+				""
+				"Récompense : 1591 XP, 530 Éclats"
+			]
+			tasks: [
+				{
+					id: "0000947D45E58018"
+					type: "custom"
+					title: "réussir l'examen S+ de la salle Bleach"
+				}
+			]
+			rewards: [
+				{
+					id: "000F2B927F308D6F"
+					type: "command"
+					title: "1591 XP"
+					command: "/shonenquete recompense {p} bleach_examen_s_plus_yhwach_the_almighty_boss_final"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "bleachreborn:hollow_mask"
+			dependencies: [
+				"00036598A560EFAB"
+			]
+		}
+		{
+			id: "00091A22E9222770"
+			title: "Palier B de la voie : Shikai (Shinigami), Adjuchas (Hollow), arc renforcé (Quincy)"
+			subtitle: "Niveau 40"
+			x: 0.0d
+			y: 6.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"bleach_palier_b_de_la_voie_shikai_shinigami_adjuchas_ho"
+			]
+			description: [
+				"Ton univers grandit : Shikai (Shinigami), Adjuchas (Hollow),"
+				"arc renforcé (Quincy). Réussis l'examen de ce rang dans"
+				"cette salle pour l'ouvrir."
+				""
+				"Tâche : avoir réussi l'examen B de la salle Bleach ET avoir l'univers dans sa voie"
+				""
+				"visible seulement pour ceux qui ont l'univers ; détail des formes : progression.md section 14"
+				""
+				"Récompense : 413 XP, 170 Éclats"
+			]
+			tasks: [
+				{
+					id: "00078C71E970F2E9"
+					type: "custom"
+					title: "avoir réussi l'examen B de la salle Bleach ET avoir l'univer"
+				}
+			]
+			rewards: [
+				{
+					id: "0008609F05EB9207"
+					type: "command"
+					title: "413 XP"
+					command: "/shonenquete recompense {p} bleach_palier_b_de_la_voie_shikai_shinigami_adjuchas_ho"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "bleachreborn:hollow_mask"
+		}
+		{
+			id: "0003FD7D754793DE"
+			title: "Palier A de la voie : masque de Vizard, Resurrección d'Arrancar"
+			subtitle: "Niveau 70"
+			x: 1.5d
+			y: 6.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"bleach_palier_a_de_la_voie_masque_de_vizard_resurreccio"
+			]
+			description: [
+				"Ton univers grandit : masque de Vizard, Resurrección"
+				"d'Arrancar. Réussis l'examen de ce rang dans cette salle"
+				"pour l'ouvrir."
+				""
+				"Tâche : avoir réussi l'examen A de la salle Bleach ET avoir l'univers dans sa voie"
+				""
+				"visible seulement pour ceux qui ont l'univers ; détail des formes : progression.md section 14"
+				""
+				"Récompense : 763 XP, 290 Éclats"
+			]
+			tasks: [
+				{
+					id: "0004A625B06FCA69"
+					type: "custom"
+					title: "avoir réussi l'examen A de la salle Bleach ET avoir l'univer"
+				}
+			]
+			rewards: [
+				{
+					id: "0009ECFC70002BC0"
+					type: "command"
+					title: "763 XP"
+					command: "/shonenquete recompense {p} bleach_palier_a_de_la_voie_masque_de_vizard_resurreccio"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "bleachreborn:hollow_mask"
+			dependencies: [
+				"00091A22E9222770"
+			]
+		}
+		{
+			id: "000D6D05DDFE8EAD"
+			title: "Palier S de la voie : Bankai"
+			subtitle: "Niveau 100"
+			x: 3.0d
+			y: 6.0d
+			shape: "gear"
+			size: 1.0d
+			tags: [
+				"bleach_palier_s_de_la_voie_bankai"
+			]
+			description: [
+				"Ton univers grandit : Bankai. Réussis l'examen de ce rang"
+				"dans cette salle pour l'ouvrir."
+				""
+				"Tâche : avoir réussi l'examen S de la salle Bleach ET avoir l'univers dans sa voie"
+				""
+				"visible seulement pour ceux qui ont l'univers ; détail des formes : progression.md section 14"
+				""
+				"Récompense : 1155 XP, 410 Éclats"
+			]
+			tasks: [
+				{
+					id: "000BB0B7C4F682B2"
+					type: "custom"
+					title: "avoir réussi l'examen S de la salle Bleach ET avoir l'univer"
+				}
+			]
+			rewards: [
+				{
+					id: "0004E965079B2143"
+					type: "command"
+					title: "1155 XP"
+					command: "/shonenquete recompense {p} bleach_palier_s_de_la_voie_bankai"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "bleachreborn:hollow_mask"
+			dependencies: [
+				"0003FD7D754793DE"
+			]
+		}
+		{
+			id: "00000473EB426F4E"
+			title: "Zone 1 — Trouver la faille du désert"
+			subtitle: "Niveau 4"
+			x: 0.0d
+			y: 9.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"bleach_zone_1_trouver_la_faille_du_desert"
+			]
+			description: [
+				"Une faille noire s'est ouverte dans le ciel du désert : les"
+				"Hollows en descendent. Trouve le lieu."
+				""
+				"Tâche : tâche d'emplacement (lieu posé à la création du monde ; la Boussole de lignée y mène)"
+				""
+				"Récompense : 51 XP, 15 Éclats"
+			]
+			tasks: [
+				{
+					id: "0000B74BA89FA969"
+					type: "custom"
+					title: "tâche d'emplacement (lieu posé à la création du monde ; la B"
+				}
+			]
+			rewards: [
+				{
+					id: "00061C3C7ED3E027"
+					type: "command"
+					title: "51 XP"
+					command: "/shonenquete recompense {p} bleach_zone_1_trouver_la_faille_du_desert"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "bleachreborn:hollow_mask"
+		}
+		{
+			id: "000861B776925870"
+			title: "Zone 1 — Les sbires"
+			subtitle: "Niveau 6"
+			x: 0.0d
+			y: 11.25d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"bleach_zone_1_les_sbires"
+			]
+			description: [
+				"Des Hollows dévorent les âmes. Purifie-les."
+				""
+				"Tâche : tuer 15 hollows (hollow_wolf, hollow_bat...)"
+				""
+				"Récompense : 70 XP, 15 Éclats"
+			]
+			tasks: [
+				{
+					id: "0007BBF377B8502C"
+					type: "custom"
+					title: "tuer 15 hollows (hollow_wolf, hollow_bat...)"
+				}
+			]
+			rewards: [
+				{
+					id: "0009A4E9DC5421AD"
+					type: "command"
+					title: "70 XP"
+					command: "/shonenquete recompense {p} bleach_zone_1_les_sbires"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "bleachreborn:hollow_mask"
+			dependencies: [
+				"00000473EB426F4E"
+			]
+		}
+		{
+			id: "000E6AA140E7BB41"
+			title: "Zone 1 — Nettoyer le terrain"
+			subtitle: "Niveau 9"
+			x: 0.0d
+			y: 13.5d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"bleach_zone_1_nettoyer_le_terrain"
+			]
+			description: [
+				"Ils sentent ta pression spirituelle et reviennent."
+				""
+				"Tâche : tuer 30 hollows (hollow_wolf, hollow_bat...) de plus"
+				""
+				"Récompense : 98 XP, 25 Éclats"
+			]
+			tasks: [
+				{
+					id: "000BBE9926266721"
+					type: "custom"
+					title: "tuer 30 hollows (hollow_wolf, hollow_bat...) de plus"
+				}
+			]
+			rewards: [
+				{
+					id: "000A9B5B713E85B4"
+					type: "command"
+					title: "98 XP"
+					command: "/shonenquete recompense {p} bleach_zone_1_nettoyer_le_terrain"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "bleachreborn:hollow_mask"
+			dependencies: [
+				"000861B776925870"
+			]
+		}
+		{
+			id: "000E91DA087AE8E9"
+			title: "Zone 1 — Le lieutenant : Hollow Fisher"
+			subtitle: "Niveau 12"
+			x: 0.0d
+			y: 15.75d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"bleach_zone_1_le_lieutenant_hollow_fisher"
+			]
+			description: [
+				"Un Hollow pêcheur appâte les âmes."
+				""
+				"Tâche : vaincre Hollow Fisher (hollow_fisher)"
+				""
+				"Récompense : 127 XP, 60 Éclats"
+			]
+			tasks: [
+				{
+					id: "00058D0638E8A42A"
+					type: "custom"
+					title: "vaincre Hollow Fisher (hollow_fisher)"
+				}
+			]
+			rewards: [
+				{
+					id: "0004544272E41711"
+					type: "command"
+					title: "127 XP"
+					command: "/shonenquete recompense {p} bleach_zone_1_le_lieutenant_hollow_fisher"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "bleachreborn:menos_mask"
+			dependencies: [
+				"000E6AA140E7BB41"
+			]
+		}
+		{
+			id: "000443B4180BA5BF"
+			title: "Zone 1 — Grand Fisher"
+			subtitle: "Niveau 15"
+			x: 0.0d
+			y: 18.0d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"bleach_zone_1_grand_fisher"
+			]
+			description: [
+				"Le Grand Fisher."
+				""
+				"Tâche : vaincre Grand Fisher (coché par histoire.js pour les participants)"
+				""
+				"à créer : boss de zone 1 Bleach"
+				""
+				"Récompense : 155 XP, 70 Éclats"
+			]
+			tasks: [
+				{
+					id: "000E89F0D18B0B7D"
+					type: "custom"
+					title: "vaincre Grand Fisher (coché par histoire.js pour les partici"
+				}
+			]
+			rewards: [
+				{
+					id: "00034AFC9C711F3E"
+					type: "command"
+					title: "155 XP"
+					command: "/shonenquete recompense {p} bleach_zone_1_grand_fisher"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "bleachreborn:menos_mask"
+			dependencies: [
+				"000E91DA087AE8E9"
+			]
+		}
+		{
+			id: "000B0DB0F90A0ACC"
+			title: "Zone 2 — Trouver la dune aux os"
+			subtitle: "Niveau 20"
+			x: 3.5d
+			y: 9.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"bleach_zone_2_trouver_la_dune_aux_os"
+			]
+			description: [
+				"Une immense cage thoracique de pierre blanche, à moitié"
+				"enterrée dans les dunes. Trouve le lieu."
+				""
+				"Tâche : tâche d'emplacement (lieu posé à la création du monde ; la Boussole de lignée y mène)"
+				""
+				"Récompense : 205 XP, 45 Éclats"
+			]
+			tasks: [
+				{
+					id: "0002DBA02C47EEFA"
+					type: "custom"
+					title: "tâche d'emplacement (lieu posé à la création du monde ; la B"
+				}
+			]
+			rewards: [
+				{
+					id: "000F3A0E900CC7A0"
+					type: "command"
+					title: "205 XP"
+					command: "/shonenquete recompense {p} bleach_zone_2_trouver_la_dune_aux_os"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "bleachreborn:hollow_mask"
+			dependencies: [
+				"000443B4180BA5BF"
+			]
+		}
+		{
+			id: "000808ED5C19B705"
+			title: "Zone 2 — Les sbires"
+			subtitle: "Niveau 25"
+			x: 3.5d
+			y: 11.25d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"bleach_zone_2_les_sbires"
+			]
+			description: [
+				"Les Hollows du désert."
+				""
+				"Tâche : tuer 15 hollows (hollow_stalker, hollow_winged_demon)"
+				""
+				"Récompense : 255 XP, 55 Éclats"
+			]
+			tasks: [
+				{
+					id: "00019B1698AF675C"
+					type: "custom"
+					title: "tuer 15 hollows (hollow_stalker, hollow_winged_demon)"
+				}
+			]
+			rewards: [
+				{
+					id: "0006CE9B58713946"
+					type: "command"
+					title: "255 XP"
+					command: "/shonenquete recompense {p} bleach_zone_2_les_sbires"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "bleachreborn:hollow_mask"
+			dependencies: [
+				"000B0DB0F90A0ACC"
+			]
+		}
+		{
+			id: "000514DDBB369947"
+			title: "Zone 2 — Nettoyer le terrain"
+			subtitle: "Niveau 30"
+			x: 3.5d
+			y: 13.5d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"bleach_zone_2_nettoyer_le_terrain"
+			]
+			description: [
+				"Le désert ne se vide jamais."
+				""
+				"Tâche : tuer 30 hollows (hollow_stalker, hollow_winged_demon) de plus"
+				""
+				"Récompense : 307 XP, 65 Éclats"
+			]
+			tasks: [
+				{
+					id: "0002D8083D880E55"
+					type: "custom"
+					title: "tuer 30 hollows (hollow_stalker, hollow_winged_demon) de plu"
+				}
+			]
+			rewards: [
+				{
+					id: "000F9B97344B1E18"
+					type: "command"
+					title: "307 XP"
+					command: "/shonenquete recompense {p} bleach_zone_2_nettoyer_le_terrain"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "bleachreborn:hollow_mask"
+			dependencies: [
+				"000808ED5C19B705"
+			]
+		}
+		{
+			id: "00075543F8E6C531"
+			title: "Zone 2 — Menos Grande"
+			subtitle: "Niveau 40"
+			x: 3.5d
+			y: 15.75d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"bleach_zone_2_menos_grande"
+			]
+			description: [
+				"Un Menos Grande."
+				""
+				"Tâche : vaincre Menos Grande (coché par histoire.js pour les participants)"
+				""
+				"Récompense : 413 XP, 170 Éclats"
+			]
+			tasks: [
+				{
+					id: "00087AF51074A678"
+					type: "custom"
+					title: "vaincre Menos Grande (coché par histoire.js pour les partici"
+				}
+			]
+			rewards: [
+				{
+					id: "0004C7F1F413F2F7"
+					type: "command"
+					title: "413 XP"
+					command: "/shonenquete recompense {p} bleach_zone_2_menos_grande"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "bleachreborn:menos_mask"
+			dependencies: [
+				"000514DDBB369947"
+			]
+		}
+		{
+			id: "000F6170E6BF6B71"
+			title: "Zone 3 — Trouver l'avant-poste"
+			subtitle: "Niveau 48"
+			x: 7.0d
+			y: 9.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"bleach_zone_3_trouver_l_avant_poste"
+			]
+			description: [
+				"Une tour blanche à créneaux : l'avant-poste du désert."
+				"Trouve le lieu."
+				""
+				"Tâche : tâche d'emplacement (lieu posé à la création du monde ; la Boussole de lignée y mène)"
+				""
+				"Récompense : 502 XP, 100 Éclats"
+			]
+			tasks: [
+				{
+					id: "00055D292F72568F"
+					type: "custom"
+					title: "tâche d'emplacement (lieu posé à la création du monde ; la B"
+				}
+			]
+			rewards: [
+				{
+					id: "00094A3470999C9F"
+					type: "command"
+					title: "502 XP"
+					command: "/shonenquete recompense {p} bleach_zone_3_trouver_l_avant_poste"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "bleachreborn:hollow_mask"
+			dependencies: [
+				"00075543F8E6C531"
+			]
+		}
+		{
+			id: "0008194EFA22A8D8"
+			title: "Zone 3 — Les sbires"
+			subtitle: "Niveau 53"
+			x: 7.0d
+			y: 11.25d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"bleach_zone_3_les_sbires"
+			]
+			description: [
+				"Des Hollows d'élite gardent l'avant-poste."
+				""
+				"Tâche : tuer 15 hollows d'élite (hollow_golem, hollow_blaze)"
+				""
+				"Récompense : 560 XP, 110 Éclats"
+			]
+			tasks: [
+				{
+					id: "0008D29A82932575"
+					type: "custom"
+					title: "tuer 15 hollows d'élite (hollow_golem, hollow_blaze)"
+				}
+			]
+			rewards: [
+				{
+					id: "000D345B7B35B957"
+					type: "command"
+					title: "560 XP"
+					command: "/shonenquete recompense {p} bleach_zone_3_les_sbires"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "bleachreborn:hollow_mask"
+			dependencies: [
+				"000F6170E6BF6B71"
+			]
+		}
+		{
+			id: "000E85986065AB64"
+			title: "Zone 3 — Nettoyer le terrain"
+			subtitle: "Niveau 59"
+			x: 7.0d
+			y: 13.5d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"bleach_zone_3_nettoyer_le_terrain"
+			]
+			description: [
+				"Continue."
+				""
+				"Tâche : tuer 30 hollows d'élite (hollow_golem, hollow_blaze) de plus"
+				""
+				"Récompense : 629 XP, 125 Éclats"
+			]
+			tasks: [
+				{
+					id: "0000E18E2BF50731"
+					type: "custom"
+					title: "tuer 30 hollows d'élite (hollow_golem, hollow_blaze) de plus"
+				}
+			]
+			rewards: [
+				{
+					id: "000EF7C48BBDCC16"
+					type: "command"
+					title: "629 XP"
+					command: "/shonenquete recompense {p} bleach_zone_3_nettoyer_le_terrain"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "bleachreborn:hollow_mask"
+			dependencies: [
+				"0008194EFA22A8D8"
+			]
+		}
+		{
+			id: "000259D6A6160C82"
+			title: "Zone 3 — Grimmjow"
+			subtitle: "Niveau 70"
+			x: 7.0d
+			y: 15.75d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"bleach_zone_3_grimmjow"
+			]
+			description: [
+				"Grimmjow, la Sexta Espada."
+				""
+				"Tâche : vaincre Grimmjow (coché par histoire.js pour les participants)"
+				""
+				"Récompense : 763 XP, 290 Éclats"
+			]
+			tasks: [
+				{
+					id: "000DF41AD66B10A3"
+					type: "custom"
+					title: "vaincre Grimmjow (coché par histoire.js pour les participant"
+				}
+			]
+			rewards: [
+				{
+					id: "0001286C7A49FF55"
+					type: "command"
+					title: "763 XP"
+					command: "/shonenquete recompense {p} bleach_zone_3_grimmjow"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "bleachreborn:menos_mask"
+			dependencies: [
+				"000E85986065AB64"
+			]
+		}
+		{
+			id: "0000DB66880F3D58"
+			title: "Zone 4 — Trouver le palais du désert"
+			subtitle: "Niveau 78"
+			x: 10.5d
+			y: 9.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"bleach_zone_4_trouver_le_palais_du_desert"
+			]
+			description: [
+				"Un palais blanc à dôme, au bout d'escaliers immenses. Trouve"
+				"le lieu."
+				""
+				"Tâche : tâche d'emplacement (lieu posé à la création du monde ; la Boussole de lignée y mène)"
+				""
+				"Récompense : 863 XP, 160 Éclats"
+			]
+			tasks: [
+				{
+					id: "0007CA13FFE3AE6C"
+					type: "custom"
+					title: "tâche d'emplacement (lieu posé à la création du monde ; la B"
+				}
+			]
+			rewards: [
+				{
+					id: "000839BAFF8847E4"
+					type: "command"
+					title: "863 XP"
+					command: "/shonenquete recompense {p} bleach_zone_4_trouver_le_palais_du_desert"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "bleachreborn:hollow_mask"
+			dependencies: [
+				"000259D6A6160C82"
+			]
+		}
+		{
+			id: "0008FF09A01D54A6"
+			title: "Zone 4 — Les sbires"
+			subtitle: "Niveau 83"
+			x: 10.5d
+			y: 11.25d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"bleach_zone_4_les_sbires"
+			]
+			description: [
+				"Les Menos gardent le palais."
+				""
+				"Tâche : tuer 15 Hollows d'élite (hollow_spider, hollow_golem, hollow_blaze)"
+				""
+				"Récompense : 927 XP, 170 Éclats"
+			]
+			tasks: [
+				{
+					id: "000983DC2177B3A9"
+					type: "custom"
+					title: "tuer 15 Hollows d'élite (hollow_spider, hollow_golem, hollow"
+				}
+			]
+			rewards: [
+				{
+					id: "0001EC257C8A49FA"
+					type: "command"
+					title: "927 XP"
+					command: "/shonenquete recompense {p} bleach_zone_4_les_sbires"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "bleachreborn:hollow_mask"
+			dependencies: [
+				"0000DB66880F3D58"
+			]
+		}
+		{
+			id: "000483DFC8ED2045"
+			title: "Zone 4 — Nettoyer le terrain"
+			subtitle: "Niveau 89"
+			x: 10.5d
+			y: 13.5d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"bleach_zone_4_nettoyer_le_terrain"
+			]
+			description: [
+				"Le palais est immense."
+				""
+				"Tâche : tuer 30 Hollows d'élite (hollow_spider, hollow_golem, hollow_blaze) de plus"
+				""
+				"Récompense : 1006 XP, 185 Éclats"
+			]
+			tasks: [
+				{
+					id: "000F22C4DDC9E7B4"
+					type: "custom"
+					title: "tuer 30 Hollows d'élite (hollow_spider, hollow_golem, hollow"
+				}
+			]
+			rewards: [
+				{
+					id: "000EC002B68D401A"
+					type: "command"
+					title: "1006 XP"
+					command: "/shonenquete recompense {p} bleach_zone_4_nettoyer_le_terrain"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "bleachreborn:hollow_mask"
+			dependencies: [
+				"0008FF09A01D54A6"
+			]
+		}
+		{
+			id: "000B490297C89B70"
+			title: "Zone 4 — Le lieutenant : Grimmjow (invoqué)"
+			subtitle: "Niveau 94"
+			x: 10.5d
+			y: 15.75d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"bleach_zone_4_le_lieutenant_grimmjow_invoque"
+			]
+			description: [
+				"Grimmjow revient défendre son maître."
+				""
+				"Tâche : vaincre Grimmjow (invoqué)"
+				""
+				"Récompense : 1073 XP, 390 Éclats"
+			]
+			tasks: [
+				{
+					id: "000AB70CCEFFD12C"
+					type: "custom"
+					title: "vaincre Grimmjow (invoqué)"
+				}
+			]
+			rewards: [
+				{
+					id: "000EB5949C89BF9D"
+					type: "command"
+					title: "1073 XP"
+					command: "/shonenquete recompense {p} bleach_zone_4_le_lieutenant_grimmjow_invoque"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "bleachreborn:menos_mask"
+			dependencies: [
+				"000483DFC8ED2045"
+			]
+		}
+		{
+			id: "000CDC820FFF48E6"
+			title: "Zone 4 — Aizen"
+			subtitle: "Niveau 100"
+			x: 10.5d
+			y: 18.0d
+			shape: "hexagon"
+			size: 1.5d
+			tags: [
+				"bleach_zone_4_aizen"
+			]
+			description: [
+				"Sôsuke Aizen. Ne crois pas ce que tu vois."
+				""
+				"Tâche : vaincre Aizen (histoire_aizen) (coché par histoire.js pour les participants)"
+				""
+				"Récompense : 1155 XP, 410 Éclats"
+			]
+			tasks: [
+				{
+					id: "00055B05262B9992"
+					type: "custom"
+					title: "vaincre Aizen (histoire_aizen) (coché par histoire.js pour l"
+				}
+			]
+			rewards: [
+				{
+					id: "0002BCCDE07C5362"
+					type: "command"
+					title: "1155 XP"
+					command: "/shonenquete recompense {p} bleach_zone_4_aizen"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "bleachreborn:menos_mask"
+			dependencies: [
+				"000B490297C89B70"
+			]
+		}
+		{
+			id: "000ACB1FFCA75688"
+			title: "Zone 5 — Trouver la cité de lumière"
+			subtitle: "Niveau 108"
+			x: 14.0d
+			y: 9.0d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"bleach_zone_5_trouver_la_cite_de_lumiere"
+			]
+			description: [
+				"Une cité de pierre blanche et bleue, ses tours fines et sa"
+				"couronne de lumière. Trouve le lieu."
+				""
+				"Tâche : tâche d'emplacement (lieu posé à la création du monde ; la Boussole de lignée y mène)"
+				""
+				"Récompense : 1267 XP, 220 Éclats"
+			]
+			tasks: [
+				{
+					id: "0001DD88A158CE66"
+					type: "custom"
+					title: "tâche d'emplacement (lieu posé à la création du monde ; la B"
+				}
+			]
+			rewards: [
+				{
+					id: "000655C6B7EF29BB"
+					type: "command"
+					title: "1267 XP"
+					command: "/shonenquete recompense {p} bleach_zone_5_trouver_la_cite_de_lumiere"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "bleachreborn:hollow_mask"
+			dependencies: [
+				"000CDC820FFF48E6"
+			]
+		}
+		{
+			id: "000B4A57B4D68B02"
+			title: "Zone 5 — Les sbires"
+			subtitle: "Niveau 113"
+			x: 14.0d
+			y: 11.25d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"bleach_zone_5_les_sbires"
+			]
+			description: [
+				"Les soldats Quincy."
+				""
+				"Tâche : tuer 15 Quincy (à confirmer dans le mod)"
+				""
+				"Récompense : 1339 XP, 230 Éclats"
+			]
+			tasks: [
+				{
+					id: "00040808A46BFE59"
+					type: "custom"
+					title: "tuer 15 Quincy (à confirmer dans le mod)"
+				}
+			]
+			rewards: [
+				{
+					id: "000F0A3165F2912D"
+					type: "command"
+					title: "1339 XP"
+					command: "/shonenquete recompense {p} bleach_zone_5_les_sbires"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "bleachreborn:hollow_mask"
+			dependencies: [
+				"000ACB1FFCA75688"
+			]
+		}
+		{
+			id: "000A1ACCB31EAA6F"
+			title: "Zone 5 — Nettoyer le terrain"
+			subtitle: "Niveau 119"
+			x: 14.0d
+			y: 13.5d
+			shape: "square"
+			size: 1.0d
+			tags: [
+				"bleach_zone_5_nettoyer_le_terrain"
+			]
+			description: [
+				"L'empire ne recule pas."
+				""
+				"Tâche : tuer 30 Quincy (à confirmer dans le mod) de plus"
+				""
+				"Récompense : 1426 XP, 245 Éclats"
+			]
+			tasks: [
+				{
+					id: "000A413D08DB70DB"
+					type: "custom"
+					title: "tuer 30 Quincy (à confirmer dans le mod) de plus"
+				}
+			]
+			rewards: [
+				{
+					id: "00080DD805735826"
+					type: "command"
+					title: "1426 XP"
+					command: "/shonenquete recompense {p} bleach_zone_5_nettoyer_le_terrain"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "bleachreborn:hollow_mask"
+			dependencies: [
+				"000B4A57B4D68B02"
+			]
+		}
+		{
+			id: "000F39738B5AF794"
+			title: "Zone 5 — Yhwach, l'Ancre"
+			subtitle: "Niveau 130"
+			x: 14.0d
+			y: 15.75d
+			shape: "star"
+			size: 1.5d
+			tags: [
+				"bleach_zone_5_yhwach_l_ancre"
+			]
+			description: [
+				"Yhwach, Père des Quincy. L'Ancre de Bleach."
+				""
+				"Tâche : vaincre Yhwach, l'Ancre (histoire_yhwach) (coché par histoire.js pour les participants)"
+				""
+				"Récompense : 1591 XP, 530 Éclats"
+			]
+			tasks: [
+				{
+					id: "000C8369088261D7"
+					type: "custom"
+					title: "vaincre Yhwach, l'Ancre (histoire_yhwach) (coché par histoir"
+				}
+			]
+			rewards: [
+				{
+					id: "000A5316A1619364"
+					type: "command"
+					title: "1591 XP"
+					command: "/shonenquete recompense {p} bleach_zone_5_yhwach_l_ancre"
+					elevate_perms: true
+					silent: true
+				}
+			]
+			icon: "bleachreborn:menos_mask"
+			dependencies: [
+				"000A1ACCB31EAA6F"
+			]
+		}
+	]
+	quest_links: [ ]
+}

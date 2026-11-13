@@ -1,0 +1,45 @@
+MES MUSIQUES - Shonen Éveil
+===========================
+
+Ce dossier te permet de remplacer la musique du jeu par TES morceaux, ambiance par ambiance.
+Il y a un sous-dossier par ambiance :
+
+  menu     écran titre
+  jour     exploration de jour
+  nuit     exploration la nuit (et au crépuscule)
+  village  près d'un village (au moins 3 villageois autour de toi)
+  mer      en bateau ou au-dessus de l'océan
+  donjon   dans une grotte, sous terre, dans le Nether
+  combat   quand tu te bats contre des monstres
+  boss     quand une barre de boss s'affiche (Grands Ennemis, dragon, wither, portails d'examen...)
+  taverne  dans la taverne de la grande boutique d'Orin, à l'école
+
+UNE MUSIQUE PAR GRAND ENNEMI
+Il y a aussi un sous-dossier par Grand Ennemi (boss-<nom>, 80 dossiers : boss-sukuna, boss-pain, boss-orochimaru,
+boss-gojo, boss-madara, boss-grand_fisher...). Les versions « histoire » d'un boss jouent le dossier de ce boss :
+Aizen scellé et l'Aizen de l'histoire jouent boss-aizen ; de même pour Sukuna, Broly, Freezer, Cell, Kaido, Itachi,
+Igris, le Roi des Fourmis et Yhwach.
+Exemple : mets ici ta musique pour Sukuna (dossier boss-sukuna), elle ne sera jouée que chez toi.
+Elle passe avant la musique « boss » tant que la barre de vie de ce boss est affichée (ou qu'il te combat).
+Dossier vide = la musique « boss » habituelle. Le pack ne fournit aucune musique pour ces dossiers.
+
+COMMENT FAIRE
+1. Ferme Minecraft.
+2. Mets tes fichiers audio dans le bon sous-dossier (formats : .ogg .mp3 .wav .flac .m4a .aac .opus .wma ;
+   les sous-dossiers sont pris aussi).
+3. Relance la mise à jour du pack : double-clique sur « Mettre a jour mes musiques et skins.bat » dans le
+   dossier de l'instance (pour Admin : la synchronisation, scripts\sync-client.ps1). Elle convertit tes
+   fichiers en .ogg, règle leur volume (tous au même niveau sonore) et met à jour la configuration de la musique.
+4. Lance le jeu.
+
+À SAVOIR
+- Dès qu'un sous-dossier contient au moins un fichier audio, SEULS tes fichiers sont joués pour cette
+  ambiance. Un sous-dossier vide = les musiques libres de droits fournies avec le pack.
+- Tes fichiers ne sont jamais déplacés, renommés, modifiés ni supprimés : la synchronisation travaille sur
+  des copies (dans ambience_music\music\mes-musiques).
+- Pour revenir aux musiques du pack : vide le sous-dossier puis relance la synchronisation.
+- Ce fichier LISEZ-MOI.txt est remis à jour à chaque synchronisation.
+- Les morceaux libres fournis et leurs auteurs : CREDITS-MUSIQUE.md dans le dossier de l'instance
+  (docs\credits-musique.md du dépôt du pack).
+- En jeu : touche Pause/Attente = mettre la musique en pause ou la reprendre (Options > Commandes >
+  Ambience Mini pour changer les touches).

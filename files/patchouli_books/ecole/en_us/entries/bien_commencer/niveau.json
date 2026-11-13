@@ -1,0 +1,18 @@
+{
+ "name": "Ton niveau",
+ "category": "patchouli:bien_commencer",
+ "icon": "minecraft:experience_bottle",
+ "read_by_default": true,
+ "sortnum": 2,
+ "pages": [
+  {
+   "type": "patchouli:text",
+   "text": "Niveau $(l)1 à 150$() : monstres, quêtes, examens.$(br2)Aux niveaux $(l)15, 40, 70, 100, 130$(), il se $(l)bloque$().$(br)Réussis un examen de ce rang, dans n'importe quelle salle, pour continuer.$(br)L'XP gagnée pendant le blocage est perdue."
+  },
+  {
+   "type": "patchouli:text",
+   "title": "Les compétences",
+   "text": "$(l)$(k:key.puffish_skills.open)$() : tes arbres.$(li)le $(l)Chasseur$(), pour tous ;$(li)un arbre par univers.$(br2)À chaque niveau, un point par arbre ouvert, à placer où tu veux.$(br)$(l)Clic droit$() sur une étoile prise : le point revient.$(br)$(l)Orin$() remet un arbre à zéro."
+  }
+ ]
+}

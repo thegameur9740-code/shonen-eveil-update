@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/blade_pottery_sherd"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 7040
+      },
+      "model": "shonen:item/souvenirs/shukaku"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7044
+      },
+      "model": "shonen:item/souvenirs/kokuo"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7048
+      },
+      "model": "shonen:item/souvenirs/kurama"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7052
+      },
+      "model": "shonen:item/souvenirs/haku"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7056
+      },
+      "model": "shonen:item/souvenirs/juubi"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7060
+      },
+      "model": "shonen:item/souvenirs/deidara"
+    }
+  ]
+}

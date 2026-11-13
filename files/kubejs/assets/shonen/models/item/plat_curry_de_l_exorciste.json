@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "shonen:item/plat_curry_de_l_exorciste"
+  }
+}
