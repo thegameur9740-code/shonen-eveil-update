@@ -2,7 +2,7 @@
     "format":  1,
     "pack":  "Shonen Eveil",
     "version":  "1.9.0",
-    "date":  "2026-11-13T13:31:37Z",
+    "date":  "2026-11-13T17:48:43Z",
     "files":  [
                   {
                       "path":  "config/ambience_mini-client.toml",
@@ -7923,8 +7923,8 @@
                   },
                   {
                       "path":  "kubejs/data/shonen/structures/ecole2/t_2_2.nbt",
-                      "size":  63177,
-                      "sha256":  "a89f7a7e535adeb674d9bd328a9cb381cdb71c07557bc0e9d9585702220ab65e",
+                      "size":  64417,
+                      "sha256":  "d3d300980ffe1f6bccd7ef821c8d5eaba0addf0190f384520dced3272d451139",
                       "source":  "repo",
                       "mode":  "strict"
                   },
@@ -7965,8 +7965,8 @@
                   },
                   {
                       "path":  "kubejs/data/shonen/structures/ecole2/t_3_2.nbt",
-                      "size":  61807,
-                      "sha256":  "75ed3c47b565a7753e45f5d118405917ff8f46d1096e43cab2dd7fe557aaf2a5",
+                      "size":  65345,
+                      "sha256":  "3f3d364555df193b22690a391b551e8365713810a235c761a98d4903f1c825ba",
                       "source":  "repo",
                       "mode":  "strict"
                   },
@@ -8007,8 +8007,8 @@
                   },
                   {
                       "path":  "kubejs/data/shonen/structures/ecole2/t_4_2.nbt",
-                      "size":  57183,
-                      "sha256":  "dc40dd0291d3911cee9fcebd32e96f009dd9c43ad5c7eebbdd88314f2f5b7ceb",
+                      "size":  57232,
+                      "sha256":  "18d0f495e4db55acd7b6adaa26e55105c4dc9b5147af13f7c44725e6c64791eb",
                       "source":  "repo",
                       "mode":  "strict"
                   },
@@ -9539,9 +9539,9 @@
                                ]
                   },
                   {
-                      "path":  "mods/shonencore-1.51.0.jar",
-                      "size":  39260396,
-                      "sha256":  "fc3cd5a4f3fa377f986a32584894021dd08b9d3bfa9186f4118928b595dc2e05",
+                      "path":  "mods/shonencore-1.52.0.jar",
+                      "size":  39550066,
+                      "sha256":  "02564af68ff9c79a83d48c0387cc16c8898dc4cae017cfa2e5f2702a44759266",
                       "source":  "repo",
                       "mode":  "strict"
                   },
@@ -10884,6 +10884,10 @@
                   }
               ],
     "remove":  [
+                   {
+                       "path":  "mods/shonencore-1.51.0.jar",
+                       "sha256":  "fc3cd5a4f3fa377f986a32584894021dd08b9d3bfa9186f4118928b595dc2e05"
+                   },
                    {
                        "path":  "mods/shonencore-1.50.1.jar",
                        "sha256":  "a0d7eeda64ddbfbf96338d6ad299abff95b2a04655c06bb726b74e7e9b6b4aff"
