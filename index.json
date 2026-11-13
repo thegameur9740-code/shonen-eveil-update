@@ -1,8 +1,8 @@
 {
     "format":  1,
     "pack":  "Shonen Eveil",
-    "version":  "1.9.0",
-    "date":  "2026-11-13T17:48:43Z",
+    "version":  "1.10.0",
+    "date":  "2026-11-13T17:52:49Z",
     "files":  [
                   {
                       "path":  "config/ambience_mini-client.toml",
@@ -10877,8 +10877,8 @@
                   },
                   {
                       "path":  "shonen-outils/version.txt",
-                      "size":  6,
-                      "sha256":  "30f4611383aa30a15753789f40effde81332f2f8714e6d3b2940bf0fc4592377",
+                      "size":  7,
+                      "sha256":  "4f5ba6a3e380bf810cc968b58d30a8d7163eafe9e2fb1ad19bdc6d9d64a1e549",
                       "source":  "repo",
                       "mode":  "strict"
                   }
