@@ -1,8 +1,8 @@
 {
     "format":  1,
     "pack":  "Shonen Eveil",
-    "version":  "1.8.0",
-    "date":  "2026-11-13T12:07:19Z",
+    "version":  "1.8.1",
+    "date":  "2026-11-13T12:19:08Z",
     "files":  [
                   {
                       "path":  "config/ambience_mini-client.toml",
@@ -9539,9 +9539,9 @@
                                ]
                   },
                   {
-                      "path":  "mods/shonencore-1.50.0.jar",
-                      "size":  39045530,
-                      "sha256":  "9c589525ea6ead8f1718b77103e360203edf4af70b29afa4ecddaca719d240e7",
+                      "path":  "mods/shonencore-1.50.1.jar",
+                      "size":  38987950,
+                      "sha256":  "a0d7eeda64ddbfbf96338d6ad299abff95b2a04655c06bb726b74e7e9b6b4aff",
                       "source":  "repo",
                       "mode":  "strict"
                   },
@@ -10878,12 +10878,16 @@
                   {
                       "path":  "shonen-outils/version.txt",
                       "size":  6,
-                      "sha256":  "3eb1ef94b5890ca727158b106142685c8733b0ace5bcb4cf3f0ac14f9f0643f4",
+                      "sha256":  "25cec9739d3218e48acc5d8c3d4333e1d624121c5b7ab3bcddc71d0fa0134b83",
                       "source":  "repo",
                       "mode":  "strict"
                   }
               ],
     "remove":  [
+                   {
+                       "path":  "mods/shonencore-1.50.0.jar",
+                       "sha256":  "9c589525ea6ead8f1718b77103e360203edf4af70b29afa4ecddaca719d240e7"
+                   },
                    {
                        "path":  "kubejs/assets/shonen/textures/block/casier_ecole_face.png",
                        "sha256":  "ef97f928a16577b537010d204351a9b911cfaea38db5ba40ff7cc2d64b8d6123"
