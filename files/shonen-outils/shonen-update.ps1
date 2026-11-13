@@ -11,14 +11,23 @@
 # (shonen-update.ps1.new) et remplacé par le .cmd au lancement suivant.
 # Relancer après une coupure reprend sans rien casser (rien n'est remplacé tant que tout n'est pas téléchargé et vérifié).
 # Journal : shonen-update.log (à côté du .cmd). Le jeton d'accès éventuel n'est jamais affiché ni écrit.
-# -InstanceDir, -ConfigFile, -GameProcessFile, -NoPause, -LockRetries, -LockWaitSeconds : réservés aux tests.
+# GitHub : le dépôt est lu à l'adresse figée du dernier commit (jamais un fichier périmé du cache de raw.githubusercontent.com) ;
+# beaucoup de fichiers à prendre = une seule archive du dépôt (chaque fichier est quand même vérifié par son sha256) ;
+# les téléchargements un par un sont retentés 4 fois (429 / 5xx / délai dépassé). Les .jar de mods\ qui ne sont pas dans la liste
+# publiée sont DÉPLACÉS dans mods-anciens\<date>\ (jamais supprimés) pour éviter un mod en double.
+# -InstanceDir, -ConfigFile, -GameProcessFile, -NoPause, -LockRetries, -LockWaitSeconds, -RetryWaitSeconds, -GithubRaw, -GithubApi,
+# -GithubCodeload : réservés aux tests.
 param(
     [string]$InstanceDir,
     [string]$ConfigFile,
     [string]$GameProcessFile,
     [switch]$NoPause,
     [int]$LockRetries = 4,
-    [int]$LockWaitSeconds = 2
+    [int]$LockWaitSeconds = 2,
+    [int]$RetryWaitSeconds = 2,
+    [string]$GithubRaw = 'https://raw.githubusercontent.com',
+    [string]$GithubApi = 'https://api.github.com',
+    [string]$GithubCodeload = 'https://codeload.github.com'
 )
 
 $ErrorActionPreference = 'Stop'
@@ -35,6 +44,9 @@ $script:Token = $null
 $script:BaseUrl = $null
 $script:LogFile = $null
 $script:SelfRel = 'shonen-outils/shonen-update.ps1'
+# numéro de ce programme : il ne se remplace que par une version publiée PLUS RÉCENTE (jamais par une plus ancienne)
+$script:ProgramVersion = 2
+$script:RepoPrefixes = @()
 
 function Write-Log([string]$Text, [string]$Color) {
     if ($Color) { Write-Host $Text -ForegroundColor $Color } else { Write-Host $Text }
@@ -131,13 +143,22 @@ function Get-UrlOrigin([string]$Url) {
     return ($u.Scheme + '://' + $u.Authority).ToLowerInvariant()
 }
 
-function Invoke-Download([string]$Url, [string]$OutFile, [bool]$WithAuth) {
-    # GET vers un fichier. Redirections suivies à la main : le jeton n'est envoyé qu'à l'adresse de base, jamais ailleurs.
+function Test-RepoUrl([string]$Url) {
+    # seules les adresses de NOTRE dépôt : base, raw figée, api et codeload de ce dépôt (et rien d'autre, redirections comprises)
+    foreach ($p in $script:RepoPrefixes) { if ($Url.StartsWith($p, [StringComparison]::OrdinalIgnoreCase)) { return $true } }
+    return $false
+}
+
+function Invoke-Download([string]$Url, [string]$OutFile, [bool]$WithAuth, [string]$Accept) {
+    # GET vers un fichier ($WithAuth = adresse de notre dépôt). Redirections suivies à la main : le jeton n'est envoyé qu'à l'adresse
+    # de base, jamais ailleurs ; une adresse du dépôt ne peut pas être redirigée hors du dépôt.
     $cur = $Url
     for ($hop = 0; $hop -lt 6; $hop++) {
         if (-not (Test-AllowedUrl $cur)) { throw "adresse refusée (https seulement) : $cur" }
+        if ($WithAuth -and -not (Test-RepoUrl $cur)) { throw "adresse refusée (hors du dépôt de mise à jour) : $cur" }
         $req = [Net.HttpWebRequest]::Create($cur)
         $req.UserAgent = 'ShonenEveilUpdate/1'
+        if ($Accept) { $req.Accept = $Accept }
         $req.AllowAutoRedirect = $false
         $req.Timeout = 30000
         $req.ReadWriteTimeout = 60000
@@ -166,6 +187,63 @@ function Invoke-Download([string]$Url, [string]$OutFile, [bool]$WithAuth) {
     throw 'trop de redirections'
 }
 
+function Invoke-DownloadRetry([string]$Url, [string]$OutFile, [bool]$WithAuth) {
+    # 4 essais, attente croissante (2, 4, 8 s) sur 429 / 5xx / délai dépassé / coupure ; pas de nouvel essai sur un refus ou un 404
+    $max = 4
+    for ($i = 1; $i -le $max; $i++) {
+        try { Invoke-Download $Url $OutFile $WithAuth ''; return }
+        catch {
+            $m = $_.Exception.Message
+            $final = (($m -match '^HTTP 4\d\d') -and ($m -notmatch '^HTTP 429')) -or ($m -match 'refusée|redirection')
+            if ($final -or $i -eq $max) { throw }
+            Start-Sleep -Seconds ($RetryWaitSeconds * [Math]::Pow(2, $i - 1))
+        }
+    }
+}
+
+function Get-ProgramVersion([string]$Path) {
+    $t = [IO.File]::ReadAllText($Path, (New-Object Text.UTF8Encoding($false)))
+    $m = [regex]::Match($t, '\$script:ProgramVersion\s*=\s*(\d+)')
+    if ($m.Success) { return [int]$m.Groups[1].Value }
+    return 0
+}
+
+function Expand-FromArchive([string]$ZipPath, [hashtable]$ByHash, [string]$TmpDir) {
+    # n'extrait QUE les entrées attendues '<racine>/files/<chemin>' ; aucun chemin de l'archive n'est utilisé sur le disque
+    # (les fichiers sont écrits sous leur sha256) ; chaque fichier est vérifié par son sha256, sinon il est ignoré (pris un par un).
+    Add-Type -AssemblyName System.IO.Compression
+    $fs = [IO.File]::OpenRead($ZipPath)
+    $got = 0
+    try {
+        $za = New-Object IO.Compression.ZipArchive($fs, [IO.Compression.ZipArchiveMode]::Read)
+        $names = @{}
+        $root = $null
+        foreach ($en in $za.Entries) {
+            $fn = $en.FullName
+            if ($null -eq $root) { $root = $fn.Split('/')[0] }
+            $names[$fn] = $en
+        }
+        if (-not $root -or $root -eq '..' -or $root -eq '.') { return 0 }
+        $sha = [Security.Cryptography.SHA256]::Create()
+        foreach ($h in @($ByHash.Keys)) {
+            $e = $ByHash[$h]
+            if ($e.Source -ne 'repo') { continue }
+            $dl = Join-Path $TmpDir ($h + '.dl')
+            if (Test-Path -LiteralPath $dl) { continue }
+            $key = $root + '/files/' + $e.Rel
+            if (-not $names.ContainsKey($key)) { continue }
+            $part = Join-Path $TmpDir ($h + '.part')
+            $in = $names[$key].Open()
+            $out = [IO.File]::Create($part)
+            try { $in.CopyTo($out) } finally { $out.Dispose(); $in.Dispose() }
+            if ((Get-Sha256 $part) -eq $h) { Move-Item -LiteralPath $part -Destination $dl -Force; $got++ }
+            else { Remove-Item -LiteralPath $part -Force }
+        }
+    }
+    finally { $fs.Dispose() }
+    return $got
+}
+
 function Read-JsonFile([string]$Path) {
     return ConvertFrom-Json ([IO.File]::ReadAllText($Path, (New-Object Text.UTF8Encoding($false))))
 }
@@ -177,7 +255,7 @@ function ConvertTo-StringMap($Obj) {
 }
 
 $exitCode = 0
-$state = @{ version = ''; files = @{}; once = @{} }
+$state = @{ version = ''; files = @{}; once = @{}; selfSkip = '' }
 $stateFile = $null
 $stateDirty = $false
 $instance = $null
@@ -231,6 +309,7 @@ try {
             $state.version = [string]$sj.version
             $state.files = ConvertTo-StringMap $sj.files
             $state.once = ConvertTo-StringMap $sj.once
+            if ($sj.PSObject.Properties['selfSkip']) { $state.selfSkip = [string]$sj.selfSkip }
         } catch { Write-Log 'Le fichier d''état est illisible : on repart de zéro (rien n''est supprimé dans ce cas).' }
     }
     $tmpDir = Join-Path $instance 'shonen-outils\update-tmp'
@@ -239,8 +318,40 @@ try {
     Write-Log 'Je regarde ce qui a changé...'
     $indexTmp = Join-Path $tmpDir 'index.json.part'
     if (Test-Path -LiteralPath $indexTmp) { Remove-Item -LiteralPath $indexTmp -Force }
-    try { Invoke-Download ($base + 'index.json') $indexTmp $true }
-    catch { throw "Impossible de lire la liste des mises à jour ($base) : $($_.Exception.Message). Vérifie ta connexion Internet." }
+    # --- GitHub : adresse figée sur le dernier commit (raw.githubusercontent.com garde chaque fichier 5 minutes en cache) ---
+    $ghRaw = $GithubRaw.TrimEnd('/'); $ghApi = $GithubApi.TrimEnd('/'); $ghCode = $GithubCodeload.TrimEnd('/')
+    $script:RepoPrefixes = @($base)
+    $repoName = $null; $branch = 'main'
+    if ($cfg.PSObject.Properties['repo'] -and $cfg.repo) { $repoName = [string]$cfg.repo }
+    $branchCfg = ''
+    if ($cfg.PSObject.Properties['branch'] -and $cfg.branch) { $branchCfg = [string]$cfg.branch }
+    $mm = [regex]::Match($base, '^' + [regex]::Escape($ghRaw) + '/([^/]+/[^/]+)/([^/]+)/$')
+    if ($mm.Success) { if (-not $repoName) { $repoName = $mm.Groups[1].Value }; $branch = $mm.Groups[2].Value }
+    if ($branchCfg) { $branch = $branchCfg }
+    if ($repoName -and ($repoName -notmatch '^[A-Za-z0-9._-]+/[A-Za-z0-9._-]+$' -or $repoName -match '(^|/)\.+(/|$)')) { throw "shonen-update.json : 'repo' doit être de la forme compte/depot." }
+    if ($branch -notmatch '^[A-Za-z0-9._/-]+$' -or $branch.Contains('..')) { throw "shonen-update.json : 'branch' invalide." }
+    $readBase = $base
+    $archiveRef = $branch
+    if ($repoName) {
+        $script:RepoPrefixes += @("$ghRaw/$repoName/", "$ghApi/repos/$repoName/", "$ghCode/$repoName/")
+        $shaTmp = Join-Path $tmpDir 'commit.sha.part'
+        try {
+            if (Test-Path -LiteralPath $shaTmp) { Remove-Item -LiteralPath $shaTmp -Force }
+            Invoke-Download "$ghApi/repos/$repoName/commits/$branch" $shaTmp $true 'application/vnd.github.sha'
+            $commit = ([IO.File]::ReadAllText($shaTmp)).Trim()
+            Remove-Item -LiteralPath $shaTmp -Force
+            if ($commit -notmatch '^[0-9a-f]{40}$') { throw 'réponse inattendue' }
+            $readBase = "$ghRaw/$repoName/$commit/"
+            $archiveRef = $commit
+            Write-Log ('Dépôt lu à la version exacte ' + $commit.Substring(0, 8) + '.')
+        }
+        catch {
+            if (Test-Path -LiteralPath $shaTmp) { Remove-Item -LiteralPath $shaTmp -Force -ErrorAction SilentlyContinue }
+            Write-Log ('(GitHub ne donne pas la version exacte : ' + $_.Exception.Message + ' ; je lis la branche ' + $branch + ' directement.)')
+        }
+    }
+    try { Invoke-DownloadRetry ($readBase + 'index.json') $indexTmp $true }
+    catch { throw "Impossible de lire la liste des mises à jour ($readBase) : $($_.Exception.Message). Vérifie ta connexion Internet." }
     $index = Read-JsonFile $indexTmp
     Remove-Item -LiteralPath $indexTmp -Force
     if ([int]$index.format -ne 1) { throw "Liste de mise à jour d'un format inconnu ($($index.format)) : le programme est peut-être trop ancien, demande à Admin." }
@@ -309,6 +420,7 @@ try {
             elseif ($exists -and -not $state.once.ContainsKey($e.Rel)) { $need = $false; $onceMarks[$e.Rel] = $e.Sha; $kept++ }   # fichier déjà là, d'avant le programme : gardé
             else { $need = $true }
         }
+        if ($need -and $e.Self -and $state.selfSkip -eq $e.Sha) { $need = $false }   # déjà vu : version publiée plus ancienne que ce programme
         if ($need) { $toGet.Add($e) } else { $same++ }
     }
     # le programme lui-même : s'il est déjà prêt dans .new, rien à télécharger
@@ -326,7 +438,22 @@ try {
         if ($inState -or (Get-Sha256 $r.Dst) -eq $r.Sha) { $toRemove += $r }   # liste fermée : installé par le pack avant
     }
 
-    $todo = $toGet.Count + $toRemove.Count
+    # anciens .jar de mods\ qui ne sont pas dans la liste publiée (zip d'une ancienne version...) : mis de côté, jamais supprimés
+    $stray = @()
+    $modsIdx = @{}
+    foreach ($e in $entries) { if ($e.Rel.StartsWith('mods/')) { $modsIdx[$e.Rel.Substring(5).ToLowerInvariant()] = $true } }
+    $rmSet = @{}
+    foreach ($r in $toRemove) { $rmSet[$r.Rel.ToLowerInvariant()] = $true }
+    if ($modsIdx.Count -gt 0) {
+        $modsPath = Join-Path $instance 'mods'
+        foreach ($f in @(Get-ChildItem -LiteralPath $modsPath -File -Force)) {
+            if ($f.Extension -ine '.jar') { continue }
+            if ($modsIdx.ContainsKey($f.Name.ToLowerInvariant()) -or $rmSet.ContainsKey(('mods/' + $f.Name).ToLowerInvariant())) { continue }
+            $stray += $f
+        }
+    }
+
+    $todo = $toGet.Count + $toRemove.Count + $stray.Count
     Write-Log ("Version installée : " + $(if ($state.version) { $state.version } else { 'inconnue' }) + " ; version publiée : " + $packVersion)
     if ($todo -eq 0) {
         foreach ($k in $onceMarks.Keys) { $state.once[$k] = $onceMarks[$k]; $stateDirty = $true }
@@ -335,12 +462,26 @@ try {
         Write-Log ("À jour : version " + $packVersion) 'Green'
     }
     else {
-        Write-Log ("$($toGet.Count) fichier(s) à mettre à jour, $($toRemove.Count) à retirer ($same déjà à jour, $kept gardé(s) comme tu les as réglés).")
+        Write-Log ("$($toGet.Count) fichier(s) à mettre à jour, $($toRemove.Count) à retirer, $($stray.Count) ancien(s) mod(s) à mettre de côté ($same déjà à jour, $kept gardé(s) comme tu les as réglés).")
 
         # ---------- 6. téléchargement (rien n'est remplacé avant que tout soit vérifié) ----------
         $byHash = @{}
         foreach ($e in $toGet) { if (-not $byHash.ContainsKey($e.Sha)) { $byHash[$e.Sha] = $e } }
         $n = 0; $total = $byHash.Count
+        # beaucoup de fichiers du dépôt : une seule archive (puis un par un seulement ce qui manque)
+        $repoWanted = @($byHash.Values | Where-Object { $_.Source -eq 'repo' -and -not (Test-Path -LiteralPath (Join-Path $tmpDir ($_.Sha + '.dl'))) })
+        if ($repoName -and $repoWanted.Count -gt 50) {
+            $zipPart = Join-Path $tmpDir 'depot.zip.part'
+            try {
+                Write-Log ("Téléchargement groupé de $($repoWanted.Count) fichiers (une seule archive du dépôt)...")
+                if (Test-Path -LiteralPath $zipPart) { Remove-Item -LiteralPath $zipPart -Force }
+                Invoke-Download "$ghCode/$repoName/zip/$archiveRef" $zipPart $true ''
+                $got = Expand-FromArchive $zipPart $byHash $tmpDir
+                Write-Log ("Archive : $got fichier(s) vérifiés (sha256) sur $($repoWanted.Count).")
+            }
+            catch { Write-Log ('(archive indisponible : ' + $_.Exception.Message + ' ; je télécharge les fichiers un par un.)') }
+            finally { if (Test-Path -LiteralPath $zipPart) { Remove-Item -LiteralPath $zipPart -Force -ErrorAction SilentlyContinue } }
+        }
         foreach ($sha in @($byHash.Keys)) {
             $e = $byHash[$sha]
             $n++
@@ -351,14 +492,14 @@ try {
             $sources = @()
             if ($e.Source -eq 'repo') {
                 $esc = (($e.Rel.Split('/') | ForEach-Object { [Uri]::EscapeDataString($_) }) -join '/')
-                $sources += ($base + 'files/' + $esc)
+                $sources += ($readBase + 'files/' + $esc)
             }
             else { $sources = @($e.Urls) }
             $ok = $false; $lastErr = ''
             foreach ($u in $sources) {
                 try {
                     if (Test-Path -LiteralPath $part) { Remove-Item -LiteralPath $part -Force }
-                    Invoke-Download $u $part ($e.Source -eq 'repo')
+                    Invoke-DownloadRetry $u $part ($e.Source -eq 'repo')
                     if ((Get-Sha256 $part) -ne $sha) { $lastErr = 'empreinte sha256 différente (fichier corrompu ou modifié)'; Remove-Item -LiteralPath $part -Force; continue }
                     Move-Item -LiteralPath $part -Destination $dl -Force
                     $ok = $true; break
@@ -368,6 +509,39 @@ try {
             if (-not $ok) { throw "Téléchargement impossible : $($e.Rel) ($lastErr). Rien n'a été remplacé ; relance plus tard." }
         }
 
+        # le programme publié n'est posé que s'il est PLUS RÉCENT que celui-ci
+        foreach ($e in $toGet.ToArray()) {
+            if (-not $e.Self) { continue }
+            $pv = Get-ProgramVersion (Join-Path $tmpDir ($e.Sha + '.dl'))
+            if ($pv -le $script:ProgramVersion) {
+                [void]$toGet.Remove($e)
+                $state.selfSkip = $e.Sha; $stateDirty = $true
+                Write-Log ("(Le programme publié est la version $pv, celui-ci la version $($script:ProgramVersion) : je garde le mien.)")
+            }
+        }
+        # ---------- 6 bis. anciens mods mis de côté (après les téléchargements vérifiés, juste avant le remplacement) ----------
+        $moved = @()
+        if ($stray.Count -gt 0) {
+            $oldRoot = Join-Path $instance 'mods-anciens'
+            if (Test-Path -LiteralPath $oldRoot) {
+                if (-not (Test-Path -LiteralPath $oldRoot -PathType Container)) { throw "'$oldRoot' est un fichier : un dossier est attendu." }
+                if (Test-Reparse $oldRoot) { throw "'$oldRoot' est un raccourci : refusé." }
+            }
+            $oldDir = Join-Path $oldRoot (Get-Date -Format 'yyyy-MM-dd')
+            New-Item -ItemType Directory -Path $oldDir -Force | Out-Null
+            foreach ($f in $stray) {
+                $target = Join-Path $oldDir $f.Name
+                if (Test-Path -LiteralPath $target) { $target = Join-Path $oldDir ([IO.Path]::GetFileNameWithoutExtension($f.Name) + '-' + (Get-Date -Format 'HHmmss') + '-' + [guid]::NewGuid().ToString('N').Substring(0, 4) + $f.Extension) }
+                $placed = $false
+                for ($try = 1; $try -le [Math]::Max(1, $LockRetries); $try++) {
+                    try { [IO.File]::Move($f.FullName, $target); $placed = $true; break }
+                    catch [IO.IOException] { if ($try -lt $LockRetries) { Start-Sleep -Seconds $LockWaitSeconds } }
+                    catch [UnauthorizedAccessException] { if ($try -lt $LockRetries) { Start-Sleep -Seconds $LockWaitSeconds } }
+                }
+                if (-not $placed) { throw "Le mod '$($f.Name)' est utilisé par un autre programme et n'a pas pu être mis de côté. Ferme le jeu et CurseForge puis relance." }
+                $moved += $f.Name
+            }
+        }
         # ---------- 7. remplacement ----------
         $left = @{}
         foreach ($e in $toGet) { if ($left.ContainsKey($e.Sha)) { $left[$e.Sha]++ } else { $left[$e.Sha] = 1 } }
@@ -413,6 +587,7 @@ try {
         $state.version = $packVersion; $stateDirty = $true
         Get-ChildItem -LiteralPath $tmpDir -Force -ErrorAction SilentlyContinue | ForEach-Object { Remove-Item -LiteralPath $_.FullName -Force -ErrorAction SilentlyContinue }
         Write-Log ("Terminé : $($toGet.Count) fichier(s) mis à jour, $($toRemove.Count) retiré(s). Version " + $packVersion + '.') 'Green'
+        if ($moved.Count -gt 0) { Write-Log ("$($moved.Count) ancien(s) mod(s) mis de côté dans mods-anciens : " + ($moved -join ', ') + ' (ils ne sont plus dans le pack ; supprime-les quand tu veux).') 'Yellow' }
     }
 }
 catch {
@@ -426,7 +601,7 @@ catch {
 finally {
     if ($stateDirty -and $stateFile) {
         try {
-            $o = [ordered]@{ version = $state.version; updated = (Get-Date -Format 'yyyy-MM-ddTHH:mm:ss'); files = $state.files; once = $state.once }
+            $o = [ordered]@{ version = $state.version; updated = (Get-Date -Format 'yyyy-MM-ddTHH:mm:ss'); files = $state.files; once = $state.once; selfSkip = $state.selfSkip }
             $tmpState = $stateFile + '.tmp'
             [IO.File]::WriteAllText($tmpState, ((ConvertTo-Json -InputObject $o -Depth 4) -replace "`r`n", "`n"), (New-Object Text.UTF8Encoding($false)))
             if (Test-Path -LiteralPath $stateFile) { [IO.File]::Replace($tmpState, $stateFile, [NullString]::Value) } else { [IO.File]::Move($tmpState, $stateFile) }

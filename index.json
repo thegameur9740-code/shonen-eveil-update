@@ -2,7 +2,7 @@
     "format":  1,
     "pack":  "Shonen Eveil",
     "version":  "1.7.0",
-    "date":  "2026-11-13T10:02:10Z",
+    "date":  "2026-11-13T10:27:37Z",
     "files":  [
                   {
                       "path":  "config/ambience_mini-client.toml",
@@ -10758,8 +10758,8 @@
                   },
                   {
                       "path":  "shonen-outils/shonen-update.ps1",
-                      "size":  26039,
-                      "sha256":  "1bcc4d71533772e0a1141670bb99b0fdd7bb82f3c22197e273dbf29bb47809b6",
+                      "size":  37424,
+                      "sha256":  "3dadd62c0fbe370644cc0c76aa5d9e950071b8c9aea517c2634a53f37cfbfadf",
                       "source":  "repo",
                       "mode":  "strict"
                   },
