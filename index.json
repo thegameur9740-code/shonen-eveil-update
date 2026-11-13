@@ -1,8 +1,8 @@
 {
     "format":  1,
     "pack":  "Shonen Eveil",
-    "version":  "1.10.0",
-    "date":  "2026-11-13T17:52:49Z",
+    "version":  "1.11.0",
+    "date":  "2026-11-13T20:16:32Z",
     "files":  [
                   {
                       "path":  "config/ambience_mini-client.toml",
@@ -7972,8 +7972,8 @@
                   },
                   {
                       "path":  "kubejs/data/shonen/structures/ecole2/t_3_3.nbt",
-                      "size":  37845,
-                      "sha256":  "b27701f4db3b4d81ddf074f64547afa9e17c428bfbc51b33e7223e065a75aa04",
+                      "size":  37837,
+                      "sha256":  "822724c341bd5277553794c81fbd9e4d78f59205abfc84a437dbff2ec608d344",
                       "source":  "repo",
                       "mode":  "strict"
                   },
@@ -9539,9 +9539,9 @@
                                ]
                   },
                   {
-                      "path":  "mods/shonencore-1.52.0.jar",
-                      "size":  39550066,
-                      "sha256":  "02564af68ff9c79a83d48c0387cc16c8898dc4cae017cfa2e5f2702a44759266",
+                      "path":  "mods/shonencore-1.53.0.jar",
+                      "size":  39658678,
+                      "sha256":  "5c6783daa01d502a4cf982d710e1a0bf9004189bcf0a014179c9223576a2e7a2",
                       "source":  "repo",
                       "mode":  "strict"
                   },
@@ -10878,12 +10878,16 @@
                   {
                       "path":  "shonen-outils/version.txt",
                       "size":  7,
-                      "sha256":  "4f5ba6a3e380bf810cc968b58d30a8d7163eafe9e2fb1ad19bdc6d9d64a1e549",
+                      "sha256":  "74ee4d121463989183f9a9b848577eb2434f3f5d095de2a4b197bf29ffa2399b",
                       "source":  "repo",
                       "mode":  "strict"
                   }
               ],
     "remove":  [
+                   {
+                       "path":  "mods/shonencore-1.52.0.jar",
+                       "sha256":  "02564af68ff9c79a83d48c0387cc16c8898dc4cae017cfa2e5f2702a44759266"
+                   },
                    {
                        "path":  "mods/shonencore-1.51.0.jar",
                        "sha256":  "fc3cd5a4f3fa377f986a32584894021dd08b9d3bfa9186f4118928b595dc2e05"
