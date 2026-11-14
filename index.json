@@ -1,8 +1,8 @@
 {
     "format":  1,
     "pack":  "Shonen Eveil",
-    "version":  "1.13.0",
-    "date":  "2026-11-14T17:28:12Z",
+    "version":  "1.14.0",
+    "date":  "2026-11-14T22:57:54Z",
     "files":  [
                   {
                       "path":  "config/ambience_mini-client.toml",
@@ -9557,9 +9557,9 @@
                                ]
                   },
                   {
-                      "path":  "mods/shonencore-1.55.0.jar",
-                      "size":  39355112,
-                      "sha256":  "3075e264b86202b74345855dc0a006cf4bbf9e40c6a48cd3924b502db611ad72",
+                      "path":  "mods/shonencore-1.56.0.jar",
+                      "size":  39367696,
+                      "sha256":  "73c7fa52a1052df50ff7c63de02bdbd78b66f3b4a2f18a4c5a7689b08d849843",
                       "source":  "repo",
                       "mode":  "strict"
                   },
@@ -10896,12 +10896,16 @@
                   {
                       "path":  "shonen-outils/version.txt",
                       "size":  7,
-                      "sha256":  "b4a9545a385e9701482be56a0efee678d467d9c586ec476f2c5986cfaa24e96c",
+                      "sha256":  "bb0df1bd902faba507c15975eb9973e695f2732f760d851b4f9c7ba17068f5ff",
                       "source":  "repo",
                       "mode":  "strict"
                   }
               ],
     "remove":  [
+                   {
+                       "path":  "mods/shonencore-1.55.0.jar",
+                       "sha256":  "3075e264b86202b74345855dc0a006cf4bbf9e40c6a48cd3924b502db611ad72"
+                   },
                    {
                        "path":  "mods/shonencore-1.54.0.jar",
                        "sha256":  "62dbfc2b8f16734146f9437ec0fc1f557ac8ddb296f4653ddf76164ba622d814"
