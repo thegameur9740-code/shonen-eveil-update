@@ -1,8 +1,8 @@
 {
     "format":  1,
     "pack":  "Shonen Eveil",
-    "version":  "1.12.1",
-    "date":  "2026-11-14T09:39:44Z",
+    "version":  "1.13.0",
+    "date":  "2026-11-14T17:28:12Z",
     "files":  [
                   {
                       "path":  "config/ambience_mini-client.toml",
@@ -304,6 +304,13 @@
                       "sha256":  "11109d2320f4e3a9069813f2a1fc0c19ffcadfd2f7b79d874f8db22327662762",
                       "source":  "repo",
                       "mode":  "once"
+                  },
+                  {
+                      "path":  "config/lootr-common.toml",
+                      "size":  6608,
+                      "sha256":  "85ac6864c8bfbfeabae25de82ed759c04a7d6ab97a9d0a1c2a5e4d3552c1dbf9",
+                      "source":  "repo",
+                      "mode":  "tracked"
                   },
                   {
                       "path":  "config/ninshuorigins-client.toml",
@@ -9254,6 +9261,17 @@
                                ]
                   },
                   {
+                      "path":  "mods/lootr-forge-1.20-0.7.35.94.jar",
+                      "size":  463485,
+                      "sha256":  "01200ee5889e6bcc3c5fa8f32b7b49a4bd58e653699eeb655c6f2dd314e3ce51",
+                      "source":  "url",
+                      "mode":  "strict",
+                      "urls":  [
+                                   "https://cdn.modrinth.com/data/EltpO5cN/versions/mWTXC1ZX/lootr-forge-1.20-0.7.35.94.jar",
+                                   "https://mediafilez.forgecdn.net/files/7263/76/lootr-forge-1.20-0.7.35.94.jar"
+                               ]
+                  },
+                  {
                       "path":  "mods/mcjtylib-1.20-8.0.9.jar",
                       "size":  714454,
                       "sha256":  "078c4983be3763e296655c3310d68df9f6f49e7fa6964d505b55fc50adc39a05",
@@ -9539,9 +9557,9 @@
                                ]
                   },
                   {
-                      "path":  "mods/shonencore-1.54.0.jar",
-                      "size":  39353382,
-                      "sha256":  "62dbfc2b8f16734146f9437ec0fc1f557ac8ddb296f4653ddf76164ba622d814",
+                      "path":  "mods/shonencore-1.55.0.jar",
+                      "size":  39355112,
+                      "sha256":  "3075e264b86202b74345855dc0a006cf4bbf9e40c6a48cd3924b502db611ad72",
                       "source":  "repo",
                       "mode":  "strict"
                   },
@@ -10878,12 +10896,16 @@
                   {
                       "path":  "shonen-outils/version.txt",
                       "size":  7,
-                      "sha256":  "d723798f2436b46872ee9a012632d6f5602ab9297be05780a79ba29733f8a532",
+                      "sha256":  "b4a9545a385e9701482be56a0efee678d467d9c586ec476f2c5986cfaa24e96c",
                       "source":  "repo",
                       "mode":  "strict"
                   }
               ],
     "remove":  [
+                   {
+                       "path":  "mods/shonencore-1.54.0.jar",
+                       "sha256":  "62dbfc2b8f16734146f9437ec0fc1f557ac8ddb296f4653ddf76164ba622d814"
+                   },
                    {
                        "path":  "mods/shonencore-1.53.0.jar",
                        "sha256":  "5c6783daa01d502a4cf982d710e1a0bf9004189bcf0a014179c9223576a2e7a2"
