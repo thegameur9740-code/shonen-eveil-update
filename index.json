@@ -1,8 +1,8 @@
 {
     "format":  1,
     "pack":  "Shonen Eveil",
-    "version":  "1.11.0",
-    "date":  "2026-11-13T20:16:32Z",
+    "version":  "1.12.0",
+    "date":  "2026-11-14T08:06:28Z",
     "files":  [
                   {
                       "path":  "config/ambience_mini-client.toml",
@@ -7776,50 +7776,50 @@
                   },
                   {
                       "path":  "kubejs/data/shonen/structures/ecole2/arene_bleach.nbt",
-                      "size":  208503,
-                      "sha256":  "c12d084a46b4578b6ae7521051f86c0a929e68c5154d5c5964b869fb698a7485",
+                      "size":  208493,
+                      "sha256":  "561e27abf4d68f2c73db3e5b7f52cff5aacf0493fbfecb4101498b7957232fa2",
                       "source":  "repo",
                       "mode":  "strict"
                   },
                   {
                       "path":  "kubejs/data/shonen/structures/ecole2/arene_dbz.nbt",
-                      "size":  207744,
-                      "sha256":  "da417fd1ef1e2217eed9e62cdaeda8ad64db43991dcdae202b545cde7f55e694",
+                      "size":  208368,
+                      "sha256":  "cc409b71cbb10e4d79dad51d353d7b770a671c58460e2c5ad93f136ea11616b6",
                       "source":  "repo",
                       "mode":  "strict"
                   },
                   {
                       "path":  "kubejs/data/shonen/structures/ecole2/arene_jjk.nbt",
-                      "size":  208577,
-                      "sha256":  "90f8b55fd5cc23dfa24107aba26b26b68bc20bcaa544a2d3ec736d414d43569b",
+                      "size":  208569,
+                      "sha256":  "169dcb4e9ed126abe722ec27e3ec34b838fda2b5416319012c238b1fd22bda30",
                       "source":  "repo",
                       "mode":  "strict"
                   },
                   {
                       "path":  "kubejs/data/shonen/structures/ecole2/arene_mha.nbt",
-                      "size":  207743,
-                      "sha256":  "fad99e307660e4c6b75e4612a333bcbe70524237cce454fe4059c2ce31dfd623",
+                      "size":  208371,
+                      "sha256":  "9eb2fd9d239d52f5d50520e3297f2f7151f95013f4fcf31760b87af627afd7b3",
                       "source":  "repo",
                       "mode":  "strict"
                   },
                   {
                       "path":  "kubejs/data/shonen/structures/ecole2/arene_naruto.nbt",
-                      "size":  208508,
-                      "sha256":  "ac72b2754083ebab5ca7424fe892ff27afc62b2ad87e027490fb0b3b4e8be3b1",
+                      "size":  208497,
+                      "sha256":  "0d963802e84e9ffa0600228340873d3f309304790dfb11d8d7771f556d4f156e",
                       "source":  "repo",
                       "mode":  "strict"
                   },
                   {
                       "path":  "kubejs/data/shonen/structures/ecole2/arene_onepiece.nbt",
-                      "size":  208430,
-                      "sha256":  "e3fb616973ce3fed53655ef8d8689ce0a214ef6612dc34060dbb5e630b62e7eb",
+                      "size":  209121,
+                      "sha256":  "c5d5feada37c2a6fb6bb3f9a8d6324d0aabc618a860b74012c076f89fcc5fde9",
                       "source":  "repo",
                       "mode":  "strict"
                   },
                   {
                       "path":  "kubejs/data/shonen/structures/ecole2/arene_solo.nbt",
-                      "size":  208428,
-                      "sha256":  "fabed5ea600efb7dec96d6465191e71a77ad560bb21199bca841fe704f53384b",
+                      "size":  209117,
+                      "sha256":  "1c05513daf538cf18d76d5b09df4568f638c0ddd97cc10060c2dbe3161b050b1",
                       "source":  "repo",
                       "mode":  "strict"
                   },
@@ -7923,8 +7923,8 @@
                   },
                   {
                       "path":  "kubejs/data/shonen/structures/ecole2/t_2_2.nbt",
-                      "size":  64417,
-                      "sha256":  "d3d300980ffe1f6bccd7ef821c8d5eaba0addf0190f384520dced3272d451139",
+                      "size":  64406,
+                      "sha256":  "4a44a3dea52e1b47b4262e7b9154e10d5fc2edbb831b7100ab062e3846204202",
                       "source":  "repo",
                       "mode":  "strict"
                   },
@@ -7965,8 +7965,8 @@
                   },
                   {
                       "path":  "kubejs/data/shonen/structures/ecole2/t_3_2.nbt",
-                      "size":  65345,
-                      "sha256":  "3f3d364555df193b22690a391b551e8365713810a235c761a98d4903f1c825ba",
+                      "size":  65444,
+                      "sha256":  "c857e9803c96d77617ae878010183e22773109fade38ffb74875291be27b1e37",
                       "source":  "repo",
                       "mode":  "strict"
                   },
@@ -9539,9 +9539,9 @@
                                ]
                   },
                   {
-                      "path":  "mods/shonencore-1.53.0.jar",
-                      "size":  39658678,
-                      "sha256":  "5c6783daa01d502a4cf982d710e1a0bf9004189bcf0a014179c9223576a2e7a2",
+                      "path":  "mods/shonencore-1.54.0.jar",
+                      "size":  39353382,
+                      "sha256":  "62dbfc2b8f16734146f9437ec0fc1f557ac8ddb296f4653ddf76164ba622d814",
                       "source":  "repo",
                       "mode":  "strict"
                   },
@@ -10878,12 +10878,16 @@
                   {
                       "path":  "shonen-outils/version.txt",
                       "size":  7,
-                      "sha256":  "74ee4d121463989183f9a9b848577eb2434f3f5d095de2a4b197bf29ffa2399b",
+                      "sha256":  "c92df6bdde330be219d62f48ec6490b01889436f2f59027aab200e74de619168",
                       "source":  "repo",
                       "mode":  "strict"
                   }
               ],
     "remove":  [
+                   {
+                       "path":  "mods/shonencore-1.53.0.jar",
+                       "sha256":  "5c6783daa01d502a4cf982d710e1a0bf9004189bcf0a014179c9223576a2e7a2"
+                   },
                    {
                        "path":  "mods/shonencore-1.52.0.jar",
                        "sha256":  "02564af68ff9c79a83d48c0387cc16c8898dc4cae017cfa2e5f2702a44759266"
