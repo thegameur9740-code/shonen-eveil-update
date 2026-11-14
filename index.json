@@ -1,8 +1,8 @@
 {
     "format":  1,
     "pack":  "Shonen Eveil",
-    "version":  "1.12.0",
-    "date":  "2026-11-14T08:06:28Z",
+    "version":  "1.12.1",
+    "date":  "2026-11-14T09:39:44Z",
     "files":  [
                   {
                       "path":  "config/ambience_mini-client.toml",
@@ -76,8 +76,8 @@
                   },
                   {
                       "path":  "config/dragonminez/general-server.json",
-                      "size":  243,
-                      "sha256":  "a256d3e10ed8e817c411fa6e1f13d254435515261cc5eae92f658f6fc46a760c",
+                      "size":  293,
+                      "sha256":  "d5bd201ec9f8e31cfff17fce20dfd1dd4b2e8ff1ac4f62563cf233c8e71620f1",
                       "source":  "repo",
                       "mode":  "tracked"
                   },
@@ -6817,8 +6817,8 @@
                   },
                   {
                       "path":  "kubejs/client_scripts/touches_auto.js",
-                      "size":  43287,
-                      "sha256":  "28ed2269b8550707402d23beb2c4ba3d0b3868f42bf10185534696827d5300d8",
+                      "size":  55153,
+                      "sha256":  "1348dc95e5ddcf4a97d00c23b3b6ae2d466a7ffdcd1dd73ddac436cf8409b526",
                       "source":  "repo",
                       "mode":  "strict"
                   },
@@ -10842,8 +10842,8 @@
                   },
                   {
                       "path":  "shonen-outils/shonen-update.ps1",
-                      "size":  37424,
-                      "sha256":  "3dadd62c0fbe370644cc0c76aa5d9e950071b8c9aea517c2634a53f37cfbfadf",
+                      "size":  37461,
+                      "sha256":  "2319d32d9b763d1807fa9dd157f9c2ccc9ad91b3d9e7d68ba75c5a5cbce8d9c9",
                       "source":  "repo",
                       "mode":  "strict"
                   },
@@ -10878,7 +10878,7 @@
                   {
                       "path":  "shonen-outils/version.txt",
                       "size":  7,
-                      "sha256":  "c92df6bdde330be219d62f48ec6490b01889436f2f59027aab200e74de619168",
+                      "sha256":  "d723798f2436b46872ee9a012632d6f5602ab9297be05780a79ba29733f8a532",
                       "source":  "repo",
                       "mode":  "strict"
                   }

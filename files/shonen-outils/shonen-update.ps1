@@ -519,29 +519,6 @@ try {
                 Write-Log ("(Le programme publié est la version $pv, celui-ci la version $($script:ProgramVersion) : je garde le mien.)")
             }
         }
-        # ---------- 6 bis. anciens mods mis de côté (après les téléchargements vérifiés, juste avant le remplacement) ----------
-        $moved = @()
-        if ($stray.Count -gt 0) {
-            $oldRoot = Join-Path $instance 'mods-anciens'
-            if (Test-Path -LiteralPath $oldRoot) {
-                if (-not (Test-Path -LiteralPath $oldRoot -PathType Container)) { throw "'$oldRoot' est un fichier : un dossier est attendu." }
-                if (Test-Reparse $oldRoot) { throw "'$oldRoot' est un raccourci : refusé." }
-            }
-            $oldDir = Join-Path $oldRoot (Get-Date -Format 'yyyy-MM-dd')
-            New-Item -ItemType Directory -Path $oldDir -Force | Out-Null
-            foreach ($f in $stray) {
-                $target = Join-Path $oldDir $f.Name
-                if (Test-Path -LiteralPath $target) { $target = Join-Path $oldDir ([IO.Path]::GetFileNameWithoutExtension($f.Name) + '-' + (Get-Date -Format 'HHmmss') + '-' + [guid]::NewGuid().ToString('N').Substring(0, 4) + $f.Extension) }
-                $placed = $false
-                for ($try = 1; $try -le [Math]::Max(1, $LockRetries); $try++) {
-                    try { [IO.File]::Move($f.FullName, $target); $placed = $true; break }
-                    catch [IO.IOException] { if ($try -lt $LockRetries) { Start-Sleep -Seconds $LockWaitSeconds } }
-                    catch [UnauthorizedAccessException] { if ($try -lt $LockRetries) { Start-Sleep -Seconds $LockWaitSeconds } }
-                }
-                if (-not $placed) { throw "Le mod '$($f.Name)' est utilisé par un autre programme et n'a pas pu être mis de côté. Ferme le jeu et CurseForge puis relance." }
-                $moved += $f.Name
-            }
-        }
         # ---------- 7. remplacement ----------
         $left = @{}
         foreach ($e in $toGet) { if ($left.ContainsKey($e.Sha)) { $left[$e.Sha]++ } else { $left[$e.Sha] = 1 } }
@@ -576,6 +553,29 @@ try {
             $stateDirty = $true
             $done++
             if ($e.Self) { Write-Log 'Le programme de mise à jour a lui-même une nouvelle version : elle sera utilisée au prochain lancement.' }
+        }
+        # ---------- 6 bis. anciens mods mis de côté (APRÈS le remplacement : si celui-ci s'arrête, les anciens mods restent en place, jamais de mod manquant) ----------
+        $moved = @()
+        if ($stray.Count -gt 0) {
+            $oldRoot = Join-Path $instance 'mods-anciens'
+            if (Test-Path -LiteralPath $oldRoot) {
+                if (-not (Test-Path -LiteralPath $oldRoot -PathType Container)) { throw "'$oldRoot' est un fichier : un dossier est attendu." }
+                if (Test-Reparse $oldRoot) { throw "'$oldRoot' est un raccourci : refusé." }
+            }
+            $oldDir = Join-Path $oldRoot (Get-Date -Format 'yyyy-MM-dd')
+            New-Item -ItemType Directory -Path $oldDir -Force | Out-Null
+            foreach ($f in $stray) {
+                $target = Join-Path $oldDir $f.Name
+                if (Test-Path -LiteralPath $target) { $target = Join-Path $oldDir ([IO.Path]::GetFileNameWithoutExtension($f.Name) + '-' + (Get-Date -Format 'HHmmss') + '-' + [guid]::NewGuid().ToString('N').Substring(0, 4) + $f.Extension) }
+                $placed = $false
+                for ($try = 1; $try -le [Math]::Max(1, $LockRetries); $try++) {
+                    try { [IO.File]::Move($f.FullName, $target); $placed = $true; break }
+                    catch [IO.IOException] { if ($try -lt $LockRetries) { Start-Sleep -Seconds $LockWaitSeconds } }
+                    catch [UnauthorizedAccessException] { if ($try -lt $LockRetries) { Start-Sleep -Seconds $LockWaitSeconds } }
+                }
+                if (-not $placed) { throw "Le mod '$($f.Name)' est utilisé par un autre programme et n'a pas pu être mis de côté. Ferme le jeu et CurseForge puis relance." }
+                $moved += $f.Name
+            }
         }
         # ---------- 8. suppression des fichiers retirés du pack ----------
         foreach ($r in $toRemove) {

@@ -43,7 +43,27 @@
 // 7 : (Admin, 10/11, combos de JJK au zanpakutō) Bleach sans JJK : W / R lancent et choisissent les attaques de JJK
 //     (Attack, Knockback, Barrage) ; le shunpo passe sur G et le Shikai sur H, pour TOUT joueur Bleach (avec ou sans
 //     JJK : toujours au même endroit). Voir TA_UNIVERS.bleach.touchesPrincipales / emprunts.
-var TA_VERSION = 7
+// 8 : (14/11, « toutes mes touches sont revenues à celles des mods ») AUCUNE table changée : la version sert à réparer.
+//     Cause (docs/touches.md, « 14/11 ») : une ressource cassée du pack (animation GeckoLib de Shonen Core 1.50.0) a fait
+//     échouer le 1er chargement des ressources ; Minecraft a alors vidé la liste des packs ET réécrit options.txt AVANT
+//     d'avoir relu les touches des mods : toutes les touches de mods sont revenues à leur valeur d'origine, et les
+//     marqueurs « déjà appliqué » (profil, schéma) empêchaient de les remettre. La version 8 est DOUCE (TA_DOUCES) : la
+//     voie déjà réglée n'est réappliquée qu'aux touches qui sont exactement à leur valeur d'origine ; toute autre
+//     valeur est un choix du joueur, gardé. Voir taRestaurer / taSignature (+ la garde de réinitialisation).
+var TA_VERSION = 8
+// Versions « douces » : pour une voie déjà réglée, la montée de version ne remplace que les touches revenues à la
+// valeur d'origine du mod (au lieu de tout écraser). À n'utiliser que si les tables n'ont pas changé depuis la version
+// précédente (sinon les joueurs n'auraient pas les nouvelles touches).
+var TA_DOUCES = { 8: true }
+// Garde de réinitialisation : au moins ce nombre de touches du schéma / de la voie (dont la valeur voulue n'est pas
+// celle d'origine du mod) sont EXACTEMENT à leur valeur d'origine en même temps = les touches ont été réinitialisées
+// (quelques touches remises à la main sur l'origine ne déclenchent rien).
+var TA_SEUIL_RESET = 6
+// Au plus ce nombre de restaurations par jour et par instance (pas de boucle si un mod remet tout à zéro à chaque lancement).
+var TA_MAX_RESTAURATIONS = 3
+// Actions qui sont au joueur, jamais touchées par la garde ni par la restauration (hors tables) : Shonen Core
+// (check, verrouillage de cible, billard...). Seule la boîte à insignes est dans le schéma (TA_COMMUNES).
+var TA_JOUEUR = ['key.shonencore.']
 
 // Groupes de touches principales (noms options.txt : positions QWERTY ; touche AZERTY en commentaire)
 // (un seul groupe depuis la version 6 : le 2e univers le reprend avec Ctrl, banque TA_BANQUES)
@@ -533,6 +553,7 @@ function taGarde(profil, actuelles) {
     var cur = actuelles[n]
     var p = profil.touches[n]
     if (p !== undefined && TA_ROLES_VOIE.indexOf(p.role) >= 0) { i = i + 1; continue }
+    if (p === undefined && taDuJoueur(n)) { i = i + 1; continue }
     if (p !== undefined && p.role === 'absent') {
       if (cur.key !== p.key || cur.mod !== p.mod) res.push({ action: n, key: p.key, mod: p.mod, raison: 'univers absent' })
     } else if (cur.vanilla !== true && cur.jeu !== false && cur.key !== TA_AUCUNE) {
@@ -548,6 +569,120 @@ function taGarde(profil, actuelles) {
     i = i + 1
   }
   return res
+}
+
+/** Action qui est au joueur (hors tables) : jamais touchée par la garde ni par la restauration. */
+function taDuJoueur(action) {
+  var i = 0
+  while (i < TA_JOUEUR.length) { if (action.indexOf(TA_JOUEUR[i]) === 0) return true; i = i + 1 }
+  return false
+}
+
+/** Les touches « voulues » d'un profil pour la restauration : la voie et le schéma commun (pas les univers absents). */
+function taCibles(profil) {
+  var res = {}
+  var noms = Object.keys(profil.touches)
+  var i = 0
+  while (i < noms.length) {
+    var t = profil.touches[noms[i]]
+    if (TA_ROLES_VOIE.indexOf(t.role) >= 0 || t.role === 'commun') res[noms[i]] = { key: t.key, mod: t.mod }
+    i = i + 1
+  }
+  return res
+}
+
+/** Le schéma commun seul (joueur sans voie encore : avant l'Éveil). */
+function taCiblesCommunes() {
+  var res = {}
+  var i = 0
+  while (i < TA_COMMUNES.length) { res[TA_COMMUNES[i][0]] = { key: TA_COMMUNES[i][1], mod: TA_COMMUNES[i][2] }; i = i + 1 }
+  return res
+}
+
+function taMeme(a, b) { return a.key === b.key && a.mod === b.mod }
+
+/**
+ * Signature d'une réinitialisation : les actions (parmi les touches voulues) dont la valeur voulue n'est PAS l'origine
+ * du mod et qui sont EXACTEMENT à l'origine du mod. `actuelles[action]` = { key, mod, jeu, vanilla, defaut: { key, mod } | null }.
+ * Retourne { aDefaut: [actions], total } (total = nombre d'actions voulues connues du jeu, avec leur origine lue).
+ */
+function taSignature(cibles, actuelles) {
+  var aDefaut = []
+  var total = 0
+  var noms = Object.keys(cibles)
+  var i = 0
+  while (i < noms.length) {
+    var cur = actuelles[noms[i]]
+    if (cur !== undefined && cur.defaut !== null && cur.defaut !== undefined && !taMeme(cibles[noms[i]], cur.defaut)) {
+      total = total + 1
+      if (taMeme(cur, cur.defaut)) aDefaut.push(noms[i])
+    }
+    i = i + 1
+  }
+  return { aDefaut: aDefaut, total: total }
+}
+
+/**
+ * La restauration douce : parmi les touches voulues (`cibles` : { action: { key, mod } }), ne corrige QUE celles qui sont
+ * exactement à l'origine du mod (valeur que Minecraft remet quand il a perdu la ligne d'options.txt). Toute autre valeur
+ * = choix du joueur : gardée. Une touche voulue déjà bonne ne bouge pas. Une action qui n'a pas d'origine lue (null) ou
+ * qui n'existe pas (mod absent) est ignorée. Une correction qui poserait la touche sur celle qu'un AUTRE choix du joueur
+ * occupe (action ni corrigée ni à l'origine) est sautée. Retourne [{ action, key, mod, raison }].
+ */
+function taRestaurer(cibles, actuelles) {
+  var res = []
+  var changees = {}
+  var noms = Object.keys(cibles)
+  var i = 0
+  while (i < noms.length) {
+    var n = noms[i]
+    var cur = actuelles[n]
+    var cb = cibles[n]
+    i = i + 1
+    if (cur === undefined || cur.defaut === null || cur.defaut === undefined) continue
+    if (taDuJoueur(n)) continue
+    if (taMeme(cur, cb)) continue
+    if (!taMeme(cur, cur.defaut)) continue
+    res.push({ action: n, key: cb.key, mod: cb.mod, raison: 'revenue a la touche du mod' })
+    changees[n] = true
+  }
+  // une touche posée par le joueur sur la touche visée : on ne la lui prend pas
+  var gardees = []
+  var k = 0
+  while (k < res.length) {
+    var c = res[k]
+    k = k + 1
+    var conflit = null
+    if (c.key !== TA_AUCUNE) {
+      var autres = Object.keys(actuelles)
+      var a = 0
+      while (a < autres.length && conflit === null) {
+        var o = actuelles[autres[a]]
+        if (autres[a] !== c.action && changees[autres[a]] !== true && o.key === c.key && o.mod === c.mod &&
+            o.defaut !== null && o.defaut !== undefined && !taMeme(o, o.defaut) && !taPartage(autres[a], c.action)) conflit = autres[a]
+        a = a + 1
+      }
+    }
+    if (conflit === null) gardees.push(c)
+  }
+  return gardees
+}
+
+/** Y a-t-il eu une réinitialisation ? (assez de touches voulues exactement à l'origine) */
+function taResetDetecte(cibles, actuelles) {
+  return taSignature(cibles, actuelles).aDefaut.length >= TA_SEUIL_RESET
+}
+
+/** Compteur de restaurations du jour (marqueur) : peut-on encore restaurer ? `jour` = 'AAAA-MM-JJ'. */
+function taPeutRestaurer(marqueur, jour) {
+  var r = marqueur.restaurations
+  if (r === undefined || r === null || r.jour !== jour) return true
+  return r.n < TA_MAX_RESTAURATIONS
+}
+function taCompterRestauration(marqueur, jour) {
+  var r = marqueur.restaurations
+  if (r === undefined || r === null || r.jour !== jour) marqueur.restaurations = { jour: jour, n: 1 }
+  else r.n = r.n + 1
 }
 
 // Noms affichés (AZERTY) des touches utilisées par les profils, pour la doc et les tests
@@ -583,7 +718,9 @@ if (typeof module !== 'undefined') {
   module.exports = { surSaut: TA_SUR_SAUT, profil: taProfil, nettoyer: taNettoyer, univers: TA_UNIVERS, ordre: TA_ORDRE, sansVoie: TA_SANS_VOIE, groupes: TA_GROUPES,
     f: TA_F, banques: TA_BANQUES, reservees: TA_RESERVEES, partage: taPartage, nomTouche: taNomTouche,
     nomsUnivers: taNomsUnivers, version: TA_VERSION, garees: TA_GAREES, aucune: TA_AUCUNE, communes: TA_COMMUNES,
-    garde: taGarde }
+    garde: taGarde, cibles: taCibles, ciblesCommunes: taCiblesCommunes, signature: taSignature, restaurer: taRestaurer,
+    resetDetecte: taResetDetecte, peutRestaurer: taPeutRestaurer, compterRestauration: taCompterRestauration,
+    douces: TA_DOUCES, seuilReset: TA_SEUIL_RESET, maxRestaurations: TA_MAX_RESTAURATIONS, duJoueur: taDuJoueur }
 }
 
 // ======================= partie Minecraft (client KubeJS seulement) =======================
@@ -666,11 +803,20 @@ if (typeof NetworkEvents !== 'undefined') {
       var km = kms[i]
       var jeu = true
       try { jeu = km.getKeyConflictContext().conflicts(TaConflit.IN_GAME) === true } catch (e) { jeu = true }
+      // la touche d'ORIGINE du mod (celle qu'il a quand options.txt n'a pas de ligne pour lui) ; null si illisible
+      var defaut = null
+      try {
+        var dk = String(km.getDefaultKey().getName())
+        var dm = 'NONE'
+        try { dm = String(km.getKeyModifierDefault().name()) } catch (e3) { dm = 'NONE' }
+        defaut = { key: dk, mod: dm }
+      } catch (e2) { defaut = null }
       res[String(km.getName())] = {
         key: String(km.getKey().getName()),
         mod: String(km.getKeyModifier().name()),
         jeu: jeu,
-        vanilla: String(km.getCategory()).indexOf('key.categories.') === 0
+        vanilla: String(km.getCategory()).indexOf('key.categories.') === 0,
+        defaut: defaut
       }
       i = i + 1
     }
@@ -703,6 +849,53 @@ if (typeof NetworkEvents !== 'undefined') {
     Client.player.tell(Text.of(texte)[couleur]())
   }
 
+  var taJour = function () {
+    try { return String(new Date().toISOString()).substring(0, 10) } catch (e) { return '0000-00-00' }
+  }
+
+  /**
+   * Restauration douce des touches voulues (`cibles`). `garde` = true : seulement si le jeu a l'air d'avoir réinitialisé
+   * les touches (taResetDetecte) ; false : toujours (montée de version douce). Retourne le nombre de touches remises.
+   * Au plus TA_MAX_RESTAURATIONS par jour (marqueur `m`, écrit ici). Ne touche que les touches exactement à l'origine
+   * du mod : les choix du joueur sont gardés.
+   */
+  var taRestaurerJeu = function (cibles, garde, m) {
+    var act = taActuelles()
+    var sig = taSignature(cibles, act)
+    if (sig.total === 0) {
+      console.warn('touches_auto: restauration impossible (touche d\'origine des mods illisible ou aucune action voulue connue)')
+      return 0
+    }
+    if (garde && sig.aDefaut.length < TA_SEUIL_RESET) return 0
+    var jour = taJour()
+    if (!taPeutRestaurer(m, jour)) {
+      console.warn('touches_auto: ' + TA_MAX_RESTAURATIONS + ' restaurations deja faites aujourd\'hui, pas de nouvelle (' + sig.aDefaut.length + ' touche(s) a l\'origine)')
+      return 0
+    }
+    var corr = taRestaurer(cibles, act)
+    if (corr.length === 0) return 0
+    var kms = taMappings()
+    var morceaux = []
+    var i = 0
+    while (i < corr.length) {
+      var c = corr[i]
+      var km = kms[c.action]
+      if (km !== undefined) {
+        km.setKeyModifierAndCode(TaKeyModifier.valueFromString(c.mod), TaInput.getKey(c.key))
+        morceaux.push(c.action + ' -> ' + c.mod + ' ' + c.key)
+      }
+      i = i + 1
+    }
+    TaKeyMapping.resetMapping()
+    Client.options.save()
+    taCompterRestauration(m, jour)
+    try { taEcrireMarqueur(m) } catch (e) { console.error('touches_auto: marqueur non ecrit (' + TA_MARQUEUR + ') : ' + e) }
+    console.info('touches_auto: restauration, ' + morceaux.length + ' touche(s) revenue(s) a celle du mod remise(s) (' + sig.aDefaut.length + ' a l\'origine sur ' + sig.total + ') : ' + morceaux.join(' ; '))
+    return morceaux.length
+  }
+
+  var taCommunsFait = false   // la garde de réinitialisation a passé pour cette connexion
+
   var taTraiter = function (force) {
     var u = global.shonenUnivers
     if (u === undefined || u.recu !== true || u.complet !== true || u.liste.length === 0) {
@@ -714,13 +907,30 @@ if (typeof NetworkEvents !== 'undefined') {
     var sig = profil.univers.join(',') + '#' + TA_VERSION
     var uuid = taUuid()
     var m = taLireMarqueur()
+    taCommunsFait = true
     if (!force && m.joueurs[uuid] === sig) {
       console.info('touches_auto: profil "' + sig + '" deja applique pour ' + uuid + ', touches du joueur gardees')
+      // garde de réinitialisation (14/11) : les touches du jeu sont revenues à celles des mods (options.txt réécrit par
+      // Minecraft sans les lignes des mods) : on ne remet que celles qui sont exactement à l'origine
+      var nr = taRestaurerJeu(taCibles(profil), true, m)
+      if (nr > 0) taDire(nr + " touche(s) de ta voie et du schéma étaient revenues à celles des mods : remises en place. Tes propres changements sont gardés.", 'gold')
       var ng = taGarder(profil)
       if (ng > 0) taDire(ng + " touche(s) d'autres mods remise(s) en place : elles prenaient une touche de ta voie (ou d'un univers que tu n'as pas).", 'gray')
       return
     }
     if (profil.conflits.length > 0) console.error('touches_auto: conflits dans le profil : ' + profil.conflits.join(', '))
+    var precedent = m.joueurs[uuid]
+    var memeVoie = !force && precedent !== undefined && String(precedent).split('#')[0] === profil.univers.join(',')
+    if (memeVoie && TA_DOUCES[TA_VERSION] === true) {
+      // version douce (8) : même voie, tables inchangées -> seulement les touches revenues à l'origine du mod
+      var nd = taRestaurerJeu(taCibles(profil), false, m)
+      taGarder(profil)
+      m.joueurs[uuid] = sig
+      try { taEcrireMarqueur(m) } catch (e) { console.error('touches_auto: marqueur non ecrit (' + TA_MARQUEUR + ') : ' + e) }
+      console.info('touches_auto: profil "' + sig + '" (version douce) : ' + nd + ' touche(s) remise(s) pour ' + uuid)
+      if (nd > 0) taDire('Touches de ta voie remises en place (' + nd + ') : elles étaient revenues à celles des mods. Tes propres changements sont gardés.', 'gold')
+      return
+    }
     var n = taAppliquer(profil)
     taGarder(profil)
     m.joueurs[uuid] = sig
@@ -728,6 +938,13 @@ if (typeof NetworkEvents !== 'undefined') {
     console.info('touches_auto: profil "' + sig + '" applique (' + n + ' actions) pour ' + uuid)
     taDire('Touches réglées pour ta voie : ' + taNomsUnivers(profil.univers) + '. Tu peux les changer dans Options > Commandes.', 'gold')
     taDire('/touches : la liste de tes touches ; /touches auto : les remettre.', 'gray')
+  }
+
+  /** Joueur sans voie (avant l'Éveil, ou serveur qui n'envoie pas les univers) : la garde de réinitialisation sur le schéma commun. */
+  var taTraiterCommuns = function () {
+    var m = taLireMarqueur()
+    var nr = taRestaurerJeu(taCiblesCommunes(), true, m)
+    if (nr > 0) taDire(nr + " touche(s) du schéma étaient revenues à celles des mods : remises en place. Tes propres changements sont gardés.", 'gold')
   }
 
   /** /touches : les touches ACTUELLES (celles du joueur) des actions de chaque univers de sa voie. */
@@ -786,8 +1003,20 @@ if (typeof NetworkEvents !== 'undefined') {
     }
   })
 
+  var taTicksSansVoie = 0
   ClientEvents.tick(function (event) {
-    if (taEnAttente === null || Client.player == null) return
+    if (Client.player == null) { taTicksSansVoie = 0; taCommunsFait = false; return }
+    if (taEnAttente === null) {
+      // 10 s après l'arrivée sans que la voie soit arrivée : la garde de réinitialisation passe sur le schéma commun seul
+      if (!taCommunsFait) {
+        taTicksSansVoie = taTicksSansVoie + 1
+        if (taTicksSansVoie >= 200) {
+          taCommunsFait = true
+          try { taTraiterCommuns() } catch (e) { console.error('touches_auto: communs : ' + e) }
+        }
+      }
+      return
+    }
     var force = taEnAttente.force
     taEnAttente = null
     try { taTraiter(force) } catch (e) { console.error('touches_auto: ' + e) }

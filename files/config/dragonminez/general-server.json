@@ -6,6 +6,9 @@
     "senzuGiftAmount": 3,
     "senzuGiftCooldownTicks": 24000
   },
+  "gravity": {
+    "npcGravityValue": 1.0
+  },
   "worldGen": {
     "otherworldActive": false
   }
